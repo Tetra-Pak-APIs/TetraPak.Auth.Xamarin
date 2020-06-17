@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:authClient.views"
+             xmlns:vm="clr-namespace:authClient.viewModels"
+             x:Class="authClient.MainPage"
+             BackgroundColor="#333333"
+             >
+    
+    <ContentPage.BindingContext>
+        <vm:MainViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="TextColor" Value="#88CAF4"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="MessageLabel">
+                <Setter Property="TextColor" Value="Coral" />
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="TokenLabel">
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="TextColor" Value="Coral" />
+                <Setter Property="LineBreakMode" Value="TailTruncation" />
+                <Setter Property="MaxLines" Value="1" />
+            </Style>
+
+            <Style TargetType="v:ValidatingEntry">
+                <Setter Property="PlaceholderColor" Value="#777777" />
+                <Setter Property="TextColor" Value="WhiteSmoke" />
+            </Style>
+            
+            <Style TargetType="Button" x:Key="AuthorizeButton">
+                <Setter Property="Margin" Value="20,0" />
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+        </ResourceDictionary>
+       
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid Margin="10,45,10,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label
+                Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0"
+                Text="Tetra Pak Auth Demo" 
+                HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+                FontSize="Large"/>
+
+            <Label Grid.Column="0" Grid.Row="1" Text="Authority" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="onAuthorityLabelTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+            <v:ValidatingEntry 
+                Grid.Column="1" Grid.Row="1" 
+                BindingContext="{Binding AuthCodeGrant.AuthorityUrl}" 
+                Text="{Binding Value}" 
+                Placeholder="{Binding PlaceholderValue}" 
+                IsInvalid="{Binding IsInvalid}"
+                IsRequired="{Binding IsRequired}" />
+
+            <Label Grid.Column="0" Grid.Row="2" Text="Token Issuer"/>
+            <v:ValidatingEntry 
+                Grid.Column="1" Grid.Row="2" 
+                BindingContext="{Binding AuthCodeGrant.TokenIssuerUrl}" 
+                Text="{Binding Value}" 
+                Placeholder="{Binding PlaceholderValue}" 
+                IsInvalid="{Binding IsInvalid}"
+                IsRequired="{Binding IsRequired}" />
+
+            <Label Grid.Column="0" Grid.Row="3" Text="Client ID"/>
+            <v:ValidatingEntry 
+                Grid.Column="1" Grid.Row="3" 
+                BindingContext="{Binding AuthCodeGrant.ClientId}" 
+                Text="{Binding Value}" 
+                Placeholder="{Binding PlaceholderValue}"
+                IsInvalid="{Binding IsInvalid}"
+                IsRequired="{Binding IsRequired}" />
+
+            <!-- obsolete (we no longer support client secret in native clients)
+            <Label Grid.Column="0" Grid.Row="4" Text="Client Secret"/>
+            <v:ValidatingEntry 
+                Grid.Column="1" Grid.Row="4" 
+                BindingContext="{Binding AuthCodeGrant.ClientSecret}" 
+                Text="{Binding Value}" 
+                Placeholder="{Binding PlaceholderValue}" 
+                IsInvalid="{Binding IsInvalid}"
+                IsRequired="{Binding IsRequired}" />
+            -->
+
+            <Label Grid.Column="0" Grid.Row="5" Text="Redirect URI"/>
+            <v:ValidatingEntry 
+                Grid.Column="1" Grid.Row="5" 
+                BindingContext="{Binding AuthCodeGrant.RedirectUrl}" 
+                Text="{Binding Value}" 
+                Placeholder="{Binding PlaceholderValue}" 
+                IsInvalid="{Binding IsInvalid}"
+                IsRequired="{Binding IsRequired}" />
+
+            <Label Grid.Column="0" Grid.Row="6" Text="Enforce State"/>
+            <Switch 
+                Grid.Column="1" Grid.Row="6" 
+                IsToggled="{Binding AuthCodeGrant.IsStateUsed}" 
+                VerticalOptions="Center" />
+
+            <Label Grid.Column="0" Grid.Row="7" Text="Enforce PKCE"/>
+            <Switch 
+                Grid.Column="1" Grid.Row="7" 
+                IsToggled="{Binding AuthCodeGrant.IsPkceUsed}" 
+                VerticalOptions="Center" />
+
+            <Label Grid.Column="0" Grid.Row="8" Text="Cache"/>
+            <Switch
+                Grid.Column="1" Grid.Row="8" 
+                IsToggled="{Binding AuthCodeGrant.IsCaching}" />
+            
+            <StackLayout
+                Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="2"
+                Orientation="Horizontal" HorizontalOptions="Center"
+                Margin="0,20,0,0">
+                <Button
+                    Text="NEW"
+                    Style="{StaticResource AuthorizeButton}"
+                    Command="{Binding AuthCodeGrant.AuthorizeCommand}" />
+
+                <Button
+                    Text="SILENT"
+                    Style="{StaticResource AuthorizeButton}"
+                    Command="{Binding AuthCodeGrant.AuthorizeSilentlyCommand}" />
+            </StackLayout>
+
+            <Label
+                Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="2"
+                Text="{Binding AuthCodeGrant.Message}"
+                Style="{StaticResource MessageLabel}"
+                />
+
+            <ListView
+                Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="2"
+                ItemsSource="{Binding AuthCodeGrant.TokensResult.Tokens}"
+                IsVisible="{Binding AuthCodeGrant.IsAuthorized}"
+                BackgroundColor="Transparent"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Margin="20,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="{Binding TokenCaption}"/>
+                                <Label Grid.Column="1" Text="{Binding TokenValue}" Style="{StaticResource TokenLabel}" />
+                                <Button Grid.Column="2" Text="{Binding CommandCaption}" Command="{Binding Command}" IsVisible="{Binding IsCommandVisible}" />
+                            </Grid> 
+                        </ViewCell>
+                    </DataTemplate>                
+                </ListView.ItemTemplate>
+            </ListView>
+
+         </Grid>
+    </ScrollView>
+</ContentPage>

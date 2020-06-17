@@ -1,0 +1,14 @@
+
+.mfractor/
+
+.vs/
+
+bin/
+
+obj/
+
+.DS_Store
+
+*.nupkg
+
+source/.idea/.idea.TetraPak.Auth.Xamarin/.idea/

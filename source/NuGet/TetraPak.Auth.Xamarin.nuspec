@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TetraPak.Auth.Xamarin</id>
+    <version>1.1.0</version>
+    <authors>Bold Eagles, A-Team</authors>
+    <owners>Bold Eagles, A-Team</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://i.imgur.com/Nuo65pc.png</iconUrl>
+    <description>An easy-to-plug-in and use authorization solution for Xamarin-based clients.</description>
+    <projectUrl>https://tetrapak-mobileapps.visualstudio.com/MobileApps.Components/_git/TetraPak.Auth.Xamarin</projectUrl>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Text.Json" version="4.7.1" />
+        <dependency id="Xamarin.Essentials" version="1.0" />
+        <dependency id="Xamarin.Forms" version="4.0" />
+      </group>
+
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="Xamarin.Forms" version="4.0" />
+      </group>
+
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="Xamarin.Forms" version="4.0" />
+      </group>
+
+      <group targetFramework="uap10.0">
+        <dependency id="Xamarin.Forms" version="4.0" />
+      </group>
+
+    </dependencies>
+  </metadata>
+  <files>
+
+    <!-- .NET Standard 2.0 -->
+    <file src="..\TetraPak.Auth.Xamarin\bin\Release\netstandard2.0\TetraPak.Auth.Xamarin.dll" target="lib\netstandard20" />
+    <file src="..\TetraPak.Auth.Xamarin\bin\Release\netstandard2.0\TetraPak.Auth.Xamarin.xml" target="lib\netstandard20" />
+
+    <!-- iOS -->
+    <file src="..\TetraPak.Auth.Xamarin\bin\Release\netstandard2.0\TetraPak.Auth.Xamarin.dll" target="lib\Xamarin.iOS10" />
+    <file src="..\TetraPak.Auth.Xamarin.iOS\bin\Release\TetraPak.Auth.Xamarin.iOS.dll" target="lib\Xamarin.iOS10" />
+
+    <!-- Android -->
+    <file src="..\TetraPak.Auth.Xamarin\bin\Release\netstandard2.0\TetraPak.Auth.Xamarin.dll" target="lib\MonoAndroid10" />
+    <file src="..\TetraPak.Auth.Xamarin.Android\bin\Release\TetraPak.Auth.Xamarin.Android.dll" target="lib\MonoAndroid10" />
+
+    <!-- UWP -->
+    <file src="..\TetraPak.Auth.Xamarin\bin\Release\netstandard2.0\TetraPak.Auth.Xamarin.dll" target="lib\uap10.0" />
+    <file src="..\TetraPak.Auth.Xamarin.UWP\bin\Release\TetraPak.Auth.Xamarin.UWP.dll" target="lib\uap10.0" />
+    
+  </files>
+</package>

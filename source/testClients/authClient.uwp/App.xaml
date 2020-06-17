@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="authClient.uwp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:auth="using:TetraPak.Auth.Xamarin"
+    xmlns:local="using:authClient.uwp"
+    RequestedTheme="Light">
+
+</Application>
