@@ -15,11 +15,12 @@ namespace authClient.viewModels
     /// </summary>
     public class AuthCodeGrantVM : ViewModel
     {
-        readonly AuthConfig _config;
+        AuthConfig _config;
         string _message;
         AuthResult _authorization;
         bool _isUsingCustomAuth;
         bool _isInternalValueChange;
+        RuntimeEnvironment _environment;
 
         IAuthenticator Authenticator => TetraPak.Auth.Xamarin.Authorization.GetAuthenticator(_config, Log);
 
@@ -35,6 +36,20 @@ namespace authClient.viewModels
         ///// </summary>
         //[ValidatedValue(PlaceholderValue = "Optionally, specify a client secret")]
         //public StringVM ClientSecret { get; private set; }
+
+        /// <summary>
+        ///   Gets or sets the runtime environment.
+        /// </summary>
+        public RuntimeEnvironment Environment
+        {
+            get => _environment;
+            set
+            {
+                _environment = value;
+                _config = AuthConfig.Default(new AuthApplication(_config.ClientId, _config.RedirectUri, value))
+                    .AssignFrom(_config);
+            }
+        }
 
         /// <summary>
         ///   Gets or sets the scope for the requested token.
@@ -74,20 +89,6 @@ namespace authClient.viewModels
         [ValidatedValue(PlaceholderValue = "Optionally, specify a redirect URL")]
         public AbsoluteUriVM RedirectUrl { get; private set; }
         
-        public bool IsRequestingIdToken
-        {
-            get => _config.Scope?.Contains("openid") ?? false;
-            set
-            {
-                if (value)
-                    _config.WithScope("openid");
-                else
-                    _config.RemoveScope("openid");
-                
-                OnPropertyChanged();
-            }
-        } 
-
         public bool IsStateUsed
         {
             get => _config.IsStateUsed;
@@ -110,6 +111,12 @@ namespace authClient.viewModels
                     TokensResult.Clear();
             }
         }
+        
+        public bool IsRequestingUserId
+        {
+            get => _config.IsRequestingUserId;
+            set => setConfigValue(value);
+        } 
 
         [ValidatedValue(PlaceholderValue = "Paste a refresh token here to test renewing")]
         
@@ -153,7 +160,7 @@ namespace authClient.viewModels
         public ICommand ToggleIsLocalIdentityProvider { get; }
 
         public ICommand DeleteAccessTokenCommand { get; }
-
+        
         void setConfigValue(object value, [CallerMemberName] string propertyName = null)
         {
             var p = _config.GetType().GetProperty(propertyName);
@@ -184,6 +191,14 @@ namespace authClient.viewModels
         void setTokensResult(BoolValue<AuthResult> authResult)
         {
             TokensResult.Clear();
+            foreach (var tokenResult in authResult.Value.Tokens)
+            {
+                var tokenCaption = resolveCaption(tokenResult);
+                var token = tokenResult.Token;
+                TokensResult.AddToken(tokenCaption, token, "X");
+            }
+            
+            /*            
             if (!string.IsNullOrEmpty(authResult.Value.AccessToken))
             {
                 TokensResult.AddToken("Access", authResult.Value.AccessToken, "X", DeleteAccessTokenCommand);
@@ -191,6 +206,25 @@ namespace authClient.viewModels
             if (!string.IsNullOrEmpty(authResult.Value.RefreshToken))
             {
                 TokensResult.AddToken("Refresh", authResult.Value.RefreshToken);
+            }
+            */
+        }
+
+        static string resolveCaption(TokenResult token)
+        {
+            switch (token.Role)
+            {
+                case TokenRole.AccessToken:
+                    return "Access";
+
+                case TokenRole.RefreshToken:
+                    return "Refresh";
+                    
+                case TokenRole.IdToken:
+                    return "ID";
+                
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
         }
 
@@ -285,9 +319,8 @@ namespace authClient.viewModels
 
         public AuthCodeGrantVM(AuthApplication application, IServiceProvider services, ILog log) : base(services, log)
         {
-            _config = AuthConfig.Default(application)
-                .WithScope("openid"); // nisse (trying out OIDC --Jonas)
-
+            _environment = application.Environment;
+            _config = AuthConfig.Default(application);
             TokensResult = Services.GetService<TokensResultVM>();
             AuthorizeCommand = new Command(async () => await onAuthorize(false));
             AuthorizeSilentlyCommand = new Command(async () => await onAuthorize(true), () => IsCaching);
@@ -306,5 +339,23 @@ namespace authClient.viewModels
     {
         public object PlaceholderValue { get; set; }
         public bool IsRequired { get; set; }
+    }
+
+    static class AuthConfigExtensions
+    {
+        public static AuthConfig AssignFrom(this AuthConfig self, AuthConfig source)
+        {
+            var props = self.GetType().GetProperties();
+            foreach (var p in props)
+            {
+                if (!p.CanWrite || !p.CanRead || p.Name == nameof(AuthConfig.Authority) || p.Name == nameof(AuthConfig.TokenIssuer))
+                    continue;
+
+                var value = p.GetValue(source);
+                p.SetValue(self, value);
+            }
+
+            return self;
+        }
     }
 }

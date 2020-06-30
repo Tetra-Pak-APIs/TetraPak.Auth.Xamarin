@@ -25,6 +25,4988 @@ namespace authClient.android
 		
 		public static void UpdateIdValues()
 		{
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_fade_in = global::authClient.android.Resource.Animation.abc_fade_in;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_fade_out = global::authClient.android.Resource.Animation.abc_fade_out;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::authClient.android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_popup_enter = global::authClient.android.Resource.Animation.abc_popup_enter;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_popup_exit = global::authClient.android.Resource.Animation.abc_popup_exit;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::authClient.android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_slide_in_bottom = global::authClient.android.Resource.Animation.abc_slide_in_bottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_slide_in_top = global::authClient.android.Resource.Animation.abc_slide_in_top;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_slide_out_bottom = global::authClient.android.Resource.Animation.abc_slide_out_bottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.abc_slide_out_top = global::authClient.android.Resource.Animation.abc_slide_out_top;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::authClient.android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::authClient.android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.design_snackbar_in = global::authClient.android.Resource.Animation.design_snackbar_in;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animation.design_snackbar_out = global::authClient.android.Resource.Animation.design_snackbar_out;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Animator.design_appbar_state_list_animator = global::authClient.android.Resource.Animator.design_appbar_state_list_animator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarDivider = global::authClient.android.Resource.Attribute.actionBarDivider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarItemBackground = global::authClient.android.Resource.Attribute.actionBarItemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarPopupTheme = global::authClient.android.Resource.Attribute.actionBarPopupTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarSize = global::authClient.android.Resource.Attribute.actionBarSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarSplitStyle = global::authClient.android.Resource.Attribute.actionBarSplitStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarStyle = global::authClient.android.Resource.Attribute.actionBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarTabBarStyle = global::authClient.android.Resource.Attribute.actionBarTabBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarTabStyle = global::authClient.android.Resource.Attribute.actionBarTabStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarTabTextStyle = global::authClient.android.Resource.Attribute.actionBarTabTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarTheme = global::authClient.android.Resource.Attribute.actionBarTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionBarWidgetTheme = global::authClient.android.Resource.Attribute.actionBarWidgetTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionButtonStyle = global::authClient.android.Resource.Attribute.actionButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionDropDownStyle = global::authClient.android.Resource.Attribute.actionDropDownStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionLayout = global::authClient.android.Resource.Attribute.actionLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionMenuTextAppearance = global::authClient.android.Resource.Attribute.actionMenuTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionMenuTextColor = global::authClient.android.Resource.Attribute.actionMenuTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeBackground = global::authClient.android.Resource.Attribute.actionModeBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::authClient.android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeCloseDrawable = global::authClient.android.Resource.Attribute.actionModeCloseDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeCopyDrawable = global::authClient.android.Resource.Attribute.actionModeCopyDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeCutDrawable = global::authClient.android.Resource.Attribute.actionModeCutDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeFindDrawable = global::authClient.android.Resource.Attribute.actionModeFindDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModePasteDrawable = global::authClient.android.Resource.Attribute.actionModePasteDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::authClient.android.Resource.Attribute.actionModePopupWindowStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::authClient.android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeShareDrawable = global::authClient.android.Resource.Attribute.actionModeShareDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeSplitBackground = global::authClient.android.Resource.Attribute.actionModeSplitBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeStyle = global::authClient.android.Resource.Attribute.actionModeStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::authClient.android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::authClient.android.Resource.Attribute.actionOverflowButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::authClient.android.Resource.Attribute.actionOverflowMenuStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionProviderClass = global::authClient.android.Resource.Attribute.actionProviderClass;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.actionViewClass = global::authClient.android.Resource.Attribute.actionViewClass;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.activityChooserViewStyle = global::authClient.android.Resource.Attribute.activityChooserViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::authClient.android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.alertDialogCenterButtons = global::authClient.android.Resource.Attribute.alertDialogCenterButtons;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.alertDialogStyle = global::authClient.android.Resource.Attribute.alertDialogStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.alertDialogTheme = global::authClient.android.Resource.Attribute.alertDialogTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.allowStacking = global::authClient.android.Resource.Attribute.allowStacking;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.alpha = global::authClient.android.Resource.Attribute.alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.arrowHeadLength = global::authClient.android.Resource.Attribute.arrowHeadLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.arrowShaftLength = global::authClient.android.Resource.Attribute.arrowShaftLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::authClient.android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.background = global::authClient.android.Resource.Attribute.background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.backgroundSplit = global::authClient.android.Resource.Attribute.backgroundSplit;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.backgroundStacked = global::authClient.android.Resource.Attribute.backgroundStacked;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.backgroundTint = global::authClient.android.Resource.Attribute.backgroundTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.backgroundTintMode = global::authClient.android.Resource.Attribute.backgroundTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.barLength = global::authClient.android.Resource.Attribute.barLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.behavior_autoHide = global::authClient.android.Resource.Attribute.behavior_autoHide;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.behavior_hideable = global::authClient.android.Resource.Attribute.behavior_hideable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.behavior_overlapTop = global::authClient.android.Resource.Attribute.behavior_overlapTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.behavior_peekHeight = global::authClient.android.Resource.Attribute.behavior_peekHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.behavior_skipCollapsed = global::authClient.android.Resource.Attribute.behavior_skipCollapsed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.borderWidth = global::authClient.android.Resource.Attribute.borderWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.borderlessButtonStyle = global::authClient.android.Resource.Attribute.borderlessButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::authClient.android.Resource.Attribute.bottomSheetDialogTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.bottomSheetStyle = global::authClient.android.Resource.Attribute.bottomSheetStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonBarButtonStyle = global::authClient.android.Resource.Attribute.buttonBarButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::authClient.android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::authClient.android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::authClient.android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonBarStyle = global::authClient.android.Resource.Attribute.buttonBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonGravity = global::authClient.android.Resource.Attribute.buttonGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonPanelSideLayout = global::authClient.android.Resource.Attribute.buttonPanelSideLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonStyle = global::authClient.android.Resource.Attribute.buttonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonStyleSmall = global::authClient.android.Resource.Attribute.buttonStyleSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonTint = global::authClient.android.Resource.Attribute.buttonTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.buttonTintMode = global::authClient.android.Resource.Attribute.buttonTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.cardBackgroundColor = global::authClient.android.Resource.Attribute.cardBackgroundColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.cardCornerRadius = global::authClient.android.Resource.Attribute.cardCornerRadius;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.cardElevation = global::authClient.android.Resource.Attribute.cardElevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.cardMaxElevation = global::authClient.android.Resource.Attribute.cardMaxElevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::authClient.android.Resource.Attribute.cardPreventCornerOverlap;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.cardUseCompatPadding = global::authClient.android.Resource.Attribute.cardUseCompatPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.checkboxStyle = global::authClient.android.Resource.Attribute.checkboxStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.checkedTextViewStyle = global::authClient.android.Resource.Attribute.checkedTextViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.closeIcon = global::authClient.android.Resource.Attribute.closeIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.closeItemLayout = global::authClient.android.Resource.Attribute.closeItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.collapseContentDescription = global::authClient.android.Resource.Attribute.collapseContentDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.collapseIcon = global::authClient.android.Resource.Attribute.collapseIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.collapsedTitleGravity = global::authClient.android.Resource.Attribute.collapsedTitleGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::authClient.android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.color = global::authClient.android.Resource.Attribute.color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorAccent = global::authClient.android.Resource.Attribute.colorAccent;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorBackgroundFloating = global::authClient.android.Resource.Attribute.colorBackgroundFloating;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorButtonNormal = global::authClient.android.Resource.Attribute.colorButtonNormal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorControlActivated = global::authClient.android.Resource.Attribute.colorControlActivated;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorControlHighlight = global::authClient.android.Resource.Attribute.colorControlHighlight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorControlNormal = global::authClient.android.Resource.Attribute.colorControlNormal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorPrimary = global::authClient.android.Resource.Attribute.colorPrimary;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorPrimaryDark = global::authClient.android.Resource.Attribute.colorPrimaryDark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::authClient.android.Resource.Attribute.colorSwitchThumbNormal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.commitIcon = global::authClient.android.Resource.Attribute.commitIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentInsetEnd = global::authClient.android.Resource.Attribute.contentInsetEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentInsetEndWithActions = global::authClient.android.Resource.Attribute.contentInsetEndWithActions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentInsetLeft = global::authClient.android.Resource.Attribute.contentInsetLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentInsetRight = global::authClient.android.Resource.Attribute.contentInsetRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentInsetStart = global::authClient.android.Resource.Attribute.contentInsetStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::authClient.android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentPadding = global::authClient.android.Resource.Attribute.contentPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentPaddingBottom = global::authClient.android.Resource.Attribute.contentPaddingBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentPaddingLeft = global::authClient.android.Resource.Attribute.contentPaddingLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentPaddingRight = global::authClient.android.Resource.Attribute.contentPaddingRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentPaddingTop = global::authClient.android.Resource.Attribute.contentPaddingTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.contentScrim = global::authClient.android.Resource.Attribute.contentScrim;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.controlBackground = global::authClient.android.Resource.Attribute.controlBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.counterEnabled = global::authClient.android.Resource.Attribute.counterEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.counterMaxLength = global::authClient.android.Resource.Attribute.counterMaxLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::authClient.android.Resource.Attribute.counterOverflowTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.counterTextAppearance = global::authClient.android.Resource.Attribute.counterTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.customNavigationLayout = global::authClient.android.Resource.Attribute.customNavigationLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.defaultQueryHint = global::authClient.android.Resource.Attribute.defaultQueryHint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.dialogPreferredPadding = global::authClient.android.Resource.Attribute.dialogPreferredPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.dialogTheme = global::authClient.android.Resource.Attribute.dialogTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.displayOptions = global::authClient.android.Resource.Attribute.displayOptions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.divider = global::authClient.android.Resource.Attribute.divider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.dividerHorizontal = global::authClient.android.Resource.Attribute.dividerHorizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.dividerPadding = global::authClient.android.Resource.Attribute.dividerPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.dividerVertical = global::authClient.android.Resource.Attribute.dividerVertical;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.drawableSize = global::authClient.android.Resource.Attribute.drawableSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.drawerArrowStyle = global::authClient.android.Resource.Attribute.drawerArrowStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.dropDownListViewStyle = global::authClient.android.Resource.Attribute.dropDownListViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::authClient.android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.editTextBackground = global::authClient.android.Resource.Attribute.editTextBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.editTextColor = global::authClient.android.Resource.Attribute.editTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.editTextStyle = global::authClient.android.Resource.Attribute.editTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.elevation = global::authClient.android.Resource.Attribute.elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.errorEnabled = global::authClient.android.Resource.Attribute.errorEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.errorTextAppearance = global::authClient.android.Resource.Attribute.errorTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::authClient.android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expanded = global::authClient.android.Resource.Attribute.expanded;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandedTitleGravity = global::authClient.android.Resource.Attribute.expandedTitleGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandedTitleMargin = global::authClient.android.Resource.Attribute.expandedTitleMargin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::authClient.android.Resource.Attribute.expandedTitleMarginBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::authClient.android.Resource.Attribute.expandedTitleMarginEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginStart = global::authClient.android.Resource.Attribute.expandedTitleMarginStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginTop = global::authClient.android.Resource.Attribute.expandedTitleMarginTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::authClient.android.Resource.Attribute.expandedTitleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::authClient.android.Resource.Attribute.externalRouteEnabledDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.fabSize = global::authClient.android.Resource.Attribute.fabSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.foregroundInsidePadding = global::authClient.android.Resource.Attribute.foregroundInsidePadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.gapBetweenBars = global::authClient.android.Resource.Attribute.gapBetweenBars;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.goIcon = global::authClient.android.Resource.Attribute.goIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.headerLayout = global::authClient.android.Resource.Attribute.headerLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.height = global::authClient.android.Resource.Attribute.height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.hideOnContentScroll = global::authClient.android.Resource.Attribute.hideOnContentScroll;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.hintAnimationEnabled = global::authClient.android.Resource.Attribute.hintAnimationEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.hintEnabled = global::authClient.android.Resource.Attribute.hintEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.hintTextAppearance = global::authClient.android.Resource.Attribute.hintTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.homeAsUpIndicator = global::authClient.android.Resource.Attribute.homeAsUpIndicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.homeLayout = global::authClient.android.Resource.Attribute.homeLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.icon = global::authClient.android.Resource.Attribute.icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.iconifiedByDefault = global::authClient.android.Resource.Attribute.iconifiedByDefault;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.imageButtonStyle = global::authClient.android.Resource.Attribute.imageButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.indeterminateProgressStyle = global::authClient.android.Resource.Attribute.indeterminateProgressStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.initialActivityCount = global::authClient.android.Resource.Attribute.initialActivityCount;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.insetForeground = global::authClient.android.Resource.Attribute.insetForeground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.isLightTheme = global::authClient.android.Resource.Attribute.isLightTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.itemBackground = global::authClient.android.Resource.Attribute.itemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.itemIconTint = global::authClient.android.Resource.Attribute.itemIconTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.itemPadding = global::authClient.android.Resource.Attribute.itemPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.itemTextAppearance = global::authClient.android.Resource.Attribute.itemTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.itemTextColor = global::authClient.android.Resource.Attribute.itemTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.keylines = global::authClient.android.Resource.Attribute.keylines;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout = global::authClient.android.Resource.Attribute.layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layoutManager = global::authClient.android.Resource.Attribute.layoutManager;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_anchor = global::authClient.android.Resource.Attribute.layout_anchor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_anchorGravity = global::authClient.android.Resource.Attribute.layout_anchorGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_behavior = global::authClient.android.Resource.Attribute.layout_behavior;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_collapseMode = global::authClient.android.Resource.Attribute.layout_collapseMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::authClient.android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::authClient.android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_insetEdge = global::authClient.android.Resource.Attribute.layout_insetEdge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_keyline = global::authClient.android.Resource.Attribute.layout_keyline;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_scrollFlags = global::authClient.android.Resource.Attribute.layout_scrollFlags;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.layout_scrollInterpolator = global::authClient.android.Resource.Attribute.layout_scrollInterpolator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::authClient.android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listDividerAlertDialog = global::authClient.android.Resource.Attribute.listDividerAlertDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listItemLayout = global::authClient.android.Resource.Attribute.listItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listLayout = global::authClient.android.Resource.Attribute.listLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listMenuViewStyle = global::authClient.android.Resource.Attribute.listMenuViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listPopupWindowStyle = global::authClient.android.Resource.Attribute.listPopupWindowStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeight = global::authClient.android.Resource.Attribute.listPreferredItemHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::authClient.android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::authClient.android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::authClient.android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::authClient.android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.logo = global::authClient.android.Resource.Attribute.logo;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.logoDescription = global::authClient.android.Resource.Attribute.logoDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.maxActionInlineWidth = global::authClient.android.Resource.Attribute.maxActionInlineWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.maxButtonHeight = global::authClient.android.Resource.Attribute.maxButtonHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.measureWithLargestChild = global::authClient.android.Resource.Attribute.measureWithLargestChild;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::authClient.android.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteButtonStyle = global::authClient.android.Resource.Attribute.mediaRouteButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteCloseDrawable = global::authClient.android.Resource.Attribute.mediaRouteCloseDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::authClient.android.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::authClient.android.Resource.Attribute.mediaRoutePauseDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::authClient.android.Resource.Attribute.mediaRoutePlayDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteStopDrawable = global::authClient.android.Resource.Attribute.mediaRouteStopDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteTheme = global::authClient.android.Resource.Attribute.mediaRouteTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.menu = global::authClient.android.Resource.Attribute.menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.multiChoiceItemLayout = global::authClient.android.Resource.Attribute.multiChoiceItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.navigationContentDescription = global::authClient.android.Resource.Attribute.navigationContentDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.navigationIcon = global::authClient.android.Resource.Attribute.navigationIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.navigationMode = global::authClient.android.Resource.Attribute.navigationMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.overlapAnchor = global::authClient.android.Resource.Attribute.overlapAnchor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.paddingBottomNoButtons = global::authClient.android.Resource.Attribute.paddingBottomNoButtons;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.paddingEnd = global::authClient.android.Resource.Attribute.paddingEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.paddingStart = global::authClient.android.Resource.Attribute.paddingStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.paddingTopNoTitle = global::authClient.android.Resource.Attribute.paddingTopNoTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.panelBackground = global::authClient.android.Resource.Attribute.panelBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.panelMenuListTheme = global::authClient.android.Resource.Attribute.panelMenuListTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.panelMenuListWidth = global::authClient.android.Resource.Attribute.panelMenuListWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.passwordToggleContentDescription = global::authClient.android.Resource.Attribute.passwordToggleContentDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.passwordToggleDrawable = global::authClient.android.Resource.Attribute.passwordToggleDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.passwordToggleEnabled = global::authClient.android.Resource.Attribute.passwordToggleEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.passwordToggleTint = global::authClient.android.Resource.Attribute.passwordToggleTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.passwordToggleTintMode = global::authClient.android.Resource.Attribute.passwordToggleTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.popupMenuStyle = global::authClient.android.Resource.Attribute.popupMenuStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.popupTheme = global::authClient.android.Resource.Attribute.popupTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.popupWindowStyle = global::authClient.android.Resource.Attribute.popupWindowStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.preserveIconSpacing = global::authClient.android.Resource.Attribute.preserveIconSpacing;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.pressedTranslationZ = global::authClient.android.Resource.Attribute.pressedTranslationZ;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.progressBarPadding = global::authClient.android.Resource.Attribute.progressBarPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.progressBarStyle = global::authClient.android.Resource.Attribute.progressBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.queryBackground = global::authClient.android.Resource.Attribute.queryBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.queryHint = global::authClient.android.Resource.Attribute.queryHint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.radioButtonStyle = global::authClient.android.Resource.Attribute.radioButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.ratingBarStyle = global::authClient.android.Resource.Attribute.ratingBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::authClient.android.Resource.Attribute.ratingBarStyleIndicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.ratingBarStyleSmall = global::authClient.android.Resource.Attribute.ratingBarStyleSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.reverseLayout = global::authClient.android.Resource.Attribute.reverseLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.rippleColor = global::authClient.android.Resource.Attribute.rippleColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.scrimAnimationDuration = global::authClient.android.Resource.Attribute.scrimAnimationDuration;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::authClient.android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.searchHintIcon = global::authClient.android.Resource.Attribute.searchHintIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.searchIcon = global::authClient.android.Resource.Attribute.searchIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.searchViewStyle = global::authClient.android.Resource.Attribute.searchViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.seekBarStyle = global::authClient.android.Resource.Attribute.seekBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.selectableItemBackground = global::authClient.android.Resource.Attribute.selectableItemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::authClient.android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.showAsAction = global::authClient.android.Resource.Attribute.showAsAction;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.showDividers = global::authClient.android.Resource.Attribute.showDividers;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.showText = global::authClient.android.Resource.Attribute.showText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.showTitle = global::authClient.android.Resource.Attribute.showTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.singleChoiceItemLayout = global::authClient.android.Resource.Attribute.singleChoiceItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.spanCount = global::authClient.android.Resource.Attribute.spanCount;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.spinBars = global::authClient.android.Resource.Attribute.spinBars;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::authClient.android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.spinnerStyle = global::authClient.android.Resource.Attribute.spinnerStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.splitTrack = global::authClient.android.Resource.Attribute.splitTrack;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.srcCompat = global::authClient.android.Resource.Attribute.srcCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.stackFromEnd = global::authClient.android.Resource.Attribute.stackFromEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.state_above_anchor = global::authClient.android.Resource.Attribute.state_above_anchor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.state_collapsed = global::authClient.android.Resource.Attribute.state_collapsed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.state_collapsible = global::authClient.android.Resource.Attribute.state_collapsible;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.statusBarBackground = global::authClient.android.Resource.Attribute.statusBarBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.statusBarScrim = global::authClient.android.Resource.Attribute.statusBarScrim;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.subMenuArrow = global::authClient.android.Resource.Attribute.subMenuArrow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.submitBackground = global::authClient.android.Resource.Attribute.submitBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.subtitle = global::authClient.android.Resource.Attribute.subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.subtitleTextAppearance = global::authClient.android.Resource.Attribute.subtitleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.subtitleTextColor = global::authClient.android.Resource.Attribute.subtitleTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.subtitleTextStyle = global::authClient.android.Resource.Attribute.subtitleTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.suggestionRowLayout = global::authClient.android.Resource.Attribute.suggestionRowLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.switchMinWidth = global::authClient.android.Resource.Attribute.switchMinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.switchPadding = global::authClient.android.Resource.Attribute.switchPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.switchStyle = global::authClient.android.Resource.Attribute.switchStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.switchTextAppearance = global::authClient.android.Resource.Attribute.switchTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabBackground = global::authClient.android.Resource.Attribute.tabBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabContentStart = global::authClient.android.Resource.Attribute.tabContentStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabGravity = global::authClient.android.Resource.Attribute.tabGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabIndicatorColor = global::authClient.android.Resource.Attribute.tabIndicatorColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabIndicatorHeight = global::authClient.android.Resource.Attribute.tabIndicatorHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabMaxWidth = global::authClient.android.Resource.Attribute.tabMaxWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabMinWidth = global::authClient.android.Resource.Attribute.tabMinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabMode = global::authClient.android.Resource.Attribute.tabMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabPadding = global::authClient.android.Resource.Attribute.tabPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabPaddingBottom = global::authClient.android.Resource.Attribute.tabPaddingBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabPaddingEnd = global::authClient.android.Resource.Attribute.tabPaddingEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabPaddingStart = global::authClient.android.Resource.Attribute.tabPaddingStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabPaddingTop = global::authClient.android.Resource.Attribute.tabPaddingTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabSelectedTextColor = global::authClient.android.Resource.Attribute.tabSelectedTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabTextAppearance = global::authClient.android.Resource.Attribute.tabTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tabTextColor = global::authClient.android.Resource.Attribute.tabTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAllCaps = global::authClient.android.Resource.Attribute.textAllCaps;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::authClient.android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearanceListItem = global::authClient.android.Resource.Attribute.textAppearanceListItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::authClient.android.Resource.Attribute.textAppearanceListItemSecondary;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::authClient.android.Resource.Attribute.textAppearanceListItemSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::authClient.android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::authClient.android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::authClient.android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::authClient.android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::authClient.android.Resource.Attribute.textColorAlertDialogListItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.textColorSearchUrl = global::authClient.android.Resource.Attribute.textColorSearchUrl;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.theme = global::authClient.android.Resource.Attribute.theme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.thickness = global::authClient.android.Resource.Attribute.thickness;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.thumbTextPadding = global::authClient.android.Resource.Attribute.thumbTextPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.thumbTint = global::authClient.android.Resource.Attribute.thumbTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.thumbTintMode = global::authClient.android.Resource.Attribute.thumbTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tickMark = global::authClient.android.Resource.Attribute.tickMark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tickMarkTint = global::authClient.android.Resource.Attribute.tickMarkTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tickMarkTintMode = global::authClient.android.Resource.Attribute.tickMarkTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tint = global::authClient.android.Resource.Attribute.tint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.tintMode = global::authClient.android.Resource.Attribute.tintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.title = global::authClient.android.Resource.Attribute.title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleEnabled = global::authClient.android.Resource.Attribute.titleEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleMargin = global::authClient.android.Resource.Attribute.titleMargin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleMarginBottom = global::authClient.android.Resource.Attribute.titleMarginBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleMarginEnd = global::authClient.android.Resource.Attribute.titleMarginEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleMarginStart = global::authClient.android.Resource.Attribute.titleMarginStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleMarginTop = global::authClient.android.Resource.Attribute.titleMarginTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleMargins = global::authClient.android.Resource.Attribute.titleMargins;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleTextAppearance = global::authClient.android.Resource.Attribute.titleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleTextColor = global::authClient.android.Resource.Attribute.titleTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.titleTextStyle = global::authClient.android.Resource.Attribute.titleTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.toolbarId = global::authClient.android.Resource.Attribute.toolbarId;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::authClient.android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.toolbarStyle = global::authClient.android.Resource.Attribute.toolbarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.track = global::authClient.android.Resource.Attribute.track;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.trackTint = global::authClient.android.Resource.Attribute.trackTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.trackTintMode = global::authClient.android.Resource.Attribute.trackTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.useCompatPadding = global::authClient.android.Resource.Attribute.useCompatPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.voiceIcon = global::authClient.android.Resource.Attribute.voiceIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowActionBar = global::authClient.android.Resource.Attribute.windowActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowActionBarOverlay = global::authClient.android.Resource.Attribute.windowActionBarOverlay;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowActionModeOverlay = global::authClient.android.Resource.Attribute.windowActionModeOverlay;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMajor = global::authClient.android.Resource.Attribute.windowFixedHeightMajor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMinor = global::authClient.android.Resource.Attribute.windowFixedHeightMinor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMajor = global::authClient.android.Resource.Attribute.windowFixedWidthMajor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMinor = global::authClient.android.Resource.Attribute.windowFixedWidthMinor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowMinWidthMajor = global::authClient.android.Resource.Attribute.windowMinWidthMajor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowMinWidthMinor = global::authClient.android.Resource.Attribute.windowMinWidthMinor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Attribute.windowNoTitle = global::authClient.android.Resource.Attribute.windowNoTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::authClient.android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::authClient.android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::authClient.android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::authClient.android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::authClient.android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::authClient.android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_btn_colored_text_material = global::authClient.android.Resource.Color.abc_btn_colored_text_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_color_highlight_material = global::authClient.android.Resource.Color.abc_color_highlight_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::authClient.android.Resource.Color.abc_hint_foreground_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_light = global::authClient.android.Resource.Color.abc_hint_foreground_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_input_method_navigation_guard = global::authClient.android.Resource.Color.abc_input_method_navigation_guard;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::authClient.android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::authClient.android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_primary_text_material_dark = global::authClient.android.Resource.Color.abc_primary_text_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_primary_text_material_light = global::authClient.android.Resource.Color.abc_primary_text_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_search_url_text = global::authClient.android.Resource.Color.abc_search_url_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_search_url_text_normal = global::authClient.android.Resource.Color.abc_search_url_text_normal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_search_url_text_pressed = global::authClient.android.Resource.Color.abc_search_url_text_pressed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_search_url_text_selected = global::authClient.android.Resource.Color.abc_search_url_text_selected;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_dark = global::authClient.android.Resource.Color.abc_secondary_text_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_light = global::authClient.android.Resource.Color.abc_secondary_text_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_tint_btn_checkable = global::authClient.android.Resource.Color.abc_tint_btn_checkable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_tint_default = global::authClient.android.Resource.Color.abc_tint_default;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_tint_edittext = global::authClient.android.Resource.Color.abc_tint_edittext;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_tint_seek_thumb = global::authClient.android.Resource.Color.abc_tint_seek_thumb;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_tint_spinner = global::authClient.android.Resource.Color.abc_tint_spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.abc_tint_switch_track = global::authClient.android.Resource.Color.abc_tint_switch_track;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.accent_material_dark = global::authClient.android.Resource.Color.accent_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.accent_material_light = global::authClient.android.Resource.Color.accent_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.background_floating_material_dark = global::authClient.android.Resource.Color.background_floating_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.background_floating_material_light = global::authClient.android.Resource.Color.background_floating_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.background_material_dark = global::authClient.android.Resource.Color.background_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.background_material_light = global::authClient.android.Resource.Color.background_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::authClient.android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::authClient.android.Resource.Color.bright_foreground_disabled_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::authClient.android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::authClient.android.Resource.Color.bright_foreground_inverse_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.bright_foreground_material_dark = global::authClient.android.Resource.Color.bright_foreground_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.bright_foreground_material_light = global::authClient.android.Resource.Color.bright_foreground_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.button_material_dark = global::authClient.android.Resource.Color.button_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.button_material_light = global::authClient.android.Resource.Color.button_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.cardview_dark_background = global::authClient.android.Resource.Color.cardview_dark_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.cardview_light_background = global::authClient.android.Resource.Color.cardview_light_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.cardview_shadow_end_color = global::authClient.android.Resource.Color.cardview_shadow_end_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.cardview_shadow_start_color = global::authClient.android.Resource.Color.cardview_shadow_start_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::authClient.android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_error = global::authClient.android.Resource.Color.design_error;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_fab_shadow_end_color = global::authClient.android.Resource.Color.design_fab_shadow_end_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_fab_shadow_mid_color = global::authClient.android.Resource.Color.design_fab_shadow_mid_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_fab_shadow_start_color = global::authClient.android.Resource.Color.design_fab_shadow_start_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::authClient.android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::authClient.android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::authClient.android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::authClient.android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_snackbar_background_color = global::authClient.android.Resource.Color.design_snackbar_background_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.design_tint_password_toggle = global::authClient.android.Resource.Color.design_tint_password_toggle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::authClient.android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::authClient.android.Resource.Color.dim_foreground_disabled_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.dim_foreground_material_dark = global::authClient.android.Resource.Color.dim_foreground_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.dim_foreground_material_light = global::authClient.android.Resource.Color.dim_foreground_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.foreground_material_dark = global::authClient.android.Resource.Color.foreground_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.foreground_material_light = global::authClient.android.Resource.Color.foreground_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.highlighted_text_material_dark = global::authClient.android.Resource.Color.highlighted_text_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.highlighted_text_material_light = global::authClient.android.Resource.Color.highlighted_text_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_blue_grey_800 = global::authClient.android.Resource.Color.material_blue_grey_800;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_blue_grey_900 = global::authClient.android.Resource.Color.material_blue_grey_900;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_blue_grey_950 = global::authClient.android.Resource.Color.material_blue_grey_950;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_deep_teal_200 = global::authClient.android.Resource.Color.material_deep_teal_200;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_deep_teal_500 = global::authClient.android.Resource.Color.material_deep_teal_500;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_grey_100 = global::authClient.android.Resource.Color.material_grey_100;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_grey_300 = global::authClient.android.Resource.Color.material_grey_300;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_grey_50 = global::authClient.android.Resource.Color.material_grey_50;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_grey_600 = global::authClient.android.Resource.Color.material_grey_600;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_grey_800 = global::authClient.android.Resource.Color.material_grey_800;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_grey_850 = global::authClient.android.Resource.Color.material_grey_850;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.material_grey_900 = global::authClient.android.Resource.Color.material_grey_900;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.normal = global::authClient.android.Resource.Color.normal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.notification_action_color_filter = global::authClient.android.Resource.Color.notification_action_color_filter;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.notification_icon_bg_color = global::authClient.android.Resource.Color.notification_icon_bg_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.notification_material_background_media_default_color = global::authClient.android.Resource.Color.notification_material_background_media_default_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_dark_material_dark = global::authClient.android.Resource.Color.primary_dark_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_dark_material_light = global::authClient.android.Resource.Color.primary_dark_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_material_dark = global::authClient.android.Resource.Color.primary_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_material_light = global::authClient.android.Resource.Color.primary_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_text_default_material_dark = global::authClient.android.Resource.Color.primary_text_default_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_text_default_material_light = global::authClient.android.Resource.Color.primary_text_default_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_dark = global::authClient.android.Resource.Color.primary_text_disabled_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_light = global::authClient.android.Resource.Color.primary_text_disabled_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.ripple_material_dark = global::authClient.android.Resource.Color.ripple_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.ripple_material_light = global::authClient.android.Resource.Color.ripple_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.secondary_text_default_material_dark = global::authClient.android.Resource.Color.secondary_text_default_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.secondary_text_default_material_light = global::authClient.android.Resource.Color.secondary_text_default_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::authClient.android.Resource.Color.secondary_text_disabled_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_light = global::authClient.android.Resource.Color.secondary_text_disabled_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.segmented_control_text = global::authClient.android.Resource.Color.segmented_control_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.selected = global::authClient.android.Resource.Color.selected;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::authClient.android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::authClient.android.Resource.Color.switch_thumb_disabled_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.switch_thumb_material_dark = global::authClient.android.Resource.Color.switch_thumb_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.switch_thumb_material_light = global::authClient.android.Resource.Color.switch_thumb_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::authClient.android.Resource.Color.switch_thumb_normal_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_light = global::authClient.android.Resource.Color.switch_thumb_normal_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::authClient.android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::authClient.android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::authClient.android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::authClient.android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::authClient.android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::authClient.android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::authClient.android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::authClient.android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::authClient.android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::authClient.android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::authClient.android.Resource.Dimension.abc_action_button_min_height_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::authClient.android.Resource.Dimension.abc_action_button_min_width_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::authClient.android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::authClient.android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::authClient.android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::authClient.android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::authClient.android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::authClient.android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::authClient.android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::authClient.android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_control_corner_material = global::authClient.android.Resource.Dimension.abc_control_corner_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_control_inset_material = global::authClient.android.Resource.Dimension.abc_control_inset_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_control_padding_material = global::authClient.android.Resource.Dimension.abc_control_padding_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::authClient.android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::authClient.android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::authClient.android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::authClient.android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::authClient.android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::authClient.android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::authClient.android.Resource.Dimension.abc_dialog_min_width_major;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::authClient.android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_material = global::authClient.android.Resource.Dimension.abc_dialog_padding_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::authClient.android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::authClient.android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::authClient.android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::authClient.android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::authClient.android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::authClient.android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::authClient.android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_floating_window_z = global::authClient.android.Resource.Dimension.abc_floating_window_z;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::authClient.android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::authClient.android.Resource.Dimension.abc_panel_menu_list_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::authClient.android.Resource.Dimension.abc_progress_bar_height_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::authClient.android.Resource.Dimension.abc_search_view_preferred_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::authClient.android.Resource.Dimension.abc_search_view_preferred_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::authClient.android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::authClient.android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::authClient.android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_switch_padding = global::authClient.android.Resource.Dimension.abc_switch_padding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::authClient.android.Resource.Dimension.abc_text_size_body_1_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::authClient.android.Resource.Dimension.abc_text_size_body_2_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_button_material = global::authClient.android.Resource.Dimension.abc_text_size_button_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_caption_material = global::authClient.android.Resource.Dimension.abc_text_size_caption_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::authClient.android.Resource.Dimension.abc_text_size_display_1_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::authClient.android.Resource.Dimension.abc_text_size_display_2_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::authClient.android.Resource.Dimension.abc_text_size_display_3_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::authClient.android.Resource.Dimension.abc_text_size_display_4_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_headline_material = global::authClient.android.Resource.Dimension.abc_text_size_headline_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_large_material = global::authClient.android.Resource.Dimension.abc_text_size_large_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_medium_material = global::authClient.android.Resource.Dimension.abc_text_size_medium_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::authClient.android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_material = global::authClient.android.Resource.Dimension.abc_text_size_menu_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_small_material = global::authClient.android.Resource.Dimension.abc_text_size_small_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::authClient.android.Resource.Dimension.abc_text_size_subhead_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::authClient.android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material = global::authClient.android.Resource.Dimension.abc_text_size_title_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::authClient.android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::authClient.android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.cardview_default_elevation = global::authClient.android.Resource.Dimension.cardview_default_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.cardview_default_radius = global::authClient.android.Resource.Dimension.cardview_default_radius;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_appbar_elevation = global::authClient.android.Resource.Dimension.design_appbar_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::authClient.android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_height = global::authClient.android.Resource.Dimension.design_bottom_navigation_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::authClient.android.Resource.Dimension.design_bottom_navigation_margin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::authClient.android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::authClient.android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::authClient.android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_fab_border_width = global::authClient.android.Resource.Dimension.design_fab_border_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_fab_elevation = global::authClient.android.Resource.Dimension.design_fab_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_fab_image_size = global::authClient.android.Resource.Dimension.design_fab_image_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_fab_size_mini = global::authClient.android.Resource.Dimension.design_fab_size_mini;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_fab_size_normal = global::authClient.android.Resource.Dimension.design_fab_size_normal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::authClient.android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_navigation_elevation = global::authClient.android.Resource.Dimension.design_navigation_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_padding = global::authClient.android.Resource.Dimension.design_navigation_icon_padding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_size = global::authClient.android.Resource.Dimension.design_navigation_icon_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_navigation_max_width = global::authClient.android.Resource.Dimension.design_navigation_max_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::authClient.android.Resource.Dimension.design_navigation_padding_bottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::authClient.android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::authClient.android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::authClient.android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_elevation = global::authClient.android.Resource.Dimension.design_snackbar_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::authClient.android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_max_width = global::authClient.android.Resource.Dimension.design_snackbar_max_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_min_width = global::authClient.android.Resource.Dimension.design_snackbar_min_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::authClient.android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::authClient.android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::authClient.android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_snackbar_text_size = global::authClient.android.Resource.Dimension.design_snackbar_text_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_tab_max_width = global::authClient.android.Resource.Dimension.design_tab_max_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::authClient.android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_tab_text_size = global::authClient.android.Resource.Dimension.design_tab_text_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.design_tab_text_size_2line = global::authClient.android.Resource.Dimension.design_tab_text_size_2line;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::authClient.android.Resource.Dimension.disabled_alpha_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_light = global::authClient.android.Resource.Dimension.disabled_alpha_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::authClient.android.Resource.Dimension.highlight_alpha_material_colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::authClient.android.Resource.Dimension.highlight_alpha_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_light = global::authClient.android.Resource.Dimension.highlight_alpha_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_dark = global::authClient.android.Resource.Dimension.hint_alpha_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_light = global::authClient.android.Resource.Dimension.hint_alpha_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::authClient.android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::authClient.android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::authClient.android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::authClient.android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::authClient.android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::authClient.android.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::authClient.android.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_action_icon_size = global::authClient.android.Resource.Dimension.notification_action_icon_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_action_text_size = global::authClient.android.Resource.Dimension.notification_action_text_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_big_circle_margin = global::authClient.android.Resource.Dimension.notification_big_circle_margin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_content_margin_start = global::authClient.android.Resource.Dimension.notification_content_margin_start;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_large_icon_height = global::authClient.android.Resource.Dimension.notification_large_icon_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_large_icon_width = global::authClient.android.Resource.Dimension.notification_large_icon_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_main_column_padding_top = global::authClient.android.Resource.Dimension.notification_main_column_padding_top;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_media_narrow_margin = global::authClient.android.Resource.Dimension.notification_media_narrow_margin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_right_icon_size = global::authClient.android.Resource.Dimension.notification_right_icon_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_right_side_padding_top = global::authClient.android.Resource.Dimension.notification_right_side_padding_top;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::authClient.android.Resource.Dimension.notification_small_icon_background_padding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::authClient.android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_subtext_size = global::authClient.android.Resource.Dimension.notification_subtext_size;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_top_pad = global::authClient.android.Resource.Dimension.notification_top_pad;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Dimension.notification_top_pad_large_text = global::authClient.android.Resource.Dimension.notification_top_pad_large_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::authClient.android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_borderless_material = global::authClient.android.Resource.Drawable.abc_btn_borderless_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_check_material = global::authClient.android.Resource.Drawable.abc_btn_check_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::authClient.android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::authClient.android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_colored_material = global::authClient.android.Resource.Drawable.abc_btn_colored_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::authClient.android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_material = global::authClient.android.Resource.Drawable.abc_btn_radio_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::authClient.android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::authClient.android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::authClient.android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::authClient.android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::authClient.android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_material = global::authClient.android.Resource.Drawable.abc_cab_background_top_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_control_background_material = global::authClient.android.Resource.Drawable.abc_control_background_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_dialog_material_background = global::authClient.android.Resource.Drawable.abc_dialog_material_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_edit_text_material = global::authClient.android.Resource.Drawable.abc_edit_text_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::authClient.android.Resource.Drawable.abc_ic_ab_back_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::authClient.android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_clear_material = global::authClient.android.Resource.Drawable.abc_ic_clear_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::authClient.android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_search_api_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::authClient.android.Resource.Drawable.abc_item_background_holo_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_light = global::authClient.android.Resource.Drawable.abc_item_background_holo_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_focused_holo = global::authClient.android.Resource.Drawable.abc_list_focused_holo;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::authClient.android.Resource.Drawable.abc_list_longpressed_holo;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::authClient.android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::authClient.android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_holo_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::authClient.android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::authClient.android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::authClient.android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_material = global::authClient.android.Resource.Drawable.abc_ratingbar_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::authClient.android.Resource.Drawable.abc_ratingbar_small_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::authClient.android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::authClient.android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::authClient.android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::authClient.android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_seekbar_track_material = global::authClient.android.Resource.Drawable.abc_seekbar_track_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::authClient.android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_switch_thumb_material = global::authClient.android.Resource.Drawable.abc_switch_thumb_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_material = global::authClient.android.Resource.Drawable.abc_tab_indicator_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_text_cursor_material = global::authClient.android.Resource.Drawable.abc_text_cursor_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_material = global::authClient.android.Resource.Drawable.abc_textfield_search_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.abc_vector_test = global::authClient.android.Resource.Drawable.abc_vector_test;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.avd_hide_password = global::authClient.android.Resource.Drawable.avd_hide_password;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.avd_show_password = global::authClient.android.Resource.Drawable.avd_show_password;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::authClient.android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.design_fab_background = global::authClient.android.Resource.Drawable.design_fab_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.design_ic_visibility = global::authClient.android.Resource.Drawable.design_ic_visibility;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.design_ic_visibility_off = global::authClient.android.Resource.Drawable.design_ic_visibility_off;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.design_password_eye = global::authClient.android.Resource.Drawable.design_password_eye;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.design_snackbar_background = global::authClient.android.Resource.Drawable.design_snackbar_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_dark = global::authClient.android.Resource.Drawable.ic_audiotrack_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_light = global::authClient.android.Resource.Drawable.ic_audiotrack_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_dark = global::authClient.android.Resource.Drawable.ic_dialog_close_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_light = global::authClient.android.Resource.Drawable.ic_dialog_close_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_00 = global::authClient.android.Resource.Drawable.ic_group_collapse_00;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_01 = global::authClient.android.Resource.Drawable.ic_group_collapse_01;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_02 = global::authClient.android.Resource.Drawable.ic_group_collapse_02;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_03 = global::authClient.android.Resource.Drawable.ic_group_collapse_03;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_04 = global::authClient.android.Resource.Drawable.ic_group_collapse_04;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_05 = global::authClient.android.Resource.Drawable.ic_group_collapse_05;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_06 = global::authClient.android.Resource.Drawable.ic_group_collapse_06;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_07 = global::authClient.android.Resource.Drawable.ic_group_collapse_07;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_08 = global::authClient.android.Resource.Drawable.ic_group_collapse_08;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_09 = global::authClient.android.Resource.Drawable.ic_group_collapse_09;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_10 = global::authClient.android.Resource.Drawable.ic_group_collapse_10;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_11 = global::authClient.android.Resource.Drawable.ic_group_collapse_11;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_12 = global::authClient.android.Resource.Drawable.ic_group_collapse_12;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_13 = global::authClient.android.Resource.Drawable.ic_group_collapse_13;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_14 = global::authClient.android.Resource.Drawable.ic_group_collapse_14;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_15 = global::authClient.android.Resource.Drawable.ic_group_collapse_15;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_00 = global::authClient.android.Resource.Drawable.ic_group_expand_00;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_01 = global::authClient.android.Resource.Drawable.ic_group_expand_01;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_02 = global::authClient.android.Resource.Drawable.ic_group_expand_02;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_03 = global::authClient.android.Resource.Drawable.ic_group_expand_03;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_04 = global::authClient.android.Resource.Drawable.ic_group_expand_04;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_05 = global::authClient.android.Resource.Drawable.ic_group_expand_05;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_06 = global::authClient.android.Resource.Drawable.ic_group_expand_06;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_07 = global::authClient.android.Resource.Drawable.ic_group_expand_07;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_08 = global::authClient.android.Resource.Drawable.ic_group_expand_08;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_09 = global::authClient.android.Resource.Drawable.ic_group_expand_09;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_10 = global::authClient.android.Resource.Drawable.ic_group_expand_10;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_11 = global::authClient.android.Resource.Drawable.ic_group_expand_11;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_12 = global::authClient.android.Resource.Drawable.ic_group_expand_12;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_13 = global::authClient.android.Resource.Drawable.ic_group_expand_13;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_14 = global::authClient.android.Resource.Drawable.ic_group_expand_14;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_group_expand_15 = global::authClient.android.Resource.Drawable.ic_group_expand_15;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_media_pause_dark = global::authClient.android.Resource.Drawable.ic_media_pause_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_media_pause_light = global::authClient.android.Resource.Drawable.ic_media_pause_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_media_play_dark = global::authClient.android.Resource.Drawable.ic_media_play_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_media_play_light = global::authClient.android.Resource.Drawable.ic_media_play_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_media_stop_dark = global::authClient.android.Resource.Drawable.ic_media_stop_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_media_stop_light = global::authClient.android.Resource.Drawable.ic_media_stop_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::authClient.android.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_light = global::authClient.android.Resource.Drawable.ic_mr_button_disabled_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::authClient.android.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::authClient.android.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_mr_button_grey = global::authClient.android.Resource.Drawable.ic_mr_button_grey;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_light = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_dark = global::authClient.android.Resource.Drawable.ic_vol_type_tv_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_light = global::authClient.android.Resource.Drawable.ic_vol_type_tv_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_button_connected_dark = global::authClient.android.Resource.Drawable.mr_button_connected_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_button_connected_light = global::authClient.android.Resource.Drawable.mr_button_connected_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_dark = global::authClient.android.Resource.Drawable.mr_button_connecting_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_light = global::authClient.android.Resource.Drawable.mr_button_connecting_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_button_dark = global::authClient.android.Resource.Drawable.mr_button_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_button_light = global::authClient.android.Resource.Drawable.mr_button_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_dark = global::authClient.android.Resource.Drawable.mr_dialog_close_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_light = global::authClient.android.Resource.Drawable.mr_dialog_close_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_dark = global::authClient.android.Resource.Drawable.mr_dialog_material_background_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_light = global::authClient.android.Resource.Drawable.mr_dialog_material_background_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_group_collapse = global::authClient.android.Resource.Drawable.mr_group_collapse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_group_expand = global::authClient.android.Resource.Drawable.mr_group_expand;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_media_pause_dark = global::authClient.android.Resource.Drawable.mr_media_pause_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_media_pause_light = global::authClient.android.Resource.Drawable.mr_media_pause_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_media_play_dark = global::authClient.android.Resource.Drawable.mr_media_play_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_media_play_light = global::authClient.android.Resource.Drawable.mr_media_play_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_media_stop_dark = global::authClient.android.Resource.Drawable.mr_media_stop_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_media_stop_light = global::authClient.android.Resource.Drawable.mr_media_stop_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::authClient.android.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::authClient.android.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.navigation_empty_icon = global::authClient.android.Resource.Drawable.navigation_empty_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_action_background = global::authClient.android.Resource.Drawable.notification_action_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_bg = global::authClient.android.Resource.Drawable.notification_bg;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_bg_low = global::authClient.android.Resource.Drawable.notification_bg_low;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_bg_low_normal = global::authClient.android.Resource.Drawable.notification_bg_low_normal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_bg_low_pressed = global::authClient.android.Resource.Drawable.notification_bg_low_pressed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_bg_normal = global::authClient.android.Resource.Drawable.notification_bg_normal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::authClient.android.Resource.Drawable.notification_bg_normal_pressed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_icon_background = global::authClient.android.Resource.Drawable.notification_icon_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_template_icon_bg = global::authClient.android.Resource.Drawable.notification_template_icon_bg;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::authClient.android.Resource.Drawable.notification_template_icon_low_bg;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notification_tile_bg = global::authClient.android.Resource.Drawable.notification_tile_bg;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::authClient.android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.segmented_control_background = global::authClient.android.Resource.Drawable.segmented_control_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.segmented_control_first_background = global::authClient.android.Resource.Drawable.segmented_control_first_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Drawable.segmented_control_last_background = global::authClient.android.Resource.Drawable.segmented_control_last_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.SegControl = global::authClient.android.Resource.Id.SegControl;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action0 = global::authClient.android.Resource.Id.action0;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_bar = global::authClient.android.Resource.Id.action_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_bar_activity_content = global::authClient.android.Resource.Id.action_bar_activity_content;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_bar_container = global::authClient.android.Resource.Id.action_bar_container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_bar_root = global::authClient.android.Resource.Id.action_bar_root;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_bar_spinner = global::authClient.android.Resource.Id.action_bar_spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_bar_subtitle = global::authClient.android.Resource.Id.action_bar_subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_bar_title = global::authClient.android.Resource.Id.action_bar_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_container = global::authClient.android.Resource.Id.action_container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_context_bar = global::authClient.android.Resource.Id.action_context_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_divider = global::authClient.android.Resource.Id.action_divider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_image = global::authClient.android.Resource.Id.action_image;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_menu_divider = global::authClient.android.Resource.Id.action_menu_divider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_menu_presenter = global::authClient.android.Resource.Id.action_menu_presenter;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_mode_bar = global::authClient.android.Resource.Id.action_mode_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_mode_bar_stub = global::authClient.android.Resource.Id.action_mode_bar_stub;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_mode_close_button = global::authClient.android.Resource.Id.action_mode_close_button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.action_text = global::authClient.android.Resource.Id.action_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.actions = global::authClient.android.Resource.Id.actions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.activity_chooser_view_content = global::authClient.android.Resource.Id.activity_chooser_view_content;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.add = global::authClient.android.Resource.Id.add;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.alertTitle = global::authClient.android.Resource.Id.alertTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.all = global::authClient.android.Resource.Id.all;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.always = global::authClient.android.Resource.Id.always;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.auto = global::authClient.android.Resource.Id.auto;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.beginning = global::authClient.android.Resource.Id.beginning;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.bottom = global::authClient.android.Resource.Id.bottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.buttonPanel = global::authClient.android.Resource.Id.buttonPanel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.cancel_action = global::authClient.android.Resource.Id.cancel_action;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.center = global::authClient.android.Resource.Id.center;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.center_horizontal = global::authClient.android.Resource.Id.center_horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.center_vertical = global::authClient.android.Resource.Id.center_vertical;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.checkbox = global::authClient.android.Resource.Id.checkbox;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.chronometer = global::authClient.android.Resource.Id.chronometer;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.clip_horizontal = global::authClient.android.Resource.Id.clip_horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.clip_vertical = global::authClient.android.Resource.Id.clip_vertical;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.collapseActionView = global::authClient.android.Resource.Id.collapseActionView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.container = global::authClient.android.Resource.Id.container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.contentPanel = global::authClient.android.Resource.Id.contentPanel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.coordinator = global::authClient.android.Resource.Id.coordinator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.custom = global::authClient.android.Resource.Id.custom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.customPanel = global::authClient.android.Resource.Id.customPanel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.decor_content_parent = global::authClient.android.Resource.Id.decor_content_parent;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.default_activity_button = global::authClient.android.Resource.Id.default_activity_button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.design_bottom_sheet = global::authClient.android.Resource.Id.design_bottom_sheet;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.design_menu_item_action_area = global::authClient.android.Resource.Id.design_menu_item_action_area;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.design_menu_item_action_area_stub = global::authClient.android.Resource.Id.design_menu_item_action_area_stub;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.design_menu_item_text = global::authClient.android.Resource.Id.design_menu_item_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.design_navigation_view = global::authClient.android.Resource.Id.design_navigation_view;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.disableHome = global::authClient.android.Resource.Id.disableHome;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.edit_query = global::authClient.android.Resource.Id.edit_query;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.end = global::authClient.android.Resource.Id.end;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.end_padder = global::authClient.android.Resource.Id.end_padder;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.enterAlways = global::authClient.android.Resource.Id.enterAlways;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.enterAlwaysCollapsed = global::authClient.android.Resource.Id.enterAlwaysCollapsed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.exitUntilCollapsed = global::authClient.android.Resource.Id.exitUntilCollapsed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.expand_activities_button = global::authClient.android.Resource.Id.expand_activities_button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.expanded_menu = global::authClient.android.Resource.Id.expanded_menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.fill = global::authClient.android.Resource.Id.fill;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.fill_horizontal = global::authClient.android.Resource.Id.fill_horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.fill_vertical = global::authClient.android.Resource.Id.fill_vertical;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.@fixed = global::authClient.android.Resource.Id.@fixed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.home = global::authClient.android.Resource.Id.home;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.homeAsUp = global::authClient.android.Resource.Id.homeAsUp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.icon = global::authClient.android.Resource.Id.icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.icon_group = global::authClient.android.Resource.Id.icon_group;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.ifRoom = global::authClient.android.Resource.Id.ifRoom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.image = global::authClient.android.Resource.Id.image;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.info = global::authClient.android.Resource.Id.info;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::authClient.android.Resource.Id.item_touch_helper_previous_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.largeLabel = global::authClient.android.Resource.Id.largeLabel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.left = global::authClient.android.Resource.Id.left;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.line1 = global::authClient.android.Resource.Id.line1;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.line3 = global::authClient.android.Resource.Id.line3;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.listMode = global::authClient.android.Resource.Id.listMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.list_item = global::authClient.android.Resource.Id.list_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.masked = global::authClient.android.Resource.Id.masked;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.media_actions = global::authClient.android.Resource.Id.media_actions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.middle = global::authClient.android.Resource.Id.middle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mini = global::authClient.android.Resource.Id.mini;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_art = global::authClient.android.Resource.Id.mr_art;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_chooser_list = global::authClient.android.Resource.Id.mr_chooser_list;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_chooser_route_desc = global::authClient.android.Resource.Id.mr_chooser_route_desc;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_chooser_route_icon = global::authClient.android.Resource.Id.mr_chooser_route_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_chooser_route_name = global::authClient.android.Resource.Id.mr_chooser_route_name;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_chooser_title = global::authClient.android.Resource.Id.mr_chooser_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_close = global::authClient.android.Resource.Id.mr_close;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_control_divider = global::authClient.android.Resource.Id.mr_control_divider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_control_playback_ctrl = global::authClient.android.Resource.Id.mr_control_playback_ctrl;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_control_subtitle = global::authClient.android.Resource.Id.mr_control_subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_control_title = global::authClient.android.Resource.Id.mr_control_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_control_title_container = global::authClient.android.Resource.Id.mr_control_title_container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_custom_control = global::authClient.android.Resource.Id.mr_custom_control;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_default_control = global::authClient.android.Resource.Id.mr_default_control;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_dialog_area = global::authClient.android.Resource.Id.mr_dialog_area;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_expandable_area = global::authClient.android.Resource.Id.mr_expandable_area;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_group_expand_collapse = global::authClient.android.Resource.Id.mr_group_expand_collapse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_media_main_control = global::authClient.android.Resource.Id.mr_media_main_control;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_name = global::authClient.android.Resource.Id.mr_name;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_playback_control = global::authClient.android.Resource.Id.mr_playback_control;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_title_bar = global::authClient.android.Resource.Id.mr_title_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_volume_control = global::authClient.android.Resource.Id.mr_volume_control;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_volume_group_list = global::authClient.android.Resource.Id.mr_volume_group_list;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_volume_item_icon = global::authClient.android.Resource.Id.mr_volume_item_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.mr_volume_slider = global::authClient.android.Resource.Id.mr_volume_slider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.multiply = global::authClient.android.Resource.Id.multiply;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.navigation_header_container = global::authClient.android.Resource.Id.navigation_header_container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.never = global::authClient.android.Resource.Id.never;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.none = global::authClient.android.Resource.Id.none;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.normal = global::authClient.android.Resource.Id.normal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.notification_background = global::authClient.android.Resource.Id.notification_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.notification_main_column = global::authClient.android.Resource.Id.notification_main_column;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.notification_main_column_container = global::authClient.android.Resource.Id.notification_main_column_container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.parallax = global::authClient.android.Resource.Id.parallax;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.parentPanel = global::authClient.android.Resource.Id.parentPanel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.pin = global::authClient.android.Resource.Id.pin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.progress_circular = global::authClient.android.Resource.Id.progress_circular;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.progress_horizontal = global::authClient.android.Resource.Id.progress_horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.radio = global::authClient.android.Resource.Id.radio;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.right = global::authClient.android.Resource.Id.right;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.right_icon = global::authClient.android.Resource.Id.right_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.right_side = global::authClient.android.Resource.Id.right_side;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.screen = global::authClient.android.Resource.Id.screen;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.scroll = global::authClient.android.Resource.Id.scroll;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.scrollIndicatorDown = global::authClient.android.Resource.Id.scrollIndicatorDown;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.scrollIndicatorUp = global::authClient.android.Resource.Id.scrollIndicatorUp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.scrollView = global::authClient.android.Resource.Id.scrollView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.scrollable = global::authClient.android.Resource.Id.scrollable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_badge = global::authClient.android.Resource.Id.search_badge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_bar = global::authClient.android.Resource.Id.search_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_button = global::authClient.android.Resource.Id.search_button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_close_btn = global::authClient.android.Resource.Id.search_close_btn;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_edit_frame = global::authClient.android.Resource.Id.search_edit_frame;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_go_btn = global::authClient.android.Resource.Id.search_go_btn;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_mag_icon = global::authClient.android.Resource.Id.search_mag_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_plate = global::authClient.android.Resource.Id.search_plate;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_src_text = global::authClient.android.Resource.Id.search_src_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.search_voice_btn = global::authClient.android.Resource.Id.search_voice_btn;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.select_dialog_listview = global::authClient.android.Resource.Id.select_dialog_listview;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.shape_id = global::authClient.android.Resource.Id.shape_id;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.shortcut = global::authClient.android.Resource.Id.shortcut;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.showCustom = global::authClient.android.Resource.Id.showCustom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.showHome = global::authClient.android.Resource.Id.showHome;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.showTitle = global::authClient.android.Resource.Id.showTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.smallLabel = global::authClient.android.Resource.Id.smallLabel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.snackbar_action = global::authClient.android.Resource.Id.snackbar_action;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.snackbar_text = global::authClient.android.Resource.Id.snackbar_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.snap = global::authClient.android.Resource.Id.snap;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.spacer = global::authClient.android.Resource.Id.spacer;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.split_action_bar = global::authClient.android.Resource.Id.split_action_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.src_atop = global::authClient.android.Resource.Id.src_atop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.src_in = global::authClient.android.Resource.Id.src_in;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.src_over = global::authClient.android.Resource.Id.src_over;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.start = global::authClient.android.Resource.Id.start;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.status_bar_latest_event_content = global::authClient.android.Resource.Id.status_bar_latest_event_content;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.submenuarrow = global::authClient.android.Resource.Id.submenuarrow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.submit_area = global::authClient.android.Resource.Id.submit_area;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.tabMode = global::authClient.android.Resource.Id.tabMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.text = global::authClient.android.Resource.Id.text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.text2 = global::authClient.android.Resource.Id.text2;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.textSpacerNoButtons = global::authClient.android.Resource.Id.textSpacerNoButtons;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.textSpacerNoTitle = global::authClient.android.Resource.Id.textSpacerNoTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.text_input_password_toggle = global::authClient.android.Resource.Id.text_input_password_toggle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.textinput_counter = global::authClient.android.Resource.Id.textinput_counter;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.textinput_error = global::authClient.android.Resource.Id.textinput_error;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.time = global::authClient.android.Resource.Id.time;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.title = global::authClient.android.Resource.Id.title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.titleDividerNoCustom = global::authClient.android.Resource.Id.titleDividerNoCustom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.title_template = global::authClient.android.Resource.Id.title_template;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.top = global::authClient.android.Resource.Id.top;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.topPanel = global::authClient.android.Resource.Id.topPanel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.touch_outside = global::authClient.android.Resource.Id.touch_outside;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.transition_current_scene = global::authClient.android.Resource.Id.transition_current_scene;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.transition_scene_layoutid_cache = global::authClient.android.Resource.Id.transition_scene_layoutid_cache;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.up = global::authClient.android.Resource.Id.up;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.useLogo = global::authClient.android.Resource.Id.useLogo;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.view_offset_helper = global::authClient.android.Resource.Id.view_offset_helper;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.visible = global::authClient.android.Resource.Id.visible;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.volume_item_container = global::authClient.android.Resource.Id.volume_item_container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.withText = global::authClient.android.Resource.Id.withText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Id.wrap_content = global::authClient.android.Resource.Id.wrap_content;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::authClient.android.Resource.Integer.abc_config_activityDefaultDur;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.abc_config_activityShortDur = global::authClient.android.Resource.Integer.abc_config_activityShortDur;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::authClient.android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::authClient.android.Resource.Integer.bottom_sheet_slide_duration;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.cancel_button_image_alpha = global::authClient.android.Resource.Integer.cancel_button_image_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::authClient.android.Resource.Integer.design_snackbar_text_max_lines;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.hide_password_duration = global::authClient.android.Resource.Integer.hide_password_duration;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.show_password_duration = global::authClient.android.Resource.Integer.show_password_duration;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::authClient.android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Interpolator.mr_fast_out_slow_in = global::authClient.android.Resource.Interpolator.mr_fast_out_slow_in;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::authClient.android.Resource.Interpolator.mr_linear_out_slow_in;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_action_bar_title_item = global::authClient.android.Resource.Layout.abc_action_bar_title_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_action_bar_up_container = global::authClient.android.Resource.Layout.abc_action_bar_up_container;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_action_menu_item_layout = global::authClient.android.Resource.Layout.abc_action_menu_item_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_action_menu_layout = global::authClient.android.Resource.Layout.abc_action_menu_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_action_mode_bar = global::authClient.android.Resource.Layout.abc_action_mode_bar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::authClient.android.Resource.Layout.abc_action_mode_close_item_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view = global::authClient.android.Resource.Layout.abc_activity_chooser_view;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::authClient.android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::authClient.android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_material = global::authClient.android.Resource.Layout.abc_alert_dialog_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::authClient.android.Resource.Layout.abc_alert_dialog_title_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_dialog_title_material = global::authClient.android.Resource.Layout.abc_dialog_title_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_expanded_menu_layout = global::authClient.android.Resource.Layout.abc_expanded_menu_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::authClient.android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_icon = global::authClient.android.Resource.Layout.abc_list_menu_item_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_layout = global::authClient.android.Resource.Layout.abc_list_menu_item_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_radio = global::authClient.android.Resource.Layout.abc_list_menu_item_radio;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::authClient.android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::authClient.android.Resource.Layout.abc_popup_menu_item_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_screen_content_include = global::authClient.android.Resource.Layout.abc_screen_content_include;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_screen_simple = global::authClient.android.Resource.Layout.abc_screen_simple;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::authClient.android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_screen_toolbar = global::authClient.android.Resource.Layout.abc_screen_toolbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::authClient.android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_search_view = global::authClient.android.Resource.Layout.abc_search_view;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.abc_select_dialog_material = global::authClient.android.Resource.Layout.abc_select_dialog_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_bottom_navigation_item = global::authClient.android.Resource.Layout.design_bottom_navigation_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::authClient.android.Resource.Layout.design_bottom_sheet_dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_layout_snackbar = global::authClient.android.Resource.Layout.design_layout_snackbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_layout_snackbar_include = global::authClient.android.Resource.Layout.design_layout_snackbar_include;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_layout_tab_icon = global::authClient.android.Resource.Layout.design_layout_tab_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_layout_tab_text = global::authClient.android.Resource.Layout.design_layout_tab_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_menu_item_action_area = global::authClient.android.Resource.Layout.design_menu_item_action_area;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_navigation_item = global::authClient.android.Resource.Layout.design_navigation_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_navigation_item_header = global::authClient.android.Resource.Layout.design_navigation_item_header;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_navigation_item_separator = global::authClient.android.Resource.Layout.design_navigation_item_separator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_navigation_item_subheader = global::authClient.android.Resource.Layout.design_navigation_item_subheader;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_navigation_menu = global::authClient.android.Resource.Layout.design_navigation_menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_navigation_menu_item = global::authClient.android.Resource.Layout.design_navigation_menu_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.design_text_input_password_icon = global::authClient.android.Resource.Layout.design_text_input_password_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.mr_chooser_dialog = global::authClient.android.Resource.Layout.mr_chooser_dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.mr_chooser_list_item = global::authClient.android.Resource.Layout.mr_chooser_list_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.mr_controller_material_dialog_b = global::authClient.android.Resource.Layout.mr_controller_material_dialog_b;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.mr_controller_volume_item = global::authClient.android.Resource.Layout.mr_controller_volume_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.mr_playback_control = global::authClient.android.Resource.Layout.mr_playback_control;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.mr_volume_control = global::authClient.android.Resource.Layout.mr_volume_control;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_action = global::authClient.android.Resource.Layout.notification_action;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_action_tombstone = global::authClient.android.Resource.Layout.notification_action_tombstone;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_media_action = global::authClient.android.Resource.Layout.notification_media_action;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_media_cancel_action = global::authClient.android.Resource.Layout.notification_media_cancel_action;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_big_media = global::authClient.android.Resource.Layout.notification_template_big_media;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_big_media_custom = global::authClient.android.Resource.Layout.notification_template_big_media_custom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow = global::authClient.android.Resource.Layout.notification_template_big_media_narrow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::authClient.android.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_custom_big = global::authClient.android.Resource.Layout.notification_template_custom_big;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_icon_group = global::authClient.android.Resource.Layout.notification_template_icon_group;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_lines_media = global::authClient.android.Resource.Layout.notification_template_lines_media;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_media = global::authClient.android.Resource.Layout.notification_template_media;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_media_custom = global::authClient.android.Resource.Layout.notification_template_media_custom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_part_chronometer = global::authClient.android.Resource.Layout.notification_template_part_chronometer;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.notification_template_part_time = global::authClient.android.Resource.Layout.notification_template_part_time;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.RadioButton = global::authClient.android.Resource.Layout.RadioButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.RadioGroup = global::authClient.android.Resource.Layout.RadioGroup;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.select_dialog_item_material = global::authClient.android.Resource.Layout.select_dialog_item_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.select_dialog_multichoice_material = global::authClient.android.Resource.Layout.select_dialog_multichoice_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::authClient.android.Resource.Layout.select_dialog_singlechoice_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::authClient.android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_action_bar_home_description = global::authClient.android.Resource.String.abc_action_bar_home_description;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_action_bar_up_description = global::authClient.android.Resource.String.abc_action_bar_up_description;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_action_menu_overflow_description = global::authClient.android.Resource.String.abc_action_menu_overflow_description;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_action_mode_done = global::authClient.android.Resource.String.abc_action_mode_done;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::authClient.android.Resource.String.abc_activity_chooser_view_see_all;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_activitychooserview_choose_application = global::authClient.android.Resource.String.abc_activitychooserview_choose_application;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_capital_off = global::authClient.android.Resource.String.abc_capital_off;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_capital_on = global::authClient.android.Resource.String.abc_capital_on;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_body_1_material = global::authClient.android.Resource.String.abc_font_family_body_1_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_body_2_material = global::authClient.android.Resource.String.abc_font_family_body_2_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_button_material = global::authClient.android.Resource.String.abc_font_family_button_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_caption_material = global::authClient.android.Resource.String.abc_font_family_caption_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_display_1_material = global::authClient.android.Resource.String.abc_font_family_display_1_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_display_2_material = global::authClient.android.Resource.String.abc_font_family_display_2_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_display_3_material = global::authClient.android.Resource.String.abc_font_family_display_3_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_display_4_material = global::authClient.android.Resource.String.abc_font_family_display_4_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_headline_material = global::authClient.android.Resource.String.abc_font_family_headline_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_menu_material = global::authClient.android.Resource.String.abc_font_family_menu_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_subhead_material = global::authClient.android.Resource.String.abc_font_family_subhead_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_font_family_title_material = global::authClient.android.Resource.String.abc_font_family_title_material;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_search_hint = global::authClient.android.Resource.String.abc_search_hint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_searchview_description_clear = global::authClient.android.Resource.String.abc_searchview_description_clear;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_searchview_description_query = global::authClient.android.Resource.String.abc_searchview_description_query;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_searchview_description_search = global::authClient.android.Resource.String.abc_searchview_description_search;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_searchview_description_submit = global::authClient.android.Resource.String.abc_searchview_description_submit;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_searchview_description_voice = global::authClient.android.Resource.String.abc_searchview_description_voice;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with = global::authClient.android.Resource.String.abc_shareactionprovider_share_with;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::authClient.android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.abc_toolbar_collapse_description = global::authClient.android.Resource.String.abc_toolbar_collapse_description;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.appbar_scrolling_view_behavior = global::authClient.android.Resource.String.appbar_scrolling_view_behavior;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.bottom_sheet_behavior = global::authClient.android.Resource.String.bottom_sheet_behavior;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.character_counter_pattern = global::authClient.android.Resource.String.character_counter_pattern;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_button_content_description = global::authClient.android.Resource.String.mr_button_content_description;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_cast_button_connected = global::authClient.android.Resource.String.mr_cast_button_connected;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_cast_button_connecting = global::authClient.android.Resource.String.mr_cast_button_connecting;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_cast_button_disconnected = global::authClient.android.Resource.String.mr_cast_button_disconnected;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_chooser_searching = global::authClient.android.Resource.String.mr_chooser_searching;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_chooser_title = global::authClient.android.Resource.String.mr_chooser_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_album_art = global::authClient.android.Resource.String.mr_controller_album_art;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_casting_screen = global::authClient.android.Resource.String.mr_controller_casting_screen;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_close_description = global::authClient.android.Resource.String.mr_controller_close_description;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_collapse_group = global::authClient.android.Resource.String.mr_controller_collapse_group;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_disconnect = global::authClient.android.Resource.String.mr_controller_disconnect;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_expand_group = global::authClient.android.Resource.String.mr_controller_expand_group;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_no_info_available = global::authClient.android.Resource.String.mr_controller_no_info_available;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_no_media_selected = global::authClient.android.Resource.String.mr_controller_no_media_selected;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_pause = global::authClient.android.Resource.String.mr_controller_pause;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_play = global::authClient.android.Resource.String.mr_controller_play;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_stop = global::authClient.android.Resource.String.mr_controller_stop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_stop_casting = global::authClient.android.Resource.String.mr_controller_stop_casting;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_controller_volume_slider = global::authClient.android.Resource.String.mr_controller_volume_slider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_system_route_name = global::authClient.android.Resource.String.mr_system_route_name;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.mr_user_route_category_name = global::authClient.android.Resource.String.mr_user_route_category_name;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.password_toggle_content_description = global::authClient.android.Resource.String.password_toggle_content_description;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.path_password_eye = global::authClient.android.Resource.String.path_password_eye;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.path_password_eye_mask_strike_through = global::authClient.android.Resource.String.path_password_eye_mask_strike_through;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.path_password_eye_mask_visible = global::authClient.android.Resource.String.path_password_eye_mask_visible;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.path_password_strike_through = global::authClient.android.Resource.String.path_password_strike_through;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.search_menu_title = global::authClient.android.Resource.String.search_menu_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.String.status_bar_notification_info_overflow = global::authClient.android.Resource.String.status_bar_notification_info_overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat = global::authClient.android.Resource.Style.AlertDialog_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::authClient.android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::authClient.android.Resource.Style.Animation_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::authClient.android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::authClient.android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::authClient.android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::authClient.android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::authClient.android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_CardView = global::authClient.android.Resource.Style.Base_CardView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::authClient.android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::authClient.android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat = global::authClient.android.Resource.Style.Base_Theme_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::authClient.android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::authClient.android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::authClient.android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.CardView = global::authClient.android.Resource.Style.CardView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.CardView_Dark = global::authClient.android.Resource.Style.CardView_Dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.CardView_Light = global::authClient.android.Resource.Style.CardView_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_AppCompat = global::authClient.android.Resource.Style.Platform_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_AppCompat_Light = global::authClient.android.Resource.Style.Platform_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat = global::authClient.android.Resource.Style.Platform_V21_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::authClient.android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat = global::authClient.android.Resource.Style.Platform_V25_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::authClient.android.Resource.Style.Platform_V25_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::authClient.android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat = global::authClient.android.Resource.Style.TextAppearance_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::authClient.android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter = global::authClient.android.Resource.Style.TextAppearance_Design_Counter;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::authClient.android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Error = global::authClient.android.Resource.Style.TextAppearance_Design_Error;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Hint = global::authClient.android.Resource.Style.TextAppearance_Design_Hint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::authClient.android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Tab = global::authClient.android.Resource.Style.TextAppearance_Design_Tab;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat = global::authClient.android.Resource.Style.Theme_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::authClient.android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light = global::authClient.android.Resource.Style.Theme_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_Design = global::authClient.android.Resource.Style.Theme_Design;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_Design_Light = global::authClient.android.Resource.Style.Theme_Design_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_Design_NoActionBar = global::authClient.android.Resource.Style.Theme_Design_NoActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_MediaRouter = global::authClient.android.Resource.Style.Theme_MediaRouter;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light = global::authClient.android.Resource.Style.Theme_MediaRouter_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::authClient.android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::authClient.android.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::authClient.android.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::authClient.android.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::authClient.android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::authClient.android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button = global::authClient.android.Resource.Style.Widget_AppCompat_Button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::authClient.android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::authClient.android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Widget_AppCompat_EditText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::authClient.android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::authClient.android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::authClient.android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView = global::authClient.android.Resource.Style.Widget_AppCompat_ListView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::authClient.android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::authClient.android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::authClient.android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::authClient.android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::authClient.android.Resource.Style.Widget_AppCompat_SearchView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::authClient.android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::authClient.android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::authClient.android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::authClient.android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::authClient.android.Resource.Style.Widget_Design_AppBarLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::authClient.android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::authClient.android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::authClient.android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::authClient.android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_NavigationView = global::authClient.android.Resource.Style.Widget_Design_NavigationView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::authClient.android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_Snackbar = global::authClient.android.Resource.Style.Widget_Design_Snackbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_TabLayout = global::authClient.android.Resource.Style.Widget_Design_TabLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::authClient.android.Resource.Style.Widget_Design_TextInputLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::authClient.android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::authClient.android.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar = global::authClient.android.Resource.Styleable.ActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_background = global::authClient.android.Resource.Styleable.ActionBar_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::authClient.android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::authClient.android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::authClient.android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::authClient.android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::authClient.android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::authClient.android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::authClient.android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::authClient.android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::authClient.android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_displayOptions = global::authClient.android.Resource.Styleable.ActionBar_displayOptions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_divider = global::authClient.android.Resource.Styleable.ActionBar_divider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_elevation = global::authClient.android.Resource.Styleable.ActionBar_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_height = global::authClient.android.Resource.Styleable.ActionBar_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::authClient.android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::authClient.android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_homeLayout = global::authClient.android.Resource.Styleable.ActionBar_homeLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_icon = global::authClient.android.Resource.Styleable.ActionBar_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::authClient.android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_itemPadding = global::authClient.android.Resource.Styleable.ActionBar_itemPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_logo = global::authClient.android.Resource.Styleable.ActionBar_logo;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_navigationMode = global::authClient.android.Resource.Styleable.ActionBar_navigationMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_popupTheme = global::authClient.android.Resource.Styleable.ActionBar_popupTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::authClient.android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::authClient.android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitle = global::authClient.android.Resource.Styleable.ActionBar_subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::authClient.android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_title = global::authClient.android.Resource.Styleable.ActionBar_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::authClient.android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBarLayout = global::authClient.android.Resource.Styleable.ActionBarLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::authClient.android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView = global::authClient.android.Resource.Styleable.ActionMenuItemView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::authClient.android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMenuView = global::authClient.android.Resource.Styleable.ActionMenuView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMode = global::authClient.android.Resource.Styleable.ActionMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMode_background = global::authClient.android.Resource.Styleable.ActionMode_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::authClient.android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::authClient.android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMode_height = global::authClient.android.Resource.Styleable.ActionMode_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::authClient.android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::authClient.android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActivityChooserView = global::authClient.android.Resource.Styleable.ActivityChooserView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::authClient.android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::authClient.android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog = global::authClient.android.Resource.Styleable.AlertDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog_android_layout = global::authClient.android.Resource.Styleable.AlertDialog_android_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::authClient.android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog_listLayout = global::authClient.android.Resource.Styleable.AlertDialog_listLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog_showTitle = global::authClient.android.Resource.Styleable.AlertDialog_showTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayout = global::authClient.android.Resource.Styleable.AppBarLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_background = global::authClient.android.Resource.Styleable.AppBarLayout_android_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayout_elevation = global::authClient.android.Resource.Styleable.AppBarLayout_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayout_expanded = global::authClient.android.Resource.Styleable.AppBarLayout_expanded;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates = global::authClient.android.Resource.Styleable.AppBarLayoutStates;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout = global::authClient.android.Resource.Styleable.AppBarLayout_Layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::authClient.android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::authClient.android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatImageView = global::authClient.android.Resource.Styleable.AppCompatImageView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::authClient.android.Resource.Styleable.AppCompatImageView_android_src;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::authClient.android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tint = global::authClient.android.Resource.Styleable.AppCompatImageView_tint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::authClient.android.Resource.Styleable.AppCompatImageView_tintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar = global::authClient.android.Resource.Styleable.AppCompatSeekBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::authClient.android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper = global::authClient.android.Resource.Styleable.AppCompatTextHelper;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextView = global::authClient.android.Resource.Styleable.AppCompatTextView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::authClient.android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::authClient.android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme = global::authClient.android.Resource.Styleable.AppCompatTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::authClient.android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::authClient.android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::authClient.android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::authClient.android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::authClient.android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::authClient.android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::authClient.android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::authClient.android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::authClient.android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::authClient.android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::authClient.android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::authClient.android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::authClient.android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::authClient.android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::authClient.android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::authClient.android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomNavigationView = global::authClient.android.Resource.Styleable.BottomNavigationView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_elevation = global::authClient.android.Resource.Styleable.BottomNavigationView_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::authClient.android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::authClient.android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::authClient.android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_menu = global::authClient.android.Resource.Styleable.BottomNavigationView_menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout = global::authClient.android.Resource.Styleable.ButtonBarLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::authClient.android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView = global::authClient.android.Resource.Styleable.CardView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_android_minHeight = global::authClient.android.Resource.Styleable.CardView_android_minHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_android_minWidth = global::authClient.android.Resource.Styleable.CardView_android_minWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::authClient.android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::authClient.android.Resource.Styleable.CardView_cardCornerRadius;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_cardElevation = global::authClient.android.Resource.Styleable.CardView_cardElevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::authClient.android.Resource.Styleable.CardView_cardMaxElevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::authClient.android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::authClient.android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_contentPadding = global::authClient.android.Resource.Styleable.CardView_contentPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::authClient.android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::authClient.android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::authClient.android.Resource.Styleable.CardView_contentPaddingRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::authClient.android.Resource.Styleable.CardView_contentPaddingTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ColorStateListItem = global::authClient.android.Resource.Styleable.ColorStateListItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::authClient.android.Resource.Styleable.ColorStateListItem_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::authClient.android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::authClient.android.Resource.Styleable.ColorStateListItem_android_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CompoundButton = global::authClient.android.Resource.Styleable.CompoundButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CompoundButton_android_button = global::authClient.android.Resource.Styleable.CompoundButton_android_button;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::authClient.android.Resource.Styleable.CompoundButton_buttonTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::authClient.android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout = global::authClient.android.Resource.Styleable.CoordinatorLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::authClient.android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::authClient.android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DesignTheme = global::authClient.android.Resource.Styleable.DesignTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::authClient.android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::authClient.android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle = global::authClient.android.Resource.Styleable.DrawerArrowToggle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::authClient.android.Resource.Styleable.DrawerArrowToggle_color;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::authClient.android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::authClient.android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::authClient.android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::authClient.android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton = global::authClient.android.Resource.Styleable.FloatingActionButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::authClient.android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::authClient.android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::authClient.android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::authClient.android.Resource.Styleable.FloatingActionButton_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::authClient.android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::authClient.android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::authClient.android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::authClient.android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::authClient.android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::authClient.android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout = global::authClient.android.Resource.Styleable.ForegroundLinearLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat = global::authClient.android.Resource.Styleable.LinearLayoutCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::authClient.android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::authClient.android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::authClient.android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::authClient.android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ListPopupWindow = global::authClient.android.Resource.Styleable.ListPopupWindow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::authClient.android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::authClient.android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MediaRouteButton = global::authClient.android.Resource.Styleable.MediaRouteButton;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::authClient.android.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::authClient.android.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::authClient.android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuGroup = global::authClient.android.Resource.Styleable.MenuGroup;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::authClient.android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::authClient.android.Resource.Styleable.MenuGroup_android_enabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_id = global::authClient.android.Resource.Styleable.MenuGroup_android_id;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::authClient.android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::authClient.android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_visible = global::authClient.android.Resource.Styleable.MenuGroup_android_visible;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem = global::authClient.android.Resource.Styleable.MenuItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_actionLayout = global::authClient.android.Resource.Styleable.MenuItem_actionLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::authClient.android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::authClient.android.Resource.Styleable.MenuItem_actionViewClass;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::authClient.android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checkable = global::authClient.android.Resource.Styleable.MenuItem_android_checkable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checked = global::authClient.android.Resource.Styleable.MenuItem_android_checked;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_enabled = global::authClient.android.Resource.Styleable.MenuItem_android_enabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_icon = global::authClient.android.Resource.Styleable.MenuItem_android_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_id = global::authClient.android.Resource.Styleable.MenuItem_android_id;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::authClient.android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::authClient.android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_onClick = global::authClient.android.Resource.Styleable.MenuItem_android_onClick;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::authClient.android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_title = global::authClient.android.Resource.Styleable.MenuItem_android_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::authClient.android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_android_visible = global::authClient.android.Resource.Styleable.MenuItem_android_visible;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuItem_showAsAction = global::authClient.android.Resource.Styleable.MenuItem_showAsAction;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView = global::authClient.android.Resource.Styleable.MenuView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::authClient.android.Resource.Styleable.MenuView_android_headerBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::authClient.android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::authClient.android.Resource.Styleable.MenuView_android_itemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::authClient.android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::authClient.android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::authClient.android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::authClient.android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::authClient.android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::authClient.android.Resource.Styleable.MenuView_subMenuArrow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView = global::authClient.android.Resource.Styleable.NavigationView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_android_background = global::authClient.android.Resource.Styleable.NavigationView_android_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::authClient.android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::authClient.android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_elevation = global::authClient.android.Resource.Styleable.NavigationView_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_headerLayout = global::authClient.android.Resource.Styleable.NavigationView_headerLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_itemBackground = global::authClient.android.Resource.Styleable.NavigationView_itemBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::authClient.android.Resource.Styleable.NavigationView_itemIconTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::authClient.android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::authClient.android.Resource.Styleable.NavigationView_itemTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.NavigationView_menu = global::authClient.android.Resource.Styleable.NavigationView_menu;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.PopupWindow = global::authClient.android.Resource.Styleable.PopupWindow;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::authClient.android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::authClient.android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::authClient.android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::authClient.android.Resource.Styleable.PopupWindowBackgroundState;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::authClient.android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecycleListView = global::authClient.android.Resource.Styleable.RecycleListView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::authClient.android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::authClient.android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecyclerView = global::authClient.android.Resource.Styleable.RecyclerView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::authClient.android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::authClient.android.Resource.Styleable.RecyclerView_android_orientation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::authClient.android.Resource.Styleable.RecyclerView_layoutManager;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::authClient.android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecyclerView_spanCount = global::authClient.android.Resource.Styleable.RecyclerView_spanCount;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::authClient.android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::authClient.android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::authClient.android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::authClient.android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::authClient.android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView = global::authClient.android.Resource.Styleable.SearchView;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_android_focusable = global::authClient.android.Resource.Styleable.SearchView_android_focusable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::authClient.android.Resource.Styleable.SearchView_android_imeOptions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_android_inputType = global::authClient.android.Resource.Styleable.SearchView_android_inputType;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::authClient.android.Resource.Styleable.SearchView_android_maxWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_closeIcon = global::authClient.android.Resource.Styleable.SearchView_closeIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_commitIcon = global::authClient.android.Resource.Styleable.SearchView_commitIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::authClient.android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_goIcon = global::authClient.android.Resource.Styleable.SearchView_goIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::authClient.android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_layout = global::authClient.android.Resource.Styleable.SearchView_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_queryBackground = global::authClient.android.Resource.Styleable.SearchView_queryBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_queryHint = global::authClient.android.Resource.Styleable.SearchView_queryHint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::authClient.android.Resource.Styleable.SearchView_searchHintIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_searchIcon = global::authClient.android.Resource.Styleable.SearchView_searchIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_submitBackground = global::authClient.android.Resource.Styleable.SearchView_submitBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::authClient.android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SearchView_voiceIcon = global::authClient.android.Resource.Styleable.SearchView_voiceIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SnackbarLayout = global::authClient.android.Resource.Styleable.SnackbarLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::authClient.android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::authClient.android.Resource.Styleable.SnackbarLayout_elevation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::authClient.android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Spinner = global::authClient.android.Resource.Styleable.Spinner;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::authClient.android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Spinner_android_entries = global::authClient.android.Resource.Styleable.Spinner_android_entries;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::authClient.android.Resource.Styleable.Spinner_android_popupBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Spinner_android_prompt = global::authClient.android.Resource.Styleable.Spinner_android_prompt;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Spinner_popupTheme = global::authClient.android.Resource.Styleable.Spinner_popupTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat = global::authClient.android.Resource.Styleable.SwitchCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::authClient.android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::authClient.android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::authClient.android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_showText = global::authClient.android.Resource.Styleable.SwitchCompat_showText;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::authClient.android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::authClient.android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::authClient.android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::authClient.android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_track = global::authClient.android.Resource.Styleable.SwitchCompat_track;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::authClient.android.Resource.Styleable.SwitchCompat_trackTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::authClient.android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabItem = global::authClient.android.Resource.Styleable.TabItem;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabItem_android_icon = global::authClient.android.Resource.Styleable.TabItem_android_icon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabItem_android_layout = global::authClient.android.Resource.Styleable.TabItem_android_layout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabItem_android_text = global::authClient.android.Resource.Styleable.TabItem_android_text;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout = global::authClient.android.Resource.Styleable.TabLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabBackground = global::authClient.android.Resource.Styleable.TabLayout_tabBackground;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::authClient.android.Resource.Styleable.TabLayout_tabContentStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabGravity = global::authClient.android.Resource.Styleable.TabLayout_tabGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::authClient.android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::authClient.android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMode = global::authClient.android.Resource.Styleable.TabLayout_tabMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPadding = global::authClient.android.Resource.Styleable.TabLayout_tabPadding;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::authClient.android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::authClient.android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::authClient.android.Resource.Styleable.TabLayout_tabTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance = global::authClient.android.Resource.Styleable.TextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::authClient.android.Resource.Styleable.TextAppearance_android_textColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::authClient.android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::authClient.android.Resource.Styleable.TextAppearance_android_textSize;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::authClient.android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::authClient.android.Resource.Styleable.TextAppearance_android_typeface;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::authClient.android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout = global::authClient.android.Resource.Styleable.TextInputLayout;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::authClient.android.Resource.Styleable.TextInputLayout_android_hint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::authClient.android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::authClient.android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar = global::authClient.android.Resource.Styleable.Toolbar;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_android_gravity = global::authClient.android.Resource.Styleable.Toolbar_android_gravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::authClient.android.Resource.Styleable.Toolbar_android_minHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::authClient.android.Resource.Styleable.Toolbar_buttonGravity;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::authClient.android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::authClient.android.Resource.Styleable.Toolbar_collapseIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::authClient.android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::authClient.android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::authClient.android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::authClient.android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::authClient.android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::authClient.android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_logo = global::authClient.android.Resource.Styleable.Toolbar_logo;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_logoDescription = global::authClient.android.Resource.Styleable.Toolbar_logoDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::authClient.android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::authClient.android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::authClient.android.Resource.Styleable.Toolbar_navigationIcon;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_popupTheme = global::authClient.android.Resource.Styleable.Toolbar_popupTheme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitle = global::authClient.android.Resource.Styleable.Toolbar_subtitle;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::authClient.android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::authClient.android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_title = global::authClient.android.Resource.Styleable.Toolbar_title;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargin = global::authClient.android.Resource.Styleable.Toolbar_titleMargin;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::authClient.android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::authClient.android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::authClient.android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::authClient.android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargins = global::authClient.android.Resource.Styleable.Toolbar_titleMargins;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::authClient.android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::authClient.android.Resource.Styleable.Toolbar_titleTextColor;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.View = global::authClient.android.Resource.Styleable.View;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.View_android_focusable = global::authClient.android.Resource.Styleable.View_android_focusable;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.View_android_theme = global::authClient.android.Resource.Styleable.View_android_theme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.View_paddingEnd = global::authClient.android.Resource.Styleable.View_paddingEnd;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.View_paddingStart = global::authClient.android.Resource.Styleable.View_paddingStart;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.View_theme = global::authClient.android.Resource.Styleable.View_theme;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper = global::authClient.android.Resource.Styleable.ViewBackgroundHelper;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat = global::authClient.android.Resource.Styleable.ViewStubCompat;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::authClient.android.Resource.Styleable.ViewStubCompat_android_id;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::authClient.android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::authClient.android.Resource.Styleable.ViewStubCompat_android_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_fade_in = global::authClient.android.Resource.Animation.abc_fade_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_fade_out = global::authClient.android.Resource.Animation.abc_fade_out;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::authClient.android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_popup_enter = global::authClient.android.Resource.Animation.abc_popup_enter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_popup_exit = global::authClient.android.Resource.Animation.abc_popup_exit;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::authClient.android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_in_bottom = global::authClient.android.Resource.Animation.abc_slide_in_bottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_in_top = global::authClient.android.Resource.Animation.abc_slide_in_top;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_out_bottom = global::authClient.android.Resource.Animation.abc_slide_out_bottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_out_top = global::authClient.android.Resource.Animation.abc_slide_out_top;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_tooltip_enter = global::authClient.android.Resource.Animation.abc_tooltip_enter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_tooltip_exit = global::authClient.android.Resource.Animation.abc_tooltip_exit;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::authClient.android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::authClient.android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_snackbar_in = global::authClient.android.Resource.Animation.design_snackbar_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_snackbar_out = global::authClient.android.Resource.Animation.design_snackbar_out;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.EnterFromLeft = global::authClient.android.Resource.Animation.EnterFromLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.EnterFromRight = global::authClient.android.Resource.Animation.EnterFromRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.ExitToLeft = global::authClient.android.Resource.Animation.ExitToLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.ExitToRight = global::authClient.android.Resource.Animation.ExitToRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.design_appbar_state_list_animator = global::authClient.android.Resource.Animator.design_appbar_state_list_animator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.design_fab_hide_motion_spec = global::authClient.android.Resource.Animator.design_fab_hide_motion_spec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.design_fab_show_motion_spec = global::authClient.android.Resource.Animator.design_fab_show_motion_spec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_btn_state_list_anim = global::authClient.android.Resource.Animator.mtrl_btn_state_list_anim;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::authClient.android.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_chip_state_list_anim = global::authClient.android.Resource.Animator.mtrl_chip_state_list_anim;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::authClient.android.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::authClient.android.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::authClient.android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::authClient.android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarDivider = global::authClient.android.Resource.Attribute.actionBarDivider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarItemBackground = global::authClient.android.Resource.Attribute.actionBarItemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarPopupTheme = global::authClient.android.Resource.Attribute.actionBarPopupTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarSize = global::authClient.android.Resource.Attribute.actionBarSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarSplitStyle = global::authClient.android.Resource.Attribute.actionBarSplitStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarStyle = global::authClient.android.Resource.Attribute.actionBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTabBarStyle = global::authClient.android.Resource.Attribute.actionBarTabBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTabStyle = global::authClient.android.Resource.Attribute.actionBarTabStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTabTextStyle = global::authClient.android.Resource.Attribute.actionBarTabTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTheme = global::authClient.android.Resource.Attribute.actionBarTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarWidgetTheme = global::authClient.android.Resource.Attribute.actionBarWidgetTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionButtonStyle = global::authClient.android.Resource.Attribute.actionButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionDropDownStyle = global::authClient.android.Resource.Attribute.actionDropDownStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionLayout = global::authClient.android.Resource.Attribute.actionLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionMenuTextAppearance = global::authClient.android.Resource.Attribute.actionMenuTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionMenuTextColor = global::authClient.android.Resource.Attribute.actionMenuTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeBackground = global::authClient.android.Resource.Attribute.actionModeBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::authClient.android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCloseDrawable = global::authClient.android.Resource.Attribute.actionModeCloseDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCopyDrawable = global::authClient.android.Resource.Attribute.actionModeCopyDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCutDrawable = global::authClient.android.Resource.Attribute.actionModeCutDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeFindDrawable = global::authClient.android.Resource.Attribute.actionModeFindDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModePasteDrawable = global::authClient.android.Resource.Attribute.actionModePasteDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModePopupWindowStyle = global::authClient.android.Resource.Attribute.actionModePopupWindowStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::authClient.android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeShareDrawable = global::authClient.android.Resource.Attribute.actionModeShareDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeSplitBackground = global::authClient.android.Resource.Attribute.actionModeSplitBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeStyle = global::authClient.android.Resource.Attribute.actionModeStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::authClient.android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionOverflowButtonStyle = global::authClient.android.Resource.Attribute.actionOverflowButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionOverflowMenuStyle = global::authClient.android.Resource.Attribute.actionOverflowMenuStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionProviderClass = global::authClient.android.Resource.Attribute.actionProviderClass;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionViewClass = global::authClient.android.Resource.Attribute.actionViewClass;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.activityChooserViewStyle = global::authClient.android.Resource.Attribute.activityChooserViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::authClient.android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogCenterButtons = global::authClient.android.Resource.Attribute.alertDialogCenterButtons;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogStyle = global::authClient.android.Resource.Attribute.alertDialogStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogTheme = global::authClient.android.Resource.Attribute.alertDialogTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.allowStacking = global::authClient.android.Resource.Attribute.allowStacking;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alpha = global::authClient.android.Resource.Attribute.alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alphabeticModifiers = global::authClient.android.Resource.Attribute.alphabeticModifiers;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.arrowHeadLength = global::authClient.android.Resource.Attribute.arrowHeadLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.arrowShaftLength = global::authClient.android.Resource.Attribute.arrowShaftLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::authClient.android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeMaxTextSize = global::authClient.android.Resource.Attribute.autoSizeMaxTextSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeMinTextSize = global::authClient.android.Resource.Attribute.autoSizeMinTextSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizePresetSizes = global::authClient.android.Resource.Attribute.autoSizePresetSizes;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeStepGranularity = global::authClient.android.Resource.Attribute.autoSizeStepGranularity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeTextType = global::authClient.android.Resource.Attribute.autoSizeTextType;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.background = global::authClient.android.Resource.Attribute.background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundSplit = global::authClient.android.Resource.Attribute.backgroundSplit;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundStacked = global::authClient.android.Resource.Attribute.backgroundStacked;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundTint = global::authClient.android.Resource.Attribute.backgroundTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundTintMode = global::authClient.android.Resource.Attribute.backgroundTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.barLength = global::authClient.android.Resource.Attribute.barLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_autoHide = global::authClient.android.Resource.Attribute.behavior_autoHide;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_fitToContents = global::authClient.android.Resource.Attribute.behavior_fitToContents;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_hideable = global::authClient.android.Resource.Attribute.behavior_hideable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_overlapTop = global::authClient.android.Resource.Attribute.behavior_overlapTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_peekHeight = global::authClient.android.Resource.Attribute.behavior_peekHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_skipCollapsed = global::authClient.android.Resource.Attribute.behavior_skipCollapsed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.borderlessButtonStyle = global::authClient.android.Resource.Attribute.borderlessButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.borderWidth = global::authClient.android.Resource.Attribute.borderWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomAppBarStyle = global::authClient.android.Resource.Attribute.bottomAppBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomNavigationStyle = global::authClient.android.Resource.Attribute.bottomNavigationStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomSheetDialogTheme = global::authClient.android.Resource.Attribute.bottomSheetDialogTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomSheetStyle = global::authClient.android.Resource.Attribute.bottomSheetStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxBackgroundColor = global::authClient.android.Resource.Attribute.boxBackgroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxBackgroundMode = global::authClient.android.Resource.Attribute.boxBackgroundMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCollapsedPaddingTop = global::authClient.android.Resource.Attribute.boxCollapsedPaddingTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::authClient.android.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::authClient.android.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::authClient.android.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusTopStart = global::authClient.android.Resource.Attribute.boxCornerRadiusTopStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxStrokeColor = global::authClient.android.Resource.Attribute.boxStrokeColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxStrokeWidth = global::authClient.android.Resource.Attribute.boxStrokeWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarButtonStyle = global::authClient.android.Resource.Attribute.buttonBarButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::authClient.android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::authClient.android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::authClient.android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarStyle = global::authClient.android.Resource.Attribute.buttonBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonGravity = global::authClient.android.Resource.Attribute.buttonGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonIconDimen = global::authClient.android.Resource.Attribute.buttonIconDimen;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonPanelSideLayout = global::authClient.android.Resource.Attribute.buttonPanelSideLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonStyle = global::authClient.android.Resource.Attribute.buttonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonStyleSmall = global::authClient.android.Resource.Attribute.buttonStyleSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonTint = global::authClient.android.Resource.Attribute.buttonTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonTintMode = global::authClient.android.Resource.Attribute.buttonTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardBackgroundColor = global::authClient.android.Resource.Attribute.cardBackgroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardCornerRadius = global::authClient.android.Resource.Attribute.cardCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardElevation = global::authClient.android.Resource.Attribute.cardElevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardMaxElevation = global::authClient.android.Resource.Attribute.cardMaxElevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardPreventCornerOverlap = global::authClient.android.Resource.Attribute.cardPreventCornerOverlap;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardUseCompatPadding = global::authClient.android.Resource.Attribute.cardUseCompatPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardViewStyle = global::authClient.android.Resource.Attribute.cardViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkboxStyle = global::authClient.android.Resource.Attribute.checkboxStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedChip = global::authClient.android.Resource.Attribute.checkedChip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedIcon = global::authClient.android.Resource.Attribute.checkedIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedIconEnabled = global::authClient.android.Resource.Attribute.checkedIconEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedIconVisible = global::authClient.android.Resource.Attribute.checkedIconVisible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedTextViewStyle = global::authClient.android.Resource.Attribute.checkedTextViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipBackgroundColor = global::authClient.android.Resource.Attribute.chipBackgroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipCornerRadius = global::authClient.android.Resource.Attribute.chipCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipEndPadding = global::authClient.android.Resource.Attribute.chipEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipGroupStyle = global::authClient.android.Resource.Attribute.chipGroupStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIcon = global::authClient.android.Resource.Attribute.chipIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconEnabled = global::authClient.android.Resource.Attribute.chipIconEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconSize = global::authClient.android.Resource.Attribute.chipIconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconTint = global::authClient.android.Resource.Attribute.chipIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconVisible = global::authClient.android.Resource.Attribute.chipIconVisible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipMinHeight = global::authClient.android.Resource.Attribute.chipMinHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipSpacing = global::authClient.android.Resource.Attribute.chipSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipSpacingHorizontal = global::authClient.android.Resource.Attribute.chipSpacingHorizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipSpacingVertical = global::authClient.android.Resource.Attribute.chipSpacingVertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStandaloneStyle = global::authClient.android.Resource.Attribute.chipStandaloneStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStartPadding = global::authClient.android.Resource.Attribute.chipStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStrokeColor = global::authClient.android.Resource.Attribute.chipStrokeColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStrokeWidth = global::authClient.android.Resource.Attribute.chipStrokeWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStyle = global::authClient.android.Resource.Attribute.chipStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIcon = global::authClient.android.Resource.Attribute.closeIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconEnabled = global::authClient.android.Resource.Attribute.closeIconEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconEndPadding = global::authClient.android.Resource.Attribute.closeIconEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconSize = global::authClient.android.Resource.Attribute.closeIconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconStartPadding = global::authClient.android.Resource.Attribute.closeIconStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconTint = global::authClient.android.Resource.Attribute.closeIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconVisible = global::authClient.android.Resource.Attribute.closeIconVisible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeItemLayout = global::authClient.android.Resource.Attribute.closeItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapseContentDescription = global::authClient.android.Resource.Attribute.collapseContentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapsedTitleGravity = global::authClient.android.Resource.Attribute.collapsedTitleGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::authClient.android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapseIcon = global::authClient.android.Resource.Attribute.collapseIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.color = global::authClient.android.Resource.Attribute.color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorAccent = global::authClient.android.Resource.Attribute.colorAccent;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorBackgroundFloating = global::authClient.android.Resource.Attribute.colorBackgroundFloating;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorButtonNormal = global::authClient.android.Resource.Attribute.colorButtonNormal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorControlActivated = global::authClient.android.Resource.Attribute.colorControlActivated;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorControlHighlight = global::authClient.android.Resource.Attribute.colorControlHighlight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorControlNormal = global::authClient.android.Resource.Attribute.colorControlNormal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorError = global::authClient.android.Resource.Attribute.colorError;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorPrimary = global::authClient.android.Resource.Attribute.colorPrimary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorPrimaryDark = global::authClient.android.Resource.Attribute.colorPrimaryDark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorSecondary = global::authClient.android.Resource.Attribute.colorSecondary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorSwitchThumbNormal = global::authClient.android.Resource.Attribute.colorSwitchThumbNormal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.commitIcon = global::authClient.android.Resource.Attribute.commitIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentDescription = global::authClient.android.Resource.Attribute.contentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetEnd = global::authClient.android.Resource.Attribute.contentInsetEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetEndWithActions = global::authClient.android.Resource.Attribute.contentInsetEndWithActions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetLeft = global::authClient.android.Resource.Attribute.contentInsetLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetRight = global::authClient.android.Resource.Attribute.contentInsetRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetStart = global::authClient.android.Resource.Attribute.contentInsetStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::authClient.android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPadding = global::authClient.android.Resource.Attribute.contentPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingBottom = global::authClient.android.Resource.Attribute.contentPaddingBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingLeft = global::authClient.android.Resource.Attribute.contentPaddingLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingRight = global::authClient.android.Resource.Attribute.contentPaddingRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingTop = global::authClient.android.Resource.Attribute.contentPaddingTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentScrim = global::authClient.android.Resource.Attribute.contentScrim;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.controlBackground = global::authClient.android.Resource.Attribute.controlBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.coordinatorLayoutStyle = global::authClient.android.Resource.Attribute.coordinatorLayoutStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cornerRadius = global::authClient.android.Resource.Attribute.cornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterEnabled = global::authClient.android.Resource.Attribute.counterEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterMaxLength = global::authClient.android.Resource.Attribute.counterMaxLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterOverflowTextAppearance = global::authClient.android.Resource.Attribute.counterOverflowTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterTextAppearance = global::authClient.android.Resource.Attribute.counterTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.customNavigationLayout = global::authClient.android.Resource.Attribute.customNavigationLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.defaultQueryHint = global::authClient.android.Resource.Attribute.defaultQueryHint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dialogCornerRadius = global::authClient.android.Resource.Attribute.dialogCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dialogPreferredPadding = global::authClient.android.Resource.Attribute.dialogPreferredPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dialogTheme = global::authClient.android.Resource.Attribute.dialogTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.displayOptions = global::authClient.android.Resource.Attribute.displayOptions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.divider = global::authClient.android.Resource.Attribute.divider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dividerHorizontal = global::authClient.android.Resource.Attribute.dividerHorizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dividerPadding = global::authClient.android.Resource.Attribute.dividerPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dividerVertical = global::authClient.android.Resource.Attribute.dividerVertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.drawableSize = global::authClient.android.Resource.Attribute.drawableSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.drawerArrowStyle = global::authClient.android.Resource.Attribute.drawerArrowStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::authClient.android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dropDownListViewStyle = global::authClient.android.Resource.Attribute.dropDownListViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.editTextBackground = global::authClient.android.Resource.Attribute.editTextBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.editTextColor = global::authClient.android.Resource.Attribute.editTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.editTextStyle = global::authClient.android.Resource.Attribute.editTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.elevation = global::authClient.android.Resource.Attribute.elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.enforceMaterialTheme = global::authClient.android.Resource.Attribute.enforceMaterialTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.enforceTextAppearance = global::authClient.android.Resource.Attribute.enforceTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.errorEnabled = global::authClient.android.Resource.Attribute.errorEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.errorTextAppearance = global::authClient.android.Resource.Attribute.errorTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::authClient.android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expanded = global::authClient.android.Resource.Attribute.expanded;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleGravity = global::authClient.android.Resource.Attribute.expandedTitleGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMargin = global::authClient.android.Resource.Attribute.expandedTitleMargin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginBottom = global::authClient.android.Resource.Attribute.expandedTitleMarginBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginEnd = global::authClient.android.Resource.Attribute.expandedTitleMarginEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginStart = global::authClient.android.Resource.Attribute.expandedTitleMarginStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginTop = global::authClient.android.Resource.Attribute.expandedTitleMarginTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleTextAppearance = global::authClient.android.Resource.Attribute.expandedTitleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::authClient.android.Resource.Attribute.externalRouteEnabledDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabAlignmentMode = global::authClient.android.Resource.Attribute.fabAlignmentMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCradleMargin = global::authClient.android.Resource.Attribute.fabCradleMargin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::authClient.android.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCradleVerticalOffset = global::authClient.android.Resource.Attribute.fabCradleVerticalOffset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCustomSize = global::authClient.android.Resource.Attribute.fabCustomSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabSize = global::authClient.android.Resource.Attribute.fabSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollEnabled = global::authClient.android.Resource.Attribute.fastScrollEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::authClient.android.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::authClient.android.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::authClient.android.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::authClient.android.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.firstBaselineToTopHeight = global::authClient.android.Resource.Attribute.firstBaselineToTopHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.floatingActionButtonStyle = global::authClient.android.Resource.Attribute.floatingActionButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.font = global::authClient.android.Resource.Attribute.font;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontFamily = global::authClient.android.Resource.Attribute.fontFamily;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderAuthority = global::authClient.android.Resource.Attribute.fontProviderAuthority;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderCerts = global::authClient.android.Resource.Attribute.fontProviderCerts;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderFetchStrategy = global::authClient.android.Resource.Attribute.fontProviderFetchStrategy;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderFetchTimeout = global::authClient.android.Resource.Attribute.fontProviderFetchTimeout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderPackage = global::authClient.android.Resource.Attribute.fontProviderPackage;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderQuery = global::authClient.android.Resource.Attribute.fontProviderQuery;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontStyle = global::authClient.android.Resource.Attribute.fontStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontVariationSettings = global::authClient.android.Resource.Attribute.fontVariationSettings;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontWeight = global::authClient.android.Resource.Attribute.fontWeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.foregroundInsidePadding = global::authClient.android.Resource.Attribute.foregroundInsidePadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.gapBetweenBars = global::authClient.android.Resource.Attribute.gapBetweenBars;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.goIcon = global::authClient.android.Resource.Attribute.goIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.headerLayout = global::authClient.android.Resource.Attribute.headerLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.height = global::authClient.android.Resource.Attribute.height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.helperText = global::authClient.android.Resource.Attribute.helperText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.helperTextEnabled = global::authClient.android.Resource.Attribute.helperTextEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.helperTextTextAppearance = global::authClient.android.Resource.Attribute.helperTextTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hideMotionSpec = global::authClient.android.Resource.Attribute.hideMotionSpec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hideOnContentScroll = global::authClient.android.Resource.Attribute.hideOnContentScroll;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hideOnScroll = global::authClient.android.Resource.Attribute.hideOnScroll;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hintAnimationEnabled = global::authClient.android.Resource.Attribute.hintAnimationEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hintEnabled = global::authClient.android.Resource.Attribute.hintEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hintTextAppearance = global::authClient.android.Resource.Attribute.hintTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.homeAsUpIndicator = global::authClient.android.Resource.Attribute.homeAsUpIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.homeLayout = global::authClient.android.Resource.Attribute.homeLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::authClient.android.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.icon = global::authClient.android.Resource.Attribute.icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconEndPadding = global::authClient.android.Resource.Attribute.iconEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconGravity = global::authClient.android.Resource.Attribute.iconGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconifiedByDefault = global::authClient.android.Resource.Attribute.iconifiedByDefault;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconPadding = global::authClient.android.Resource.Attribute.iconPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconSize = global::authClient.android.Resource.Attribute.iconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconStartPadding = global::authClient.android.Resource.Attribute.iconStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconTint = global::authClient.android.Resource.Attribute.iconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconTintMode = global::authClient.android.Resource.Attribute.iconTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.imageButtonStyle = global::authClient.android.Resource.Attribute.imageButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.indeterminateProgressStyle = global::authClient.android.Resource.Attribute.indeterminateProgressStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.initialActivityCount = global::authClient.android.Resource.Attribute.initialActivityCount;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.insetForeground = global::authClient.android.Resource.Attribute.insetForeground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.isLightTheme = global::authClient.android.Resource.Attribute.isLightTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemBackground = global::authClient.android.Resource.Attribute.itemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemHorizontalPadding = global::authClient.android.Resource.Attribute.itemHorizontalPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::authClient.android.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemIconPadding = global::authClient.android.Resource.Attribute.itemIconPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemIconSize = global::authClient.android.Resource.Attribute.itemIconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemIconTint = global::authClient.android.Resource.Attribute.itemIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemPadding = global::authClient.android.Resource.Attribute.itemPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemSpacing = global::authClient.android.Resource.Attribute.itemSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextAppearance = global::authClient.android.Resource.Attribute.itemTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextAppearanceActive = global::authClient.android.Resource.Attribute.itemTextAppearanceActive;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextAppearanceInactive = global::authClient.android.Resource.Attribute.itemTextAppearanceInactive;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextColor = global::authClient.android.Resource.Attribute.itemTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.keylines = global::authClient.android.Resource.Attribute.keylines;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.labelVisibilityMode = global::authClient.android.Resource.Attribute.labelVisibilityMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.lastBaselineToBottomHeight = global::authClient.android.Resource.Attribute.lastBaselineToBottomHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout = global::authClient.android.Resource.Attribute.layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layoutManager = global::authClient.android.Resource.Attribute.layoutManager;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_anchor = global::authClient.android.Resource.Attribute.layout_anchor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_anchorGravity = global::authClient.android.Resource.Attribute.layout_anchorGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_behavior = global::authClient.android.Resource.Attribute.layout_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_collapseMode = global::authClient.android.Resource.Attribute.layout_collapseMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::authClient.android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::authClient.android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_insetEdge = global::authClient.android.Resource.Attribute.layout_insetEdge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_keyline = global::authClient.android.Resource.Attribute.layout_keyline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_scrollFlags = global::authClient.android.Resource.Attribute.layout_scrollFlags;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_scrollInterpolator = global::authClient.android.Resource.Attribute.layout_scrollInterpolator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.liftOnScroll = global::authClient.android.Resource.Attribute.liftOnScroll;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.lineHeight = global::authClient.android.Resource.Attribute.lineHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.lineSpacing = global::authClient.android.Resource.Attribute.lineSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::authClient.android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listDividerAlertDialog = global::authClient.android.Resource.Attribute.listDividerAlertDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listItemLayout = global::authClient.android.Resource.Attribute.listItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listLayout = global::authClient.android.Resource.Attribute.listLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listMenuViewStyle = global::authClient.android.Resource.Attribute.listMenuViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPopupWindowStyle = global::authClient.android.Resource.Attribute.listPopupWindowStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemHeight = global::authClient.android.Resource.Attribute.listPreferredItemHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::authClient.android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::authClient.android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::authClient.android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::authClient.android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.logo = global::authClient.android.Resource.Attribute.logo;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.logoDescription = global::authClient.android.Resource.Attribute.logoDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.materialButtonStyle = global::authClient.android.Resource.Attribute.materialButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.materialCardViewStyle = global::authClient.android.Resource.Attribute.materialCardViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.maxActionInlineWidth = global::authClient.android.Resource.Attribute.maxActionInlineWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.maxButtonHeight = global::authClient.android.Resource.Attribute.maxButtonHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.maxImageSize = global::authClient.android.Resource.Attribute.maxImageSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.measureWithLargestChild = global::authClient.android.Resource.Attribute.measureWithLargestChild;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::authClient.android.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteButtonStyle = global::authClient.android.Resource.Attribute.mediaRouteButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteButtonTint = global::authClient.android.Resource.Attribute.mediaRouteButtonTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteCloseDrawable = global::authClient.android.Resource.Attribute.mediaRouteCloseDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::authClient.android.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::authClient.android.Resource.Attribute.mediaRoutePauseDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::authClient.android.Resource.Attribute.mediaRoutePlayDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteStopDrawable = global::authClient.android.Resource.Attribute.mediaRouteStopDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteTheme = global::authClient.android.Resource.Attribute.mediaRouteTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.menu = global::authClient.android.Resource.Attribute.menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.multiChoiceItemLayout = global::authClient.android.Resource.Attribute.multiChoiceItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationContentDescription = global::authClient.android.Resource.Attribute.navigationContentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationIcon = global::authClient.android.Resource.Attribute.navigationIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationMode = global::authClient.android.Resource.Attribute.navigationMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationViewStyle = global::authClient.android.Resource.Attribute.navigationViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.numericModifiers = global::authClient.android.Resource.Attribute.numericModifiers;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.overlapAnchor = global::authClient.android.Resource.Attribute.overlapAnchor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingBottomNoButtons = global::authClient.android.Resource.Attribute.paddingBottomNoButtons;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingEnd = global::authClient.android.Resource.Attribute.paddingEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingStart = global::authClient.android.Resource.Attribute.paddingStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingTopNoTitle = global::authClient.android.Resource.Attribute.paddingTopNoTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.panelBackground = global::authClient.android.Resource.Attribute.panelBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.panelMenuListTheme = global::authClient.android.Resource.Attribute.panelMenuListTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.panelMenuListWidth = global::authClient.android.Resource.Attribute.panelMenuListWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleContentDescription = global::authClient.android.Resource.Attribute.passwordToggleContentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleDrawable = global::authClient.android.Resource.Attribute.passwordToggleDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleEnabled = global::authClient.android.Resource.Attribute.passwordToggleEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleTint = global::authClient.android.Resource.Attribute.passwordToggleTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleTintMode = global::authClient.android.Resource.Attribute.passwordToggleTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.popupMenuStyle = global::authClient.android.Resource.Attribute.popupMenuStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.popupTheme = global::authClient.android.Resource.Attribute.popupTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.popupWindowStyle = global::authClient.android.Resource.Attribute.popupWindowStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.preserveIconSpacing = global::authClient.android.Resource.Attribute.preserveIconSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.pressedTranslationZ = global::authClient.android.Resource.Attribute.pressedTranslationZ;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.progressBarPadding = global::authClient.android.Resource.Attribute.progressBarPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.progressBarStyle = global::authClient.android.Resource.Attribute.progressBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.queryBackground = global::authClient.android.Resource.Attribute.queryBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.queryHint = global::authClient.android.Resource.Attribute.queryHint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.radioButtonStyle = global::authClient.android.Resource.Attribute.radioButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ratingBarStyle = global::authClient.android.Resource.Attribute.ratingBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ratingBarStyleIndicator = global::authClient.android.Resource.Attribute.ratingBarStyleIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ratingBarStyleSmall = global::authClient.android.Resource.Attribute.ratingBarStyleSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.reverseLayout = global::authClient.android.Resource.Attribute.reverseLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.rippleColor = global::authClient.android.Resource.Attribute.rippleColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.scrimAnimationDuration = global::authClient.android.Resource.Attribute.scrimAnimationDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.scrimBackground = global::authClient.android.Resource.Attribute.scrimBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::authClient.android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.searchHintIcon = global::authClient.android.Resource.Attribute.searchHintIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.searchIcon = global::authClient.android.Resource.Attribute.searchIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.searchViewStyle = global::authClient.android.Resource.Attribute.searchViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.seekBarStyle = global::authClient.android.Resource.Attribute.seekBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.selectableItemBackground = global::authClient.android.Resource.Attribute.selectableItemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::authClient.android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showAsAction = global::authClient.android.Resource.Attribute.showAsAction;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showDividers = global::authClient.android.Resource.Attribute.showDividers;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showMotionSpec = global::authClient.android.Resource.Attribute.showMotionSpec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showText = global::authClient.android.Resource.Attribute.showText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showTitle = global::authClient.android.Resource.Attribute.showTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.singleChoiceItemLayout = global::authClient.android.Resource.Attribute.singleChoiceItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.singleLine = global::authClient.android.Resource.Attribute.singleLine;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.singleSelection = global::authClient.android.Resource.Attribute.singleSelection;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.snackbarButtonStyle = global::authClient.android.Resource.Attribute.snackbarButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.snackbarStyle = global::authClient.android.Resource.Attribute.snackbarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spanCount = global::authClient.android.Resource.Attribute.spanCount;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spinBars = global::authClient.android.Resource.Attribute.spinBars;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::authClient.android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spinnerStyle = global::authClient.android.Resource.Attribute.spinnerStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.splitTrack = global::authClient.android.Resource.Attribute.splitTrack;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.srcCompat = global::authClient.android.Resource.Attribute.srcCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.stackFromEnd = global::authClient.android.Resource.Attribute.stackFromEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_above_anchor = global::authClient.android.Resource.Attribute.state_above_anchor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_collapsed = global::authClient.android.Resource.Attribute.state_collapsed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_collapsible = global::authClient.android.Resource.Attribute.state_collapsible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_liftable = global::authClient.android.Resource.Attribute.state_liftable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_lifted = global::authClient.android.Resource.Attribute.state_lifted;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.statusBarBackground = global::authClient.android.Resource.Attribute.statusBarBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.statusBarScrim = global::authClient.android.Resource.Attribute.statusBarScrim;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.strokeColor = global::authClient.android.Resource.Attribute.strokeColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.strokeWidth = global::authClient.android.Resource.Attribute.strokeWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subMenuArrow = global::authClient.android.Resource.Attribute.subMenuArrow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.submitBackground = global::authClient.android.Resource.Attribute.submitBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitle = global::authClient.android.Resource.Attribute.subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitleTextAppearance = global::authClient.android.Resource.Attribute.subtitleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitleTextColor = global::authClient.android.Resource.Attribute.subtitleTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitleTextStyle = global::authClient.android.Resource.Attribute.subtitleTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.suggestionRowLayout = global::authClient.android.Resource.Attribute.suggestionRowLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchMinWidth = global::authClient.android.Resource.Attribute.switchMinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchPadding = global::authClient.android.Resource.Attribute.switchPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchStyle = global::authClient.android.Resource.Attribute.switchStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchTextAppearance = global::authClient.android.Resource.Attribute.switchTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabBackground = global::authClient.android.Resource.Attribute.tabBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabContentStart = global::authClient.android.Resource.Attribute.tabContentStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabGravity = global::authClient.android.Resource.Attribute.tabGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIconTint = global::authClient.android.Resource.Attribute.tabIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIconTintMode = global::authClient.android.Resource.Attribute.tabIconTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicator = global::authClient.android.Resource.Attribute.tabIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::authClient.android.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorColor = global::authClient.android.Resource.Attribute.tabIndicatorColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorFullWidth = global::authClient.android.Resource.Attribute.tabIndicatorFullWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorGravity = global::authClient.android.Resource.Attribute.tabIndicatorGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorHeight = global::authClient.android.Resource.Attribute.tabIndicatorHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabInlineLabel = global::authClient.android.Resource.Attribute.tabInlineLabel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabMaxWidth = global::authClient.android.Resource.Attribute.tabMaxWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabMinWidth = global::authClient.android.Resource.Attribute.tabMinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabMode = global::authClient.android.Resource.Attribute.tabMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPadding = global::authClient.android.Resource.Attribute.tabPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingBottom = global::authClient.android.Resource.Attribute.tabPaddingBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingEnd = global::authClient.android.Resource.Attribute.tabPaddingEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingStart = global::authClient.android.Resource.Attribute.tabPaddingStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingTop = global::authClient.android.Resource.Attribute.tabPaddingTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabRippleColor = global::authClient.android.Resource.Attribute.tabRippleColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabSelectedTextColor = global::authClient.android.Resource.Attribute.tabSelectedTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabStyle = global::authClient.android.Resource.Attribute.tabStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabTextAppearance = global::authClient.android.Resource.Attribute.tabTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabTextColor = global::authClient.android.Resource.Attribute.tabTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabUnboundedRipple = global::authClient.android.Resource.Attribute.tabUnboundedRipple;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAllCaps = global::authClient.android.Resource.Attribute.textAllCaps;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceBody1 = global::authClient.android.Resource.Attribute.textAppearanceBody1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceBody2 = global::authClient.android.Resource.Attribute.textAppearanceBody2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceButton = global::authClient.android.Resource.Attribute.textAppearanceButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceCaption = global::authClient.android.Resource.Attribute.textAppearanceCaption;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline1 = global::authClient.android.Resource.Attribute.textAppearanceHeadline1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline2 = global::authClient.android.Resource.Attribute.textAppearanceHeadline2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline3 = global::authClient.android.Resource.Attribute.textAppearanceHeadline3;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline4 = global::authClient.android.Resource.Attribute.textAppearanceHeadline4;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline5 = global::authClient.android.Resource.Attribute.textAppearanceHeadline5;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline6 = global::authClient.android.Resource.Attribute.textAppearanceHeadline6;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::authClient.android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceListItem = global::authClient.android.Resource.Attribute.textAppearanceListItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::authClient.android.Resource.Attribute.textAppearanceListItemSecondary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceListItemSmall = global::authClient.android.Resource.Attribute.textAppearanceListItemSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceOverline = global::authClient.android.Resource.Attribute.textAppearanceOverline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::authClient.android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::authClient.android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::authClient.android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::authClient.android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSubtitle1 = global::authClient.android.Resource.Attribute.textAppearanceSubtitle1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSubtitle2 = global::authClient.android.Resource.Attribute.textAppearanceSubtitle2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textColorAlertDialogListItem = global::authClient.android.Resource.Attribute.textColorAlertDialogListItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textColorSearchUrl = global::authClient.android.Resource.Attribute.textColorSearchUrl;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textEndPadding = global::authClient.android.Resource.Attribute.textEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textInputStyle = global::authClient.android.Resource.Attribute.textInputStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textStartPadding = global::authClient.android.Resource.Attribute.textStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.theme = global::authClient.android.Resource.Attribute.theme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thickness = global::authClient.android.Resource.Attribute.thickness;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thumbTextPadding = global::authClient.android.Resource.Attribute.thumbTextPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thumbTint = global::authClient.android.Resource.Attribute.thumbTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thumbTintMode = global::authClient.android.Resource.Attribute.thumbTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tickMark = global::authClient.android.Resource.Attribute.tickMark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tickMarkTint = global::authClient.android.Resource.Attribute.tickMarkTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tickMarkTintMode = global::authClient.android.Resource.Attribute.tickMarkTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tint = global::authClient.android.Resource.Attribute.tint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tintMode = global::authClient.android.Resource.Attribute.tintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.title = global::authClient.android.Resource.Attribute.title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleEnabled = global::authClient.android.Resource.Attribute.titleEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMargin = global::authClient.android.Resource.Attribute.titleMargin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginBottom = global::authClient.android.Resource.Attribute.titleMarginBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginEnd = global::authClient.android.Resource.Attribute.titleMarginEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMargins = global::authClient.android.Resource.Attribute.titleMargins;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginStart = global::authClient.android.Resource.Attribute.titleMarginStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginTop = global::authClient.android.Resource.Attribute.titleMarginTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleTextAppearance = global::authClient.android.Resource.Attribute.titleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleTextColor = global::authClient.android.Resource.Attribute.titleTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleTextStyle = global::authClient.android.Resource.Attribute.titleTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.toolbarId = global::authClient.android.Resource.Attribute.toolbarId;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::authClient.android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.toolbarStyle = global::authClient.android.Resource.Attribute.toolbarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tooltipForegroundColor = global::authClient.android.Resource.Attribute.tooltipForegroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tooltipFrameBackground = global::authClient.android.Resource.Attribute.tooltipFrameBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tooltipText = global::authClient.android.Resource.Attribute.tooltipText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.track = global::authClient.android.Resource.Attribute.track;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.trackTint = global::authClient.android.Resource.Attribute.trackTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.trackTintMode = global::authClient.android.Resource.Attribute.trackTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ttcIndex = global::authClient.android.Resource.Attribute.ttcIndex;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.useCompatPadding = global::authClient.android.Resource.Attribute.useCompatPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.viewInflaterClass = global::authClient.android.Resource.Attribute.viewInflaterClass;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.voiceIcon = global::authClient.android.Resource.Attribute.voiceIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowActionBar = global::authClient.android.Resource.Attribute.windowActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowActionBarOverlay = global::authClient.android.Resource.Attribute.windowActionBarOverlay;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowActionModeOverlay = global::authClient.android.Resource.Attribute.windowActionModeOverlay;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedHeightMajor = global::authClient.android.Resource.Attribute.windowFixedHeightMajor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedHeightMinor = global::authClient.android.Resource.Attribute.windowFixedHeightMinor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedWidthMajor = global::authClient.android.Resource.Attribute.windowFixedWidthMajor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedWidthMinor = global::authClient.android.Resource.Attribute.windowFixedWidthMinor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowMinWidthMajor = global::authClient.android.Resource.Attribute.windowMinWidthMajor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowMinWidthMinor = global::authClient.android.Resource.Attribute.windowMinWidthMinor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowNoTitle = global::authClient.android.Resource.Attribute.windowNoTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::authClient.android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::authClient.android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::authClient.android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::authClient.android.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::authClient.android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::authClient.android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::authClient.android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_btn_colored_text_material = global::authClient.android.Resource.Color.abc_btn_colored_text_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_color_highlight_material = global::authClient.android.Resource.Color.abc_color_highlight_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_hint_foreground_material_dark = global::authClient.android.Resource.Color.abc_hint_foreground_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_hint_foreground_material_light = global::authClient.android.Resource.Color.abc_hint_foreground_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_input_method_navigation_guard = global::authClient.android.Resource.Color.abc_input_method_navigation_guard;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::authClient.android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::authClient.android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_material_dark = global::authClient.android.Resource.Color.abc_primary_text_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_material_light = global::authClient.android.Resource.Color.abc_primary_text_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text = global::authClient.android.Resource.Color.abc_search_url_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text_normal = global::authClient.android.Resource.Color.abc_search_url_text_normal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text_pressed = global::authClient.android.Resource.Color.abc_search_url_text_pressed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text_selected = global::authClient.android.Resource.Color.abc_search_url_text_selected;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_secondary_text_material_dark = global::authClient.android.Resource.Color.abc_secondary_text_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_secondary_text_material_light = global::authClient.android.Resource.Color.abc_secondary_text_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_btn_checkable = global::authClient.android.Resource.Color.abc_tint_btn_checkable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_default = global::authClient.android.Resource.Color.abc_tint_default;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_edittext = global::authClient.android.Resource.Color.abc_tint_edittext;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_seek_thumb = global::authClient.android.Resource.Color.abc_tint_seek_thumb;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_spinner = global::authClient.android.Resource.Color.abc_tint_spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_switch_track = global::authClient.android.Resource.Color.abc_tint_switch_track;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.accent_material_dark = global::authClient.android.Resource.Color.accent_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.accent_material_light = global::authClient.android.Resource.Color.accent_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_floating_material_dark = global::authClient.android.Resource.Color.background_floating_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_floating_material_light = global::authClient.android.Resource.Color.background_floating_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_material_dark = global::authClient.android.Resource.Color.background_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_material_light = global::authClient.android.Resource.Color.background_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::authClient.android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_disabled_material_light = global::authClient.android.Resource.Color.bright_foreground_disabled_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::authClient.android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_inverse_material_light = global::authClient.android.Resource.Color.bright_foreground_inverse_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_material_dark = global::authClient.android.Resource.Color.bright_foreground_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_material_light = global::authClient.android.Resource.Color.bright_foreground_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_bg_grey = global::authClient.android.Resource.Color.browser_actions_bg_grey;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_divider_color = global::authClient.android.Resource.Color.browser_actions_divider_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_text_color = global::authClient.android.Resource.Color.browser_actions_text_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_title_color = global::authClient.android.Resource.Color.browser_actions_title_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.button_material_dark = global::authClient.android.Resource.Color.button_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.button_material_light = global::authClient.android.Resource.Color.button_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_dark_background = global::authClient.android.Resource.Color.cardview_dark_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_light_background = global::authClient.android.Resource.Color.cardview_light_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_shadow_end_color = global::authClient.android.Resource.Color.cardview_shadow_end_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_shadow_start_color = global::authClient.android.Resource.Color.cardview_shadow_start_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::authClient.android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_default_color_primary = global::authClient.android.Resource.Color.design_default_color_primary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_default_color_primary_dark = global::authClient.android.Resource.Color.design_default_color_primary_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_error = global::authClient.android.Resource.Color.design_error;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_shadow_end_color = global::authClient.android.Resource.Color.design_fab_shadow_end_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_shadow_mid_color = global::authClient.android.Resource.Color.design_fab_shadow_mid_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_shadow_start_color = global::authClient.android.Resource.Color.design_fab_shadow_start_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::authClient.android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::authClient.android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::authClient.android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::authClient.android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_snackbar_background_color = global::authClient.android.Resource.Color.design_snackbar_background_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_tint_password_toggle = global::authClient.android.Resource.Color.design_tint_password_toggle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::authClient.android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_disabled_material_light = global::authClient.android.Resource.Color.dim_foreground_disabled_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_material_dark = global::authClient.android.Resource.Color.dim_foreground_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_material_light = global::authClient.android.Resource.Color.dim_foreground_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.error_color_material_dark = global::authClient.android.Resource.Color.error_color_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.error_color_material_light = global::authClient.android.Resource.Color.error_color_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.foreground_material_dark = global::authClient.android.Resource.Color.foreground_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.foreground_material_light = global::authClient.android.Resource.Color.foreground_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.highlighted_text_material_dark = global::authClient.android.Resource.Color.highlighted_text_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.highlighted_text_material_light = global::authClient.android.Resource.Color.highlighted_text_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_blue_grey_800 = global::authClient.android.Resource.Color.material_blue_grey_800;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_blue_grey_900 = global::authClient.android.Resource.Color.material_blue_grey_900;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_blue_grey_950 = global::authClient.android.Resource.Color.material_blue_grey_950;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_deep_teal_200 = global::authClient.android.Resource.Color.material_deep_teal_200;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_deep_teal_500 = global::authClient.android.Resource.Color.material_deep_teal_500;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_100 = global::authClient.android.Resource.Color.material_grey_100;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_300 = global::authClient.android.Resource.Color.material_grey_300;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_50 = global::authClient.android.Resource.Color.material_grey_50;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_600 = global::authClient.android.Resource.Color.material_grey_600;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_800 = global::authClient.android.Resource.Color.material_grey_800;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_850 = global::authClient.android.Resource.Color.material_grey_850;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_900 = global::authClient.android.Resource.Color.material_grey_900;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::authClient.android.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::authClient.android.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_bg_color_disabled = global::authClient.android.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_bg_color_selector = global::authClient.android.Resource.Color.mtrl_btn_bg_color_selector;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_ripple_color = global::authClient.android.Resource.Color.mtrl_btn_ripple_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::authClient.android.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::authClient.android.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_text_color_disabled = global::authClient.android.Resource.Color.mtrl_btn_text_color_disabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_text_color_selector = global::authClient.android.Resource.Color.mtrl_btn_text_color_selector;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::authClient.android.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_background_color = global::authClient.android.Resource.Color.mtrl_chip_background_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_close_icon_tint = global::authClient.android.Resource.Color.mtrl_chip_close_icon_tint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_ripple_color = global::authClient.android.Resource.Color.mtrl_chip_ripple_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_text_color = global::authClient.android.Resource.Color.mtrl_chip_text_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_fab_ripple_color = global::authClient.android.Resource.Color.mtrl_fab_ripple_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_scrim_color = global::authClient.android.Resource.Color.mtrl_scrim_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::authClient.android.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::authClient.android.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::authClient.android.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::authClient.android.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_ripple_color = global::authClient.android.Resource.Color.mtrl_tabs_ripple_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::authClient.android.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_disabled_color = global::authClient.android.Resource.Color.mtrl_textinput_disabled_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::authClient.android.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::authClient.android.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::authClient.android.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.notification_action_color_filter = global::authClient.android.Resource.Color.notification_action_color_filter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.notification_icon_bg_color = global::authClient.android.Resource.Color.notification_icon_bg_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.notification_material_background_media_default_color = global::authClient.android.Resource.Color.notification_material_background_media_default_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_dark_material_dark = global::authClient.android.Resource.Color.primary_dark_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_dark_material_light = global::authClient.android.Resource.Color.primary_dark_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_material_dark = global::authClient.android.Resource.Color.primary_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_material_light = global::authClient.android.Resource.Color.primary_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_default_material_dark = global::authClient.android.Resource.Color.primary_text_default_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_default_material_light = global::authClient.android.Resource.Color.primary_text_default_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_disabled_material_dark = global::authClient.android.Resource.Color.primary_text_disabled_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_disabled_material_light = global::authClient.android.Resource.Color.primary_text_disabled_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.ripple_material_dark = global::authClient.android.Resource.Color.ripple_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.ripple_material_light = global::authClient.android.Resource.Color.ripple_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_default_material_dark = global::authClient.android.Resource.Color.secondary_text_default_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_default_material_light = global::authClient.android.Resource.Color.secondary_text_default_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_disabled_material_dark = global::authClient.android.Resource.Color.secondary_text_disabled_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_disabled_material_light = global::authClient.android.Resource.Color.secondary_text_disabled_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::authClient.android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_light = global::authClient.android.Resource.Color.switch_thumb_disabled_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_material_dark = global::authClient.android.Resource.Color.switch_thumb_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_material_light = global::authClient.android.Resource.Color.switch_thumb_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_normal_material_dark = global::authClient.android.Resource.Color.switch_thumb_normal_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_normal_material_light = global::authClient.android.Resource.Color.switch_thumb_normal_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.tooltip_background_dark = global::authClient.android.Resource.Color.tooltip_background_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Color.tooltip_background_light = global::authClient.android.Resource.Color.tooltip_background_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::authClient.android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::authClient.android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::authClient.android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::authClient.android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::authClient.android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::authClient.android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::authClient.android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::authClient.android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::authClient.android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::authClient.android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_button_min_height_material = global::authClient.android.Resource.Dimension.abc_action_button_min_height_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_button_min_width_material = global::authClient.android.Resource.Dimension.abc_action_button_min_width_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::authClient.android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::authClient.android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::authClient.android.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::authClient.android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::authClient.android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::authClient.android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::authClient.android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::authClient.android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::authClient.android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_control_corner_material = global::authClient.android.Resource.Dimension.abc_control_corner_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_control_inset_material = global::authClient.android.Resource.Dimension.abc_control_inset_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_control_padding_material = global::authClient.android.Resource.Dimension.abc_control_padding_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::authClient.android.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::authClient.android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::authClient.android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::authClient.android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::authClient.android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::authClient.android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::authClient.android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_min_width_major = global::authClient.android.Resource.Dimension.abc_dialog_min_width_major;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::authClient.android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_padding_material = global::authClient.android.Resource.Dimension.abc_dialog_padding_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::authClient.android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::authClient.android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::authClient.android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::authClient.android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::authClient.android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::authClient.android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::authClient.android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_floating_window_z = global::authClient.android.Resource.Dimension.abc_floating_window_z;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::authClient.android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_panel_menu_list_width = global::authClient.android.Resource.Dimension.abc_panel_menu_list_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_progress_bar_height_material = global::authClient.android.Resource.Dimension.abc_progress_bar_height_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_search_view_preferred_height = global::authClient.android.Resource.Dimension.abc_search_view_preferred_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_search_view_preferred_width = global::authClient.android.Resource.Dimension.abc_search_view_preferred_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::authClient.android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::authClient.android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::authClient.android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_switch_padding = global::authClient.android.Resource.Dimension.abc_switch_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_body_1_material = global::authClient.android.Resource.Dimension.abc_text_size_body_1_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_body_2_material = global::authClient.android.Resource.Dimension.abc_text_size_body_2_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_button_material = global::authClient.android.Resource.Dimension.abc_text_size_button_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_caption_material = global::authClient.android.Resource.Dimension.abc_text_size_caption_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_1_material = global::authClient.android.Resource.Dimension.abc_text_size_display_1_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_2_material = global::authClient.android.Resource.Dimension.abc_text_size_display_2_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_3_material = global::authClient.android.Resource.Dimension.abc_text_size_display_3_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_4_material = global::authClient.android.Resource.Dimension.abc_text_size_display_4_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_headline_material = global::authClient.android.Resource.Dimension.abc_text_size_headline_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_large_material = global::authClient.android.Resource.Dimension.abc_text_size_large_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_medium_material = global::authClient.android.Resource.Dimension.abc_text_size_medium_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::authClient.android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_menu_material = global::authClient.android.Resource.Dimension.abc_text_size_menu_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_small_material = global::authClient.android.Resource.Dimension.abc_text_size_small_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_subhead_material = global::authClient.android.Resource.Dimension.abc_text_size_subhead_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::authClient.android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_title_material = global::authClient.android.Resource.Dimension.abc_text_size_title_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::authClient.android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.browser_actions_context_menu_max_width = global::authClient.android.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.browser_actions_context_menu_min_padding = global::authClient.android.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::authClient.android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.cardview_default_elevation = global::authClient.android.Resource.Dimension.cardview_default_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.cardview_default_radius = global::authClient.android.Resource.Dimension.cardview_default_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::authClient.android.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_inset_vertical_material = global::authClient.android.Resource.Dimension.compat_button_inset_vertical_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::authClient.android.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_padding_vertical_material = global::authClient.android.Resource.Dimension.compat_button_padding_vertical_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_control_corner_material = global::authClient.android.Resource.Dimension.compat_control_corner_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::authClient.android.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::authClient.android.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_appbar_elevation = global::authClient.android.Resource.Dimension.design_appbar_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::authClient.android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_height = global::authClient.android.Resource.Dimension.design_bottom_navigation_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_margin = global::authClient.android.Resource.Dimension.design_bottom_navigation_margin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::authClient.android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::authClient.android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::authClient.android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_border_width = global::authClient.android.Resource.Dimension.design_fab_border_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_elevation = global::authClient.android.Resource.Dimension.design_fab_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_image_size = global::authClient.android.Resource.Dimension.design_fab_image_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_size_mini = global::authClient.android.Resource.Dimension.design_fab_size_mini;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_size_normal = global::authClient.android.Resource.Dimension.design_fab_size_normal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::authClient.android.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::authClient.android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_elevation = global::authClient.android.Resource.Dimension.design_navigation_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_icon_padding = global::authClient.android.Resource.Dimension.design_navigation_icon_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_icon_size = global::authClient.android.Resource.Dimension.design_navigation_icon_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::authClient.android.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_item_icon_padding = global::authClient.android.Resource.Dimension.design_navigation_item_icon_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_max_width = global::authClient.android.Resource.Dimension.design_navigation_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_padding_bottom = global::authClient.android.Resource.Dimension.design_navigation_padding_bottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::authClient.android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::authClient.android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::authClient.android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_elevation = global::authClient.android.Resource.Dimension.design_snackbar_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::authClient.android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_max_width = global::authClient.android.Resource.Dimension.design_snackbar_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_min_width = global::authClient.android.Resource.Dimension.design_snackbar_min_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::authClient.android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::authClient.android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::authClient.android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_text_size = global::authClient.android.Resource.Dimension.design_snackbar_text_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_max_width = global::authClient.android.Resource.Dimension.design_tab_max_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::authClient.android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_text_size = global::authClient.android.Resource.Dimension.design_tab_text_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_text_size_2line = global::authClient.android.Resource.Dimension.design_tab_text_size_2line;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_textinput_caption_translate_y = global::authClient.android.Resource.Dimension.design_textinput_caption_translate_y;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.disabled_alpha_material_dark = global::authClient.android.Resource.Dimension.disabled_alpha_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.disabled_alpha_material_light = global::authClient.android.Resource.Dimension.disabled_alpha_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.fastscroll_default_thickness = global::authClient.android.Resource.Dimension.fastscroll_default_thickness;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.fastscroll_margin = global::authClient.android.Resource.Dimension.fastscroll_margin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.fastscroll_minimum_range = global::authClient.android.Resource.Dimension.fastscroll_minimum_range;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.highlight_alpha_material_colored = global::authClient.android.Resource.Dimension.highlight_alpha_material_colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.highlight_alpha_material_dark = global::authClient.android.Resource.Dimension.highlight_alpha_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.highlight_alpha_material_light = global::authClient.android.Resource.Dimension.highlight_alpha_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_alpha_material_dark = global::authClient.android.Resource.Dimension.hint_alpha_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_alpha_material_light = global::authClient.android.Resource.Dimension.hint_alpha_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::authClient.android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::authClient.android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::authClient.android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::authClient.android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::authClient.android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::authClient.android.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::authClient.android.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_height = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_corner_radius = global::authClient.android.Resource.Dimension.mtrl_btn_corner_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::authClient.android.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::authClient.android.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_disabled_z = global::authClient.android.Resource.Dimension.mtrl_btn_disabled_z;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_elevation = global::authClient.android.Resource.Dimension.mtrl_btn_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_focused_z = global::authClient.android.Resource.Dimension.mtrl_btn_focused_z;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_hovered_z = global::authClient.android.Resource.Dimension.mtrl_btn_hovered_z;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::authClient.android.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_icon_padding = global::authClient.android.Resource.Dimension.mtrl_btn_icon_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_inset = global::authClient.android.Resource.Dimension.mtrl_btn_inset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::authClient.android.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::authClient.android.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_left = global::authClient.android.Resource.Dimension.mtrl_btn_padding_left;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_right = global::authClient.android.Resource.Dimension.mtrl_btn_padding_right;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_top = global::authClient.android.Resource.Dimension.mtrl_btn_padding_top;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_pressed_z = global::authClient.android.Resource.Dimension.mtrl_btn_pressed_z;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_stroke_size = global::authClient.android.Resource.Dimension.mtrl_btn_stroke_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::authClient.android.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::authClient.android.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::authClient.android.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_size = global::authClient.android.Resource.Dimension.mtrl_btn_text_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_z = global::authClient.android.Resource.Dimension.mtrl_btn_z;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_card_elevation = global::authClient.android.Resource.Dimension.mtrl_card_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_card_spacing = global::authClient.android.Resource.Dimension.mtrl_card_spacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::authClient.android.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_chip_text_size = global::authClient.android.Resource.Dimension.mtrl_chip_text_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_fab_elevation = global::authClient.android.Resource.Dimension.mtrl_fab_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::authClient.android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::authClient.android.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_navigation_elevation = global::authClient.android.Resource.Dimension.mtrl_navigation_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::authClient.android.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::authClient.android.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::authClient.android.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_snackbar_margin = global::authClient.android.Resource.Dimension.mtrl_snackbar_margin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::authClient.android.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::authClient.android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::authClient.android.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::authClient.android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_padding_end = global::authClient.android.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::authClient.android.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::authClient.android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::authClient.android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_toolbar_default_height = global::authClient.android.Resource.Dimension.mtrl_toolbar_default_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_action_icon_size = global::authClient.android.Resource.Dimension.notification_action_icon_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_action_text_size = global::authClient.android.Resource.Dimension.notification_action_text_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_big_circle_margin = global::authClient.android.Resource.Dimension.notification_big_circle_margin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_content_margin_start = global::authClient.android.Resource.Dimension.notification_content_margin_start;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_large_icon_height = global::authClient.android.Resource.Dimension.notification_large_icon_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_large_icon_width = global::authClient.android.Resource.Dimension.notification_large_icon_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_main_column_padding_top = global::authClient.android.Resource.Dimension.notification_main_column_padding_top;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_media_narrow_margin = global::authClient.android.Resource.Dimension.notification_media_narrow_margin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_right_icon_size = global::authClient.android.Resource.Dimension.notification_right_icon_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_right_side_padding_top = global::authClient.android.Resource.Dimension.notification_right_side_padding_top;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_small_icon_background_padding = global::authClient.android.Resource.Dimension.notification_small_icon_background_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::authClient.android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_subtext_size = global::authClient.android.Resource.Dimension.notification_subtext_size;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_top_pad = global::authClient.android.Resource.Dimension.notification_top_pad;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_top_pad_large_text = global::authClient.android.Resource.Dimension.notification_top_pad_large_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_corner_radius = global::authClient.android.Resource.Dimension.subtitle_corner_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_outline_width = global::authClient.android.Resource.Dimension.subtitle_outline_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_shadow_offset = global::authClient.android.Resource.Dimension.subtitle_shadow_offset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_shadow_radius = global::authClient.android.Resource.Dimension.subtitle_shadow_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_corner_radius = global::authClient.android.Resource.Dimension.tooltip_corner_radius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_horizontal_padding = global::authClient.android.Resource.Dimension.tooltip_horizontal_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_margin = global::authClient.android.Resource.Dimension.tooltip_margin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::authClient.android.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::authClient.android.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_vertical_padding = global::authClient.android.Resource.Dimension.tooltip_vertical_padding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::authClient.android.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_y_offset_touch = global::authClient.android.Resource.Dimension.tooltip_y_offset_touch;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::authClient.android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_borderless_material = global::authClient.android.Resource.Drawable.abc_btn_borderless_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_check_material = global::authClient.android.Resource.Drawable.abc_btn_check_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::authClient.android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::authClient.android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_colored_material = global::authClient.android.Resource.Drawable.abc_btn_colored_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::authClient.android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_radio_material = global::authClient.android.Resource.Drawable.abc_btn_radio_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::authClient.android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::authClient.android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::authClient.android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::authClient.android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::authClient.android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_cab_background_top_material = global::authClient.android.Resource.Drawable.abc_cab_background_top_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_control_background_material = global::authClient.android.Resource.Drawable.abc_control_background_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_dialog_material_background = global::authClient.android.Resource.Drawable.abc_dialog_material_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_edit_text_material = global::authClient.android.Resource.Drawable.abc_edit_text_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_ab_back_material = global::authClient.android.Resource.Drawable.abc_ic_ab_back_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::authClient.android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_clear_material = global::authClient.android.Resource.Drawable.abc_ic_clear_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::authClient.android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_search_api_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_item_background_holo_dark = global::authClient.android.Resource.Drawable.abc_item_background_holo_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_item_background_holo_light = global::authClient.android.Resource.Drawable.abc_item_background_holo_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_divider_material = global::authClient.android.Resource.Drawable.abc_list_divider_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_focused_holo = global::authClient.android.Resource.Drawable.abc_list_focused_holo;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_longpressed_holo = global::authClient.android.Resource.Drawable.abc_list_longpressed_holo;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::authClient.android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::authClient.android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_holo_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::authClient.android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::authClient.android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::authClient.android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ratingbar_material = global::authClient.android.Resource.Drawable.abc_ratingbar_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ratingbar_small_material = global::authClient.android.Resource.Drawable.abc_ratingbar_small_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::authClient.android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::authClient.android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::authClient.android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::authClient.android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_seekbar_track_material = global::authClient.android.Resource.Drawable.abc_seekbar_track_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::authClient.android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_switch_thumb_material = global::authClient.android.Resource.Drawable.abc_switch_thumb_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_tab_indicator_material = global::authClient.android.Resource.Drawable.abc_tab_indicator_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_search_material = global::authClient.android.Resource.Drawable.abc_textfield_search_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_cursor_material = global::authClient.android.Resource.Drawable.abc_text_cursor_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_vector_test = global::authClient.android.Resource.Drawable.abc_vector_test;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.avd_hide_password = global::authClient.android.Resource.Drawable.avd_hide_password;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.avd_show_password = global::authClient.android.Resource.Drawable.avd_show_password;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::authClient.android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_fab_background = global::authClient.android.Resource.Drawable.design_fab_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_ic_visibility = global::authClient.android.Resource.Drawable.design_ic_visibility;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_ic_visibility_off = global::authClient.android.Resource.Drawable.design_ic_visibility_off;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_password_eye = global::authClient.android.Resource.Drawable.design_password_eye;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_snackbar_background = global::authClient.android.Resource.Drawable.design_snackbar_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_audiotrack_dark = global::authClient.android.Resource.Drawable.ic_audiotrack_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_audiotrack_light = global::authClient.android.Resource.Drawable.ic_audiotrack_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_dialog_close_dark = global::authClient.android.Resource.Drawable.ic_dialog_close_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_dialog_close_light = global::authClient.android.Resource.Drawable.ic_dialog_close_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_00 = global::authClient.android.Resource.Drawable.ic_group_collapse_00;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_01 = global::authClient.android.Resource.Drawable.ic_group_collapse_01;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_02 = global::authClient.android.Resource.Drawable.ic_group_collapse_02;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_03 = global::authClient.android.Resource.Drawable.ic_group_collapse_03;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_04 = global::authClient.android.Resource.Drawable.ic_group_collapse_04;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_05 = global::authClient.android.Resource.Drawable.ic_group_collapse_05;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_06 = global::authClient.android.Resource.Drawable.ic_group_collapse_06;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_07 = global::authClient.android.Resource.Drawable.ic_group_collapse_07;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_08 = global::authClient.android.Resource.Drawable.ic_group_collapse_08;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_09 = global::authClient.android.Resource.Drawable.ic_group_collapse_09;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_10 = global::authClient.android.Resource.Drawable.ic_group_collapse_10;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_11 = global::authClient.android.Resource.Drawable.ic_group_collapse_11;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_12 = global::authClient.android.Resource.Drawable.ic_group_collapse_12;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_13 = global::authClient.android.Resource.Drawable.ic_group_collapse_13;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_14 = global::authClient.android.Resource.Drawable.ic_group_collapse_14;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_15 = global::authClient.android.Resource.Drawable.ic_group_collapse_15;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_00 = global::authClient.android.Resource.Drawable.ic_group_expand_00;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_01 = global::authClient.android.Resource.Drawable.ic_group_expand_01;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_02 = global::authClient.android.Resource.Drawable.ic_group_expand_02;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_03 = global::authClient.android.Resource.Drawable.ic_group_expand_03;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_04 = global::authClient.android.Resource.Drawable.ic_group_expand_04;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_05 = global::authClient.android.Resource.Drawable.ic_group_expand_05;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_06 = global::authClient.android.Resource.Drawable.ic_group_expand_06;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_07 = global::authClient.android.Resource.Drawable.ic_group_expand_07;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_08 = global::authClient.android.Resource.Drawable.ic_group_expand_08;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_09 = global::authClient.android.Resource.Drawable.ic_group_expand_09;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_10 = global::authClient.android.Resource.Drawable.ic_group_expand_10;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_11 = global::authClient.android.Resource.Drawable.ic_group_expand_11;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_12 = global::authClient.android.Resource.Drawable.ic_group_expand_12;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_13 = global::authClient.android.Resource.Drawable.ic_group_expand_13;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_14 = global::authClient.android.Resource.Drawable.ic_group_expand_14;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_15 = global::authClient.android.Resource.Drawable.ic_group_expand_15;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_pause_dark = global::authClient.android.Resource.Drawable.ic_media_pause_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_pause_light = global::authClient.android.Resource.Drawable.ic_media_pause_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_play_dark = global::authClient.android.Resource.Drawable.ic_media_play_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_play_light = global::authClient.android.Resource.Drawable.ic_media_play_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_stop_dark = global::authClient.android.Resource.Drawable.ic_media_stop_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_stop_light = global::authClient.android.Resource.Drawable.ic_media_stop_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_23_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_23_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_24_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_24_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_25_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_25_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_26_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_26_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_27_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_27_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_28_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_28_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_29_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_29_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_30_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_30_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_23_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_23_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_24_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_24_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_25_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_25_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_26_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_26_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_27_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_27_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_28_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_28_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_29_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_29_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_30_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_30_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::authClient.android.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disabled_light = global::authClient.android.Resource.Drawable.ic_mr_button_disabled_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::authClient.android.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::authClient.android.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_grey = global::authClient.android.Resource.Drawable.ic_mr_button_grey;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::authClient.android.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::authClient.android.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::authClient.android.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_light = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_tv_dark = global::authClient.android.Resource.Drawable.ic_vol_type_tv_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_tv_light = global::authClient.android.Resource.Drawable.ic_vol_type_tv_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connected_dark = global::authClient.android.Resource.Drawable.mr_button_connected_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connected_light = global::authClient.android.Resource.Drawable.mr_button_connected_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connecting_dark = global::authClient.android.Resource.Drawable.mr_button_connecting_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connecting_light = global::authClient.android.Resource.Drawable.mr_button_connecting_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_dark = global::authClient.android.Resource.Drawable.mr_button_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_light = global::authClient.android.Resource.Drawable.mr_button_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_close_dark = global::authClient.android.Resource.Drawable.mr_dialog_close_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_close_light = global::authClient.android.Resource.Drawable.mr_dialog_close_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_material_background_dark = global::authClient.android.Resource.Drawable.mr_dialog_material_background_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_material_background_light = global::authClient.android.Resource.Drawable.mr_dialog_material_background_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_group_collapse = global::authClient.android.Resource.Drawable.mr_group_collapse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_group_expand = global::authClient.android.Resource.Drawable.mr_group_expand;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_pause_dark = global::authClient.android.Resource.Drawable.mr_media_pause_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_pause_light = global::authClient.android.Resource.Drawable.mr_media_pause_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_play_dark = global::authClient.android.Resource.Drawable.mr_media_play_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_play_light = global::authClient.android.Resource.Drawable.mr_media_play_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_stop_dark = global::authClient.android.Resource.Drawable.mr_media_stop_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_stop_light = global::authClient.android.Resource.Drawable.mr_media_stop_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::authClient.android.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::authClient.android.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mtrl_snackbar_background = global::authClient.android.Resource.Drawable.mtrl_snackbar_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::authClient.android.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.navigation_empty_icon = global::authClient.android.Resource.Drawable.navigation_empty_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_action_background = global::authClient.android.Resource.Drawable.notification_action_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg = global::authClient.android.Resource.Drawable.notification_bg;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_low = global::authClient.android.Resource.Drawable.notification_bg_low;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_low_normal = global::authClient.android.Resource.Drawable.notification_bg_low_normal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_low_pressed = global::authClient.android.Resource.Drawable.notification_bg_low_pressed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_normal = global::authClient.android.Resource.Drawable.notification_bg_normal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_normal_pressed = global::authClient.android.Resource.Drawable.notification_bg_normal_pressed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_icon_background = global::authClient.android.Resource.Drawable.notification_icon_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_template_icon_bg = global::authClient.android.Resource.Drawable.notification_template_icon_bg;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_template_icon_low_bg = global::authClient.android.Resource.Drawable.notification_template_icon_low_bg;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_tile_bg = global::authClient.android.Resource.Drawable.notification_tile_bg;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::authClient.android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.tooltip_frame_dark = global::authClient.android.Resource.Drawable.tooltip_frame_dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.tooltip_frame_light = global::authClient.android.Resource.Drawable.tooltip_frame_light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action0 = global::authClient.android.Resource.Id.action0;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.actions = global::authClient.android.Resource.Id.actions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar = global::authClient.android.Resource.Id.action_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_activity_content = global::authClient.android.Resource.Id.action_bar_activity_content;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_container = global::authClient.android.Resource.Id.action_bar_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_root = global::authClient.android.Resource.Id.action_bar_root;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_spinner = global::authClient.android.Resource.Id.action_bar_spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_subtitle = global::authClient.android.Resource.Id.action_bar_subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_title = global::authClient.android.Resource.Id.action_bar_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_container = global::authClient.android.Resource.Id.action_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_context_bar = global::authClient.android.Resource.Id.action_context_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_divider = global::authClient.android.Resource.Id.action_divider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_image = global::authClient.android.Resource.Id.action_image;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_menu_divider = global::authClient.android.Resource.Id.action_menu_divider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_menu_presenter = global::authClient.android.Resource.Id.action_menu_presenter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_mode_bar = global::authClient.android.Resource.Id.action_mode_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_mode_bar_stub = global::authClient.android.Resource.Id.action_mode_bar_stub;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_mode_close_button = global::authClient.android.Resource.Id.action_mode_close_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_text = global::authClient.android.Resource.Id.action_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.activity_chooser_view_content = global::authClient.android.Resource.Id.activity_chooser_view_content;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.add = global::authClient.android.Resource.Id.add;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.alertTitle = global::authClient.android.Resource.Id.alertTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.all = global::authClient.android.Resource.Id.all;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.ALT = global::authClient.android.Resource.Id.ALT;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.always = global::authClient.android.Resource.Id.always;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.async = global::authClient.android.Resource.Id.async;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.auto = global::authClient.android.Resource.Id.auto;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.beginning = global::authClient.android.Resource.Id.beginning;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.blocking = global::authClient.android.Resource.Id.blocking;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.bottom = global::authClient.android.Resource.Id.bottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.bottomtab_navarea = global::authClient.android.Resource.Id.bottomtab_navarea;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.bottomtab_tabbar = global::authClient.android.Resource.Id.bottomtab_tabbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_header_text = global::authClient.android.Resource.Id.browser_actions_header_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_items = global::authClient.android.Resource.Id.browser_actions_menu_items;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_item_icon = global::authClient.android.Resource.Id.browser_actions_menu_item_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_item_text = global::authClient.android.Resource.Id.browser_actions_menu_item_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_view = global::authClient.android.Resource.Id.browser_actions_menu_view;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.buttonPanel = global::authClient.android.Resource.Id.buttonPanel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.cancel_action = global::authClient.android.Resource.Id.cancel_action;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.center = global::authClient.android.Resource.Id.center;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.center_horizontal = global::authClient.android.Resource.Id.center_horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.center_vertical = global::authClient.android.Resource.Id.center_vertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.checkbox = global::authClient.android.Resource.Id.checkbox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.chronometer = global::authClient.android.Resource.Id.chronometer;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.clip_horizontal = global::authClient.android.Resource.Id.clip_horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.clip_vertical = global::authClient.android.Resource.Id.clip_vertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.collapseActionView = global::authClient.android.Resource.Id.collapseActionView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.container = global::authClient.android.Resource.Id.container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.content = global::authClient.android.Resource.Id.content;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.contentPanel = global::authClient.android.Resource.Id.contentPanel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.coordinator = global::authClient.android.Resource.Id.coordinator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.CTRL = global::authClient.android.Resource.Id.CTRL;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.custom = global::authClient.android.Resource.Id.custom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.customPanel = global::authClient.android.Resource.Id.customPanel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.decor_content_parent = global::authClient.android.Resource.Id.decor_content_parent;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.default_activity_button = global::authClient.android.Resource.Id.default_activity_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_bottom_sheet = global::authClient.android.Resource.Id.design_bottom_sheet;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_menu_item_action_area = global::authClient.android.Resource.Id.design_menu_item_action_area;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_menu_item_action_area_stub = global::authClient.android.Resource.Id.design_menu_item_action_area_stub;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_menu_item_text = global::authClient.android.Resource.Id.design_menu_item_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_navigation_view = global::authClient.android.Resource.Id.design_navigation_view;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.disableHome = global::authClient.android.Resource.Id.disableHome;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.edit_query = global::authClient.android.Resource.Id.edit_query;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.end = global::authClient.android.Resource.Id.end;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.end_padder = global::authClient.android.Resource.Id.end_padder;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.enterAlways = global::authClient.android.Resource.Id.enterAlways;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.enterAlwaysCollapsed = global::authClient.android.Resource.Id.enterAlwaysCollapsed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.exitUntilCollapsed = global::authClient.android.Resource.Id.exitUntilCollapsed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.expanded_menu = global::authClient.android.Resource.Id.expanded_menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.expand_activities_button = global::authClient.android.Resource.Id.expand_activities_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.fill = global::authClient.android.Resource.Id.fill;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.filled = global::authClient.android.Resource.Id.filled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.fill_horizontal = global::authClient.android.Resource.Id.fill_horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.fill_vertical = global::authClient.android.Resource.Id.fill_vertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.@fixed = global::authClient.android.Resource.Id.@fixed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.flyoutcontent_appbar = global::authClient.android.Resource.Id.flyoutcontent_appbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.flyoutcontent_recycler = global::authClient.android.Resource.Id.flyoutcontent_recycler;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.forever = global::authClient.android.Resource.Id.forever;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.FUNCTION = global::authClient.android.Resource.Id.FUNCTION;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.ghost_view = global::authClient.android.Resource.Id.ghost_view;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.group_divider = global::authClient.android.Resource.Id.group_divider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.home = global::authClient.android.Resource.Id.home;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.homeAsUp = global::authClient.android.Resource.Id.homeAsUp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.icon = global::authClient.android.Resource.Id.icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.icon_group = global::authClient.android.Resource.Id.icon_group;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.ifRoom = global::authClient.android.Resource.Id.ifRoom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.image = global::authClient.android.Resource.Id.image;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.info = global::authClient.android.Resource.Id.info;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.italic = global::authClient.android.Resource.Id.italic;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.item_touch_helper_previous_elevation = global::authClient.android.Resource.Id.item_touch_helper_previous_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.labeled = global::authClient.android.Resource.Id.labeled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.largeLabel = global::authClient.android.Resource.Id.largeLabel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.left = global::authClient.android.Resource.Id.left;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.line1 = global::authClient.android.Resource.Id.line1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.line3 = global::authClient.android.Resource.Id.line3;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.listMode = global::authClient.android.Resource.Id.listMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.list_item = global::authClient.android.Resource.Id.list_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_appbar = global::authClient.android.Resource.Id.main_appbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_scrollview = global::authClient.android.Resource.Id.main_scrollview;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_tablayout = global::authClient.android.Resource.Id.main_tablayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_toolbar = global::authClient.android.Resource.Id.main_toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.masked = global::authClient.android.Resource.Id.masked;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.media_actions = global::authClient.android.Resource.Id.media_actions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.message = global::authClient.android.Resource.Id.message;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.META = global::authClient.android.Resource.Id.META;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.middle = global::authClient.android.Resource.Id.middle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mini = global::authClient.android.Resource.Id.mini;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_art = global::authClient.android.Resource.Id.mr_art;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_checkbox = global::authClient.android.Resource.Id.mr_cast_checkbox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_close_button = global::authClient.android.Resource.Id.mr_cast_close_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_group_icon = global::authClient.android.Resource.Id.mr_cast_group_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_group_name = global::authClient.android.Resource.Id.mr_cast_group_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_list = global::authClient.android.Resource.Id.mr_cast_list;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta = global::authClient.android.Resource.Id.mr_cast_meta;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta_art = global::authClient.android.Resource.Id.mr_cast_meta_art;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta_subtitle = global::authClient.android.Resource.Id.mr_cast_meta_subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta_title = global::authClient.android.Resource.Id.mr_cast_meta_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_route_icon = global::authClient.android.Resource.Id.mr_cast_route_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_route_name = global::authClient.android.Resource.Id.mr_cast_route_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_stop_button = global::authClient.android.Resource.Id.mr_cast_stop_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_volume_layout = global::authClient.android.Resource.Id.mr_cast_volume_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_volume_slider = global::authClient.android.Resource.Id.mr_cast_volume_slider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_list = global::authClient.android.Resource.Id.mr_chooser_list;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_route_desc = global::authClient.android.Resource.Id.mr_chooser_route_desc;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_route_icon = global::authClient.android.Resource.Id.mr_chooser_route_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_route_name = global::authClient.android.Resource.Id.mr_chooser_route_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_title = global::authClient.android.Resource.Id.mr_chooser_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_close = global::authClient.android.Resource.Id.mr_close;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_divider = global::authClient.android.Resource.Id.mr_control_divider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_playback_ctrl = global::authClient.android.Resource.Id.mr_control_playback_ctrl;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_subtitle = global::authClient.android.Resource.Id.mr_control_subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_title = global::authClient.android.Resource.Id.mr_control_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_title_container = global::authClient.android.Resource.Id.mr_control_title_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_custom_control = global::authClient.android.Resource.Id.mr_custom_control;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_default_control = global::authClient.android.Resource.Id.mr_default_control;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_dialog_area = global::authClient.android.Resource.Id.mr_dialog_area;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_dialog_header_name = global::authClient.android.Resource.Id.mr_dialog_header_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_expandable_area = global::authClient.android.Resource.Id.mr_expandable_area;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_group_expand_collapse = global::authClient.android.Resource.Id.mr_group_expand_collapse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_group_volume_route_name = global::authClient.android.Resource.Id.mr_group_volume_route_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_group_volume_slider = global::authClient.android.Resource.Id.mr_group_volume_slider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_media_main_control = global::authClient.android.Resource.Id.mr_media_main_control;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_name = global::authClient.android.Resource.Id.mr_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_close_button = global::authClient.android.Resource.Id.mr_picker_close_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_list = global::authClient.android.Resource.Id.mr_picker_list;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_route_icon = global::authClient.android.Resource.Id.mr_picker_route_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_route_name = global::authClient.android.Resource.Id.mr_picker_route_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_playback_control = global::authClient.android.Resource.Id.mr_playback_control;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_title_bar = global::authClient.android.Resource.Id.mr_title_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_control = global::authClient.android.Resource.Id.mr_volume_control;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_group_list = global::authClient.android.Resource.Id.mr_volume_group_list;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_item_icon = global::authClient.android.Resource.Id.mr_volume_item_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_slider = global::authClient.android.Resource.Id.mr_volume_slider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mtrl_child_content_container = global::authClient.android.Resource.Id.mtrl_child_content_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::authClient.android.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.multiply = global::authClient.android.Resource.Id.multiply;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.navigation_header_container = global::authClient.android.Resource.Id.navigation_header_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.never = global::authClient.android.Resource.Id.never;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.none = global::authClient.android.Resource.Id.none;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.normal = global::authClient.android.Resource.Id.normal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.notification_background = global::authClient.android.Resource.Id.notification_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.notification_main_column = global::authClient.android.Resource.Id.notification_main_column;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.notification_main_column_container = global::authClient.android.Resource.Id.notification_main_column_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.outline = global::authClient.android.Resource.Id.outline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.parallax = global::authClient.android.Resource.Id.parallax;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.parentPanel = global::authClient.android.Resource.Id.parentPanel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.parent_matrix = global::authClient.android.Resource.Id.parent_matrix;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.pin = global::authClient.android.Resource.Id.pin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.progress_circular = global::authClient.android.Resource.Id.progress_circular;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.progress_horizontal = global::authClient.android.Resource.Id.progress_horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.radio = global::authClient.android.Resource.Id.radio;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.right = global::authClient.android.Resource.Id.right;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.right_icon = global::authClient.android.Resource.Id.right_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.right_side = global::authClient.android.Resource.Id.right_side;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.save_image_matrix = global::authClient.android.Resource.Id.save_image_matrix;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.save_non_transition_alpha = global::authClient.android.Resource.Id.save_non_transition_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.save_scale_type = global::authClient.android.Resource.Id.save_scale_type;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.screen = global::authClient.android.Resource.Id.screen;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scroll = global::authClient.android.Resource.Id.scroll;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollable = global::authClient.android.Resource.Id.scrollable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollIndicatorDown = global::authClient.android.Resource.Id.scrollIndicatorDown;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollIndicatorUp = global::authClient.android.Resource.Id.scrollIndicatorUp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollView = global::authClient.android.Resource.Id.scrollView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_badge = global::authClient.android.Resource.Id.search_badge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_bar = global::authClient.android.Resource.Id.search_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_button = global::authClient.android.Resource.Id.search_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_close_btn = global::authClient.android.Resource.Id.search_close_btn;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_edit_frame = global::authClient.android.Resource.Id.search_edit_frame;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_go_btn = global::authClient.android.Resource.Id.search_go_btn;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_mag_icon = global::authClient.android.Resource.Id.search_mag_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_plate = global::authClient.android.Resource.Id.search_plate;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_src_text = global::authClient.android.Resource.Id.search_src_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_voice_btn = global::authClient.android.Resource.Id.search_voice_btn;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.selected = global::authClient.android.Resource.Id.selected;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.select_dialog_listview = global::authClient.android.Resource.Id.select_dialog_listview;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shellcontent_appbar = global::authClient.android.Resource.Id.shellcontent_appbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shellcontent_scrollview = global::authClient.android.Resource.Id.shellcontent_scrollview;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shellcontent_toolbar = global::authClient.android.Resource.Id.shellcontent_toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.SHIFT = global::authClient.android.Resource.Id.SHIFT;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shortcut = global::authClient.android.Resource.Id.shortcut;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.showCustom = global::authClient.android.Resource.Id.showCustom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.showHome = global::authClient.android.Resource.Id.showHome;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.showTitle = global::authClient.android.Resource.Id.showTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.smallLabel = global::authClient.android.Resource.Id.smallLabel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snackbar_action = global::authClient.android.Resource.Id.snackbar_action;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snackbar_text = global::authClient.android.Resource.Id.snackbar_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snap = global::authClient.android.Resource.Id.snap;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snapMargins = global::authClient.android.Resource.Id.snapMargins;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.spacer = global::authClient.android.Resource.Id.spacer;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.split_action_bar = global::authClient.android.Resource.Id.split_action_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.src_atop = global::authClient.android.Resource.Id.src_atop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.src_in = global::authClient.android.Resource.Id.src_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.src_over = global::authClient.android.Resource.Id.src_over;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.start = global::authClient.android.Resource.Id.start;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.status_bar_latest_event_content = global::authClient.android.Resource.Id.status_bar_latest_event_content;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.stretch = global::authClient.android.Resource.Id.stretch;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.submenuarrow = global::authClient.android.Resource.Id.submenuarrow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.submit_area = global::authClient.android.Resource.Id.submit_area;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.SYM = global::authClient.android.Resource.Id.SYM;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tabMode = global::authClient.android.Resource.Id.tabMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tag_transition_group = global::authClient.android.Resource.Id.tag_transition_group;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tag_unhandled_key_event_manager = global::authClient.android.Resource.Id.tag_unhandled_key_event_manager;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tag_unhandled_key_listeners = global::authClient.android.Resource.Id.tag_unhandled_key_listeners;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.text = global::authClient.android.Resource.Id.text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.text2 = global::authClient.android.Resource.Id.text2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textinput_counter = global::authClient.android.Resource.Id.textinput_counter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textinput_error = global::authClient.android.Resource.Id.textinput_error;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textinput_helper_text = global::authClient.android.Resource.Id.textinput_helper_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textSpacerNoButtons = global::authClient.android.Resource.Id.textSpacerNoButtons;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textSpacerNoTitle = global::authClient.android.Resource.Id.textSpacerNoTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textStart = global::authClient.android.Resource.Id.textStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.text_input_password_toggle = global::authClient.android.Resource.Id.text_input_password_toggle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.time = global::authClient.android.Resource.Id.time;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.title = global::authClient.android.Resource.Id.title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.titleDividerNoCustom = global::authClient.android.Resource.Id.titleDividerNoCustom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.title_template = global::authClient.android.Resource.Id.title_template;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.top = global::authClient.android.Resource.Id.top;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.topPanel = global::authClient.android.Resource.Id.topPanel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.touch_outside = global::authClient.android.Resource.Id.touch_outside;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_current_scene = global::authClient.android.Resource.Id.transition_current_scene;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_layout_save = global::authClient.android.Resource.Id.transition_layout_save;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_position = global::authClient.android.Resource.Id.transition_position;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_scene_layoutid_cache = global::authClient.android.Resource.Id.transition_scene_layoutid_cache;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_transform = global::authClient.android.Resource.Id.transition_transform;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.uniform = global::authClient.android.Resource.Id.uniform;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.unlabeled = global::authClient.android.Resource.Id.unlabeled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.up = global::authClient.android.Resource.Id.up;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.useLogo = global::authClient.android.Resource.Id.useLogo;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.view_offset_helper = global::authClient.android.Resource.Id.view_offset_helper;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.visible = global::authClient.android.Resource.Id.visible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.volume_item_container = global::authClient.android.Resource.Id.volume_item_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.withText = global::authClient.android.Resource.Id.withText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Id.wrap_content = global::authClient.android.Resource.Id.wrap_content;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.abc_config_activityDefaultDur = global::authClient.android.Resource.Integer.abc_config_activityDefaultDur;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.abc_config_activityShortDur = global::authClient.android.Resource.Integer.abc_config_activityShortDur;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::authClient.android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.bottom_sheet_slide_duration = global::authClient.android.Resource.Integer.bottom_sheet_slide_duration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.cancel_button_image_alpha = global::authClient.android.Resource.Integer.cancel_button_image_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.config_tooltipAnimTime = global::authClient.android.Resource.Integer.config_tooltipAnimTime;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.design_snackbar_text_max_lines = global::authClient.android.Resource.Integer.design_snackbar_text_max_lines;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::authClient.android.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.hide_password_duration = global::authClient.android.Resource.Integer.hide_password_duration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_update_routes_delay_ms = global::authClient.android.Resource.Integer.mr_update_routes_delay_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::authClient.android.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::authClient.android.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_chip_anim_duration = global::authClient.android.Resource.Integer.mtrl_chip_anim_duration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::authClient.android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.show_password_duration = global::authClient.android.Resource.Integer.show_password_duration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::authClient.android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mr_fast_out_slow_in = global::authClient.android.Resource.Interpolator.mr_fast_out_slow_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::authClient.android.Resource.Interpolator.mr_linear_out_slow_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::authClient.android.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::authClient.android.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_linear = global::authClient.android.Resource.Interpolator.mtrl_linear;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::authClient.android.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_bar_title_item = global::authClient.android.Resource.Layout.abc_action_bar_title_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_bar_up_container = global::authClient.android.Resource.Layout.abc_action_bar_up_container;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_menu_item_layout = global::authClient.android.Resource.Layout.abc_action_menu_item_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_menu_layout = global::authClient.android.Resource.Layout.abc_action_menu_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_mode_bar = global::authClient.android.Resource.Layout.abc_action_mode_bar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_mode_close_item_material = global::authClient.android.Resource.Layout.abc_action_mode_close_item_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_activity_chooser_view = global::authClient.android.Resource.Layout.abc_activity_chooser_view;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::authClient.android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::authClient.android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_alert_dialog_material = global::authClient.android.Resource.Layout.abc_alert_dialog_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_alert_dialog_title_material = global::authClient.android.Resource.Layout.abc_alert_dialog_title_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_cascading_menu_item_layout = global::authClient.android.Resource.Layout.abc_cascading_menu_item_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_dialog_title_material = global::authClient.android.Resource.Layout.abc_dialog_title_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_expanded_menu_layout = global::authClient.android.Resource.Layout.abc_expanded_menu_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::authClient.android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_icon = global::authClient.android.Resource.Layout.abc_list_menu_item_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_layout = global::authClient.android.Resource.Layout.abc_list_menu_item_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_radio = global::authClient.android.Resource.Layout.abc_list_menu_item_radio;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::authClient.android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_popup_menu_item_layout = global::authClient.android.Resource.Layout.abc_popup_menu_item_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_content_include = global::authClient.android.Resource.Layout.abc_screen_content_include;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_simple = global::authClient.android.Resource.Layout.abc_screen_simple;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::authClient.android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_toolbar = global::authClient.android.Resource.Layout.abc_screen_toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::authClient.android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_search_view = global::authClient.android.Resource.Layout.abc_search_view;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_select_dialog_material = global::authClient.android.Resource.Layout.abc_select_dialog_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_tooltip = global::authClient.android.Resource.Layout.abc_tooltip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.BottomTabLayout = global::authClient.android.Resource.Layout.BottomTabLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.browser_actions_context_menu_page = global::authClient.android.Resource.Layout.browser_actions_context_menu_page;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.browser_actions_context_menu_row = global::authClient.android.Resource.Layout.browser_actions_context_menu_row;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_bottom_navigation_item = global::authClient.android.Resource.Layout.design_bottom_navigation_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_bottom_sheet_dialog = global::authClient.android.Resource.Layout.design_bottom_sheet_dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_snackbar = global::authClient.android.Resource.Layout.design_layout_snackbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_snackbar_include = global::authClient.android.Resource.Layout.design_layout_snackbar_include;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_tab_icon = global::authClient.android.Resource.Layout.design_layout_tab_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_tab_text = global::authClient.android.Resource.Layout.design_layout_tab_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_menu_item_action_area = global::authClient.android.Resource.Layout.design_menu_item_action_area;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item = global::authClient.android.Resource.Layout.design_navigation_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item_header = global::authClient.android.Resource.Layout.design_navigation_item_header;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item_separator = global::authClient.android.Resource.Layout.design_navigation_item_separator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item_subheader = global::authClient.android.Resource.Layout.design_navigation_item_subheader;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_menu = global::authClient.android.Resource.Layout.design_navigation_menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_menu_item = global::authClient.android.Resource.Layout.design_navigation_menu_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_text_input_password_icon = global::authClient.android.Resource.Layout.design_text_input_password_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.FlyoutContent = global::authClient.android.Resource.Layout.FlyoutContent;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_dialog = global::authClient.android.Resource.Layout.mr_cast_dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_group_item = global::authClient.android.Resource.Layout.mr_cast_group_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_group_volume_item = global::authClient.android.Resource.Layout.mr_cast_group_volume_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_media_metadata = global::authClient.android.Resource.Layout.mr_cast_media_metadata;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_route_item = global::authClient.android.Resource.Layout.mr_cast_route_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_chooser_dialog = global::authClient.android.Resource.Layout.mr_chooser_dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_chooser_list_item = global::authClient.android.Resource.Layout.mr_chooser_list_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_controller_material_dialog_b = global::authClient.android.Resource.Layout.mr_controller_material_dialog_b;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_controller_volume_item = global::authClient.android.Resource.Layout.mr_controller_volume_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_dialog_header_item = global::authClient.android.Resource.Layout.mr_dialog_header_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_picker_dialog = global::authClient.android.Resource.Layout.mr_picker_dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_picker_route_item = global::authClient.android.Resource.Layout.mr_picker_route_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_playback_control = global::authClient.android.Resource.Layout.mr_playback_control;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_volume_control = global::authClient.android.Resource.Layout.mr_volume_control;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mtrl_layout_snackbar = global::authClient.android.Resource.Layout.mtrl_layout_snackbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mtrl_layout_snackbar_include = global::authClient.android.Resource.Layout.mtrl_layout_snackbar_include;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_action = global::authClient.android.Resource.Layout.notification_action;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_action_tombstone = global::authClient.android.Resource.Layout.notification_action_tombstone;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_media_action = global::authClient.android.Resource.Layout.notification_media_action;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_media_cancel_action = global::authClient.android.Resource.Layout.notification_media_cancel_action;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media = global::authClient.android.Resource.Layout.notification_template_big_media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media_custom = global::authClient.android.Resource.Layout.notification_template_big_media_custom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media_narrow = global::authClient.android.Resource.Layout.notification_template_big_media_narrow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::authClient.android.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_custom_big = global::authClient.android.Resource.Layout.notification_template_custom_big;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_icon_group = global::authClient.android.Resource.Layout.notification_template_icon_group;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_lines_media = global::authClient.android.Resource.Layout.notification_template_lines_media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_media = global::authClient.android.Resource.Layout.notification_template_media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_media_custom = global::authClient.android.Resource.Layout.notification_template_media_custom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_part_chronometer = global::authClient.android.Resource.Layout.notification_template_part_chronometer;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_part_time = global::authClient.android.Resource.Layout.notification_template_part_time;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.RootLayout = global::authClient.android.Resource.Layout.RootLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.select_dialog_item_material = global::authClient.android.Resource.Layout.select_dialog_item_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.select_dialog_multichoice_material = global::authClient.android.Resource.Layout.select_dialog_multichoice_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.select_dialog_singlechoice_material = global::authClient.android.Resource.Layout.select_dialog_singlechoice_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.ShellContent = global::authClient.android.Resource.Layout.ShellContent;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::authClient.android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_bar_home_description = global::authClient.android.Resource.String.abc_action_bar_home_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_bar_up_description = global::authClient.android.Resource.String.abc_action_bar_up_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_menu_overflow_description = global::authClient.android.Resource.String.abc_action_menu_overflow_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_mode_done = global::authClient.android.Resource.String.abc_action_mode_done;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_activitychooserview_choose_application = global::authClient.android.Resource.String.abc_activitychooserview_choose_application;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_activity_chooser_view_see_all = global::authClient.android.Resource.String.abc_activity_chooser_view_see_all;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_capital_off = global::authClient.android.Resource.String.abc_capital_off;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_capital_on = global::authClient.android.Resource.String.abc_capital_on;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_body_1_material = global::authClient.android.Resource.String.abc_font_family_body_1_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_body_2_material = global::authClient.android.Resource.String.abc_font_family_body_2_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_button_material = global::authClient.android.Resource.String.abc_font_family_button_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_caption_material = global::authClient.android.Resource.String.abc_font_family_caption_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_1_material = global::authClient.android.Resource.String.abc_font_family_display_1_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_2_material = global::authClient.android.Resource.String.abc_font_family_display_2_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_3_material = global::authClient.android.Resource.String.abc_font_family_display_3_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_4_material = global::authClient.android.Resource.String.abc_font_family_display_4_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_headline_material = global::authClient.android.Resource.String.abc_font_family_headline_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_menu_material = global::authClient.android.Resource.String.abc_font_family_menu_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_subhead_material = global::authClient.android.Resource.String.abc_font_family_subhead_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_title_material = global::authClient.android.Resource.String.abc_font_family_title_material;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_alt_shortcut_label = global::authClient.android.Resource.String.abc_menu_alt_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::authClient.android.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_delete_shortcut_label = global::authClient.android.Resource.String.abc_menu_delete_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_enter_shortcut_label = global::authClient.android.Resource.String.abc_menu_enter_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_function_shortcut_label = global::authClient.android.Resource.String.abc_menu_function_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_meta_shortcut_label = global::authClient.android.Resource.String.abc_menu_meta_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_shift_shortcut_label = global::authClient.android.Resource.String.abc_menu_shift_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_space_shortcut_label = global::authClient.android.Resource.String.abc_menu_space_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_sym_shortcut_label = global::authClient.android.Resource.String.abc_menu_sym_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_prepend_shortcut_label = global::authClient.android.Resource.String.abc_prepend_shortcut_label;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_clear = global::authClient.android.Resource.String.abc_searchview_description_clear;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_query = global::authClient.android.Resource.String.abc_searchview_description_query;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_search = global::authClient.android.Resource.String.abc_searchview_description_search;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_submit = global::authClient.android.Resource.String.abc_searchview_description_submit;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_voice = global::authClient.android.Resource.String.abc_searchview_description_voice;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_search_hint = global::authClient.android.Resource.String.abc_search_hint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with = global::authClient.android.Resource.String.abc_shareactionprovider_share_with;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::authClient.android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_toolbar_collapse_description = global::authClient.android.Resource.String.abc_toolbar_collapse_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.appbar_scrolling_view_behavior = global::authClient.android.Resource.String.appbar_scrolling_view_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.app_name = global::authClient.android.Resource.String.app_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.bottom_sheet_behavior = global::authClient.android.Resource.String.bottom_sheet_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.character_counter_content_description = global::authClient.android.Resource.String.character_counter_content_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.character_counter_pattern = global::authClient.android.Resource.String.character_counter_pattern;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.fab_transformation_scrim_behavior = global::authClient.android.Resource.String.fab_transformation_scrim_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.fab_transformation_sheet_behavior = global::authClient.android.Resource.String.fab_transformation_sheet_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.hello = global::authClient.android.Resource.String.hello;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::authClient.android.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_button_content_description = global::authClient.android.Resource.String.mr_button_content_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_button_connected = global::authClient.android.Resource.String.mr_cast_button_connected;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_button_connecting = global::authClient.android.Resource.String.mr_cast_button_connecting;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_button_disconnected = global::authClient.android.Resource.String.mr_cast_button_disconnected;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_dialog_title_view_placeholder = global::authClient.android.Resource.String.mr_cast_dialog_title_view_placeholder;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_chooser_searching = global::authClient.android.Resource.String.mr_chooser_searching;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_chooser_title = global::authClient.android.Resource.String.mr_chooser_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_album_art = global::authClient.android.Resource.String.mr_controller_album_art;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_casting_screen = global::authClient.android.Resource.String.mr_controller_casting_screen;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_close_description = global::authClient.android.Resource.String.mr_controller_close_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_collapse_group = global::authClient.android.Resource.String.mr_controller_collapse_group;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_disconnect = global::authClient.android.Resource.String.mr_controller_disconnect;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_expand_group = global::authClient.android.Resource.String.mr_controller_expand_group;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_no_info_available = global::authClient.android.Resource.String.mr_controller_no_info_available;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_no_media_selected = global::authClient.android.Resource.String.mr_controller_no_media_selected;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_pause = global::authClient.android.Resource.String.mr_controller_pause;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_play = global::authClient.android.Resource.String.mr_controller_play;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_stop = global::authClient.android.Resource.String.mr_controller_stop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_stop_casting = global::authClient.android.Resource.String.mr_controller_stop_casting;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_volume_slider = global::authClient.android.Resource.String.mr_controller_volume_slider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_dialog_device_header = global::authClient.android.Resource.String.mr_dialog_device_header;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_dialog_route_header = global::authClient.android.Resource.String.mr_dialog_route_header;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_system_route_name = global::authClient.android.Resource.String.mr_system_route_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_user_route_category_name = global::authClient.android.Resource.String.mr_user_route_category_name;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.mtrl_chip_close_icon_content_description = global::authClient.android.Resource.String.mtrl_chip_close_icon_content_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.password_toggle_content_description = global::authClient.android.Resource.String.password_toggle_content_description;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_eye = global::authClient.android.Resource.String.path_password_eye;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_eye_mask_strike_through = global::authClient.android.Resource.String.path_password_eye_mask_strike_through;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_eye_mask_visible = global::authClient.android.Resource.String.path_password_eye_mask_visible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_strike_through = global::authClient.android.Resource.String.path_password_strike_through;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.search_menu_title = global::authClient.android.Resource.String.search_menu_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.status_bar_notification_info_overflow = global::authClient.android.Resource.String.status_bar_notification_info_overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.AlertDialog_AppCompat = global::authClient.android.Resource.Style.AlertDialog_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::authClient.android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_AppCompat_Dialog = global::authClient.android.Resource.Style.Animation_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::authClient.android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_AppCompat_Tooltip = global::authClient.android.Resource.Style.Animation_AppCompat_Tooltip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::authClient.android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::authClient.android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::authClient.android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::authClient.android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::authClient.android.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_CardView = global::authClient.android.Resource.Style.Base_CardView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::authClient.android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::authClient.android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat = global::authClient.android.Resource.Style.Base_Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::authClient.android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V26_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V26_Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V28_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V28_Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::authClient.android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::authClient.android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::authClient.android.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::authClient.android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::authClient.android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.CardView = global::authClient.android.Resource.Style.CardView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.CardView_Dark = global::authClient.android.Resource.Style.CardView_Dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.CardView_Light = global::authClient.android.Resource.Style.CardView_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_AppCompat = global::authClient.android.Resource.Style.Platform_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_AppCompat_Light = global::authClient.android.Resource.Style.Platform_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents = global::authClient.android.Resource.Style.Platform_MaterialComponents;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents_Light = global::authClient.android.Resource.Style.Platform_MaterialComponents_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V21_AppCompat = global::authClient.android.Resource.Style.Platform_V21_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::authClient.android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V25_AppCompat = global::authClient.android.Resource.Style.Platform_V25_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::authClient.android.Resource.Style.Platform_V25_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::authClient.android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat = global::authClient.android.Resource.Style.TextAppearance_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::authClient.android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Counter = global::authClient.android.Resource.Style.TextAppearance_Design_Counter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::authClient.android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Error = global::authClient.android.Resource.Style.TextAppearance_Design_Error;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_HelperText = global::authClient.android.Resource.Style.TextAppearance_Design_HelperText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Hint = global::authClient.android.Resource.Style.TextAppearance_Design_Hint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::authClient.android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Tab = global::authClient.android.Resource.Style.TextAppearance_Design_Tab;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Tab = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::authClient.android.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::authClient.android.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat = global::authClient.android.Resource.Style.Theme_AppCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::authClient.android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light = global::authClient.android.Resource.Style.Theme_AppCompat_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design = global::authClient.android.Resource.Style.Theme_Design;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_Light = global::authClient.android.Resource.Style.Theme_Design_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_NoActionBar = global::authClient.android.Resource.Style.Theme_Design_NoActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents = global::authClient.android.Resource.Style.Theme_MaterialComponents;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::authClient.android.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::authClient.android.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter = global::authClient.android.Resource.Style.Theme_MediaRouter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter_Light = global::authClient.android.Resource.Style.Theme_MediaRouter_Light;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::authClient.android.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::authClient.android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::authClient.android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::authClient.android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button = global::authClient.android.Resource.Style.Widget_AppCompat_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::authClient.android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::authClient.android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Widget_AppCompat_EditText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::authClient.android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::authClient.android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::authClient.android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView = global::authClient.android.Resource.Style.Widget_AppCompat_ListView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::authClient.android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::authClient.android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::authClient.android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::authClient.android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SearchView = global::authClient.android.Resource.Style.Widget_AppCompat_SearchView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::authClient.android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::authClient.android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::authClient.android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::authClient.android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::authClient.android.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Compat_NotificationActionText = global::authClient.android.Resource.Style.Widget_Compat_NotificationActionText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_AppBarLayout = global::authClient.android.Resource.Style.Widget_Design_AppBarLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::authClient.android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::authClient.android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::authClient.android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::authClient.android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_NavigationView = global::authClient.android.Resource.Style.Widget_Design_NavigationView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::authClient.android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_Snackbar = global::authClient.android.Resource.Style.Widget_Design_Snackbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_TabLayout = global::authClient.android.Resource.Style.Widget_Design_TabLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_TextInputLayout = global::authClient.android.Resource.Style.Widget_Design_TextInputLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_CardView = global::authClient.android.Resource.Style.Widget_MaterialComponents_CardView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::authClient.android.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::authClient.android.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::authClient.android.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::authClient.android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::authClient.android.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::authClient.android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::authClient.android.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::authClient.android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::authClient.android.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::authClient.android.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar = global::authClient.android.Resource.Styleable.ActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBarLayout = global::authClient.android.Resource.Styleable.ActionBarLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::authClient.android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_background = global::authClient.android.Resource.Styleable.ActionBar_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::authClient.android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::authClient.android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::authClient.android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::authClient.android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::authClient.android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::authClient.android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::authClient.android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::authClient.android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::authClient.android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_displayOptions = global::authClient.android.Resource.Styleable.ActionBar_displayOptions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_divider = global::authClient.android.Resource.Styleable.ActionBar_divider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_elevation = global::authClient.android.Resource.Styleable.ActionBar_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_height = global::authClient.android.Resource.Styleable.ActionBar_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::authClient.android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::authClient.android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_homeLayout = global::authClient.android.Resource.Styleable.ActionBar_homeLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_icon = global::authClient.android.Resource.Styleable.ActionBar_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::authClient.android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_itemPadding = global::authClient.android.Resource.Styleable.ActionBar_itemPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_logo = global::authClient.android.Resource.Styleable.ActionBar_logo;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_navigationMode = global::authClient.android.Resource.Styleable.ActionBar_navigationMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_popupTheme = global::authClient.android.Resource.Styleable.ActionBar_popupTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::authClient.android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::authClient.android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_subtitle = global::authClient.android.Resource.Styleable.ActionBar_subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::authClient.android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_title = global::authClient.android.Resource.Styleable.ActionBar_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::authClient.android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMenuItemView = global::authClient.android.Resource.Styleable.ActionMenuItemView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::authClient.android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMenuView = global::authClient.android.Resource.Styleable.ActionMenuView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode = global::authClient.android.Resource.Styleable.ActionMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_background = global::authClient.android.Resource.Styleable.ActionMode_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::authClient.android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::authClient.android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_height = global::authClient.android.Resource.Styleable.ActionMode_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::authClient.android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::authClient.android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActivityChooserView = global::authClient.android.Resource.Styleable.ActivityChooserView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::authClient.android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::authClient.android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog = global::authClient.android.Resource.Styleable.AlertDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_android_layout = global::authClient.android.Resource.Styleable.AlertDialog_android_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::authClient.android.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::authClient.android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_listLayout = global::authClient.android.Resource.Styleable.AlertDialog_listLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_showTitle = global::authClient.android.Resource.Styleable.AlertDialog_showTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout = global::authClient.android.Resource.Styleable.AppBarLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates = global::authClient.android.Resource.Styleable.AppBarLayoutStates;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_android_background = global::authClient.android.Resource.Styleable.AppBarLayout_android_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::authClient.android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::authClient.android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_elevation = global::authClient.android.Resource.Styleable.AppBarLayout_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_expanded = global::authClient.android.Resource.Styleable.AppBarLayout_expanded;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_Layout = global::authClient.android.Resource.Styleable.AppBarLayout_Layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::authClient.android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::authClient.android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::authClient.android.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView = global::authClient.android.Resource.Styleable.AppCompatImageView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_android_src = global::authClient.android.Resource.Styleable.AppCompatImageView_android_src;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::authClient.android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_tint = global::authClient.android.Resource.Styleable.AppCompatImageView_tint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::authClient.android.Resource.Styleable.AppCompatImageView_tintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar = global::authClient.android.Resource.Styleable.AppCompatSeekBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::authClient.android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper = global::authClient.android.Resource.Styleable.AppCompatTextHelper;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView = global::authClient.android.Resource.Styleable.AppCompatTextView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::authClient.android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::authClient.android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::authClient.android.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::authClient.android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::authClient.android.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::authClient.android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme = global::authClient.android.Resource.Styleable.AppCompatTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::authClient.android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::authClient.android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::authClient.android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::authClient.android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::authClient.android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorError = global::authClient.android.Resource.Styleable.AppCompatTheme_colorError;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::authClient.android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::authClient.android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::authClient.android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::authClient.android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::authClient.android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::authClient.android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::authClient.android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::authClient.android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::authClient.android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::authClient.android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::authClient.android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::authClient.android.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::authClient.android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar = global::authClient.android.Resource.Styleable.BottomAppBar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::authClient.android.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::authClient.android.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::authClient.android.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::authClient.android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::authClient.android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::authClient.android.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView = global::authClient.android.Resource.Styleable.BottomNavigationView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_elevation = global::authClient.android.Resource.Styleable.BottomNavigationView_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::authClient.android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::authClient.android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::authClient.android.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::authClient.android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::authClient.android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::authClient.android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::authClient.android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::authClient.android.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_menu = global::authClient.android.Resource.Styleable.BottomNavigationView_menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ButtonBarLayout = global::authClient.android.Resource.Styleable.ButtonBarLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::authClient.android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView = global::authClient.android.Resource.Styleable.CardView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_android_minHeight = global::authClient.android.Resource.Styleable.CardView_android_minHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_android_minWidth = global::authClient.android.Resource.Styleable.CardView_android_minWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::authClient.android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardCornerRadius = global::authClient.android.Resource.Styleable.CardView_cardCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardElevation = global::authClient.android.Resource.Styleable.CardView_cardElevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardMaxElevation = global::authClient.android.Resource.Styleable.CardView_cardMaxElevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::authClient.android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::authClient.android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPadding = global::authClient.android.Resource.Styleable.CardView_contentPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::authClient.android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::authClient.android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingRight = global::authClient.android.Resource.Styleable.CardView_contentPaddingRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingTop = global::authClient.android.Resource.Styleable.CardView_contentPaddingTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip = global::authClient.android.Resource.Styleable.Chip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup = global::authClient.android.Resource.Styleable.ChipGroup;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_checkedChip = global::authClient.android.Resource.Styleable.ChipGroup_checkedChip;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_chipSpacing = global::authClient.android.Resource.Styleable.ChipGroup_chipSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::authClient.android.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::authClient.android.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_singleLine = global::authClient.android.Resource.Styleable.ChipGroup_singleLine;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_singleSelection = global::authClient.android.Resource.Styleable.ChipGroup_singleSelection;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_checkable = global::authClient.android.Resource.Styleable.Chip_android_checkable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_ellipsize = global::authClient.android.Resource.Styleable.Chip_android_ellipsize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_maxWidth = global::authClient.android.Resource.Styleable.Chip_android_maxWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_text = global::authClient.android.Resource.Styleable.Chip_android_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_textAppearance = global::authClient.android.Resource.Styleable.Chip_android_textAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_checkedIcon = global::authClient.android.Resource.Styleable.Chip_checkedIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_checkedIconEnabled = global::authClient.android.Resource.Styleable.Chip_checkedIconEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_checkedIconVisible = global::authClient.android.Resource.Styleable.Chip_checkedIconVisible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipBackgroundColor = global::authClient.android.Resource.Styleable.Chip_chipBackgroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipCornerRadius = global::authClient.android.Resource.Styleable.Chip_chipCornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipEndPadding = global::authClient.android.Resource.Styleable.Chip_chipEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIcon = global::authClient.android.Resource.Styleable.Chip_chipIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconEnabled = global::authClient.android.Resource.Styleable.Chip_chipIconEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconSize = global::authClient.android.Resource.Styleable.Chip_chipIconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconTint = global::authClient.android.Resource.Styleable.Chip_chipIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconVisible = global::authClient.android.Resource.Styleable.Chip_chipIconVisible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipMinHeight = global::authClient.android.Resource.Styleable.Chip_chipMinHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipStartPadding = global::authClient.android.Resource.Styleable.Chip_chipStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipStrokeColor = global::authClient.android.Resource.Styleable.Chip_chipStrokeColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipStrokeWidth = global::authClient.android.Resource.Styleable.Chip_chipStrokeWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIcon = global::authClient.android.Resource.Styleable.Chip_closeIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconEnabled = global::authClient.android.Resource.Styleable.Chip_closeIconEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconEndPadding = global::authClient.android.Resource.Styleable.Chip_closeIconEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconSize = global::authClient.android.Resource.Styleable.Chip_closeIconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconStartPadding = global::authClient.android.Resource.Styleable.Chip_closeIconStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconTint = global::authClient.android.Resource.Styleable.Chip_closeIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconVisible = global::authClient.android.Resource.Styleable.Chip_closeIconVisible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_hideMotionSpec = global::authClient.android.Resource.Styleable.Chip_hideMotionSpec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_iconEndPadding = global::authClient.android.Resource.Styleable.Chip_iconEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_iconStartPadding = global::authClient.android.Resource.Styleable.Chip_iconStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_rippleColor = global::authClient.android.Resource.Styleable.Chip_rippleColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_showMotionSpec = global::authClient.android.Resource.Styleable.Chip_showMotionSpec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_textEndPadding = global::authClient.android.Resource.Styleable.Chip_textEndPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_textStartPadding = global::authClient.android.Resource.Styleable.Chip_textStartPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem = global::authClient.android.Resource.Styleable.ColorStateListItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem_alpha = global::authClient.android.Resource.Styleable.ColorStateListItem_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::authClient.android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem_android_color = global::authClient.android.Resource.Styleable.ColorStateListItem_android_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton = global::authClient.android.Resource.Styleable.CompoundButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton_android_button = global::authClient.android.Resource.Styleable.CompoundButton_android_button;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton_buttonTint = global::authClient.android.Resource.Styleable.CompoundButton_buttonTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::authClient.android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout = global::authClient.android.Resource.Styleable.CoordinatorLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::authClient.android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::authClient.android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DesignTheme = global::authClient.android.Resource.Styleable.DesignTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::authClient.android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::authClient.android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle = global::authClient.android.Resource.Styleable.DrawerArrowToggle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_color = global::authClient.android.Resource.Styleable.DrawerArrowToggle_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::authClient.android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::authClient.android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::authClient.android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::authClient.android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton = global::authClient.android.Resource.Styleable.FloatingActionButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::authClient.android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::authClient.android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::authClient.android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::authClient.android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::authClient.android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_elevation = global::authClient.android.Resource.Styleable.FloatingActionButton_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::authClient.android.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::authClient.android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::authClient.android.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::authClient.android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::authClient.android.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::authClient.android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::authClient.android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::authClient.android.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::authClient.android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FlowLayout = global::authClient.android.Resource.Styleable.FlowLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FlowLayout_itemSpacing = global::authClient.android.Resource.Styleable.FlowLayout_itemSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FlowLayout_lineSpacing = global::authClient.android.Resource.Styleable.FlowLayout_lineSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily = global::authClient.android.Resource.Styleable.FontFamily;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont = global::authClient.android.Resource.Styleable.FontFamilyFont;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_font = global::authClient.android.Resource.Styleable.FontFamilyFont_android_font;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::authClient.android.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::authClient.android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::authClient.android.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::authClient.android.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_font = global::authClient.android.Resource.Styleable.FontFamilyFont_font;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::authClient.android.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::authClient.android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::authClient.android.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::authClient.android.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::authClient.android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::authClient.android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::authClient.android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::authClient.android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::authClient.android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::authClient.android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout = global::authClient.android.Resource.Styleable.ForegroundLinearLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor = global::authClient.android.Resource.Styleable.GradientColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColorItem = global::authClient.android.Resource.Styleable.GradientColorItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColorItem_android_color = global::authClient.android.Resource.Styleable.GradientColorItem_android_color;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColorItem_android_offset = global::authClient.android.Resource.Styleable.GradientColorItem_android_offset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_centerColor = global::authClient.android.Resource.Styleable.GradientColor_android_centerColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_centerX = global::authClient.android.Resource.Styleable.GradientColor_android_centerX;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_centerY = global::authClient.android.Resource.Styleable.GradientColor_android_centerY;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_endColor = global::authClient.android.Resource.Styleable.GradientColor_android_endColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_endX = global::authClient.android.Resource.Styleable.GradientColor_android_endX;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_endY = global::authClient.android.Resource.Styleable.GradientColor_android_endY;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::authClient.android.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_startColor = global::authClient.android.Resource.Styleable.GradientColor_android_startColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_startX = global::authClient.android.Resource.Styleable.GradientColor_android_startX;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_startY = global::authClient.android.Resource.Styleable.GradientColor_android_startY;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_tileMode = global::authClient.android.Resource.Styleable.GradientColor_android_tileMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_type = global::authClient.android.Resource.Styleable.GradientColor_android_type;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat = global::authClient.android.Resource.Styleable.LinearLayoutCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::authClient.android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::authClient.android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::authClient.android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::authClient.android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ListPopupWindow = global::authClient.android.Resource.Styleable.ListPopupWindow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::authClient.android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::authClient.android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton = global::authClient.android.Resource.Styleable.MaterialButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::authClient.android.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::authClient.android.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetRight = global::authClient.android.Resource.Styleable.MaterialButton_android_insetRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetTop = global::authClient.android.Resource.Styleable.MaterialButton_android_insetTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_backgroundTint = global::authClient.android.Resource.Styleable.MaterialButton_backgroundTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::authClient.android.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_cornerRadius = global::authClient.android.Resource.Styleable.MaterialButton_cornerRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_icon = global::authClient.android.Resource.Styleable.MaterialButton_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconGravity = global::authClient.android.Resource.Styleable.MaterialButton_iconGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconPadding = global::authClient.android.Resource.Styleable.MaterialButton_iconPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconSize = global::authClient.android.Resource.Styleable.MaterialButton_iconSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconTint = global::authClient.android.Resource.Styleable.MaterialButton_iconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconTintMode = global::authClient.android.Resource.Styleable.MaterialButton_iconTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_rippleColor = global::authClient.android.Resource.Styleable.MaterialButton_rippleColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_strokeColor = global::authClient.android.Resource.Styleable.MaterialButton_strokeColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_strokeWidth = global::authClient.android.Resource.Styleable.MaterialButton_strokeWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialCardView = global::authClient.android.Resource.Styleable.MaterialCardView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialCardView_strokeColor = global::authClient.android.Resource.Styleable.MaterialCardView_strokeColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::authClient.android.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme = global::authClient.android.Resource.Styleable.MaterialComponentsTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton = global::authClient.android.Resource.Styleable.MediaRouteButton;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::authClient.android.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::authClient.android.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::authClient.android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::authClient.android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup = global::authClient.android.Resource.Styleable.MenuGroup;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::authClient.android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_enabled = global::authClient.android.Resource.Styleable.MenuGroup_android_enabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_id = global::authClient.android.Resource.Styleable.MenuGroup_android_id;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::authClient.android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::authClient.android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_visible = global::authClient.android.Resource.Styleable.MenuGroup_android_visible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem = global::authClient.android.Resource.Styleable.MenuItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_actionLayout = global::authClient.android.Resource.Styleable.MenuItem_actionLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::authClient.android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_actionViewClass = global::authClient.android.Resource.Styleable.MenuItem_actionViewClass;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::authClient.android.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::authClient.android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_checkable = global::authClient.android.Resource.Styleable.MenuItem_android_checkable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_checked = global::authClient.android.Resource.Styleable.MenuItem_android_checked;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_enabled = global::authClient.android.Resource.Styleable.MenuItem_android_enabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_icon = global::authClient.android.Resource.Styleable.MenuItem_android_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_id = global::authClient.android.Resource.Styleable.MenuItem_android_id;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::authClient.android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::authClient.android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_onClick = global::authClient.android.Resource.Styleable.MenuItem_android_onClick;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::authClient.android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_title = global::authClient.android.Resource.Styleable.MenuItem_android_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::authClient.android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_visible = global::authClient.android.Resource.Styleable.MenuItem_android_visible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_contentDescription = global::authClient.android.Resource.Styleable.MenuItem_contentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_iconTint = global::authClient.android.Resource.Styleable.MenuItem_iconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_iconTintMode = global::authClient.android.Resource.Styleable.MenuItem_iconTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_numericModifiers = global::authClient.android.Resource.Styleable.MenuItem_numericModifiers;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_showAsAction = global::authClient.android.Resource.Styleable.MenuItem_showAsAction;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_tooltipText = global::authClient.android.Resource.Styleable.MenuItem_tooltipText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView = global::authClient.android.Resource.Styleable.MenuView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_headerBackground = global::authClient.android.Resource.Styleable.MenuView_android_headerBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::authClient.android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_itemBackground = global::authClient.android.Resource.Styleable.MenuView_android_itemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::authClient.android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::authClient.android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::authClient.android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::authClient.android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::authClient.android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_subMenuArrow = global::authClient.android.Resource.Styleable.MenuView_subMenuArrow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView = global::authClient.android.Resource.Styleable.NavigationView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_android_background = global::authClient.android.Resource.Styleable.NavigationView_android_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::authClient.android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::authClient.android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_elevation = global::authClient.android.Resource.Styleable.NavigationView_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_headerLayout = global::authClient.android.Resource.Styleable.NavigationView_headerLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemBackground = global::authClient.android.Resource.Styleable.NavigationView_itemBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::authClient.android.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemIconPadding = global::authClient.android.Resource.Styleable.NavigationView_itemIconPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemIconTint = global::authClient.android.Resource.Styleable.NavigationView_itemIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::authClient.android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemTextColor = global::authClient.android.Resource.Styleable.NavigationView_itemTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_menu = global::authClient.android.Resource.Styleable.NavigationView_menu;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow = global::authClient.android.Resource.Styleable.PopupWindow;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindowBackgroundState = global::authClient.android.Resource.Styleable.PopupWindowBackgroundState;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::authClient.android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::authClient.android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::authClient.android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::authClient.android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecycleListView = global::authClient.android.Resource.Styleable.RecycleListView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::authClient.android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::authClient.android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView = global::authClient.android.Resource.Styleable.RecyclerView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::authClient.android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_android_orientation = global::authClient.android.Resource.Styleable.RecyclerView_android_orientation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_layoutManager = global::authClient.android.Resource.Styleable.RecyclerView_layoutManager;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::authClient.android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_spanCount = global::authClient.android.Resource.Styleable.RecyclerView_spanCount;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::authClient.android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::authClient.android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::authClient.android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::authClient.android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::authClient.android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView = global::authClient.android.Resource.Styleable.SearchView;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_focusable = global::authClient.android.Resource.Styleable.SearchView_android_focusable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_imeOptions = global::authClient.android.Resource.Styleable.SearchView_android_imeOptions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_inputType = global::authClient.android.Resource.Styleable.SearchView_android_inputType;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_maxWidth = global::authClient.android.Resource.Styleable.SearchView_android_maxWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_closeIcon = global::authClient.android.Resource.Styleable.SearchView_closeIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_commitIcon = global::authClient.android.Resource.Styleable.SearchView_commitIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::authClient.android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_goIcon = global::authClient.android.Resource.Styleable.SearchView_goIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::authClient.android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_layout = global::authClient.android.Resource.Styleable.SearchView_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_queryBackground = global::authClient.android.Resource.Styleable.SearchView_queryBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_queryHint = global::authClient.android.Resource.Styleable.SearchView_queryHint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_searchHintIcon = global::authClient.android.Resource.Styleable.SearchView_searchHintIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_searchIcon = global::authClient.android.Resource.Styleable.SearchView_searchIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_submitBackground = global::authClient.android.Resource.Styleable.SearchView_submitBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::authClient.android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_voiceIcon = global::authClient.android.Resource.Styleable.SearchView_voiceIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Snackbar = global::authClient.android.Resource.Styleable.Snackbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout = global::authClient.android.Resource.Styleable.SnackbarLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::authClient.android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout_elevation = global::authClient.android.Resource.Styleable.SnackbarLayout_elevation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::authClient.android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::authClient.android.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Snackbar_snackbarStyle = global::authClient.android.Resource.Styleable.Snackbar_snackbarStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner = global::authClient.android.Resource.Styleable.Spinner;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::authClient.android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_entries = global::authClient.android.Resource.Styleable.Spinner_android_entries;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_popupBackground = global::authClient.android.Resource.Styleable.Spinner_android_popupBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_prompt = global::authClient.android.Resource.Styleable.Spinner_android_prompt;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_popupTheme = global::authClient.android.Resource.Styleable.Spinner_popupTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable = global::authClient.android.Resource.Styleable.StateListDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawableItem = global::authClient.android.Resource.Styleable.StateListDrawableItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::authClient.android.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::authClient.android.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_dither = global::authClient.android.Resource.Styleable.StateListDrawable_android_dither;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::authClient.android.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::authClient.android.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::authClient.android.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_visible = global::authClient.android.Resource.Styleable.StateListDrawable_android_visible;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat = global::authClient.android.Resource.Styleable.SwitchCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::authClient.android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::authClient.android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::authClient.android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_showText = global::authClient.android.Resource.Styleable.SwitchCompat_showText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::authClient.android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::authClient.android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::authClient.android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::authClient.android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_track = global::authClient.android.Resource.Styleable.SwitchCompat_track;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_trackTint = global::authClient.android.Resource.Styleable.SwitchCompat_trackTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::authClient.android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem = global::authClient.android.Resource.Styleable.TabItem;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem_android_icon = global::authClient.android.Resource.Styleable.TabItem_android_icon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem_android_layout = global::authClient.android.Resource.Styleable.TabItem_android_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem_android_text = global::authClient.android.Resource.Styleable.TabItem_android_text;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout = global::authClient.android.Resource.Styleable.TabLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabBackground = global::authClient.android.Resource.Styleable.TabLayout_tabBackground;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabContentStart = global::authClient.android.Resource.Styleable.TabLayout_tabContentStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabGravity = global::authClient.android.Resource.Styleable.TabLayout_tabGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIconTint = global::authClient.android.Resource.Styleable.TabLayout_tabIconTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::authClient.android.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicator = global::authClient.android.Resource.Styleable.TabLayout_tabIndicator;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::authClient.android.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::authClient.android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::authClient.android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabMode = global::authClient.android.Resource.Styleable.TabLayout_tabMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPadding = global::authClient.android.Resource.Styleable.TabLayout_tabPadding;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabRippleColor = global::authClient.android.Resource.Styleable.TabLayout_tabRippleColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::authClient.android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::authClient.android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabTextColor = global::authClient.android.Resource.Styleable.TabLayout_tabTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::authClient.android.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance = global::authClient.android.Resource.Styleable.TextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::authClient.android.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textColor = global::authClient.android.Resource.Styleable.TextAppearance_android_textColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::authClient.android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::authClient.android.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textSize = global::authClient.android.Resource.Styleable.TextAppearance_android_textSize;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::authClient.android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_typeface = global::authClient.android.Resource.Styleable.TextAppearance_android_typeface;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_fontFamily = global::authClient.android.Resource.Styleable.TextAppearance_fontFamily;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::authClient.android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout = global::authClient.android.Resource.Styleable.TextInputLayout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_android_hint = global::authClient.android.Resource.Styleable.TextInputLayout_android_hint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::authClient.android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::authClient.android.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::authClient.android.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::authClient.android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::authClient.android.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::authClient.android.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::authClient.android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_helperText = global::authClient.android.Resource.Styleable.TextInputLayout_helperText;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement = global::authClient.android.Resource.Styleable.ThemeEnforcement;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::authClient.android.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::authClient.android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::authClient.android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar = global::authClient.android.Resource.Styleable.Toolbar;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_android_gravity = global::authClient.android.Resource.Styleable.Toolbar_android_gravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_android_minHeight = global::authClient.android.Resource.Styleable.Toolbar_android_minHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_buttonGravity = global::authClient.android.Resource.Styleable.Toolbar_buttonGravity;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::authClient.android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_collapseIcon = global::authClient.android.Resource.Styleable.Toolbar_collapseIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::authClient.android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::authClient.android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::authClient.android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::authClient.android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::authClient.android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::authClient.android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_logo = global::authClient.android.Resource.Styleable.Toolbar_logo;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_logoDescription = global::authClient.android.Resource.Styleable.Toolbar_logoDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::authClient.android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::authClient.android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_navigationIcon = global::authClient.android.Resource.Styleable.Toolbar_navigationIcon;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_popupTheme = global::authClient.android.Resource.Styleable.Toolbar_popupTheme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_subtitle = global::authClient.android.Resource.Styleable.Toolbar_subtitle;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::authClient.android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::authClient.android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_title = global::authClient.android.Resource.Styleable.Toolbar_title;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMargin = global::authClient.android.Resource.Styleable.Toolbar_titleMargin;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::authClient.android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::authClient.android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMargins = global::authClient.android.Resource.Styleable.Toolbar_titleMargins;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::authClient.android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::authClient.android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::authClient.android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleTextColor = global::authClient.android.Resource.Styleable.Toolbar_titleTextColor;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View = global::authClient.android.Resource.Styleable.View;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper = global::authClient.android.Resource.Styleable.ViewBackgroundHelper;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat = global::authClient.android.Resource.Styleable.ViewStubCompat;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_id = global::authClient.android.Resource.Styleable.ViewStubCompat_android_id;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::authClient.android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::authClient.android.Resource.Styleable.ViewStubCompat_android_layout;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_android_focusable = global::authClient.android.Resource.Styleable.View_android_focusable;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_android_theme = global::authClient.android.Resource.Styleable.View_android_theme;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_paddingEnd = global::authClient.android.Resource.Styleable.View_paddingEnd;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_paddingStart = global::authClient.android.Resource.Styleable.View_paddingStart;
+			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_theme = global::authClient.android.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::authClient.android.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::authClient.android.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::authClient.android.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -4553,79 +9535,88 @@ namespace authClient.android
 			public const int mtrl_text_btn_text_color_selector = 2131034218;
 			
 			// aapt resource value: 0x7F05006F
-			public const int notification_action_color_filter = 2131034223;
+			public const int normal = 2131034223;
 			
 			// aapt resource value: 0x7F050070
-			public const int notification_icon_bg_color = 2131034224;
+			public const int notification_action_color_filter = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int notification_material_background_media_default_color = 2131034225;
+			public const int notification_icon_bg_color = 2131034225;
 			
 			// aapt resource value: 0x7F050072
-			public const int primary_dark_material_dark = 2131034226;
+			public const int notification_material_background_media_default_color = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int primary_dark_material_light = 2131034227;
+			public const int primary_dark_material_dark = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int primary_material_dark = 2131034228;
+			public const int primary_dark_material_light = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int primary_material_light = 2131034229;
+			public const int primary_material_dark = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int primary_text_default_material_dark = 2131034230;
+			public const int primary_material_light = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int primary_text_default_material_light = 2131034231;
+			public const int primary_text_default_material_dark = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int primary_text_disabled_material_dark = 2131034232;
+			public const int primary_text_default_material_light = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int primary_text_disabled_material_light = 2131034233;
+			public const int primary_text_disabled_material_dark = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int ripple_material_dark = 2131034234;
+			public const int primary_text_disabled_material_light = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int ripple_material_light = 2131034235;
+			public const int ripple_material_dark = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int secondary_text_default_material_dark = 2131034236;
+			public const int ripple_material_light = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int secondary_text_default_material_light = 2131034237;
+			public const int secondary_text_default_material_dark = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int secondary_text_disabled_material_dark = 2131034238;
+			public const int secondary_text_default_material_light = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int secondary_text_disabled_material_light = 2131034239;
+			public const int secondary_text_disabled_material_dark = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int switch_thumb_disabled_material_dark = 2131034240;
+			public const int secondary_text_disabled_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int switch_thumb_disabled_material_light = 2131034241;
+			public const int segmented_control_text = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_material_dark = 2131034242;
+			public const int selected = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_material_light = 2131034243;
+			public const int switch_thumb_disabled_material_dark = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_normal_material_dark = 2131034244;
+			public const int switch_thumb_disabled_material_light = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_normal_material_light = 2131034245;
+			public const int switch_thumb_material_dark = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int tooltip_background_dark = 2131034246;
+			public const int switch_thumb_material_light = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int tooltip_background_light = 2131034247;
+			public const int switch_thumb_normal_material_dark = 2131034247;
+			
+			// aapt resource value: 0x7F050088
+			public const int switch_thumb_normal_material_light = 2131034248;
+			
+			// aapt resource value: 0x7F050089
+			public const int tooltip_background_dark = 2131034249;
+			
+			// aapt resource value: 0x7F05008A
+			public const int tooltip_background_light = 2131034250;
 			
 			static Color()
 			{
@@ -6256,10 +11247,19 @@ namespace authClient.android
 			public const int notify_panel_notification_icon_bg = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int tooltip_frame_dark = 2131165497;
+			public const int segmented_control_background = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int tooltip_frame_light = 2131165498;
+			public const int segmented_control_first_background = 2131165498;
+			
+			// aapt resource value: 0x7F07013B
+			public const int segmented_control_last_background = 2131165499;
+			
+			// aapt resource value: 0x7F07013C
+			public const int tooltip_frame_dark = 2131165500;
+			
+			// aapt resource value: 0x7F07013D
+			public const int tooltip_frame_light = 2131165501;
 			
 			static Drawable()
 			{
@@ -6274,770 +11274,776 @@ namespace authClient.android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080006
-			public const int action0 = 2131230726;
-			
-			// aapt resource value: 0x7F080018
-			public const int actions = 2131230744;
-			
 			// aapt resource value: 0x7F080007
-			public const int action_bar = 2131230727;
-			
-			// aapt resource value: 0x7F080008
-			public const int action_bar_activity_content = 2131230728;
-			
-			// aapt resource value: 0x7F080009
-			public const int action_bar_container = 2131230729;
-			
-			// aapt resource value: 0x7F08000A
-			public const int action_bar_root = 2131230730;
-			
-			// aapt resource value: 0x7F08000B
-			public const int action_bar_spinner = 2131230731;
-			
-			// aapt resource value: 0x7F08000C
-			public const int action_bar_subtitle = 2131230732;
-			
-			// aapt resource value: 0x7F08000D
-			public const int action_bar_title = 2131230733;
-			
-			// aapt resource value: 0x7F08000E
-			public const int action_container = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int action_context_bar = 2131230735;
-			
-			// aapt resource value: 0x7F080010
-			public const int action_divider = 2131230736;
-			
-			// aapt resource value: 0x7F080011
-			public const int action_image = 2131230737;
-			
-			// aapt resource value: 0x7F080012
-			public const int action_menu_divider = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int action_menu_presenter = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int action_mode_bar = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int action_mode_bar_stub = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int action_mode_close_button = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int action_text = 2131230743;
+			public const int action0 = 2131230727;
 			
 			// aapt resource value: 0x7F080019
-			public const int activity_chooser_view_content = 2131230745;
+			public const int actions = 2131230745;
+			
+			// aapt resource value: 0x7F080008
+			public const int action_bar = 2131230728;
+			
+			// aapt resource value: 0x7F080009
+			public const int action_bar_activity_content = 2131230729;
+			
+			// aapt resource value: 0x7F08000A
+			public const int action_bar_container = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int action_bar_root = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int action_bar_spinner = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int action_bar_subtitle = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int action_bar_title = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int action_container = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int action_context_bar = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int action_divider = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int action_image = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int action_menu_divider = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int action_menu_presenter = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int action_mode_bar = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int action_mode_bar_stub = 2131230742;
+			
+			// aapt resource value: 0x7F080017
+			public const int action_mode_close_button = 2131230743;
+			
+			// aapt resource value: 0x7F080018
+			public const int action_text = 2131230744;
 			
 			// aapt resource value: 0x7F08001A
-			public const int add = 2131230746;
+			public const int activity_chooser_view_content = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int alertTitle = 2131230747;
+			public const int add = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int all = 2131230748;
+			public const int alertTitle = 2131230748;
+			
+			// aapt resource value: 0x7F08001D
+			public const int all = 2131230749;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08001D
-			public const int always = 2131230749;
-			
 			// aapt resource value: 0x7F08001E
-			public const int async = 2131230750;
+			public const int always = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int auto = 2131230751;
+			public const int async = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int beginning = 2131230752;
+			public const int auto = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int blocking = 2131230753;
+			public const int beginning = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int bottom = 2131230754;
+			public const int blocking = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int bottomtab_navarea = 2131230755;
+			public const int bottom = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int bottomtab_tabbar = 2131230756;
+			public const int bottomtab_navarea = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int browser_actions_header_text = 2131230757;
-			
-			// aapt resource value: 0x7F080028
-			public const int browser_actions_menu_items = 2131230760;
+			public const int bottomtab_tabbar = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int browser_actions_menu_item_icon = 2131230758;
-			
-			// aapt resource value: 0x7F080027
-			public const int browser_actions_menu_item_text = 2131230759;
+			public const int browser_actions_header_text = 2131230758;
 			
 			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_view = 2131230761;
+			public const int browser_actions_menu_items = 2131230761;
+			
+			// aapt resource value: 0x7F080027
+			public const int browser_actions_menu_item_icon = 2131230759;
+			
+			// aapt resource value: 0x7F080028
+			public const int browser_actions_menu_item_text = 2131230760;
 			
 			// aapt resource value: 0x7F08002A
-			public const int buttonPanel = 2131230762;
+			public const int browser_actions_menu_view = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int cancel_action = 2131230763;
+			public const int buttonPanel = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int center = 2131230764;
+			public const int cancel_action = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int center_horizontal = 2131230765;
+			public const int center = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int center_vertical = 2131230766;
+			public const int center_horizontal = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int checkbox = 2131230767;
+			public const int center_vertical = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int chronometer = 2131230768;
+			public const int checkbox = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int clip_horizontal = 2131230769;
+			public const int chronometer = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int clip_vertical = 2131230770;
+			public const int clip_horizontal = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int collapseActionView = 2131230771;
+			public const int clip_vertical = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int container = 2131230772;
+			public const int collapseActionView = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int content = 2131230773;
+			public const int container = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int contentPanel = 2131230774;
+			public const int content = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int coordinator = 2131230775;
+			public const int contentPanel = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int coordinator = 2131230776;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080038
-			public const int custom = 2131230776;
-			
 			// aapt resource value: 0x7F080039
-			public const int customPanel = 2131230777;
+			public const int custom = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int decor_content_parent = 2131230778;
+			public const int customPanel = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int default_activity_button = 2131230779;
+			public const int decor_content_parent = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int design_bottom_sheet = 2131230780;
+			public const int default_activity_button = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int design_menu_item_action_area = 2131230781;
+			public const int design_bottom_sheet = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int design_menu_item_action_area_stub = 2131230782;
+			public const int design_menu_item_action_area = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int design_menu_item_text = 2131230783;
+			public const int design_menu_item_action_area_stub = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int design_navigation_view = 2131230784;
+			public const int design_menu_item_text = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int disableHome = 2131230785;
+			public const int design_navigation_view = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int edit_query = 2131230786;
+			public const int disableHome = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int end = 2131230787;
+			public const int edit_query = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int end_padder = 2131230788;
+			public const int end = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int enterAlways = 2131230789;
+			public const int end_padder = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int enterAlwaysCollapsed = 2131230790;
+			public const int enterAlways = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int exitUntilCollapsed = 2131230791;
-			
-			// aapt resource value: 0x7F080049
-			public const int expanded_menu = 2131230793;
+			public const int enterAlwaysCollapsed = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int expand_activities_button = 2131230792;
+			public const int exitUntilCollapsed = 2131230792;
 			
 			// aapt resource value: 0x7F08004A
-			public const int fill = 2131230794;
+			public const int expanded_menu = 2131230794;
 			
-			// aapt resource value: 0x7F08004D
-			public const int filled = 2131230797;
+			// aapt resource value: 0x7F080049
+			public const int expand_activities_button = 2131230793;
 			
 			// aapt resource value: 0x7F08004B
-			public const int fill_horizontal = 2131230795;
-			
-			// aapt resource value: 0x7F08004C
-			public const int fill_vertical = 2131230796;
+			public const int fill = 2131230795;
 			
 			// aapt resource value: 0x7F08004E
-			public const int @fixed = 2131230798;
+			public const int filled = 2131230798;
+			
+			// aapt resource value: 0x7F08004C
+			public const int fill_horizontal = 2131230796;
+			
+			// aapt resource value: 0x7F08004D
+			public const int fill_vertical = 2131230797;
 			
 			// aapt resource value: 0x7F08004F
-			public const int flyoutcontent_appbar = 2131230799;
+			public const int @fixed = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int flyoutcontent_recycler = 2131230800;
+			public const int flyoutcontent_appbar = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int forever = 2131230801;
+			public const int flyoutcontent_recycler = 2131230801;
+			
+			// aapt resource value: 0x7F080052
+			public const int forever = 2131230802;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080052
-			public const int ghost_view = 2131230802;
-			
 			// aapt resource value: 0x7F080053
-			public const int group_divider = 2131230803;
+			public const int ghost_view = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int home = 2131230804;
+			public const int group_divider = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int homeAsUp = 2131230805;
+			public const int home = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int icon = 2131230806;
+			public const int homeAsUp = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int icon_group = 2131230807;
+			public const int icon = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int ifRoom = 2131230808;
+			public const int icon_group = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int image = 2131230809;
+			public const int ifRoom = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int info = 2131230810;
+			public const int image = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int italic = 2131230811;
+			public const int info = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int item_touch_helper_previous_elevation = 2131230812;
+			public const int italic = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int labeled = 2131230813;
+			public const int item_touch_helper_previous_elevation = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int largeLabel = 2131230814;
+			public const int labeled = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int left = 2131230815;
+			public const int largeLabel = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int line1 = 2131230816;
+			public const int left = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int line3 = 2131230817;
+			public const int line1 = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int listMode = 2131230818;
+			public const int line3 = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int list_item = 2131230819;
+			public const int listMode = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int main_appbar = 2131230820;
+			public const int list_item = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int main_scrollview = 2131230821;
+			public const int main_appbar = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_tablayout = 2131230822;
+			public const int main_scrollview = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_toolbar = 2131230823;
+			public const int main_tablayout = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int masked = 2131230824;
+			public const int main_toolbar = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int media_actions = 2131230825;
+			public const int masked = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int message = 2131230826;
+			public const int media_actions = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int message = 2131230827;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006B
-			public const int middle = 2131230827;
-			
 			// aapt resource value: 0x7F08006C
-			public const int mini = 2131230828;
+			public const int middle = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int mr_art = 2131230829;
+			public const int mini = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int mr_cast_checkbox = 2131230830;
+			public const int mr_art = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mr_cast_close_button = 2131230831;
+			public const int mr_cast_checkbox = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int mr_cast_group_icon = 2131230832;
+			public const int mr_cast_close_button = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int mr_cast_group_name = 2131230833;
+			public const int mr_cast_group_icon = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int mr_cast_list = 2131230834;
+			public const int mr_cast_group_name = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int mr_cast_meta = 2131230835;
+			public const int mr_cast_list = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mr_cast_meta_art = 2131230836;
+			public const int mr_cast_meta = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mr_cast_meta_subtitle = 2131230837;
+			public const int mr_cast_meta_art = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mr_cast_meta_title = 2131230838;
+			public const int mr_cast_meta_subtitle = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int mr_cast_route_icon = 2131230839;
+			public const int mr_cast_meta_title = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int mr_cast_route_name = 2131230840;
+			public const int mr_cast_route_icon = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int mr_cast_stop_button = 2131230841;
+			public const int mr_cast_route_name = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int mr_cast_volume_layout = 2131230842;
+			public const int mr_cast_stop_button = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int mr_cast_volume_slider = 2131230843;
+			public const int mr_cast_volume_layout = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int mr_chooser_list = 2131230844;
+			public const int mr_cast_volume_slider = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int mr_chooser_route_desc = 2131230845;
+			public const int mr_chooser_list = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int mr_chooser_route_icon = 2131230846;
+			public const int mr_chooser_route_desc = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int mr_chooser_route_name = 2131230847;
+			public const int mr_chooser_route_icon = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int mr_chooser_title = 2131230848;
+			public const int mr_chooser_route_name = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int mr_close = 2131230849;
+			public const int mr_chooser_title = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int mr_control_divider = 2131230850;
+			public const int mr_close = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mr_control_playback_ctrl = 2131230851;
+			public const int mr_control_divider = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int mr_control_subtitle = 2131230852;
+			public const int mr_control_playback_ctrl = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int mr_control_title = 2131230853;
+			public const int mr_control_subtitle = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int mr_control_title_container = 2131230854;
+			public const int mr_control_title = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int mr_custom_control = 2131230855;
+			public const int mr_control_title_container = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mr_default_control = 2131230856;
+			public const int mr_custom_control = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mr_dialog_area = 2131230857;
+			public const int mr_default_control = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int mr_dialog_header_name = 2131230858;
+			public const int mr_dialog_area = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int mr_expandable_area = 2131230859;
+			public const int mr_dialog_header_name = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int mr_group_expand_collapse = 2131230860;
+			public const int mr_expandable_area = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int mr_group_volume_route_name = 2131230861;
+			public const int mr_group_expand_collapse = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int mr_group_volume_slider = 2131230862;
+			public const int mr_group_volume_route_name = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int mr_media_main_control = 2131230863;
+			public const int mr_group_volume_slider = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int mr_name = 2131230864;
+			public const int mr_media_main_control = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int mr_picker_close_button = 2131230865;
+			public const int mr_name = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mr_picker_list = 2131230866;
+			public const int mr_picker_close_button = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mr_picker_route_icon = 2131230867;
+			public const int mr_picker_list = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int mr_picker_route_name = 2131230868;
+			public const int mr_picker_route_icon = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int mr_playback_control = 2131230869;
+			public const int mr_picker_route_name = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int mr_title_bar = 2131230870;
+			public const int mr_playback_control = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int mr_volume_control = 2131230871;
+			public const int mr_title_bar = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int mr_volume_group_list = 2131230872;
+			public const int mr_volume_control = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int mr_volume_item_icon = 2131230873;
+			public const int mr_volume_group_list = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int mr_volume_slider = 2131230874;
+			public const int mr_volume_item_icon = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int mtrl_child_content_container = 2131230875;
+			public const int mr_volume_slider = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int mtrl_internal_children_alpha_tag = 2131230876;
+			public const int mtrl_child_content_container = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int multiply = 2131230877;
+			public const int mtrl_internal_children_alpha_tag = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int navigation_header_container = 2131230878;
+			public const int multiply = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int never = 2131230879;
+			public const int navigation_header_container = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int none = 2131230880;
+			public const int never = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int normal = 2131230881;
+			public const int none = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int notification_background = 2131230882;
+			public const int normal = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int notification_main_column = 2131230883;
+			public const int notification_background = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int notification_main_column_container = 2131230884;
+			public const int notification_main_column = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int outline = 2131230885;
+			public const int notification_main_column_container = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int parallax = 2131230886;
+			public const int outline = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int parentPanel = 2131230887;
+			public const int parallax = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int parent_matrix = 2131230888;
+			public const int parentPanel = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int pin = 2131230889;
+			public const int parent_matrix = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int progress_circular = 2131230890;
+			public const int pin = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int progress_horizontal = 2131230891;
+			public const int progress_circular = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int radio = 2131230892;
+			public const int progress_horizontal = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int right = 2131230893;
+			public const int radio = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int right_icon = 2131230894;
+			public const int right = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int right_side = 2131230895;
+			public const int right_icon = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int save_image_matrix = 2131230896;
+			public const int right_side = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int save_non_transition_alpha = 2131230897;
+			public const int save_image_matrix = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int save_scale_type = 2131230898;
+			public const int save_non_transition_alpha = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int screen = 2131230899;
+			public const int save_scale_type = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int scroll = 2131230900;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int scrollable = 2131230904;
+			public const int screen = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int scrollIndicatorDown = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int scrollIndicatorUp = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int scrollView = 2131230903;
+			public const int scroll = 2131230901;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int search_badge = 2131230905;
+			public const int scrollable = 2131230905;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int scrollIndicatorDown = 2131230902;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int scrollIndicatorUp = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int scrollView = 2131230904;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int search_bar = 2131230906;
+			public const int search_badge = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int search_button = 2131230907;
+			public const int search_bar = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int search_close_btn = 2131230908;
+			public const int search_button = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int search_edit_frame = 2131230909;
+			public const int search_close_btn = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int search_go_btn = 2131230910;
+			public const int search_edit_frame = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int search_mag_icon = 2131230911;
+			public const int search_go_btn = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int search_plate = 2131230912;
+			public const int search_mag_icon = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int search_src_text = 2131230913;
+			public const int search_plate = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int search_voice_btn = 2131230914;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int selected = 2131230916;
+			public const int search_src_text = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int select_dialog_listview = 2131230915;
+			public const int search_voice_btn = 2131230915;
+			
+			// aapt resource value: 0x7F080006
+			public const int SegControl = 2131230726;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int shellcontent_appbar = 2131230917;
+			public const int selected = 2131230917;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int select_dialog_listview = 2131230916;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int shellcontent_scrollview = 2131230918;
+			public const int shape_id = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int shellcontent_toolbar = 2131230919;
+			public const int shellcontent_appbar = 2131230919;
+			
+			// aapt resource value: 0x7F0800C8
+			public const int shellcontent_scrollview = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int shellcontent_toolbar = 2131230921;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800C8
-			public const int shortcut = 2131230920;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int showCustom = 2131230921;
-			
 			// aapt resource value: 0x7F0800CA
-			public const int showHome = 2131230922;
+			public const int shortcut = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int showTitle = 2131230923;
+			public const int showCustom = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int sliding_tabs = 2131230924;
+			public const int showHome = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int smallLabel = 2131230925;
+			public const int showTitle = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int snackbar_action = 2131230926;
+			public const int sliding_tabs = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int snackbar_text = 2131230927;
+			public const int smallLabel = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int snap = 2131230928;
+			public const int snackbar_action = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int snapMargins = 2131230929;
+			public const int snackbar_text = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int spacer = 2131230930;
+			public const int snap = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int split_action_bar = 2131230931;
+			public const int snapMargins = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int src_atop = 2131230932;
+			public const int spacer = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int src_in = 2131230933;
+			public const int split_action_bar = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int src_over = 2131230934;
+			public const int src_atop = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int start = 2131230935;
+			public const int src_in = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int status_bar_latest_event_content = 2131230936;
+			public const int src_over = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int stretch = 2131230937;
+			public const int start = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int submenuarrow = 2131230938;
+			public const int status_bar_latest_event_content = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int submit_area = 2131230939;
+			public const int stretch = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int submenuarrow = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int submit_area = 2131230941;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800DC
-			public const int tabMode = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int tag_transition_group = 2131230941;
-			
 			// aapt resource value: 0x7F0800DE
-			public const int tag_unhandled_key_event_manager = 2131230942;
+			public const int tabMode = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int tag_unhandled_key_listeners = 2131230943;
+			public const int tag_transition_group = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int text = 2131230944;
+			public const int tag_unhandled_key_event_manager = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int text2 = 2131230945;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int textinput_counter = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int textinput_error = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int textinput_helper_text = 2131230952;
+			public const int tag_unhandled_key_listeners = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int textSpacerNoButtons = 2131230946;
+			public const int text = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int textSpacerNoTitle = 2131230947;
+			public const int text2 = 2131230947;
 			
-			// aapt resource value: 0x7F0800E4
-			public const int textStart = 2131230948;
-			
-			// aapt resource value: 0x7F0800E5
-			public const int text_input_password_toggle = 2131230949;
+			// aapt resource value: 0x7F0800E8
+			public const int textinput_counter = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int time = 2131230953;
+			public const int textinput_error = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int title = 2131230954;
+			public const int textinput_helper_text = 2131230954;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int textSpacerNoButtons = 2131230948;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int textSpacerNoTitle = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int textStart = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int text_input_password_toggle = 2131230951;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int titleDividerNoCustom = 2131230955;
+			public const int time = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int title_template = 2131230956;
+			public const int title = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int toolbar = 2131230957;
+			public const int titleDividerNoCustom = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int top = 2131230958;
+			public const int title_template = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int topPanel = 2131230959;
+			public const int toolbar = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int touch_outside = 2131230960;
+			public const int top = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int transition_current_scene = 2131230961;
+			public const int topPanel = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int transition_layout_save = 2131230962;
+			public const int touch_outside = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int transition_position = 2131230963;
+			public const int transition_current_scene = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int transition_scene_layoutid_cache = 2131230964;
+			public const int transition_layout_save = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int transition_transform = 2131230965;
+			public const int transition_position = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int uniform = 2131230966;
+			public const int transition_scene_layoutid_cache = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int unlabeled = 2131230967;
+			public const int transition_transform = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int up = 2131230968;
+			public const int uniform = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int useLogo = 2131230969;
+			public const int unlabeled = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int view_offset_helper = 2131230970;
+			public const int up = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int visible = 2131230971;
+			public const int useLogo = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int volume_item_container = 2131230972;
+			public const int view_offset_helper = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int withText = 2131230973;
+			public const int visible = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int wrap_content = 2131230974;
+			public const int volume_item_container = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int withText = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int wrap_content = 2131230976;
 			
 			static Id()
 			{
@@ -7385,28 +12391,34 @@ namespace authClient.android
 			public const int notification_template_part_time = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int RootLayout = 2131427405;
+			public const int RadioButton = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int select_dialog_item_material = 2131427406;
+			public const int RadioGroup = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int select_dialog_multichoice_material = 2131427407;
+			public const int RootLayout = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int select_dialog_singlechoice_material = 2131427408;
+			public const int select_dialog_item_material = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int ShellContent = 2131427409;
+			public const int select_dialog_multichoice_material = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int support_simple_spinner_dropdown_item = 2131427410;
+			public const int select_dialog_singlechoice_material = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int Tabbar = 2131427411;
+			public const int ShellContent = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int Toolbar = 2131427412;
+			public const int support_simple_spinner_dropdown_item = 2131427412;
+			
+			// aapt resource value: 0x7F0B0055
+			public const int Tabbar = 2131427413;
+			
+			// aapt resource value: 0x7F0B0056
+			public const int Toolbar = 2131427414;
 			
 			static Layout()
 			{
@@ -7554,122 +12566,128 @@ namespace authClient.android
 			// aapt resource value: 0x7F0D0026
 			public const int abc_toolbar_collapse_description = 2131558438;
 			
-			// aapt resource value: 0x7F0D0027
-			public const int appbar_scrolling_view_behavior = 2131558439;
-			
 			// aapt resource value: 0x7F0D0028
-			public const int bottom_sheet_behavior = 2131558440;
+			public const int appbar_scrolling_view_behavior = 2131558440;
+			
+			// aapt resource value: 0x7F0D0027
+			public const int app_name = 2131558439;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int character_counter_content_description = 2131558441;
+			public const int bottom_sheet_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int character_counter_pattern = 2131558442;
+			public const int character_counter_content_description = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fab_transformation_scrim_behavior = 2131558443;
+			public const int character_counter_pattern = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int fab_transformation_sheet_behavior = 2131558444;
+			public const int fab_transformation_scrim_behavior = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
+			public const int fab_transformation_sheet_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mr_button_content_description = 2131558446;
+			public const int hello = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mr_cast_button_connected = 2131558447;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int mr_cast_button_connecting = 2131558448;
+			public const int mr_button_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int mr_cast_button_disconnected = 2131558449;
+			public const int mr_cast_button_connected = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_cast_dialog_title_view_placeholder = 2131558450;
+			public const int mr_cast_button_connecting = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_chooser_searching = 2131558451;
+			public const int mr_cast_button_disconnected = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_chooser_title = 2131558452;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int mr_controller_album_art = 2131558453;
+			public const int mr_chooser_searching = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int mr_controller_casting_screen = 2131558454;
+			public const int mr_chooser_title = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int mr_controller_close_description = 2131558455;
+			public const int mr_controller_album_art = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mr_controller_collapse_group = 2131558456;
+			public const int mr_controller_casting_screen = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int mr_controller_disconnect = 2131558457;
+			public const int mr_controller_close_description = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mr_controller_expand_group = 2131558458;
+			public const int mr_controller_collapse_group = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mr_controller_no_info_available = 2131558459;
+			public const int mr_controller_disconnect = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mr_controller_no_media_selected = 2131558460;
+			public const int mr_controller_expand_group = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mr_controller_pause = 2131558461;
+			public const int mr_controller_no_info_available = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int mr_controller_play = 2131558462;
+			public const int mr_controller_no_media_selected = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mr_controller_stop = 2131558463;
+			public const int mr_controller_pause = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int mr_controller_stop_casting = 2131558464;
+			public const int mr_controller_play = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int mr_controller_volume_slider = 2131558465;
+			public const int mr_controller_stop = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int mr_dialog_device_header = 2131558466;
+			public const int mr_controller_stop_casting = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int mr_dialog_route_header = 2131558467;
+			public const int mr_controller_volume_slider = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mr_system_route_name = 2131558468;
+			public const int mr_dialog_device_header = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mr_user_route_category_name = 2131558469;
+			public const int mr_dialog_route_header = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mtrl_chip_close_icon_content_description = 2131558470;
+			public const int mr_system_route_name = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int password_toggle_content_description = 2131558471;
+			public const int mr_user_route_category_name = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int path_password_eye = 2131558472;
+			public const int mtrl_chip_close_icon_content_description = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int path_password_eye_mask_strike_through = 2131558473;
+			public const int password_toggle_content_description = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int path_password_eye_mask_visible = 2131558474;
+			public const int path_password_eye = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int path_password_strike_through = 2131558475;
+			public const int path_password_eye_mask_strike_through = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int search_menu_title = 2131558476;
+			public const int path_password_eye_mask_visible = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int status_bar_notification_info_overflow = 2131558477;
+			public const int path_password_strike_through = 2131558477;
+			
+			// aapt resource value: 0x7F0D004E
+			public const int search_menu_title = 2131558478;
+			
+			// aapt resource value: 0x7F0D004F
+			public const int status_bar_notification_info_overflow = 2131558479;
 			
 			static String()
 			{

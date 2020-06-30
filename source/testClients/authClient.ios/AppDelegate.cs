@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using SegmentedControl.FormsPlugin.iOS;
 using TetraPak.Auth.Xamarin.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
@@ -20,7 +21,8 @@ namespace authClient.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            global::Xamarin.Forms.Forms.Init();
+            Xamarin.Forms.Forms.Init();
+            SegmentedControlRenderer.Init();
             LoadApplication(new App());
             TetraPakAppDelegate.OnFinishedLaunching(app, options);
             return base.FinishedLaunching(app, options);

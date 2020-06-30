@@ -294,6 +294,9 @@ namespace TetraPak.Auth.Xamarin
             sb.Append($"&redirect_uri={Uri.EscapeDataString(Config.RedirectUri.AbsoluteUri)}");
             sb.Append($"&client_id={Config.ClientId.Trim()}");
 
+            if (Config.IsRequestingUserId)
+                Config.WithScope("openid");
+                
             if (!string.IsNullOrEmpty(Config.Scope))
                 sb.Append($"&scope={Config.Scope}");
 

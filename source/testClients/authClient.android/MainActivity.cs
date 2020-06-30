@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using SegmentedControl.FormsPlugin.Android;
 using TetraPak.Auth.Xamarin.Android;
 using Xamarin.Forms.Platform.Android;
 using Resource = authClient.android.Resource;
@@ -19,6 +20,7 @@ namespace authClient.Android
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            SegmentedControlRenderer.Init();
             TetraPakMainActivity.OnCreate(this, savedInstanceState);
             LoadApplication(new App());
         }

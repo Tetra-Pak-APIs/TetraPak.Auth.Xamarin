@@ -115,6 +115,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="SegmentedControl.FormsPlugin" Version="2.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.709238" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.0" />
   </ItemGroup>

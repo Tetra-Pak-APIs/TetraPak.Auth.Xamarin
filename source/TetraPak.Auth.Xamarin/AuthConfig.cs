@@ -30,6 +30,11 @@ namespace TetraPak.Auth.Xamarin
 #endif
         TokenCache _tokenCache;
         bool _isCaching;
+        
+        /// <summary>
+        ///   Gets a value indicating whether user identity will be requested during the auth flow. 
+        /// </summary>
+        public bool IsRequestingUserId { get; set; }
 
         /// <summary>
         ///   Gets or sets the <see cref="Uri"/> to the authority endpoint.
@@ -194,6 +199,22 @@ namespace TetraPak.Auth.Xamarin
                 RuntimeEnvironment.Production => new Uri(ProductionTokenIssuer),
                 _ => throw new ArgumentOutOfRangeException()
             };
+        }
+
+        /// <summary>
+        ///   Flags the authorization request to also request user identity.
+        ///   This is often required by APIs when making requests for data. 
+        /// </summary>
+        /// <remarks>
+        ///   This is mainly a clear-code way to ask for the <c>"openid"</c> scope.
+        /// </remarks>
+        /// <returns>
+        ///   <c>this</c>
+        /// </returns>
+        public AuthConfig WithUserIdentity()
+        {
+            IsRequestingUserId = true;
+            return this;
         }
         
         // ReSharper disable once MemberCanBePrivate.Global

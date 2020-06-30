@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:v="clr-namespace:authClient.views"
              xmlns:vm="clr-namespace:authClient.viewModels"
+             xmlns:sc="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
              x:Class="authClient.MainPage"
              BackgroundColor="#333333"
              >
@@ -18,6 +19,11 @@
                 <Setter Property="TextColor" Value="#88CAF4"/>
             </Style>
 
+            <Style TargetType="sc:SegmentedControl">
+                <Setter Property="TintColor" Value="WhiteSmoke"/>
+                <Setter Property="SelectedTextColor" Value="#333333"/>
+            </Style>
+            
             <Style TargetType="Label" x:Key="MessageLabel">
                 <Setter Property="TextColor" Value="Coral" />
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
@@ -71,28 +77,15 @@
                 HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
                 FontSize="Large"/>
 
-            <Label Grid.Column="0" Grid.Row="1" Text="Authority" >
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="onAuthorityLabelTapped" />
-                </Label.GestureRecognizers>
-            </Label>
-            <v:ValidatingEntry 
-                Grid.Column="1" Grid.Row="1" 
-                BindingContext="{Binding AuthCodeGrant.AuthorityUrl}" 
-                Text="{Binding Value}" 
-                Placeholder="{Binding PlaceholderValue}" 
-                IsInvalid="{Binding IsInvalid}"
-                IsRequired="{Binding IsRequired}" />
-
-            <Label Grid.Column="0" Grid.Row="2" Text="Token Issuer"/>
-            <v:ValidatingEntry 
-                Grid.Column="1" Grid.Row="2" 
-                BindingContext="{Binding AuthCodeGrant.TokenIssuerUrl}" 
-                Text="{Binding Value}" 
-                Placeholder="{Binding PlaceholderValue}" 
-                IsInvalid="{Binding IsInvalid}"
-                IsRequired="{Binding IsRequired}" />
-
+            <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Environment" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            <sc:SegmentedControl x:Name="ScEnvironment" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" ValueChanged="onEnvironmentChanged">
+                <sc:SegmentedControl.Children>
+                    <sc:SegmentedControlOption Text="DEV"/>
+                    <sc:SegmentedControlOption Text="MIG"/>
+                    <sc:SegmentedControlOption Text="PROD"/>
+                </sc:SegmentedControl.Children>
+            </sc:SegmentedControl>
+            
             <Label Grid.Column="0" Grid.Row="3" Text="Client ID"/>
             <v:ValidatingEntry 
                 Grid.Column="1" Grid.Row="3" 
@@ -102,37 +95,10 @@
                 IsInvalid="{Binding IsInvalid}"
                 IsRequired="{Binding IsRequired}" />
 
-            <!-- obsolete (we no longer support client secret in native clients)
-            <Label Grid.Column="0" Grid.Row="4" Text="Client Secret"/>
-            <v:ValidatingEntry 
-                Grid.Column="1" Grid.Row="4" 
-                BindingContext="{Binding AuthCodeGrant.ClientSecret}" 
-                Text="{Binding Value}" 
-                Placeholder="{Binding PlaceholderValue}" 
-                IsInvalid="{Binding IsInvalid}"
-                IsRequired="{Binding IsRequired}" />
-            -->
-
-            <Label Grid.Column="0" Grid.Row="5" Text="Redirect URI"/>
-            <v:ValidatingEntry 
-                Grid.Column="1" Grid.Row="5" 
-                BindingContext="{Binding AuthCodeGrant.RedirectUrl}" 
-                Text="{Binding Value}" 
-                Placeholder="{Binding PlaceholderValue}" 
-                IsInvalid="{Binding IsInvalid}"
-                IsRequired="{Binding IsRequired}" />
-
-            <Label Grid.Column="0" Grid.Row="6" Text="Enforce State"/>
-            <Switch 
+            <Label Grid.Column="0" Grid.Row="6" Text="ID Token"/>
+            <Switch
                 Grid.Column="1" Grid.Row="6" 
-                IsToggled="{Binding AuthCodeGrant.IsStateUsed}" 
-                VerticalOptions="Center" />
-
-            <Label Grid.Column="0" Grid.Row="7" Text="Enforce PKCE"/>
-            <Switch 
-                Grid.Column="1" Grid.Row="7" 
-                IsToggled="{Binding AuthCodeGrant.IsPkceUsed}" 
-                VerticalOptions="Center" />
+                IsToggled="{Binding AuthCodeGrant.IsRequestingUserId}" />
 
             <Label Grid.Column="0" Grid.Row="8" Text="Cache"/>
             <Switch
