@@ -4,7 +4,9 @@
 
 ## Introduction
 
-The **TetraPak.Auth.Xamarin** package ("**TAX**" from here on) is tailor made for projects targeting Tetra Pak APIs with a native client built with the Xamarin development framework. The packet is designed to take care of all details when authorizing the app for its intended backends. All you need to do as a developer is provide a client id and a redirect URI and the packet takes care of the rest, utilizing the best-practices and policies currently recommended (or required) by Tetra Pak.
+The **TetraPak.Auth.Xamarin** package ("**TAX**" from here on) is tailor made for projects targeting Tetra Pak APIs with a native client built with the Xamarin mobile app development platform. **TAX** is designed to take care of all details when authorizing the app for its intended back ends. All you need to do as a developer is provide a client id and a redirect URI and the packet takes care of the rest, utilizing the best-practices and policies currently recommended or required by Tetra Pak.
+
+Please note that **TAX** is *not* a general purpose OAuth authorization solution. Its intended purpose is to provide everything you as a developer need to consume Tetra Pak APIs. Should you have a need to consume non-Tetra Pak APIs you will probably do better to look to more generic packages for OAuth2, such as [MSAL][nuget-msal], [ADAL][nuget-adal], or [Xamarin.Auth][nuget-xamarin-auth].
 
 ## The Authorization Flow
 
@@ -13,22 +15,22 @@ The TAX package implements the OAuth2 **Authorization Code Grant** flow. Here's 
 1. The client (your app) requests an authorization code from a Tetra Pak authority (API endpoint).
 2. The authority redirects the client to an identity service which challenges the end-user for her credentials. It is also possible that the end user will have to give her consent for the client to get access to her data.
 3. When the end-user has been authenticated an authorization code (`authCode` from here on) is sent back to the client via a redirect (HTTP 301) response.
-4. The client picks up the `authCode` and posts it to a token issuer (another API endpoint) requesting an access token.
-5. The token issuer validates the request (the authorization code, the client id and a few other details also submitted) and if all looks good an `access token` is issued and sent back in the payload of the response. The response can also contain a `refresh token` and a token `expiration time`, expressed as how many seconds the `access token` token is valid for.
+4. The client picks up the `authCode` and posts it to a token issuer (another API endpoint) requesting an Access Token.
+5. The token issuer validates the request (the authorization code, the client id and a few other details also submitted) and if all looks good an `Access Token` is issued and sent back in the payload of the response. The response can also contain a `Refresh Token` and a token `expiration time`, expressed as how many seconds the `Access Token` token is valid for.
 
-The client can now include the `access token` in all traffic to endpoints that acknowledge a Tetra Pak-issued token.
+The client can now include the `Access Token` in all traffic to endpoints that acknowledge a Tetra Pak-issued token.
 
-A crucial aspect of this flow is how your client never is kept in the dark about any credentials. The user authentication step (#2 in the flow) is involving only the end user and the identity service, which are the only entities in this flow that *should* have access to the credentials.
+A crucial aspect of this flow is how your client never have access to the end user's credentials. The user authentication step (#2 in the flow) is involving only the end user and the identity service, which are the only entities in this flow that *should* have access to the user credentials.
 
-During the request for user's credentials (item #2) the client submits its request to a process that runs with root privileges. On Android and iOS this is typically *Chrome* and *Safari*, respectively.
+During the request for user's credentials (item #2) the client submits its request to a process that runs with root privileges. On Android and iOS this is typically the *Chrome* and *Safari* web browser apps, respectively.
 
 There's two aspects to this that are important: Firstly, as already mentioned, this means the client is not involved in, and therefore never "sees", any credentials. Secondly, the Identity Service might ask for a device-installed certificate as an alternative to the user's id and password. This is not only safer but also a more seamless user experience. But for it to work the running process needs access to the operating systems "secure store" (e.g. *KeyChain* in iOS/Mac OS and *KeyStore* in Android respectively) where such certificates are provisioned.
 
 ## The Token Refresh Flow
 
-Eventually, the token will expire. When that happens the client is faced with either starting the [The Authorization Flow](#the-authorization-flow) again or initiate a request for a new access token. The first option will very likely see the Identity Service challenging the end-user for her credentials again, possibly causing a disruptive user experience and frustration if done frequently, resulting in a poor user experience, followed by foul words and a tarnished reputation for your app!
+Eventually, the Access Token will expire. When that happens the client is faced with either starting the [The Authorization Flow](#the-authorization-flow) again or initiate a request for a new Access Token. The first option will very likely see the Identity Service challenging the end-user for her credentials again, possibly causing a disruptive user experience and frustration if done frequently, resulting in a poor user experience, followed by foul words and a tarnished reputation for your app!
 
-If a `refresh token` was issued it can instead be used to initiate a separate, faster and simpler flow as there are no challenges or user interactions involved. It either works or fails:
+If a `Refresh Token` was issued it can instead be used to initiate a separate, faster and simpler flow as there are no challenges or user interactions involved. It either works or fails:
 
 1. Client POSTs a request for a new `accessToken` to the token issuer service. The POST contains both a `refreshToken` and the `clientId`.
 2. Token Issuer validates the `refreshToken` request returns a new `accessToken` if all validates OK or a FAIL response if not.
@@ -82,7 +84,7 @@ Finally, the last option for acquiring an authenticator is by providing a "confi
 
 ```csharp
 var myApp = (AuthApplication) "Dev, 1234567, myapp://auth";
-var config = AuthConfig.Default(myApp).WithScope("read,write,user-id");
+var config = AuthConfig.Default(myApp).WithScope("read", "write", "user-id");
 var authenticator = Authorization.GetAuthenticator(config, Log);
 ```
 
@@ -96,13 +98,15 @@ Having obtained an `IAuthenticator` you can now request an access token. There a
 var authorized = await authenticator.GetAccessTokenAsync();
 if (authorized)
 {
-    this.AccessToken = authorized.AccessToken;
+    this.AccessToken = authorized.Value.AccessToken;
 }
 else
 {
     error($"Authorization failed with message: {authorized.Message}");
 }
 ```
+
+The `GetAccessToken` method returns a `BoolValue<AuthResult>` value. This value is type compatible with a `bool` value and, so, can be used directly in tests (note the `if (authorized)` test in the second code line above). The value then carries a `AuthResult` object as its value, which contains information about the authorization, including all tokens (if successful).
 
 Unless the authenticator have a valid `accessToken` already ([cached]) this example will start a new authorization flow, which likely will have the Identity service challenge the user for her credentials. If a token was cached (and hasn't expired) you will simply retrieve it seamlessly. If you, for some reason, need to force a new access token, you can do so by passing a `false` value for optional the `allowCached` parameter:
 
@@ -333,3 +337,6 @@ The second option - registering a *custom URL scheme* simply means your client r
 So, what happens in step #1 is basically the client builds its URL and sends it to the OS, which opens the default web browser who then performs the whole authorization code part of the "dance". In this URL is a property, such as `redirect_uri=my-app://auth-code-here-please` which is where the Authority will be redirecting to in step #3. Obviously, the web browser have zero clue as to what sort of URL scheme it's looking at (`redirect_uri=my-app`) so it gives up and sends the request to the OS, which then sends it to your app.
 
 [tetra-pak-developer-portal]: https://developer.tetrapak.com
+[nuget-msal]: https://www.nuget.org/packages/Microsoft.Identity.Client
+[nuget-adal]: https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory
+[nuget-xamarin-auth]: https://www.nuget.org/packages/Xamarin.Auth
