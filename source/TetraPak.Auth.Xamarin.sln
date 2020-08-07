@@ -31,6 +31,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70611AF4-0264-4881-82FF-3643249AEF62}"
 	ProjectSection(SolutionItems) = preProject
 		..\README.md = ..\README.md
+		..\text\news-portal-2020-08.md = ..\text\news-portal-2020-08.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetraPak.Auth.Xamarin.Tests", "testProjects\TetraPak.Auth.Xamarin.Tests\TetraPak.Auth.Xamarin.Tests.csproj", "{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}"

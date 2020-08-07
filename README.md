@@ -1,12 +1,12 @@
 # TetraPak.Auth.Xamarin - TAX
 
-![TetraPak.Auth.Xamarin](logo.png)
+![TetraPak.Auth.Xamarin](images/icon.png)
 
 ## Introduction
 
-The **TetraPak.Auth.Xamarin** package ("**TAX**" from here on) is tailor made for projects targeting Tetra Pak APIs with a native client built with the Xamarin mobile app development platform. **TAX** is designed to take care of all details when authorizing the app for its intended back ends. All you need to do as a developer is provide a client id and a redirect URI and the packet takes care of the rest, utilizing the best-practices and policies currently recommended or required by Tetra Pak.
+The **TetraPak.Auth.Xamarin** package ("**TAX**" from here on) is tailor made for projects targeting [Tetra Pak APIs][tetra-pak-developer-portal] with a native client built with the Xamarin mobile app development platform. **TAX** is designed to take care of all details when authorizing the app for its intended back ends. All you need to do as a developer is provide a client id and a redirect URI and the packet takes care of the rest, utilizing the best-practices and policies currently recommended or required by Tetra Pak.
 
-Please note that **TAX** is *not* a general purpose OAuth authorization solution. Its intended purpose is to provide everything you as a developer need to consume Tetra Pak APIs. Should you have a need to consume non-Tetra Pak APIs you will probably do better to look to more generic packages for OAuth2, such as [MSAL][nuget-msal], [ADAL][nuget-adal], or [Xamarin.Auth][nuget-xamarin-auth].
+Please note that **TAX** is *not* a general purpose OAuth authorization solution. Its intended purpose is to provide everything you as a developer need to consume Tetra Pak APIs. Should you have a need to consume non-Tetra Pak APIs you will probably do better to look to more generic packages for OAuth2, such as [MSAL][NuGet-MSAL], [ADAL][NuGet-ADAL], or [Xamarin.Auth][NuGet-Xamarin-auth].
 
 ## The Authorization Flow
 
@@ -88,7 +88,7 @@ var config = AuthConfig.Default(myApp).WithScope("read", "write", "user-id");
 var authenticator = Authorization.GetAuthenticator(config, Log);
 ```
 
-This example instead initializes a default configuration, using an app descriptor, and submits it while obtaining an authenticator. This approach involves more steps but also allows for more control. Among other things specifying a configuration allows you to specify a custom scope, replace the default token cache mechanic and so on. Check out the [AuthConfig](#authconfig) section for more details.
+This example instead initializes a default configuration, using an app descriptor, and submits it while obtaining an authenticator. This approach involves more steps but also allows for more control. Among other things specifying a configuration allows you to specify a custom scope, replace the default token cache mechanic and so on. Check out the [AuthConfig](#authconfig-class) section for more details.
 
 ### Request an Access Token
 
@@ -114,7 +114,7 @@ Unless the authenticator have a valid `accessToken` already ([cached]) this exam
 var authorized = await authenticator.GetAccessTokenAsync(false);
 ```
 
-The authorization result might also pass a refresh token, which will automatically be cached (unless you turn off caching globally; see [AuthConfig](#authconfig)). The refresh token, however, will not be used, regardless, when you call the `GetAccessTokenAsync` method. To allow the use for a renewed access token, instead invoke the alternative method: `GetAccessTokenSilentlyAsync`:
+The authorization result might also pass a refresh token, which will automatically be cached (unless you turn off caching globally; see [AuthConfig](#authconfig-class). The refresh token, however, will not be used, regardless, when you call the `GetAccessTokenAsync` method. To allow the use for a renewed access token, instead invoke the alternative method: `GetAccessTokenSilentlyAsync`:
 
 ```csharp
 var authorized = await authenticator.GetAccessTokenSilentlyAsync(false);
@@ -124,9 +124,21 @@ That will allow the authenticator to attempt a [refresh token flow](#the-token-r
 
 ---
 
-#### NOTE
+NOTE
 
-When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetAccessTokenSilentlyAsync` methods you might wanna ensure this is done from the main (UI) thread to avoid unwanted behavior or hangs as the authorization flow might need to push a new view to work.
+When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetAccessTokenSilentlyAsync` methods you might want to ensure this is done from the main (UI) thread to avoid unwanted behavior or hangs as the authorization flow might need to push a new view to work.
+
+---
+
+### Requesting user information
+
+To enable (mobile) backend access to the authorized user's identity you need to take one additional step when acquiring your access token. To enable user identity information just set the `AuthConfig.IsRequestingUserId` flag. Having done so TAX will automatically enable user identity access for your backend service via the use of Open ID Connect.
+
+---
+
+NOTE
+
+Please note that, as of this version, the TAX package offer not support for validating ID tokens (JWT). While you can find the ID token as an item in the `AuthResult.Tokens` collection, you should not consume it in your client unless you also validate it. A future version of the TAX package might offer the ID token as its own property (just like with `AccessToken` and `RefreshToken`) but only after having validating it for you. If you need this feature please [report it as an issue at GitHub][GitHub-TAX-issues].
 
 ---
 
@@ -134,9 +146,10 @@ When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetA
 
 As a client developer, you need to do the following:
 
-1. Acquire a `clientId` for your app. You do this by registering your app with the [Tetra Pak developer portal][tetra-pak-developer-portal]
-2. Decide upon a `redirect URI` and register it for your app.
-3. Initialize each platform project (iOS/Android/UWP) to collaborate with TAX's authorization flows.
+1. Download and install the ["TetraPak.Auth.Xamarin" NuGet package][NuGet.TAX].
+2. Acquire a `clientId` for your app. You do this by registering your app with the [Tetra Pak developer portal][tetra-pak-developer-portal]
+3. Decide upon a `redirect URI` and register it for your app.
+4. Initialize each platform project (iOS/Android/UWP) to collaborate with TAX's authorization flows.
 
 Step #1 - how to register an new app with the [Tetra Pak developer portal][tetra-pak-developer-portal] - will not be covered in this document. The details for that might change over time so please refer to the documentation provided by the dev-portal instead.
 
@@ -175,7 +188,7 @@ In iOS, to allow **TAX** to safely persist your refresh token, you need also to 
 
 - Open the `Entitlements.plist` file (editor)
 - Click the "+" button under the **Keychain** section.
-- Add an identifier to be used to identity your items in the iOS Keychain.
+- Add an identifier to be used to identify your items in the iOS Keychain.
 
 ![entitlements](images/screen-entitlements.png)
 
@@ -336,7 +349,9 @@ The second option - registering a *custom URL scheme* simply means your client r
 
 So, what happens in step #1 is basically the client builds its URL and sends it to the OS, which opens the default web browser who then performs the whole authorization code part of the "dance". In this URL is a property, such as `redirect_uri=my-app://auth-code-here-please` which is where the Authority will be redirecting to in step #3. Obviously, the web browser have zero clue as to what sort of URL scheme it's looking at (`redirect_uri=my-app`) so it gives up and sends the request to the OS, which then sends it to your app.
 
-[tetra-pak-developer-portal]: https://developer.tetrapak.com
-[nuget-msal]: https://www.nuget.org/packages/Microsoft.Identity.Client
-[nuget-adal]: https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory
-[nuget-xamarin-auth]: https://www.nuget.org/packages/Xamarin.Auth
+[tetra-pak-developer-portal]: https://developer.TetraPak.com
+[NuGet-MSAL]: https://www.NuGet.org/packages/Microsoft.Identity.Client
+[NuGet-ADAL]: https://www.NuGet.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory
+[NuGet-Xamarin-auth]: https://www.NuGet.org/packages/Xamarin.Auth
+[NuGet.TAX]: https://www.nuget.org/packages/TetraPak.Auth.Xamarin/
+[GitHub-TAX-issues]: https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin/issues

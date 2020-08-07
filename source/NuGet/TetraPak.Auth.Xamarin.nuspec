@@ -2,16 +2,22 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TetraPak.Auth.Xamarin</id>
-    <version>1.1.0</version>
-    <authors>Bold Eagles, A-Team</authors>
-    <owners>Bold Eagles, A-Team</owners>
+    <version>1.1.2</version>
+    <title>Tetra Pak API Authorization for Xamarin projects</title>
+    <authors>Tetra Pak</authors>
+    <owners>Tetra Pak</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://i.imgur.com/Nuo65pc.png</iconUrl>
-    <description>An easy-to-plug-in and use authorization solution for Xamarin-based clients.</description>
-    <projectUrl>https://tetrapak-mobileapps.visualstudio.com/MobileApps.Components/_git/TetraPak.Auth.Xamarin</projectUrl>
+    <icon>images\icon.png</icon>
+    <!--iconUrl>https://i.imgur.com/Nuo65pc.png</iconUrl-->
+    <description>An easy to plugin and play authorization solution for consuming Tetra Pak APIs with a Xamarin client.</description>
+    <projectUrl>https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin</projectUrl>
+    <license type="expression">MIT</license>
+    <releaseNotes>
+      README was updated to describe how to use Open ID Connect.
+    </releaseNotes>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="System.Text.Json" version="4.7.1" />
+        <dependency id="System.Text.Json" version="4.7.1" /> 
         <dependency id="Xamarin.Essentials" version="1.0" />
         <dependency id="Xamarin.Forms" version="4.0" />
       </group>
@@ -31,6 +37,8 @@
     </dependencies>
   </metadata>
   <files>
+    <file src="../../images/icon.png" target="images/icon.png" />
+    
 
     <!-- .NET Standard 2.0 -->
     <file src="..\TetraPak.Auth.Xamarin\bin\Release\netstandard2.0\TetraPak.Auth.Xamarin.dll" target="lib\netstandard20" />

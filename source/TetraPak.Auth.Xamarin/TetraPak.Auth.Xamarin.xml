@@ -162,6 +162,11 @@
               but an `AuthConfig` allows for more custom configuration.
             </remarks>
         </member>
+        <member name="P:TetraPak.Auth.Xamarin.AuthConfig.IsRequestingUserId">
+            <summary>
+              Gets a value indicating whether user identity will be requested during the auth flow. 
+            </summary>
+        </member>
         <member name="P:TetraPak.Auth.Xamarin.AuthConfig.Authority">
             <summary>
               Gets or sets the <see cref="T:System.Uri"/> to the authority endpoint.
@@ -239,6 +244,18 @@
             </param>
             <returns>
               A <see cref="T:TetraPak.Auth.Xamarin.AuthConfig"/> object with a default configuration for the specified application.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.AuthConfig.WithUserIdentity">
+            <summary>
+              Flags the authorization request to also request user identity.
+              This is often required by APIs when making requests for data. 
+            </summary>
+            <remarks>
+              This is mainly a clear-code way to ask for the <c>"openid"</c> scope.
+            </remarks>
+            <returns>
+              <c>this</c>
             </returns>
         </member>
         <member name="M:TetraPak.Auth.Xamarin.AuthConfig.#ctor(System.Uri,System.Uri,System.Uri,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,TetraPak.Auth.Xamarin.TokenCache)">
