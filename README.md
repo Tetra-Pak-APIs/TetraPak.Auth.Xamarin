@@ -1,12 +1,12 @@
 # TetraPak.Auth.Xamarin - TAX
 
-![TetraPak.Auth.Xamarin](logo.png)
+![TetraPak.Auth.Xamarin](images/icon.png)
 
 ## Introduction
 
-The **TetraPak.Auth.Xamarin** package ("**TAX**" from here on) is tailor made for projects targeting Tetra Pak APIs with a native client built with the Xamarin mobile app development platform. **TAX** is designed to take care of all details when authorizing the app for its intended back ends. All you need to do as a developer is provide a client id and a redirect URI and the packet takes care of the rest, utilizing the best-practices and policies currently recommended or required by Tetra Pak.
+The **TetraPak.Auth.Xamarin** package ("**TAX**" from here on) is tailor made for projects targeting [Tetra Pak APIs][tetra-pak-developer-portal] with a native client built with the Xamarin mobile app development platform. **TAX** is designed to take care of all details when authorizing the app for its intended back ends. All you need to do as a developer is provide a client id and a redirect URI and the packet takes care of the rest, utilizing the best-practices and policies currently recommended or required by Tetra Pak.
 
-Please note that **TAX** is *not* a general purpose OAuth authorization solution. Its intended purpose is to provide everything you as a developer need to consume Tetra Pak APIs. Should you have a need to consume non-Tetra Pak APIs you will probably do better to look to more generic packages for OAuth2, such as [MSAL][nuget-msal], [ADAL][nuget-adal], or [Xamarin.Auth][nuget-xamarin-auth].
+Please note that **TAX** is *not* a general purpose OAuth authorization solution. Its intended purpose is to provide everything you as a developer need to consume Tetra Pak APIs. Should you have a need to consume non-Tetra Pak APIs you will probably do better to look to more generic packages for OAuth2, such as [MSAL][NuGet-MSAL], [ADAL][NuGet-ADAL], or [Xamarin.Auth][NuGet-Xamarin-auth].
 
 ## The Authorization Flow
 
@@ -126,7 +126,7 @@ That will allow the authenticator to attempt a [refresh token flow](#the-token-r
 
 #### NOTE
 
-When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetAccessTokenSilentlyAsync` methods you might wanna ensure this is done from the main (UI) thread to avoid unwanted behavior or hangs as the authorization flow might need to push a new view to work.
+When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetAccessTokenSilentlyAsync` methods you might want to ensure this is done from the main (UI) thread to avoid unwanted behavior or hangs as the authorization flow might need to push a new view to work.
 
 ---
 
@@ -336,7 +336,7 @@ The second option - registering a *custom URL scheme* simply means your client r
 
 So, what happens in step #1 is basically the client builds its URL and sends it to the OS, which opens the default web browser who then performs the whole authorization code part of the "dance". In this URL is a property, such as `redirect_uri=my-app://auth-code-here-please` which is where the Authority will be redirecting to in step #3. Obviously, the web browser have zero clue as to what sort of URL scheme it's looking at (`redirect_uri=my-app`) so it gives up and sends the request to the OS, which then sends it to your app.
 
-[tetra-pak-developer-portal]: https://developer.tetrapak.com
-[nuget-msal]: https://www.nuget.org/packages/Microsoft.Identity.Client
-[nuget-adal]: https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory
-[nuget-xamarin-auth]: https://www.nuget.org/packages/Xamarin.Auth
+[tetra-pak-developer-portal]: https://developer.TetraPak.com
+[NuGet-MSAL]: https://www.NuGet.org/packages/Microsoft.Identity.Client
+[NuGet-ADAL]: https://www.NuGet.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory
+[NuGet-Xamarin-auth]: https://www.NuGet.org/packages/Xamarin.Auth
