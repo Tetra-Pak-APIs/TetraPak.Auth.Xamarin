@@ -355,3 +355,4 @@ So, what happens in step #1 is basically the client builds its URL and sends it 
 [NuGet-Xamarin-auth]: https://www.NuGet.org/packages/Xamarin.Auth
 [NuGet.TAX]: https://www.nuget.org/packages/TetraPak.Auth.Xamarin/
 [GitHub-TAX-issues]: https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin/issues
+[NuGet-Xamarin-auth]: https://www.NuGet.org/packages/Xamarin.Auth
