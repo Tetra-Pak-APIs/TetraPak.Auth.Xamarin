@@ -11,4 +11,15 @@ obj/
 
 *.nupkg
 
+source/packages/**
+
+source/.idea.TetraPak.Auth.Xamarin/
+
+source/.idea.TetraPak.Auth.Xamarin/.idea/
+
+
 source/.idea/.idea.TetraPak.Auth.Xamarin/.idea/
+
+source/.idea/.idea.TetraPak.Auth.Xamarin/
+
+source/TetraPak.Auth.Xamarin.sln.DotSettings.user

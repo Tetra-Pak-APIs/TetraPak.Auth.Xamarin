@@ -13,7 +13,7 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   A collection of tokens returned from the issuer.
         /// </summary>
-        public TokenResult[] Tokens { get; }
+        public TokenInfo[] Tokens { get; }
 
         /// <summary>
         ///   Gets the access token when successful.
@@ -54,7 +54,7 @@ namespace TetraPak.Auth.Xamarin
             }
         }
         
-        internal AuthResult(params TokenResult[] tokens)
+        internal AuthResult(params TokenInfo[] tokens)
         {
             Tokens = tokens;
         }
@@ -63,9 +63,8 @@ namespace TetraPak.Auth.Xamarin
     /// <summary>
     ///   Carries an individual token and its meta data.
     /// </summary>
-    public class TokenResult
+    public class TokenInfo
     {
-        readonly string _token;
         readonly ValidateTokenDelegate _validateTokenDelegate;
         readonly bool _isAutoValidating;
         bool _isValid;
@@ -74,9 +73,15 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   Gets the actual token as a <see cref="string"/> value.
         /// </summary>
-        public string Token
+        public string Token { get; }
+
+        public async Task<string> GetValidatedTokenAsync()
         {
-            get => validatedTokenFromDelegateAsync().Result;
+            if (!_isAutoValidating)
+                return Token;
+
+            await isValidTokenFromDelegateAsync();
+            return Token;        
         }
 
         /// <summary>
@@ -111,32 +116,23 @@ namespace TetraPak.Auth.Xamarin
             if (_isValidated)
                 return _isValid && validateOnExpiration();
 
-            var isValid = await _validateTokenDelegate(_token);
+            var isValid = await _validateTokenDelegate(Token);
             _isValidated = true;
             _isValid = isValid;
             return _isValid;
         }
 
-        async Task<string> validatedTokenFromDelegateAsync()
+        internal TokenInfo(string token, TokenRole role, DateTime? expires, bool isAutoValidating)
         {
-            if (!_isAutoValidating)
-                return _token;
-
-            await isValidTokenFromDelegateAsync();
-            return _token;
-        }
-
-        internal TokenResult(string token, TokenRole role, DateTime? expires, bool isAutoValidating)
-        {
-            _token = token;
+            Token = token;
             Role = role;
             Expires = expires;
             _isAutoValidating = isAutoValidating;
         }
 
-        internal TokenResult(string token, TokenRole role, DateTime? expires, ValidateTokenDelegate validateTokenDelegate)
+        internal TokenInfo(string token, TokenRole role, DateTime? expires, ValidateTokenDelegate validateTokenDelegate)
         {
-            _token = token;
+            Token = token;
             Role = role;
             Expires = expires;
             _isAutoValidating = validateTokenDelegate != null;

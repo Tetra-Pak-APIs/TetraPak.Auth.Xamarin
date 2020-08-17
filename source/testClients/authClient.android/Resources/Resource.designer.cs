@@ -3700,11 +3700,13 @@ namespace authClient.android
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::authClient.android.Resource.String.abc_shareactionprovider_share_with_application;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_toolbar_collapse_description = global::authClient.android.Resource.String.abc_toolbar_collapse_description;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.appbar_scrolling_view_behavior = global::authClient.android.Resource.String.appbar_scrolling_view_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.app_name = global::authClient.android.Resource.String.app_name;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.bottom_sheet_behavior = global::authClient.android.Resource.String.bottom_sheet_behavior;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.character_counter_content_description = global::authClient.android.Resource.String.character_counter_content_description;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.character_counter_pattern = global::authClient.android.Resource.String.character_counter_pattern;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.fab_transformation_scrim_behavior = global::authClient.android.Resource.String.fab_transformation_scrim_behavior;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.fab_transformation_sheet_behavior = global::authClient.android.Resource.String.fab_transformation_sheet_behavior;
+			global::TetraPak.Auth.Xamarin.Android.Resource.String.hello = global::authClient.android.Resource.String.hello;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::authClient.android.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_button_content_description = global::authClient.android.Resource.String.mr_button_content_description;
 			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_button_connected = global::authClient.android.Resource.String.mr_cast_button_connected;

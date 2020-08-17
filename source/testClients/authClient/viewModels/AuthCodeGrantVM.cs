@@ -174,9 +174,13 @@ namespace authClient.viewModels
         
         void setConfigValue(object value, [CallerMemberName] string propertyName = null)
         {
+            // ReSharper disable AssignNullToNotNullAttribute
+            // ReSharper disable PossibleNullReferenceException
             var p = _config.GetType().GetProperty(propertyName);
             p.SetValue(_config, value);
             OnPropertyChanged(propertyName);
+            // ReSharper restore PossibleNullReferenceException
+            // ReSharper restore AssignNullToNotNullAttribute
         }
         
         async Task onAuthorize(bool silently)
@@ -189,7 +193,7 @@ namespace authClient.viewModels
             {
                 // success ...
                 LogInfo($"AUTHORIZED! Access token = {authorized.Value.AccessToken}");
-                setTokensResult(authorized);
+                await setTokensResult(authorized);
                 Authorization = authorized.Value;
             }
             else
@@ -200,29 +204,18 @@ namespace authClient.viewModels
             }
         }
 
-        void setTokensResult(BoolValue<AuthResult> authResult)
+        async Task setTokensResult(BoolValue<AuthResult> authResult)
         {
             TokensResult.Clear();
             foreach (var tokenResult in authResult.Value.Tokens)
             {
                 var tokenCaption = resolveCaption(tokenResult);
-                var token = tokenResult.Token;
+                var token = await tokenResult.GetValidatedTokenAsync();
                 TokensResult.AddToken(tokenCaption, token, "X");
             }
-            
-            /*            
-            if (!string.IsNullOrEmpty(authResult.Value.AccessToken))
-            {
-                TokensResult.AddToken("Access", authResult.Value.AccessToken, "X", DeleteAccessTokenCommand);
-            }
-            if (!string.IsNullOrEmpty(authResult.Value.RefreshToken))
-            {
-                TokensResult.AddToken("Refresh", authResult.Value.RefreshToken);
-            }
-            */
         }
 
-        static string resolveCaption(TokenResult token)
+        static string resolveCaption(TokenInfo token)
         {
             switch (token.Role)
             {

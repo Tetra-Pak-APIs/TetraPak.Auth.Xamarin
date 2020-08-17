@@ -39,7 +39,7 @@ namespace TetraPak.Auth.Xamarin.idTokenValidation
 
         public static async Task<BoolValue<DiscoveryDocument>> DownloadAsync(string url)
         {
-            using var client = new HttpClient { Timeout = TimeSpan.FromSeconds(5) };
+            using var client = new HttpClient(); // { Timeout = TimeSpan.FromSeconds(5) };
             using var message = new HttpRequestMessage(HttpMethod.Get, url);
             try
             {

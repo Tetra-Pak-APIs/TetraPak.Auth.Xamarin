@@ -230,16 +230,16 @@ namespace TetraPak.Auth.Xamarin
             if (!dict.TryGetValue("access_token", out var accessToken))
                 return BoolValue<AuthResult>.Fail("Could not get a valid access token.");
 
-            var tokens = new List<TokenResult>();
+            var tokens = new List<TokenInfo>();
             var expires = dict.TryGetValue("expires_in", out var exp) && int.TryParse(exp, out var seconds)
                 ? DateTime.Now.AddSeconds(seconds - 4)
                 : (DateTime?)null;
             
-            tokens.Add(new TokenResult(accessToken, TokenRole.AccessToken, expires, null));
+            tokens.Add(new TokenInfo(accessToken, TokenRole.AccessToken, expires, null));
 
             if (dict.TryGetValue("refresh_token", out var refreshToken))
             {
-                tokens.Add(new TokenResult(refreshToken, TokenRole.RefreshToken, null, null));
+                tokens.Add(new TokenInfo(refreshToken, TokenRole.RefreshToken, null, null));
             }
 
             if (!dict.TryGetValue("id_token", out var idToken)) 
@@ -258,7 +258,7 @@ namespace TetraPak.Auth.Xamarin
             var validateTokenDelegate = Config.IsAutoValidatingTokens 
                 ? validateIdTokenAsync 
                 : (ValidateTokenDelegate) null;
-            tokens.Add(new TokenResult(idToken, TokenRole.IdToken, null, validateTokenDelegate));
+            tokens.Add(new TokenInfo(idToken, TokenRole.IdToken, null, validateTokenDelegate));
             return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(tokens.ToArray())));
         }
         
