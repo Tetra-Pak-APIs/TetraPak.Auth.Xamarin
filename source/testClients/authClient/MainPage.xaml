@@ -98,7 +98,12 @@
             <Label Grid.Column="0" Grid.Row="6" Text="ID Token"/>
             <Switch
                 Grid.Column="1" Grid.Row="6" 
-                IsToggled="{Binding AuthCodeGrant.IsRequestingUserId}" />
+                IsToggled="{Binding AuthCodeGrant.IsRequestingIdToken}" />
+
+            <Label Grid.Column="0" Grid.Row="7" Text="Validate Tokens"/>
+            <Switch
+                Grid.Column="1" Grid.Row="7" 
+                IsToggled="{Binding AuthCodeGrant.IsAutoValidatingTokens}" />
 
             <Label Grid.Column="0" Grid.Row="8" Text="Cache"/>
             <Switch

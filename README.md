@@ -132,7 +132,9 @@ When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetA
 
 ### Requesting user information
 
-To enable (mobile) backend access to the authorized user's identity you need to take one additional step when acquiring your access token. To enable user identity information just set the `AuthConfig.IsRequestingUserId` flag. Having done so TAX will automatically enable user identity access for your backend service via the use of Open ID Connect.
+To enable (mobile) backend access to the authorized user's identity you need to take one additional step when acquiring your access token. To enable user identity information just set the `AuthConfig.IsRequestingUserId` flag. Having done so TAX will automatically enable user identity access for your backend service via the use of Open ID Connect. In addition, your client will acquire an ID token in [JWT format][JWT-dot-io].
+
+
 
 ---
 
@@ -356,3 +358,4 @@ So, what happens in step #1 is basically the client builds its URL and sends it 
 [NuGet.TAX]: https://www.nuget.org/packages/TetraPak.Auth.Xamarin/
 [GitHub-TAX-issues]: https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin/issues
 [NuGet-Xamarin-auth]: https://www.NuGet.org/packages/Xamarin.Auth
+[JWT-dot-io]: https://jwt.io/

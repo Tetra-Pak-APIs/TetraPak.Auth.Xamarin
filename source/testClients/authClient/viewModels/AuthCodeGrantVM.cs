@@ -111,12 +111,23 @@ namespace authClient.viewModels
                     TokensResult.Clear();
             }
         }
-        
-        public bool IsRequestingUserId
+
+        public bool IsRequestingIdToken
         {
-            get => _config.IsRequestingUserId;
+            get => _config.IsRequestingIdToken;
+            set
+            {
+                setConfigValue(value);
+                if (value)
+                    IsAutoValidatingTokens = true;
+            }
+        }
+
+        public bool IsAutoValidatingTokens
+        {
+            get => _config.IsAutoValidatingTokens;
             set => setConfigValue(value);
-        } 
+        }
 
         [ValidatedValue(PlaceholderValue = "Paste a refresh token here to test renewing")]
         
@@ -165,6 +176,7 @@ namespace authClient.viewModels
         {
             var p = _config.GetType().GetProperty(propertyName);
             p.SetValue(_config, value);
+            OnPropertyChanged(propertyName);
         }
         
         async Task onAuthorize(bool silently)

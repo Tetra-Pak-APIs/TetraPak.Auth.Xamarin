@@ -34,7 +34,19 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   Gets a value indicating whether user identity will be requested during the auth flow. 
         /// </summary>
-        public bool IsRequestingUserId { get; set; }
+        /// <seealso cref="IsAutoValidatingTokens"/>
+        public bool IsRequestingIdToken { get; set; }
+
+        /// <summary>
+        ///   Gets or sets a value specifying whether tokens are automatically validated when
+        ///   the client accesses them.
+        /// </summary>
+        /// <remarks>
+        ///   When set, and the client attempts reading a token (such as <see cref="AuthResult.AccessToken"/> or
+        ///   <see cref="AuthResult.IdToken"/>) the internal logic will ensure the token is being validated
+        ///   for authenticity as well as longevity.
+        /// </remarks>
+        public bool IsAutoValidatingTokens { get; set; }
 
         /// <summary>
         ///   Gets or sets the <see cref="Uri"/> to the authority endpoint.
@@ -205,15 +217,19 @@ namespace TetraPak.Auth.Xamarin
         ///   Flags the authorization request to also request user identity.
         ///   This is often required by APIs when making requests for data. 
         /// </summary>
+        /// <param name="autoValidate">
+        ///   Specifies whether the resulting id should automatically by validated.
+        /// </param>
         /// <remarks>
         ///   This is mainly a clear-code way to ask for the <c>"openid"</c> scope.
         /// </remarks>
         /// <returns>
         ///   <c>this</c>
         /// </returns>
-        public AuthConfig WithUserIdentity()
+        public AuthConfig WithIdToken(bool autoValidate = false)
         {
-            IsRequestingUserId = true;
+            IsRequestingIdToken = true;
+            IsAutoValidatingTokens = autoValidate;
             return this;
         }
         
@@ -237,7 +253,6 @@ namespace TetraPak.Auth.Xamarin
             TokenIssuer = _tokenIssuer = tokenIssuer;
             RedirectUri = redirectUri;
             ClientId = clientId;
-            //ClientSecret = clientSecret; obsolete (we no longer support client secrets with native clients)
             Scope = scope;
             IsStateUsed = isStateUsed;
             IsPkceUsed = isPkceUsed;

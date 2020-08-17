@@ -9,6 +9,7 @@ using System.Web;
 using Xamarin.Forms;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.common;
+using TetraPak.Auth.Xamarin.idTokenValidation;
 using TetraPak.Auth.Xamarin.logging;
 
 [assembly: Dependency(typeof(TetraPakAuthenticator))]
@@ -21,9 +22,7 @@ namespace TetraPak.Auth.Xamarin
     /// </summary>
     internal class TetraPakAuthenticator : AbstractAuthenticator
     {
-        // readonly AuthConfig _config;
         readonly TaskCompletionSource<BoolValue<Uri>> _authCodeTcs = new TaskCompletionSource<BoolValue<Uri>>();
-        // readonly TokenCache _tokenCache;
 
         /// <inheritdoc />
         public override async Task<BoolValue<AuthResult>> GetAccessTokenAsync(bool allowCached = true)
@@ -216,10 +215,13 @@ namespace TetraPak.Auth.Xamarin
             return sb.ToString();
         }
 
-        Task<BoolValue<string>> validateIdTokenAsync(string idToken)
+        static async Task<BoolValue<string>> validateIdTokenAsync(string idToken)
         {
-            // todo Validate ID token (JWT) when understanding how to do it :-) --Jonas R
-            return Task.FromResult(BoolValue<string>.Success(idToken));
+            var validator = new IdTokenValidator();
+            var validated = await validator.ValidateAsync(idToken);
+            return validated 
+                ? BoolValue<string>.Success(idToken) 
+                : BoolValue<string>.Fail(validated.Message, validated.Exception);
         }
 
         async Task<BoolValue<AuthResult>> buildAuthResultAsync(string responseText)
@@ -233,21 +235,30 @@ namespace TetraPak.Auth.Xamarin
                 ? DateTime.Now.AddSeconds(seconds - 4)
                 : (DateTime?)null;
             
-            tokens.Add(new TokenResult(accessToken, TokenRole.AccessToken, expires));
+            tokens.Add(new TokenResult(accessToken, TokenRole.AccessToken, expires, null));
 
             if (dict.TryGetValue("refresh_token", out var refreshToken))
             {
-                tokens.Add(new TokenResult(refreshToken, TokenRole.RefreshToken, null));
+                tokens.Add(new TokenResult(refreshToken, TokenRole.RefreshToken, null, null));
             }
 
             if (!dict.TryGetValue("id_token", out var idToken)) 
                 return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(tokens.ToArray())));
-            
-            var idTokenValidation = await validateIdTokenAsync(idToken);
-            if (!idTokenValidation)
-                return BoolValue<AuthResult>.Fail(idTokenValidation.Message);
-            
-            tokens.Add(new TokenResult(idToken, TokenRole.IdToken, null));
+
+            /* obsolete
+            var isIdTokenValidated = false;
+            if (Config.IsAutoValidatingIdToken)
+            {
+                isIdTokenValidated = true;
+                var idTokenValid = await validateIdTokenAsync(idToken);
+                if (!idTokenValid)
+                    return BoolValue<AuthResult>.Fail(idTokenValid.Message, idTokenValid.Exception);
+            }
+            */
+            var validateTokenDelegate = Config.IsAutoValidatingTokens 
+                ? validateIdTokenAsync 
+                : (ValidateTokenDelegate) null;
+            tokens.Add(new TokenResult(idToken, TokenRole.IdToken, null, validateTokenDelegate));
             return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(tokens.ToArray())));
         }
         
@@ -294,7 +305,7 @@ namespace TetraPak.Auth.Xamarin
             sb.Append($"&redirect_uri={Uri.EscapeDataString(Config.RedirectUri.AbsoluteUri)}");
             sb.Append($"&client_id={Config.ClientId.Trim()}");
 
-            if (Config.IsRequestingUserId)
+            if (Config.IsRequestingIdToken)
                 Config.WithScope("openid");
                 
             if (!string.IsNullOrEmpty(Config.Scope))
