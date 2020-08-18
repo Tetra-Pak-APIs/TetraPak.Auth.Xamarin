@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
@@ -79,7 +80,7 @@ namespace authClient.viewModels
             }
         }
 
-        public bool IsAuthorized => Authorization?.IsValid ?? false;
+        public bool IsAuthorized => Authorization?.Tokens?.Any() ?? false;
 
         /// <summary>
         ///   Gets or sets the redirect URI
@@ -157,8 +158,10 @@ namespace authClient.viewModels
         
         public ICommand AuthorizeSilentlyCommand { get; }
 
+        /* obsolete
         public ICommand ToggleIsLocalIdentityProvider { get; }
-
+        */
+        
         public ICommand DeleteAccessTokenCommand { get; }
         
         void setConfigValue(object value, [CallerMemberName] string propertyName = null)
@@ -191,26 +194,19 @@ namespace authClient.viewModels
         void setTokensResult(BoolValue<AuthResult> authResult)
         {
             TokensResult.Clear();
-            foreach (var tokenResult in authResult.Value.Tokens)
+            foreach (var tokenInfo in authResult.Value.Tokens)
             {
-                var tokenCaption = resolveCaption(tokenResult);
-                var token = tokenResult.Token;
-                TokensResult.AddToken(tokenCaption, token, "X");
+                var tokenCaption = resolveCaption(tokenInfo);
+                var commandCaption = tokenInfo.IsValidatable ? "VALIDATE" : null; 
+                var icon = tokenInfo.IsValidatable ? Theme.IconValidate : null;
+                var command = tokenInfo.IsValidatable 
+                    ? new Command(async vm => ((TokenVM)vm).IsTokenValid = await tokenInfo.IsValidAsync()) 
+                    : null;
+                TokensResult.AddToken(tokenCaption, tokenInfo.TokenValue, commandCaption, icon, command);
             }
-            
-            /*            
-            if (!string.IsNullOrEmpty(authResult.Value.AccessToken))
-            {
-                TokensResult.AddToken("Access", authResult.Value.AccessToken, "X", DeleteAccessTokenCommand);
-            }
-            if (!string.IsNullOrEmpty(authResult.Value.RefreshToken))
-            {
-                TokensResult.AddToken("Refresh", authResult.Value.RefreshToken);
-            }
-            */
         }
 
-        static string resolveCaption(TokenResult token)
+        static string resolveCaption(TokenInfo token)
         {
             switch (token.Role)
             {

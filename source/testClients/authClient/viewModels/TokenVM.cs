@@ -8,8 +8,10 @@ namespace authClient.viewModels
     {
         string _tokenCaption;
         string _tokenValue;
-        string _tokenCommandCaption;
         ICommand _command;
+        string _commandIcon;
+        string _commandCaption;
+        bool _isTokenValid;
 
         public string TokenCaption
         {
@@ -23,16 +25,32 @@ namespace authClient.viewModels
             set => SetValue(ref _tokenValue, value);
         }
 
-        public string CommandCaption
+        public bool IsTokenValid
         {
-            get => _tokenCommandCaption;
+            get => _isTokenValid;
+            set => SetValue(ref _isTokenValid, value);
+        }
+
+        public string CommandIcon
+        {
+            get => _commandIcon;
             set
             {
-                SetValue(ref _tokenCommandCaption, value);
+                SetValue(ref _commandIcon, value);
                 OnPropertyChanged(nameof(IsCommandVisible));
             }
         }
 
+        public string CommandCaption
+        {
+            get => _commandCaption;
+            set
+            {
+                SetValue(ref _commandCaption, value);
+                OnPropertyChanged(nameof(IsCommandVisible));
+            }
+        }
+        
         public ICommand Command
         {
             get => _command;
@@ -43,7 +61,14 @@ namespace authClient.viewModels
             }
         }
 
-        public bool IsCommandVisible => Command != null && !string.IsNullOrEmpty(CommandCaption);
+        public bool IsCommandVisible
+        {
+            get
+            {
+                var nisse = Command != null && !string.IsNullOrEmpty(_commandIcon);
+                return nisse;
+            }
+        }
 
         public TokenVM(IServiceProvider services, ILog log) : base(services, log)
         {

@@ -101,11 +101,17 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\apis2world_2x-1.png">
-      <Visible>false</Visible>
+    <ImageAsset Include="Assets.xcassets\icon.imageset\icon%403x.png" />
+    <ImageAsset Include="Assets.xcassets\icon.imageset\icon%402x.png" />
+    <ImageAsset Include="Assets.xcassets\icon.imageset\icon.png" />
+    <ImageAsset Include="Assets.xcassets\icon.imageset\Contents.json">
+      <Visible>False</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\apis2world_3x-1.png">
-      <Visible>false</Visible>
+    <ImageAsset Include="Assets.xcassets\icon_validate.imageset\icon_validate%403x.png" />
+    <ImageAsset Include="Assets.xcassets\icon_validate.imageset\icon_validate%402x.png" />
+    <ImageAsset Include="Assets.xcassets\icon_validate.imageset\icon_validate.png" />
+    <ImageAsset Include="Assets.xcassets\icon_validate.imageset\Contents.json">
+      <Visible>False</Visible>
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>

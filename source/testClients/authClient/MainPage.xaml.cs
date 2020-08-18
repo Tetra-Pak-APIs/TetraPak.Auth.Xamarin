@@ -51,6 +51,7 @@ namespace authClient
             return elapsed < DoubleTapTimespanMs;
         }
 
+        /* obsolete
         void onAuthorityLabelTapped(object sender, System.EventArgs e)
         {
             if (!(BindingContext is MainViewModel mainViewModel))
@@ -59,7 +60,8 @@ namespace authClient
             if (isDoubleTap() && mainViewModel.AuthCodeGrant.ToggleIsLocalIdentityProvider.CanExecute(null))
                 mainViewModel.AuthCodeGrant.ToggleIsLocalIdentityProvider.Execute(null);
         }
-
+        */
+        
         void onEnvironmentChanged(object sender, ValueChangedEventArgs e)
         {
             if (!(BindingContext is MainViewModel mainViewModel))

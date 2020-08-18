@@ -33,6 +33,7 @@
                 <Setter Property="VerticalOptions" Value="Center"/>
                 <Setter Property="VerticalTextAlignment" Value="Center"/>
                 <Setter Property="TextColor" Value="Coral" />
+                <Setter Property="FontSize" Value="10" />
                 <Setter Property="LineBreakMode" Value="TailTruncation" />
                 <Setter Property="MaxLines" Value="1" />
             </Style>
@@ -131,19 +132,44 @@
                 ItemsSource="{Binding AuthCodeGrant.TokensResult.Tokens}"
                 IsVisible="{Binding AuthCodeGrant.IsAuthorized}"
                 BackgroundColor="Transparent"
+                HasUnevenRows="True"
                 >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <Grid Margin="20,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0" Text="{Binding TokenCaption}"/>
-                                <Label Grid.Column="1" Text="{Binding TokenValue}" Style="{StaticResource TokenLabel}" />
-                                <Button Grid.Column="2" Text="{Binding CommandCaption}" Command="{Binding Command}" IsVisible="{Binding IsCommandVisible}" />
+                                <Label 
+                                    Grid.Row="0" Grid.Column="0" 
+                                    Text="{Binding TokenCaption}"
+                                    />
+                                <Label 
+                                    Grid.Row="0" Grid.Column="1" 
+                                    Text="{Binding TokenValue}" 
+                                    Style="{StaticResource TokenLabel}" 
+                                    />
+                                <Image 
+                                    Grid.Row="1" Grid.Column="0" 
+                                    BackgroundColor="Crimson"
+                                    Source="icon_validate"
+                                    HeightRequest="20" WidthRequest="20"
+                                    Aspect="AspectFit"
+                                    IsVisible="{Binding IsTokenValid}" 
+                                    />
+                                <Button
+                                    Grid.Row="1" Grid.Column="1" 
+                                    Text="{Binding CommandCaption}"
+                                    FontSize="14"
+                                    Command="{Binding Command}" 
+                                    CommandParameter="{Binding .}" 
+                                    />
                             </Grid> 
                         </ViewCell>
                     </DataTemplate>                

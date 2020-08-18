@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
+using TetraPak.Auth.Xamarin.common;
 
 namespace TetraPak.Auth.Xamarin
 {
@@ -9,19 +11,19 @@ namespace TetraPak.Auth.Xamarin
     public class AuthResult
     {
         /// <summary>
-        ///   A collection of tokens returned from the issuer.
+        ///   A collection of tokens (represented as <see cref="TokenInfo"/> objects) returned from the issuer.
         /// </summary>
-        public TokenResult[] Tokens { get; }
+        public TokenInfo[] Tokens { get; }
 
         /// <summary>
         ///   Gets the access token when successful.
         /// </summary>
-        public string AccessToken => Tokens?.FirstOrDefault(i => i.Role == TokenRole.AccessToken)?.Token;
+        public string AccessToken => Tokens?.FirstOrDefault(i => i.Role == TokenRole.AccessToken)?.TokenValue;
 
         /// <summary>
         ///   Gets an optional refresh token when successful.
         /// </summary>
-        public string RefreshToken => Tokens?.FirstOrDefault(i => i.Role == TokenRole.RefreshToken)?.Token;
+        public string RefreshToken => Tokens?.FirstOrDefault(i => i.Role == TokenRole.RefreshToken)?.TokenValue;
 
         /// <summary>
         ///   Gets any provided expiration time when successful.
@@ -31,6 +33,7 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   Indicates whether the authorization is (still) valid.
         /// </summary>
+        [Obsolete("The IsValid property should no longer be used. Please use the TokenInfo.IsValidAsync() method instead")]
         public bool IsValid
         {
             get
@@ -43,7 +46,7 @@ namespace TetraPak.Auth.Xamarin
             }
         }
         
-        internal AuthResult(params TokenResult[] tokens)
+        internal AuthResult(params TokenInfo[] tokens)
         {
             Tokens = tokens;
         }
@@ -52,12 +55,15 @@ namespace TetraPak.Auth.Xamarin
     /// <summary>
     ///   Carries an individual token and its meta data.
     /// </summary>
-    public class TokenResult
+    public class TokenInfo
     {
+        readonly ValidateTokenDelegate _validateTokenDelegate;
+        bool _isValidatedByDelegate;
+
         /// <summary>
         ///   Gets the actual token as a <see cref="string"/> value.
         /// </summary>
-        public string Token { get; }
+        public string TokenValue { get; }
 
         /// <summary>
         ///   Gets the token role (see <see cref="TokenRole"/>).
@@ -69,11 +75,38 @@ namespace TetraPak.Auth.Xamarin
         /// </summary>
         public DateTime? Expires { get; }
 
-        internal TokenResult(string token, TokenRole role, DateTime? expires)
+        /// <summary>
+        ///   Gets a value that indicates whether the token can be validated (other than just by its longevity).
+        /// </summary>
+        public bool IsValidatable => _validateTokenDelegate != null;
+
+        /// <summary>
+        ///   Validates the token and returns a value to indicate whether it is valid at this point. 
+        /// </summary>
+        public async Task<bool> IsValidAsync()
         {
-            Token = token;
+            if (isTokenExpired())
+                return false;
+
+            if (_validateTokenDelegate is null || _isValidatedByDelegate)
+                return true;
+
+            var isValid = await _validateTokenDelegate(TokenValue);
+            _isValidatedByDelegate = true;
+            return isValid;
+        }
+
+        bool isTokenExpired() => Expires.HasValue && Expires.Value >= DateTime.Now;
+
+        internal TokenInfo(string tokenValue, TokenRole role, DateTime? expires, ValidateTokenDelegate validateTokenDelegate)
+        {
+            TokenValue = tokenValue;
             Role = role;
             Expires = expires;
+            _validateTokenDelegate = validateTokenDelegate;
         }
     }
+    
+    delegate Task<BoolValue<string>> ValidateTokenDelegate(string token);
+
 }

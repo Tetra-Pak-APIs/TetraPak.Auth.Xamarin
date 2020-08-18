@@ -9,7 +9,7 @@
       <CustomCommands>
         <Command>
           <type>AfterBuild</type>
-          <command>if $(ConfigurationName) == Release nuget pack TetraPak.Auth.Xamarin.nuspec</command>
+          <command>if  == Release nuget pack TetraPak.Auth.Xamarin.nuspec</command>
         </Command>
       </CustomCommands>
     </CustomCommands>
