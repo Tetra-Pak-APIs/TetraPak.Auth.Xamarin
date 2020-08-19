@@ -3032,6 +3032,12 @@ namespace TetraPak.Auth.Xamarin.Android
 			// aapt resource value: 0x7F070061
 			public static int design_snackbar_background = 2131165281;
 			
+			// aapt resource value: 0x7F070116
+			public static int icon = 2131165462;
+			
+			// aapt resource value: 0x7F070117
+			public static int icon_valid = 2131165463;
+			
 			// aapt resource value: 0x7F070062
 			public static int ic_audiotrack_dark = 2131165282;
 			
@@ -3572,116 +3578,116 @@ namespace TetraPak.Auth.Xamarin.Android
 			// aapt resource value: 0x7F070115
 			public static int ic_vol_type_tv_light = 2131165461;
 			
-			// aapt resource value: 0x7F070116
-			public static int mr_button_connected_dark = 2131165462;
-			
-			// aapt resource value: 0x7F070117
-			public static int mr_button_connected_light = 2131165463;
-			
 			// aapt resource value: 0x7F070118
-			public static int mr_button_connecting_dark = 2131165464;
+			public static int mr_button_connected_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public static int mr_button_connecting_light = 2131165465;
+			public static int mr_button_connected_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public static int mr_button_dark = 2131165466;
+			public static int mr_button_connecting_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public static int mr_button_light = 2131165467;
+			public static int mr_button_connecting_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public static int mr_dialog_close_dark = 2131165468;
+			public static int mr_button_dark = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public static int mr_dialog_close_light = 2131165469;
+			public static int mr_button_light = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public static int mr_dialog_material_background_dark = 2131165470;
+			public static int mr_dialog_close_dark = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public static int mr_dialog_material_background_light = 2131165471;
+			public static int mr_dialog_close_light = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public static int mr_group_collapse = 2131165472;
+			public static int mr_dialog_material_background_dark = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public static int mr_group_expand = 2131165473;
+			public static int mr_dialog_material_background_light = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public static int mr_media_pause_dark = 2131165474;
+			public static int mr_group_collapse = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public static int mr_media_pause_light = 2131165475;
+			public static int mr_group_expand = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public static int mr_media_play_dark = 2131165476;
+			public static int mr_media_pause_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public static int mr_media_play_light = 2131165477;
+			public static int mr_media_pause_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public static int mr_media_stop_dark = 2131165478;
+			public static int mr_media_play_dark = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public static int mr_media_stop_light = 2131165479;
+			public static int mr_media_play_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public static int mr_vol_type_audiotrack_dark = 2131165480;
+			public static int mr_media_stop_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public static int mr_vol_type_audiotrack_light = 2131165481;
+			public static int mr_media_stop_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public static int mtrl_snackbar_background = 2131165482;
+			public static int mr_vol_type_audiotrack_dark = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public static int mtrl_tabs_default_indicator = 2131165483;
+			public static int mr_vol_type_audiotrack_light = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public static int navigation_empty_icon = 2131165484;
+			public static int mtrl_snackbar_background = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public static int notification_action_background = 2131165485;
+			public static int mtrl_tabs_default_indicator = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public static int notification_bg = 2131165486;
+			public static int navigation_empty_icon = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public static int notification_bg_low = 2131165487;
+			public static int notification_action_background = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public static int notification_bg_low_normal = 2131165488;
+			public static int notification_bg = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public static int notification_bg_low_pressed = 2131165489;
+			public static int notification_bg_low = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public static int notification_bg_normal = 2131165490;
+			public static int notification_bg_low_normal = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public static int notification_bg_normal_pressed = 2131165491;
+			public static int notification_bg_low_pressed = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public static int notification_icon_background = 2131165492;
+			public static int notification_bg_normal = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public static int notification_template_icon_bg = 2131165493;
+			public static int notification_bg_normal_pressed = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public static int notification_template_icon_low_bg = 2131165494;
+			public static int notification_icon_background = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public static int notification_tile_bg = 2131165495;
+			public static int notification_template_icon_bg = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public static int notify_panel_notification_icon_bg = 2131165496;
+			public static int notification_template_icon_low_bg = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public static int tooltip_frame_dark = 2131165497;
+			public static int notification_tile_bg = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public static int tooltip_frame_light = 2131165498;
+			public static int notify_panel_notification_icon_bg = 2131165498;
+			
+			// aapt resource value: 0x7F07013B
+			public static int tooltip_frame_dark = 2131165499;
+			
+			// aapt resource value: 0x7F07013C
+			public static int tooltip_frame_light = 2131165500;
 			
 			static Drawable()
 			{

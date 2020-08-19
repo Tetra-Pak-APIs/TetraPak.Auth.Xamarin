@@ -2106,2907 +2106,6 @@ namespace authClient.android
 			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::authClient.android.Resource.Styleable.ViewStubCompat_android_id;
 			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::authClient.android.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::SegmentedControl.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::authClient.android.Resource.Styleable.ViewStubCompat_android_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_fade_in = global::authClient.android.Resource.Animation.abc_fade_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_fade_out = global::authClient.android.Resource.Animation.abc_fade_out;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::authClient.android.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_popup_enter = global::authClient.android.Resource.Animation.abc_popup_enter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_popup_exit = global::authClient.android.Resource.Animation.abc_popup_exit;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::authClient.android.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_in_bottom = global::authClient.android.Resource.Animation.abc_slide_in_bottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_in_top = global::authClient.android.Resource.Animation.abc_slide_in_top;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_out_bottom = global::authClient.android.Resource.Animation.abc_slide_out_bottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_slide_out_top = global::authClient.android.Resource.Animation.abc_slide_out_top;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_tooltip_enter = global::authClient.android.Resource.Animation.abc_tooltip_enter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.abc_tooltip_exit = global::authClient.android.Resource.Animation.abc_tooltip_exit;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::authClient.android.Resource.Animation.design_bottom_sheet_slide_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::authClient.android.Resource.Animation.design_bottom_sheet_slide_out;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_snackbar_in = global::authClient.android.Resource.Animation.design_snackbar_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.design_snackbar_out = global::authClient.android.Resource.Animation.design_snackbar_out;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.EnterFromLeft = global::authClient.android.Resource.Animation.EnterFromLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.EnterFromRight = global::authClient.android.Resource.Animation.EnterFromRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.ExitToLeft = global::authClient.android.Resource.Animation.ExitToLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animation.ExitToRight = global::authClient.android.Resource.Animation.ExitToRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.design_appbar_state_list_animator = global::authClient.android.Resource.Animator.design_appbar_state_list_animator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.design_fab_hide_motion_spec = global::authClient.android.Resource.Animator.design_fab_hide_motion_spec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.design_fab_show_motion_spec = global::authClient.android.Resource.Animator.design_fab_show_motion_spec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_btn_state_list_anim = global::authClient.android.Resource.Animator.mtrl_btn_state_list_anim;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::authClient.android.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_chip_state_list_anim = global::authClient.android.Resource.Animator.mtrl_chip_state_list_anim;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::authClient.android.Resource.Animator.mtrl_fab_hide_motion_spec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::authClient.android.Resource.Animator.mtrl_fab_show_motion_spec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::authClient.android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::authClient.android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarDivider = global::authClient.android.Resource.Attribute.actionBarDivider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarItemBackground = global::authClient.android.Resource.Attribute.actionBarItemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarPopupTheme = global::authClient.android.Resource.Attribute.actionBarPopupTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarSize = global::authClient.android.Resource.Attribute.actionBarSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarSplitStyle = global::authClient.android.Resource.Attribute.actionBarSplitStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarStyle = global::authClient.android.Resource.Attribute.actionBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTabBarStyle = global::authClient.android.Resource.Attribute.actionBarTabBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTabStyle = global::authClient.android.Resource.Attribute.actionBarTabStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTabTextStyle = global::authClient.android.Resource.Attribute.actionBarTabTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarTheme = global::authClient.android.Resource.Attribute.actionBarTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionBarWidgetTheme = global::authClient.android.Resource.Attribute.actionBarWidgetTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionButtonStyle = global::authClient.android.Resource.Attribute.actionButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionDropDownStyle = global::authClient.android.Resource.Attribute.actionDropDownStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionLayout = global::authClient.android.Resource.Attribute.actionLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionMenuTextAppearance = global::authClient.android.Resource.Attribute.actionMenuTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionMenuTextColor = global::authClient.android.Resource.Attribute.actionMenuTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeBackground = global::authClient.android.Resource.Attribute.actionModeBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::authClient.android.Resource.Attribute.actionModeCloseButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCloseDrawable = global::authClient.android.Resource.Attribute.actionModeCloseDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCopyDrawable = global::authClient.android.Resource.Attribute.actionModeCopyDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeCutDrawable = global::authClient.android.Resource.Attribute.actionModeCutDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeFindDrawable = global::authClient.android.Resource.Attribute.actionModeFindDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModePasteDrawable = global::authClient.android.Resource.Attribute.actionModePasteDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModePopupWindowStyle = global::authClient.android.Resource.Attribute.actionModePopupWindowStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::authClient.android.Resource.Attribute.actionModeSelectAllDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeShareDrawable = global::authClient.android.Resource.Attribute.actionModeShareDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeSplitBackground = global::authClient.android.Resource.Attribute.actionModeSplitBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeStyle = global::authClient.android.Resource.Attribute.actionModeStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::authClient.android.Resource.Attribute.actionModeWebSearchDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionOverflowButtonStyle = global::authClient.android.Resource.Attribute.actionOverflowButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionOverflowMenuStyle = global::authClient.android.Resource.Attribute.actionOverflowMenuStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionProviderClass = global::authClient.android.Resource.Attribute.actionProviderClass;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.actionViewClass = global::authClient.android.Resource.Attribute.actionViewClass;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.activityChooserViewStyle = global::authClient.android.Resource.Attribute.activityChooserViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::authClient.android.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogCenterButtons = global::authClient.android.Resource.Attribute.alertDialogCenterButtons;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogStyle = global::authClient.android.Resource.Attribute.alertDialogStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alertDialogTheme = global::authClient.android.Resource.Attribute.alertDialogTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.allowStacking = global::authClient.android.Resource.Attribute.allowStacking;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alpha = global::authClient.android.Resource.Attribute.alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.alphabeticModifiers = global::authClient.android.Resource.Attribute.alphabeticModifiers;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.arrowHeadLength = global::authClient.android.Resource.Attribute.arrowHeadLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.arrowShaftLength = global::authClient.android.Resource.Attribute.arrowShaftLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::authClient.android.Resource.Attribute.autoCompleteTextViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeMaxTextSize = global::authClient.android.Resource.Attribute.autoSizeMaxTextSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeMinTextSize = global::authClient.android.Resource.Attribute.autoSizeMinTextSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizePresetSizes = global::authClient.android.Resource.Attribute.autoSizePresetSizes;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeStepGranularity = global::authClient.android.Resource.Attribute.autoSizeStepGranularity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.autoSizeTextType = global::authClient.android.Resource.Attribute.autoSizeTextType;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.background = global::authClient.android.Resource.Attribute.background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundSplit = global::authClient.android.Resource.Attribute.backgroundSplit;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundStacked = global::authClient.android.Resource.Attribute.backgroundStacked;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundTint = global::authClient.android.Resource.Attribute.backgroundTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.backgroundTintMode = global::authClient.android.Resource.Attribute.backgroundTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.barLength = global::authClient.android.Resource.Attribute.barLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_autoHide = global::authClient.android.Resource.Attribute.behavior_autoHide;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_fitToContents = global::authClient.android.Resource.Attribute.behavior_fitToContents;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_hideable = global::authClient.android.Resource.Attribute.behavior_hideable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_overlapTop = global::authClient.android.Resource.Attribute.behavior_overlapTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_peekHeight = global::authClient.android.Resource.Attribute.behavior_peekHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.behavior_skipCollapsed = global::authClient.android.Resource.Attribute.behavior_skipCollapsed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.borderlessButtonStyle = global::authClient.android.Resource.Attribute.borderlessButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.borderWidth = global::authClient.android.Resource.Attribute.borderWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomAppBarStyle = global::authClient.android.Resource.Attribute.bottomAppBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomNavigationStyle = global::authClient.android.Resource.Attribute.bottomNavigationStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomSheetDialogTheme = global::authClient.android.Resource.Attribute.bottomSheetDialogTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.bottomSheetStyle = global::authClient.android.Resource.Attribute.bottomSheetStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxBackgroundColor = global::authClient.android.Resource.Attribute.boxBackgroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxBackgroundMode = global::authClient.android.Resource.Attribute.boxBackgroundMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCollapsedPaddingTop = global::authClient.android.Resource.Attribute.boxCollapsedPaddingTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::authClient.android.Resource.Attribute.boxCornerRadiusBottomEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::authClient.android.Resource.Attribute.boxCornerRadiusBottomStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::authClient.android.Resource.Attribute.boxCornerRadiusTopEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxCornerRadiusTopStart = global::authClient.android.Resource.Attribute.boxCornerRadiusTopStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxStrokeColor = global::authClient.android.Resource.Attribute.boxStrokeColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.boxStrokeWidth = global::authClient.android.Resource.Attribute.boxStrokeWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarButtonStyle = global::authClient.android.Resource.Attribute.buttonBarButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::authClient.android.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::authClient.android.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::authClient.android.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonBarStyle = global::authClient.android.Resource.Attribute.buttonBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonGravity = global::authClient.android.Resource.Attribute.buttonGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonIconDimen = global::authClient.android.Resource.Attribute.buttonIconDimen;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonPanelSideLayout = global::authClient.android.Resource.Attribute.buttonPanelSideLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonStyle = global::authClient.android.Resource.Attribute.buttonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonStyleSmall = global::authClient.android.Resource.Attribute.buttonStyleSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonTint = global::authClient.android.Resource.Attribute.buttonTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.buttonTintMode = global::authClient.android.Resource.Attribute.buttonTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardBackgroundColor = global::authClient.android.Resource.Attribute.cardBackgroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardCornerRadius = global::authClient.android.Resource.Attribute.cardCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardElevation = global::authClient.android.Resource.Attribute.cardElevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardMaxElevation = global::authClient.android.Resource.Attribute.cardMaxElevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardPreventCornerOverlap = global::authClient.android.Resource.Attribute.cardPreventCornerOverlap;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardUseCompatPadding = global::authClient.android.Resource.Attribute.cardUseCompatPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cardViewStyle = global::authClient.android.Resource.Attribute.cardViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkboxStyle = global::authClient.android.Resource.Attribute.checkboxStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedChip = global::authClient.android.Resource.Attribute.checkedChip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedIcon = global::authClient.android.Resource.Attribute.checkedIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedIconEnabled = global::authClient.android.Resource.Attribute.checkedIconEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedIconVisible = global::authClient.android.Resource.Attribute.checkedIconVisible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.checkedTextViewStyle = global::authClient.android.Resource.Attribute.checkedTextViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipBackgroundColor = global::authClient.android.Resource.Attribute.chipBackgroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipCornerRadius = global::authClient.android.Resource.Attribute.chipCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipEndPadding = global::authClient.android.Resource.Attribute.chipEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipGroupStyle = global::authClient.android.Resource.Attribute.chipGroupStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIcon = global::authClient.android.Resource.Attribute.chipIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconEnabled = global::authClient.android.Resource.Attribute.chipIconEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconSize = global::authClient.android.Resource.Attribute.chipIconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconTint = global::authClient.android.Resource.Attribute.chipIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipIconVisible = global::authClient.android.Resource.Attribute.chipIconVisible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipMinHeight = global::authClient.android.Resource.Attribute.chipMinHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipSpacing = global::authClient.android.Resource.Attribute.chipSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipSpacingHorizontal = global::authClient.android.Resource.Attribute.chipSpacingHorizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipSpacingVertical = global::authClient.android.Resource.Attribute.chipSpacingVertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStandaloneStyle = global::authClient.android.Resource.Attribute.chipStandaloneStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStartPadding = global::authClient.android.Resource.Attribute.chipStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStrokeColor = global::authClient.android.Resource.Attribute.chipStrokeColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStrokeWidth = global::authClient.android.Resource.Attribute.chipStrokeWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.chipStyle = global::authClient.android.Resource.Attribute.chipStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIcon = global::authClient.android.Resource.Attribute.closeIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconEnabled = global::authClient.android.Resource.Attribute.closeIconEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconEndPadding = global::authClient.android.Resource.Attribute.closeIconEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconSize = global::authClient.android.Resource.Attribute.closeIconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconStartPadding = global::authClient.android.Resource.Attribute.closeIconStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconTint = global::authClient.android.Resource.Attribute.closeIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeIconVisible = global::authClient.android.Resource.Attribute.closeIconVisible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.closeItemLayout = global::authClient.android.Resource.Attribute.closeItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapseContentDescription = global::authClient.android.Resource.Attribute.collapseContentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapsedTitleGravity = global::authClient.android.Resource.Attribute.collapsedTitleGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::authClient.android.Resource.Attribute.collapsedTitleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.collapseIcon = global::authClient.android.Resource.Attribute.collapseIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.color = global::authClient.android.Resource.Attribute.color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorAccent = global::authClient.android.Resource.Attribute.colorAccent;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorBackgroundFloating = global::authClient.android.Resource.Attribute.colorBackgroundFloating;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorButtonNormal = global::authClient.android.Resource.Attribute.colorButtonNormal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorControlActivated = global::authClient.android.Resource.Attribute.colorControlActivated;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorControlHighlight = global::authClient.android.Resource.Attribute.colorControlHighlight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorControlNormal = global::authClient.android.Resource.Attribute.colorControlNormal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorError = global::authClient.android.Resource.Attribute.colorError;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorPrimary = global::authClient.android.Resource.Attribute.colorPrimary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorPrimaryDark = global::authClient.android.Resource.Attribute.colorPrimaryDark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorSecondary = global::authClient.android.Resource.Attribute.colorSecondary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.colorSwitchThumbNormal = global::authClient.android.Resource.Attribute.colorSwitchThumbNormal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.commitIcon = global::authClient.android.Resource.Attribute.commitIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentDescription = global::authClient.android.Resource.Attribute.contentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetEnd = global::authClient.android.Resource.Attribute.contentInsetEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetEndWithActions = global::authClient.android.Resource.Attribute.contentInsetEndWithActions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetLeft = global::authClient.android.Resource.Attribute.contentInsetLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetRight = global::authClient.android.Resource.Attribute.contentInsetRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetStart = global::authClient.android.Resource.Attribute.contentInsetStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::authClient.android.Resource.Attribute.contentInsetStartWithNavigation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPadding = global::authClient.android.Resource.Attribute.contentPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingBottom = global::authClient.android.Resource.Attribute.contentPaddingBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingLeft = global::authClient.android.Resource.Attribute.contentPaddingLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingRight = global::authClient.android.Resource.Attribute.contentPaddingRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentPaddingTop = global::authClient.android.Resource.Attribute.contentPaddingTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.contentScrim = global::authClient.android.Resource.Attribute.contentScrim;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.controlBackground = global::authClient.android.Resource.Attribute.controlBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.coordinatorLayoutStyle = global::authClient.android.Resource.Attribute.coordinatorLayoutStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.cornerRadius = global::authClient.android.Resource.Attribute.cornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterEnabled = global::authClient.android.Resource.Attribute.counterEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterMaxLength = global::authClient.android.Resource.Attribute.counterMaxLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterOverflowTextAppearance = global::authClient.android.Resource.Attribute.counterOverflowTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.counterTextAppearance = global::authClient.android.Resource.Attribute.counterTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.customNavigationLayout = global::authClient.android.Resource.Attribute.customNavigationLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.defaultQueryHint = global::authClient.android.Resource.Attribute.defaultQueryHint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dialogCornerRadius = global::authClient.android.Resource.Attribute.dialogCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dialogPreferredPadding = global::authClient.android.Resource.Attribute.dialogPreferredPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dialogTheme = global::authClient.android.Resource.Attribute.dialogTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.displayOptions = global::authClient.android.Resource.Attribute.displayOptions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.divider = global::authClient.android.Resource.Attribute.divider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dividerHorizontal = global::authClient.android.Resource.Attribute.dividerHorizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dividerPadding = global::authClient.android.Resource.Attribute.dividerPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dividerVertical = global::authClient.android.Resource.Attribute.dividerVertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.drawableSize = global::authClient.android.Resource.Attribute.drawableSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.drawerArrowStyle = global::authClient.android.Resource.Attribute.drawerArrowStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::authClient.android.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.dropDownListViewStyle = global::authClient.android.Resource.Attribute.dropDownListViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.editTextBackground = global::authClient.android.Resource.Attribute.editTextBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.editTextColor = global::authClient.android.Resource.Attribute.editTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.editTextStyle = global::authClient.android.Resource.Attribute.editTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.elevation = global::authClient.android.Resource.Attribute.elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.enforceMaterialTheme = global::authClient.android.Resource.Attribute.enforceMaterialTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.enforceTextAppearance = global::authClient.android.Resource.Attribute.enforceTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.errorEnabled = global::authClient.android.Resource.Attribute.errorEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.errorTextAppearance = global::authClient.android.Resource.Attribute.errorTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::authClient.android.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expanded = global::authClient.android.Resource.Attribute.expanded;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleGravity = global::authClient.android.Resource.Attribute.expandedTitleGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMargin = global::authClient.android.Resource.Attribute.expandedTitleMargin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginBottom = global::authClient.android.Resource.Attribute.expandedTitleMarginBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginEnd = global::authClient.android.Resource.Attribute.expandedTitleMarginEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginStart = global::authClient.android.Resource.Attribute.expandedTitleMarginStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleMarginTop = global::authClient.android.Resource.Attribute.expandedTitleMarginTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.expandedTitleTextAppearance = global::authClient.android.Resource.Attribute.expandedTitleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::authClient.android.Resource.Attribute.externalRouteEnabledDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabAlignmentMode = global::authClient.android.Resource.Attribute.fabAlignmentMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCradleMargin = global::authClient.android.Resource.Attribute.fabCradleMargin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::authClient.android.Resource.Attribute.fabCradleRoundedCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCradleVerticalOffset = global::authClient.android.Resource.Attribute.fabCradleVerticalOffset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabCustomSize = global::authClient.android.Resource.Attribute.fabCustomSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fabSize = global::authClient.android.Resource.Attribute.fabSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollEnabled = global::authClient.android.Resource.Attribute.fastScrollEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::authClient.android.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::authClient.android.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::authClient.android.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::authClient.android.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.firstBaselineToTopHeight = global::authClient.android.Resource.Attribute.firstBaselineToTopHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.floatingActionButtonStyle = global::authClient.android.Resource.Attribute.floatingActionButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.font = global::authClient.android.Resource.Attribute.font;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontFamily = global::authClient.android.Resource.Attribute.fontFamily;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderAuthority = global::authClient.android.Resource.Attribute.fontProviderAuthority;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderCerts = global::authClient.android.Resource.Attribute.fontProviderCerts;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderFetchStrategy = global::authClient.android.Resource.Attribute.fontProviderFetchStrategy;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderFetchTimeout = global::authClient.android.Resource.Attribute.fontProviderFetchTimeout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderPackage = global::authClient.android.Resource.Attribute.fontProviderPackage;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontProviderQuery = global::authClient.android.Resource.Attribute.fontProviderQuery;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontStyle = global::authClient.android.Resource.Attribute.fontStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontVariationSettings = global::authClient.android.Resource.Attribute.fontVariationSettings;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.fontWeight = global::authClient.android.Resource.Attribute.fontWeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.foregroundInsidePadding = global::authClient.android.Resource.Attribute.foregroundInsidePadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.gapBetweenBars = global::authClient.android.Resource.Attribute.gapBetweenBars;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.goIcon = global::authClient.android.Resource.Attribute.goIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.headerLayout = global::authClient.android.Resource.Attribute.headerLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.height = global::authClient.android.Resource.Attribute.height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.helperText = global::authClient.android.Resource.Attribute.helperText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.helperTextEnabled = global::authClient.android.Resource.Attribute.helperTextEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.helperTextTextAppearance = global::authClient.android.Resource.Attribute.helperTextTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hideMotionSpec = global::authClient.android.Resource.Attribute.hideMotionSpec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hideOnContentScroll = global::authClient.android.Resource.Attribute.hideOnContentScroll;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hideOnScroll = global::authClient.android.Resource.Attribute.hideOnScroll;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hintAnimationEnabled = global::authClient.android.Resource.Attribute.hintAnimationEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hintEnabled = global::authClient.android.Resource.Attribute.hintEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hintTextAppearance = global::authClient.android.Resource.Attribute.hintTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.homeAsUpIndicator = global::authClient.android.Resource.Attribute.homeAsUpIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.homeLayout = global::authClient.android.Resource.Attribute.homeLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::authClient.android.Resource.Attribute.hoveredFocusedTranslationZ;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.icon = global::authClient.android.Resource.Attribute.icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconEndPadding = global::authClient.android.Resource.Attribute.iconEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconGravity = global::authClient.android.Resource.Attribute.iconGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconifiedByDefault = global::authClient.android.Resource.Attribute.iconifiedByDefault;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconPadding = global::authClient.android.Resource.Attribute.iconPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconSize = global::authClient.android.Resource.Attribute.iconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconStartPadding = global::authClient.android.Resource.Attribute.iconStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconTint = global::authClient.android.Resource.Attribute.iconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.iconTintMode = global::authClient.android.Resource.Attribute.iconTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.imageButtonStyle = global::authClient.android.Resource.Attribute.imageButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.indeterminateProgressStyle = global::authClient.android.Resource.Attribute.indeterminateProgressStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.initialActivityCount = global::authClient.android.Resource.Attribute.initialActivityCount;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.insetForeground = global::authClient.android.Resource.Attribute.insetForeground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.isLightTheme = global::authClient.android.Resource.Attribute.isLightTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemBackground = global::authClient.android.Resource.Attribute.itemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemHorizontalPadding = global::authClient.android.Resource.Attribute.itemHorizontalPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::authClient.android.Resource.Attribute.itemHorizontalTranslationEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemIconPadding = global::authClient.android.Resource.Attribute.itemIconPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemIconSize = global::authClient.android.Resource.Attribute.itemIconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemIconTint = global::authClient.android.Resource.Attribute.itemIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemPadding = global::authClient.android.Resource.Attribute.itemPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemSpacing = global::authClient.android.Resource.Attribute.itemSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextAppearance = global::authClient.android.Resource.Attribute.itemTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextAppearanceActive = global::authClient.android.Resource.Attribute.itemTextAppearanceActive;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextAppearanceInactive = global::authClient.android.Resource.Attribute.itemTextAppearanceInactive;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.itemTextColor = global::authClient.android.Resource.Attribute.itemTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.keylines = global::authClient.android.Resource.Attribute.keylines;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.labelVisibilityMode = global::authClient.android.Resource.Attribute.labelVisibilityMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.lastBaselineToBottomHeight = global::authClient.android.Resource.Attribute.lastBaselineToBottomHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout = global::authClient.android.Resource.Attribute.layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layoutManager = global::authClient.android.Resource.Attribute.layoutManager;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_anchor = global::authClient.android.Resource.Attribute.layout_anchor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_anchorGravity = global::authClient.android.Resource.Attribute.layout_anchorGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_behavior = global::authClient.android.Resource.Attribute.layout_behavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_collapseMode = global::authClient.android.Resource.Attribute.layout_collapseMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::authClient.android.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::authClient.android.Resource.Attribute.layout_dodgeInsetEdges;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_insetEdge = global::authClient.android.Resource.Attribute.layout_insetEdge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_keyline = global::authClient.android.Resource.Attribute.layout_keyline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_scrollFlags = global::authClient.android.Resource.Attribute.layout_scrollFlags;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.layout_scrollInterpolator = global::authClient.android.Resource.Attribute.layout_scrollInterpolator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.liftOnScroll = global::authClient.android.Resource.Attribute.liftOnScroll;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.lineHeight = global::authClient.android.Resource.Attribute.lineHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.lineSpacing = global::authClient.android.Resource.Attribute.lineSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::authClient.android.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listDividerAlertDialog = global::authClient.android.Resource.Attribute.listDividerAlertDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listItemLayout = global::authClient.android.Resource.Attribute.listItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listLayout = global::authClient.android.Resource.Attribute.listLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listMenuViewStyle = global::authClient.android.Resource.Attribute.listMenuViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPopupWindowStyle = global::authClient.android.Resource.Attribute.listPopupWindowStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemHeight = global::authClient.android.Resource.Attribute.listPreferredItemHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::authClient.android.Resource.Attribute.listPreferredItemHeightLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::authClient.android.Resource.Attribute.listPreferredItemHeightSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::authClient.android.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::authClient.android.Resource.Attribute.listPreferredItemPaddingRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.logo = global::authClient.android.Resource.Attribute.logo;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.logoDescription = global::authClient.android.Resource.Attribute.logoDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.materialButtonStyle = global::authClient.android.Resource.Attribute.materialButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.materialCardViewStyle = global::authClient.android.Resource.Attribute.materialCardViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.maxActionInlineWidth = global::authClient.android.Resource.Attribute.maxActionInlineWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.maxButtonHeight = global::authClient.android.Resource.Attribute.maxButtonHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.maxImageSize = global::authClient.android.Resource.Attribute.maxImageSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.measureWithLargestChild = global::authClient.android.Resource.Attribute.measureWithLargestChild;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::authClient.android.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteButtonStyle = global::authClient.android.Resource.Attribute.mediaRouteButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteButtonTint = global::authClient.android.Resource.Attribute.mediaRouteButtonTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteCloseDrawable = global::authClient.android.Resource.Attribute.mediaRouteCloseDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::authClient.android.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::authClient.android.Resource.Attribute.mediaRoutePauseDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::authClient.android.Resource.Attribute.mediaRoutePlayDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteStopDrawable = global::authClient.android.Resource.Attribute.mediaRouteStopDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteTheme = global::authClient.android.Resource.Attribute.mediaRouteTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::authClient.android.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.menu = global::authClient.android.Resource.Attribute.menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.multiChoiceItemLayout = global::authClient.android.Resource.Attribute.multiChoiceItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationContentDescription = global::authClient.android.Resource.Attribute.navigationContentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationIcon = global::authClient.android.Resource.Attribute.navigationIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationMode = global::authClient.android.Resource.Attribute.navigationMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.navigationViewStyle = global::authClient.android.Resource.Attribute.navigationViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.numericModifiers = global::authClient.android.Resource.Attribute.numericModifiers;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.overlapAnchor = global::authClient.android.Resource.Attribute.overlapAnchor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingBottomNoButtons = global::authClient.android.Resource.Attribute.paddingBottomNoButtons;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingEnd = global::authClient.android.Resource.Attribute.paddingEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingStart = global::authClient.android.Resource.Attribute.paddingStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.paddingTopNoTitle = global::authClient.android.Resource.Attribute.paddingTopNoTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.panelBackground = global::authClient.android.Resource.Attribute.panelBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.panelMenuListTheme = global::authClient.android.Resource.Attribute.panelMenuListTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.panelMenuListWidth = global::authClient.android.Resource.Attribute.panelMenuListWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleContentDescription = global::authClient.android.Resource.Attribute.passwordToggleContentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleDrawable = global::authClient.android.Resource.Attribute.passwordToggleDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleEnabled = global::authClient.android.Resource.Attribute.passwordToggleEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleTint = global::authClient.android.Resource.Attribute.passwordToggleTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.passwordToggleTintMode = global::authClient.android.Resource.Attribute.passwordToggleTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.popupMenuStyle = global::authClient.android.Resource.Attribute.popupMenuStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.popupTheme = global::authClient.android.Resource.Attribute.popupTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.popupWindowStyle = global::authClient.android.Resource.Attribute.popupWindowStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.preserveIconSpacing = global::authClient.android.Resource.Attribute.preserveIconSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.pressedTranslationZ = global::authClient.android.Resource.Attribute.pressedTranslationZ;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.progressBarPadding = global::authClient.android.Resource.Attribute.progressBarPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.progressBarStyle = global::authClient.android.Resource.Attribute.progressBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.queryBackground = global::authClient.android.Resource.Attribute.queryBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.queryHint = global::authClient.android.Resource.Attribute.queryHint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.radioButtonStyle = global::authClient.android.Resource.Attribute.radioButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ratingBarStyle = global::authClient.android.Resource.Attribute.ratingBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ratingBarStyleIndicator = global::authClient.android.Resource.Attribute.ratingBarStyleIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ratingBarStyleSmall = global::authClient.android.Resource.Attribute.ratingBarStyleSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.reverseLayout = global::authClient.android.Resource.Attribute.reverseLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.rippleColor = global::authClient.android.Resource.Attribute.rippleColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.scrimAnimationDuration = global::authClient.android.Resource.Attribute.scrimAnimationDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.scrimBackground = global::authClient.android.Resource.Attribute.scrimBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::authClient.android.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.searchHintIcon = global::authClient.android.Resource.Attribute.searchHintIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.searchIcon = global::authClient.android.Resource.Attribute.searchIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.searchViewStyle = global::authClient.android.Resource.Attribute.searchViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.seekBarStyle = global::authClient.android.Resource.Attribute.seekBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.selectableItemBackground = global::authClient.android.Resource.Attribute.selectableItemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::authClient.android.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showAsAction = global::authClient.android.Resource.Attribute.showAsAction;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showDividers = global::authClient.android.Resource.Attribute.showDividers;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showMotionSpec = global::authClient.android.Resource.Attribute.showMotionSpec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showText = global::authClient.android.Resource.Attribute.showText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.showTitle = global::authClient.android.Resource.Attribute.showTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.singleChoiceItemLayout = global::authClient.android.Resource.Attribute.singleChoiceItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.singleLine = global::authClient.android.Resource.Attribute.singleLine;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.singleSelection = global::authClient.android.Resource.Attribute.singleSelection;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.snackbarButtonStyle = global::authClient.android.Resource.Attribute.snackbarButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.snackbarStyle = global::authClient.android.Resource.Attribute.snackbarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spanCount = global::authClient.android.Resource.Attribute.spanCount;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spinBars = global::authClient.android.Resource.Attribute.spinBars;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::authClient.android.Resource.Attribute.spinnerDropDownItemStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.spinnerStyle = global::authClient.android.Resource.Attribute.spinnerStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.splitTrack = global::authClient.android.Resource.Attribute.splitTrack;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.srcCompat = global::authClient.android.Resource.Attribute.srcCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.stackFromEnd = global::authClient.android.Resource.Attribute.stackFromEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_above_anchor = global::authClient.android.Resource.Attribute.state_above_anchor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_collapsed = global::authClient.android.Resource.Attribute.state_collapsed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_collapsible = global::authClient.android.Resource.Attribute.state_collapsible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_liftable = global::authClient.android.Resource.Attribute.state_liftable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.state_lifted = global::authClient.android.Resource.Attribute.state_lifted;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.statusBarBackground = global::authClient.android.Resource.Attribute.statusBarBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.statusBarScrim = global::authClient.android.Resource.Attribute.statusBarScrim;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.strokeColor = global::authClient.android.Resource.Attribute.strokeColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.strokeWidth = global::authClient.android.Resource.Attribute.strokeWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subMenuArrow = global::authClient.android.Resource.Attribute.subMenuArrow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.submitBackground = global::authClient.android.Resource.Attribute.submitBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitle = global::authClient.android.Resource.Attribute.subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitleTextAppearance = global::authClient.android.Resource.Attribute.subtitleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitleTextColor = global::authClient.android.Resource.Attribute.subtitleTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.subtitleTextStyle = global::authClient.android.Resource.Attribute.subtitleTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.suggestionRowLayout = global::authClient.android.Resource.Attribute.suggestionRowLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchMinWidth = global::authClient.android.Resource.Attribute.switchMinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchPadding = global::authClient.android.Resource.Attribute.switchPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchStyle = global::authClient.android.Resource.Attribute.switchStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.switchTextAppearance = global::authClient.android.Resource.Attribute.switchTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabBackground = global::authClient.android.Resource.Attribute.tabBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabContentStart = global::authClient.android.Resource.Attribute.tabContentStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabGravity = global::authClient.android.Resource.Attribute.tabGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIconTint = global::authClient.android.Resource.Attribute.tabIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIconTintMode = global::authClient.android.Resource.Attribute.tabIconTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicator = global::authClient.android.Resource.Attribute.tabIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::authClient.android.Resource.Attribute.tabIndicatorAnimationDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorColor = global::authClient.android.Resource.Attribute.tabIndicatorColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorFullWidth = global::authClient.android.Resource.Attribute.tabIndicatorFullWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorGravity = global::authClient.android.Resource.Attribute.tabIndicatorGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabIndicatorHeight = global::authClient.android.Resource.Attribute.tabIndicatorHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabInlineLabel = global::authClient.android.Resource.Attribute.tabInlineLabel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabMaxWidth = global::authClient.android.Resource.Attribute.tabMaxWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabMinWidth = global::authClient.android.Resource.Attribute.tabMinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabMode = global::authClient.android.Resource.Attribute.tabMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPadding = global::authClient.android.Resource.Attribute.tabPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingBottom = global::authClient.android.Resource.Attribute.tabPaddingBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingEnd = global::authClient.android.Resource.Attribute.tabPaddingEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingStart = global::authClient.android.Resource.Attribute.tabPaddingStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabPaddingTop = global::authClient.android.Resource.Attribute.tabPaddingTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabRippleColor = global::authClient.android.Resource.Attribute.tabRippleColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabSelectedTextColor = global::authClient.android.Resource.Attribute.tabSelectedTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabStyle = global::authClient.android.Resource.Attribute.tabStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabTextAppearance = global::authClient.android.Resource.Attribute.tabTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabTextColor = global::authClient.android.Resource.Attribute.tabTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tabUnboundedRipple = global::authClient.android.Resource.Attribute.tabUnboundedRipple;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAllCaps = global::authClient.android.Resource.Attribute.textAllCaps;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceBody1 = global::authClient.android.Resource.Attribute.textAppearanceBody1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceBody2 = global::authClient.android.Resource.Attribute.textAppearanceBody2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceButton = global::authClient.android.Resource.Attribute.textAppearanceButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceCaption = global::authClient.android.Resource.Attribute.textAppearanceCaption;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline1 = global::authClient.android.Resource.Attribute.textAppearanceHeadline1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline2 = global::authClient.android.Resource.Attribute.textAppearanceHeadline2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline3 = global::authClient.android.Resource.Attribute.textAppearanceHeadline3;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline4 = global::authClient.android.Resource.Attribute.textAppearanceHeadline4;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline5 = global::authClient.android.Resource.Attribute.textAppearanceHeadline5;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceHeadline6 = global::authClient.android.Resource.Attribute.textAppearanceHeadline6;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::authClient.android.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceListItem = global::authClient.android.Resource.Attribute.textAppearanceListItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::authClient.android.Resource.Attribute.textAppearanceListItemSecondary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceListItemSmall = global::authClient.android.Resource.Attribute.textAppearanceListItemSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceOverline = global::authClient.android.Resource.Attribute.textAppearanceOverline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::authClient.android.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::authClient.android.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::authClient.android.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::authClient.android.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSubtitle1 = global::authClient.android.Resource.Attribute.textAppearanceSubtitle1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textAppearanceSubtitle2 = global::authClient.android.Resource.Attribute.textAppearanceSubtitle2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textColorAlertDialogListItem = global::authClient.android.Resource.Attribute.textColorAlertDialogListItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textColorSearchUrl = global::authClient.android.Resource.Attribute.textColorSearchUrl;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textEndPadding = global::authClient.android.Resource.Attribute.textEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textInputStyle = global::authClient.android.Resource.Attribute.textInputStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.textStartPadding = global::authClient.android.Resource.Attribute.textStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.theme = global::authClient.android.Resource.Attribute.theme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thickness = global::authClient.android.Resource.Attribute.thickness;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thumbTextPadding = global::authClient.android.Resource.Attribute.thumbTextPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thumbTint = global::authClient.android.Resource.Attribute.thumbTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.thumbTintMode = global::authClient.android.Resource.Attribute.thumbTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tickMark = global::authClient.android.Resource.Attribute.tickMark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tickMarkTint = global::authClient.android.Resource.Attribute.tickMarkTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tickMarkTintMode = global::authClient.android.Resource.Attribute.tickMarkTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tint = global::authClient.android.Resource.Attribute.tint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tintMode = global::authClient.android.Resource.Attribute.tintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.title = global::authClient.android.Resource.Attribute.title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleEnabled = global::authClient.android.Resource.Attribute.titleEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMargin = global::authClient.android.Resource.Attribute.titleMargin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginBottom = global::authClient.android.Resource.Attribute.titleMarginBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginEnd = global::authClient.android.Resource.Attribute.titleMarginEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMargins = global::authClient.android.Resource.Attribute.titleMargins;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginStart = global::authClient.android.Resource.Attribute.titleMarginStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleMarginTop = global::authClient.android.Resource.Attribute.titleMarginTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleTextAppearance = global::authClient.android.Resource.Attribute.titleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleTextColor = global::authClient.android.Resource.Attribute.titleTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.titleTextStyle = global::authClient.android.Resource.Attribute.titleTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.toolbarId = global::authClient.android.Resource.Attribute.toolbarId;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::authClient.android.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.toolbarStyle = global::authClient.android.Resource.Attribute.toolbarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tooltipForegroundColor = global::authClient.android.Resource.Attribute.tooltipForegroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tooltipFrameBackground = global::authClient.android.Resource.Attribute.tooltipFrameBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.tooltipText = global::authClient.android.Resource.Attribute.tooltipText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.track = global::authClient.android.Resource.Attribute.track;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.trackTint = global::authClient.android.Resource.Attribute.trackTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.trackTintMode = global::authClient.android.Resource.Attribute.trackTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.ttcIndex = global::authClient.android.Resource.Attribute.ttcIndex;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.useCompatPadding = global::authClient.android.Resource.Attribute.useCompatPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.viewInflaterClass = global::authClient.android.Resource.Attribute.viewInflaterClass;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.voiceIcon = global::authClient.android.Resource.Attribute.voiceIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowActionBar = global::authClient.android.Resource.Attribute.windowActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowActionBarOverlay = global::authClient.android.Resource.Attribute.windowActionBarOverlay;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowActionModeOverlay = global::authClient.android.Resource.Attribute.windowActionModeOverlay;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedHeightMajor = global::authClient.android.Resource.Attribute.windowFixedHeightMajor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedHeightMinor = global::authClient.android.Resource.Attribute.windowFixedHeightMinor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedWidthMajor = global::authClient.android.Resource.Attribute.windowFixedWidthMajor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowFixedWidthMinor = global::authClient.android.Resource.Attribute.windowFixedWidthMinor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowMinWidthMajor = global::authClient.android.Resource.Attribute.windowMinWidthMajor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowMinWidthMinor = global::authClient.android.Resource.Attribute.windowMinWidthMinor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Attribute.windowNoTitle = global::authClient.android.Resource.Attribute.windowNoTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::authClient.android.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::authClient.android.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::authClient.android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::authClient.android.Resource.Boolean.mtrl_btn_textappearance_all_caps;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::authClient.android.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::authClient.android.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::authClient.android.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_btn_colored_text_material = global::authClient.android.Resource.Color.abc_btn_colored_text_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_color_highlight_material = global::authClient.android.Resource.Color.abc_color_highlight_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_hint_foreground_material_dark = global::authClient.android.Resource.Color.abc_hint_foreground_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_hint_foreground_material_light = global::authClient.android.Resource.Color.abc_hint_foreground_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_input_method_navigation_guard = global::authClient.android.Resource.Color.abc_input_method_navigation_guard;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::authClient.android.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::authClient.android.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_material_dark = global::authClient.android.Resource.Color.abc_primary_text_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_primary_text_material_light = global::authClient.android.Resource.Color.abc_primary_text_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text = global::authClient.android.Resource.Color.abc_search_url_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text_normal = global::authClient.android.Resource.Color.abc_search_url_text_normal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text_pressed = global::authClient.android.Resource.Color.abc_search_url_text_pressed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_search_url_text_selected = global::authClient.android.Resource.Color.abc_search_url_text_selected;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_secondary_text_material_dark = global::authClient.android.Resource.Color.abc_secondary_text_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_secondary_text_material_light = global::authClient.android.Resource.Color.abc_secondary_text_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_btn_checkable = global::authClient.android.Resource.Color.abc_tint_btn_checkable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_default = global::authClient.android.Resource.Color.abc_tint_default;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_edittext = global::authClient.android.Resource.Color.abc_tint_edittext;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_seek_thumb = global::authClient.android.Resource.Color.abc_tint_seek_thumb;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_spinner = global::authClient.android.Resource.Color.abc_tint_spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.abc_tint_switch_track = global::authClient.android.Resource.Color.abc_tint_switch_track;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.accent_material_dark = global::authClient.android.Resource.Color.accent_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.accent_material_light = global::authClient.android.Resource.Color.accent_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_floating_material_dark = global::authClient.android.Resource.Color.background_floating_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_floating_material_light = global::authClient.android.Resource.Color.background_floating_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_material_dark = global::authClient.android.Resource.Color.background_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.background_material_light = global::authClient.android.Resource.Color.background_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::authClient.android.Resource.Color.bright_foreground_disabled_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_disabled_material_light = global::authClient.android.Resource.Color.bright_foreground_disabled_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::authClient.android.Resource.Color.bright_foreground_inverse_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_inverse_material_light = global::authClient.android.Resource.Color.bright_foreground_inverse_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_material_dark = global::authClient.android.Resource.Color.bright_foreground_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.bright_foreground_material_light = global::authClient.android.Resource.Color.bright_foreground_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_bg_grey = global::authClient.android.Resource.Color.browser_actions_bg_grey;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_divider_color = global::authClient.android.Resource.Color.browser_actions_divider_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_text_color = global::authClient.android.Resource.Color.browser_actions_text_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.browser_actions_title_color = global::authClient.android.Resource.Color.browser_actions_title_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.button_material_dark = global::authClient.android.Resource.Color.button_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.button_material_light = global::authClient.android.Resource.Color.button_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_dark_background = global::authClient.android.Resource.Color.cardview_dark_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_light_background = global::authClient.android.Resource.Color.cardview_light_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_shadow_end_color = global::authClient.android.Resource.Color.cardview_shadow_end_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.cardview_shadow_start_color = global::authClient.android.Resource.Color.cardview_shadow_start_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::authClient.android.Resource.Color.design_bottom_navigation_shadow_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_default_color_primary = global::authClient.android.Resource.Color.design_default_color_primary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_default_color_primary_dark = global::authClient.android.Resource.Color.design_default_color_primary_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_error = global::authClient.android.Resource.Color.design_error;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_shadow_end_color = global::authClient.android.Resource.Color.design_fab_shadow_end_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_shadow_mid_color = global::authClient.android.Resource.Color.design_fab_shadow_mid_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_shadow_start_color = global::authClient.android.Resource.Color.design_fab_shadow_start_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::authClient.android.Resource.Color.design_fab_stroke_end_inner_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::authClient.android.Resource.Color.design_fab_stroke_end_outer_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::authClient.android.Resource.Color.design_fab_stroke_top_inner_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::authClient.android.Resource.Color.design_fab_stroke_top_outer_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_snackbar_background_color = global::authClient.android.Resource.Color.design_snackbar_background_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.design_tint_password_toggle = global::authClient.android.Resource.Color.design_tint_password_toggle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::authClient.android.Resource.Color.dim_foreground_disabled_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_disabled_material_light = global::authClient.android.Resource.Color.dim_foreground_disabled_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_material_dark = global::authClient.android.Resource.Color.dim_foreground_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.dim_foreground_material_light = global::authClient.android.Resource.Color.dim_foreground_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.error_color_material_dark = global::authClient.android.Resource.Color.error_color_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.error_color_material_light = global::authClient.android.Resource.Color.error_color_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.foreground_material_dark = global::authClient.android.Resource.Color.foreground_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.foreground_material_light = global::authClient.android.Resource.Color.foreground_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.highlighted_text_material_dark = global::authClient.android.Resource.Color.highlighted_text_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.highlighted_text_material_light = global::authClient.android.Resource.Color.highlighted_text_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_blue_grey_800 = global::authClient.android.Resource.Color.material_blue_grey_800;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_blue_grey_900 = global::authClient.android.Resource.Color.material_blue_grey_900;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_blue_grey_950 = global::authClient.android.Resource.Color.material_blue_grey_950;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_deep_teal_200 = global::authClient.android.Resource.Color.material_deep_teal_200;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_deep_teal_500 = global::authClient.android.Resource.Color.material_deep_teal_500;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_100 = global::authClient.android.Resource.Color.material_grey_100;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_300 = global::authClient.android.Resource.Color.material_grey_300;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_50 = global::authClient.android.Resource.Color.material_grey_50;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_600 = global::authClient.android.Resource.Color.material_grey_600;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_800 = global::authClient.android.Resource.Color.material_grey_800;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_850 = global::authClient.android.Resource.Color.material_grey_850;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.material_grey_900 = global::authClient.android.Resource.Color.material_grey_900;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::authClient.android.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::authClient.android.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_bg_color_disabled = global::authClient.android.Resource.Color.mtrl_btn_bg_color_disabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_bg_color_selector = global::authClient.android.Resource.Color.mtrl_btn_bg_color_selector;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_ripple_color = global::authClient.android.Resource.Color.mtrl_btn_ripple_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::authClient.android.Resource.Color.mtrl_btn_stroke_color_selector;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::authClient.android.Resource.Color.mtrl_btn_text_btn_ripple_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_text_color_disabled = global::authClient.android.Resource.Color.mtrl_btn_text_color_disabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_text_color_selector = global::authClient.android.Resource.Color.mtrl_btn_text_color_selector;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::authClient.android.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_background_color = global::authClient.android.Resource.Color.mtrl_chip_background_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_close_icon_tint = global::authClient.android.Resource.Color.mtrl_chip_close_icon_tint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_ripple_color = global::authClient.android.Resource.Color.mtrl_chip_ripple_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_chip_text_color = global::authClient.android.Resource.Color.mtrl_chip_text_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_fab_ripple_color = global::authClient.android.Resource.Color.mtrl_fab_ripple_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_scrim_color = global::authClient.android.Resource.Color.mtrl_scrim_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::authClient.android.Resource.Color.mtrl_tabs_colored_ripple_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::authClient.android.Resource.Color.mtrl_tabs_icon_color_selector;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::authClient.android.Resource.Color.mtrl_tabs_icon_color_selector_colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::authClient.android.Resource.Color.mtrl_tabs_legacy_text_color_selector;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_tabs_ripple_color = global::authClient.android.Resource.Color.mtrl_tabs_ripple_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::authClient.android.Resource.Color.mtrl_textinput_default_box_stroke_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_disabled_color = global::authClient.android.Resource.Color.mtrl_textinput_disabled_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::authClient.android.Resource.Color.mtrl_textinput_filled_box_default_background_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::authClient.android.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::authClient.android.Resource.Color.mtrl_text_btn_text_color_selector;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.notification_action_color_filter = global::authClient.android.Resource.Color.notification_action_color_filter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.notification_icon_bg_color = global::authClient.android.Resource.Color.notification_icon_bg_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.notification_material_background_media_default_color = global::authClient.android.Resource.Color.notification_material_background_media_default_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_dark_material_dark = global::authClient.android.Resource.Color.primary_dark_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_dark_material_light = global::authClient.android.Resource.Color.primary_dark_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_material_dark = global::authClient.android.Resource.Color.primary_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_material_light = global::authClient.android.Resource.Color.primary_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_default_material_dark = global::authClient.android.Resource.Color.primary_text_default_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_default_material_light = global::authClient.android.Resource.Color.primary_text_default_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_disabled_material_dark = global::authClient.android.Resource.Color.primary_text_disabled_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.primary_text_disabled_material_light = global::authClient.android.Resource.Color.primary_text_disabled_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.ripple_material_dark = global::authClient.android.Resource.Color.ripple_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.ripple_material_light = global::authClient.android.Resource.Color.ripple_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_default_material_dark = global::authClient.android.Resource.Color.secondary_text_default_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_default_material_light = global::authClient.android.Resource.Color.secondary_text_default_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_disabled_material_dark = global::authClient.android.Resource.Color.secondary_text_disabled_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.secondary_text_disabled_material_light = global::authClient.android.Resource.Color.secondary_text_disabled_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::authClient.android.Resource.Color.switch_thumb_disabled_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_light = global::authClient.android.Resource.Color.switch_thumb_disabled_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_material_dark = global::authClient.android.Resource.Color.switch_thumb_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_material_light = global::authClient.android.Resource.Color.switch_thumb_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_normal_material_dark = global::authClient.android.Resource.Color.switch_thumb_normal_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.switch_thumb_normal_material_light = global::authClient.android.Resource.Color.switch_thumb_normal_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.tooltip_background_dark = global::authClient.android.Resource.Color.tooltip_background_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Color.tooltip_background_light = global::authClient.android.Resource.Color.tooltip_background_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::authClient.android.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::authClient.android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_height_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::authClient.android.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::authClient.android.Resource.Dimension.abc_action_bar_elevation_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::authClient.android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::authClient.android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::authClient.android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::authClient.android.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::authClient.android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::authClient.android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::authClient.android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_button_min_height_material = global::authClient.android.Resource.Dimension.abc_action_button_min_height_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_button_min_width_material = global::authClient.android.Resource.Dimension.abc_action_button_min_width_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::authClient.android.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::authClient.android.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::authClient.android.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::authClient.android.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::authClient.android.Resource.Dimension.abc_button_inset_vertical_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::authClient.android.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::authClient.android.Resource.Dimension.abc_button_padding_vertical_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::authClient.android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::authClient.android.Resource.Dimension.abc_config_prefDialogWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_control_corner_material = global::authClient.android.Resource.Dimension.abc_control_corner_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_control_inset_material = global::authClient.android.Resource.Dimension.abc_control_inset_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_control_padding_material = global::authClient.android.Resource.Dimension.abc_control_padding_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::authClient.android.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::authClient.android.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::authClient.android.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::authClient.android.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::authClient.android.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::authClient.android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::authClient.android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_min_width_major = global::authClient.android.Resource.Dimension.abc_dialog_min_width_major;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::authClient.android.Resource.Dimension.abc_dialog_min_width_minor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_padding_material = global::authClient.android.Resource.Dimension.abc_dialog_padding_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::authClient.android.Resource.Dimension.abc_dialog_padding_top_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::authClient.android.Resource.Dimension.abc_dialog_title_divider_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::authClient.android.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::authClient.android.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::authClient.android.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::authClient.android.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::authClient.android.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::authClient.android.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_floating_window_z = global::authClient.android.Resource.Dimension.abc_floating_window_z;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::authClient.android.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_panel_menu_list_width = global::authClient.android.Resource.Dimension.abc_panel_menu_list_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_progress_bar_height_material = global::authClient.android.Resource.Dimension.abc_progress_bar_height_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_search_view_preferred_height = global::authClient.android.Resource.Dimension.abc_search_view_preferred_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_search_view_preferred_width = global::authClient.android.Resource.Dimension.abc_search_view_preferred_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::authClient.android.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::authClient.android.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::authClient.android.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_switch_padding = global::authClient.android.Resource.Dimension.abc_switch_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_body_1_material = global::authClient.android.Resource.Dimension.abc_text_size_body_1_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_body_2_material = global::authClient.android.Resource.Dimension.abc_text_size_body_2_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_button_material = global::authClient.android.Resource.Dimension.abc_text_size_button_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_caption_material = global::authClient.android.Resource.Dimension.abc_text_size_caption_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_1_material = global::authClient.android.Resource.Dimension.abc_text_size_display_1_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_2_material = global::authClient.android.Resource.Dimension.abc_text_size_display_2_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_3_material = global::authClient.android.Resource.Dimension.abc_text_size_display_3_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_display_4_material = global::authClient.android.Resource.Dimension.abc_text_size_display_4_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_headline_material = global::authClient.android.Resource.Dimension.abc_text_size_headline_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_large_material = global::authClient.android.Resource.Dimension.abc_text_size_large_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_medium_material = global::authClient.android.Resource.Dimension.abc_text_size_medium_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::authClient.android.Resource.Dimension.abc_text_size_menu_header_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_menu_material = global::authClient.android.Resource.Dimension.abc_text_size_menu_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_small_material = global::authClient.android.Resource.Dimension.abc_text_size_small_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_subhead_material = global::authClient.android.Resource.Dimension.abc_text_size_subhead_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::authClient.android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_title_material = global::authClient.android.Resource.Dimension.abc_text_size_title_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::authClient.android.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.browser_actions_context_menu_max_width = global::authClient.android.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.browser_actions_context_menu_min_padding = global::authClient.android.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::authClient.android.Resource.Dimension.cardview_compat_inset_shadow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.cardview_default_elevation = global::authClient.android.Resource.Dimension.cardview_default_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.cardview_default_radius = global::authClient.android.Resource.Dimension.cardview_default_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::authClient.android.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_inset_vertical_material = global::authClient.android.Resource.Dimension.compat_button_inset_vertical_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::authClient.android.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_button_padding_vertical_material = global::authClient.android.Resource.Dimension.compat_button_padding_vertical_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_control_corner_material = global::authClient.android.Resource.Dimension.compat_control_corner_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::authClient.android.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::authClient.android.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_appbar_elevation = global::authClient.android.Resource.Dimension.design_appbar_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_item_min_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::authClient.android.Resource.Dimension.design_bottom_navigation_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_height = global::authClient.android.Resource.Dimension.design_bottom_navigation_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_icon_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::authClient.android.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_margin = global::authClient.android.Resource.Dimension.design_bottom_navigation_margin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::authClient.android.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::authClient.android.Resource.Dimension.design_bottom_navigation_text_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::authClient.android.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::authClient.android.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_border_width = global::authClient.android.Resource.Dimension.design_fab_border_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_elevation = global::authClient.android.Resource.Dimension.design_fab_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_image_size = global::authClient.android.Resource.Dimension.design_fab_image_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_size_mini = global::authClient.android.Resource.Dimension.design_fab_size_mini;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_size_normal = global::authClient.android.Resource.Dimension.design_fab_size_normal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::authClient.android.Resource.Dimension.design_fab_translation_z_hovered_focused;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::authClient.android.Resource.Dimension.design_fab_translation_z_pressed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_elevation = global::authClient.android.Resource.Dimension.design_navigation_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_icon_padding = global::authClient.android.Resource.Dimension.design_navigation_icon_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_icon_size = global::authClient.android.Resource.Dimension.design_navigation_icon_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::authClient.android.Resource.Dimension.design_navigation_item_horizontal_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_item_icon_padding = global::authClient.android.Resource.Dimension.design_navigation_item_icon_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_max_width = global::authClient.android.Resource.Dimension.design_navigation_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_padding_bottom = global::authClient.android.Resource.Dimension.design_navigation_padding_bottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::authClient.android.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::authClient.android.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::authClient.android.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_elevation = global::authClient.android.Resource.Dimension.design_snackbar_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::authClient.android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_max_width = global::authClient.android.Resource.Dimension.design_snackbar_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_min_width = global::authClient.android.Resource.Dimension.design_snackbar_min_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::authClient.android.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::authClient.android.Resource.Dimension.design_snackbar_padding_vertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::authClient.android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_snackbar_text_size = global::authClient.android.Resource.Dimension.design_snackbar_text_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_max_width = global::authClient.android.Resource.Dimension.design_tab_max_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::authClient.android.Resource.Dimension.design_tab_scrollable_min_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_text_size = global::authClient.android.Resource.Dimension.design_tab_text_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_tab_text_size_2line = global::authClient.android.Resource.Dimension.design_tab_text_size_2line;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.design_textinput_caption_translate_y = global::authClient.android.Resource.Dimension.design_textinput_caption_translate_y;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.disabled_alpha_material_dark = global::authClient.android.Resource.Dimension.disabled_alpha_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.disabled_alpha_material_light = global::authClient.android.Resource.Dimension.disabled_alpha_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.fastscroll_default_thickness = global::authClient.android.Resource.Dimension.fastscroll_default_thickness;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.fastscroll_margin = global::authClient.android.Resource.Dimension.fastscroll_margin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.fastscroll_minimum_range = global::authClient.android.Resource.Dimension.fastscroll_minimum_range;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.highlight_alpha_material_colored = global::authClient.android.Resource.Dimension.highlight_alpha_material_colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.highlight_alpha_material_dark = global::authClient.android.Resource.Dimension.highlight_alpha_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.highlight_alpha_material_light = global::authClient.android.Resource.Dimension.highlight_alpha_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_alpha_material_dark = global::authClient.android.Resource.Dimension.hint_alpha_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_alpha_material_light = global::authClient.android.Resource.Dimension.hint_alpha_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::authClient.android.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::authClient.android.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::authClient.android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::authClient.android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::authClient.android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::authClient.android.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::authClient.android.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::authClient.android.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_bottomappbar_height = global::authClient.android.Resource.Dimension.mtrl_bottomappbar_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_corner_radius = global::authClient.android.Resource.Dimension.mtrl_btn_corner_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::authClient.android.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::authClient.android.Resource.Dimension.mtrl_btn_disabled_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_disabled_z = global::authClient.android.Resource.Dimension.mtrl_btn_disabled_z;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_elevation = global::authClient.android.Resource.Dimension.mtrl_btn_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_focused_z = global::authClient.android.Resource.Dimension.mtrl_btn_focused_z;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_hovered_z = global::authClient.android.Resource.Dimension.mtrl_btn_hovered_z;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::authClient.android.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_icon_padding = global::authClient.android.Resource.Dimension.mtrl_btn_icon_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_inset = global::authClient.android.Resource.Dimension.mtrl_btn_inset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::authClient.android.Resource.Dimension.mtrl_btn_letter_spacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::authClient.android.Resource.Dimension.mtrl_btn_padding_bottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_left = global::authClient.android.Resource.Dimension.mtrl_btn_padding_left;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_right = global::authClient.android.Resource.Dimension.mtrl_btn_padding_right;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_padding_top = global::authClient.android.Resource.Dimension.mtrl_btn_padding_top;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_pressed_z = global::authClient.android.Resource.Dimension.mtrl_btn_pressed_z;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_stroke_size = global::authClient.android.Resource.Dimension.mtrl_btn_stroke_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::authClient.android.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::authClient.android.Resource.Dimension.mtrl_btn_text_btn_padding_left;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::authClient.android.Resource.Dimension.mtrl_btn_text_btn_padding_right;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_text_size = global::authClient.android.Resource.Dimension.mtrl_btn_text_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_btn_z = global::authClient.android.Resource.Dimension.mtrl_btn_z;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_card_elevation = global::authClient.android.Resource.Dimension.mtrl_card_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_card_spacing = global::authClient.android.Resource.Dimension.mtrl_card_spacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::authClient.android.Resource.Dimension.mtrl_chip_pressed_translation_z;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_chip_text_size = global::authClient.android.Resource.Dimension.mtrl_chip_text_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_fab_elevation = global::authClient.android.Resource.Dimension.mtrl_fab_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::authClient.android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::authClient.android.Resource.Dimension.mtrl_fab_translation_z_pressed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_navigation_elevation = global::authClient.android.Resource.Dimension.mtrl_navigation_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::authClient.android.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::authClient.android.Resource.Dimension.mtrl_navigation_item_icon_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::authClient.android.Resource.Dimension.mtrl_snackbar_background_corner_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_snackbar_margin = global::authClient.android.Resource.Dimension.mtrl_snackbar_margin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::authClient.android.Resource.Dimension.mtrl_textinput_box_bottom_offset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::authClient.android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::authClient.android.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::authClient.android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_padding_end = global::authClient.android.Resource.Dimension.mtrl_textinput_box_padding_end;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::authClient.android.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::authClient.android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::authClient.android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.mtrl_toolbar_default_height = global::authClient.android.Resource.Dimension.mtrl_toolbar_default_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_action_icon_size = global::authClient.android.Resource.Dimension.notification_action_icon_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_action_text_size = global::authClient.android.Resource.Dimension.notification_action_text_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_big_circle_margin = global::authClient.android.Resource.Dimension.notification_big_circle_margin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_content_margin_start = global::authClient.android.Resource.Dimension.notification_content_margin_start;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_large_icon_height = global::authClient.android.Resource.Dimension.notification_large_icon_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_large_icon_width = global::authClient.android.Resource.Dimension.notification_large_icon_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_main_column_padding_top = global::authClient.android.Resource.Dimension.notification_main_column_padding_top;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_media_narrow_margin = global::authClient.android.Resource.Dimension.notification_media_narrow_margin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_right_icon_size = global::authClient.android.Resource.Dimension.notification_right_icon_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_right_side_padding_top = global::authClient.android.Resource.Dimension.notification_right_side_padding_top;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_small_icon_background_padding = global::authClient.android.Resource.Dimension.notification_small_icon_background_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::authClient.android.Resource.Dimension.notification_small_icon_size_as_large;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_subtext_size = global::authClient.android.Resource.Dimension.notification_subtext_size;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_top_pad = global::authClient.android.Resource.Dimension.notification_top_pad;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.notification_top_pad_large_text = global::authClient.android.Resource.Dimension.notification_top_pad_large_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_corner_radius = global::authClient.android.Resource.Dimension.subtitle_corner_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_outline_width = global::authClient.android.Resource.Dimension.subtitle_outline_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_shadow_offset = global::authClient.android.Resource.Dimension.subtitle_shadow_offset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.subtitle_shadow_radius = global::authClient.android.Resource.Dimension.subtitle_shadow_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_corner_radius = global::authClient.android.Resource.Dimension.tooltip_corner_radius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_horizontal_padding = global::authClient.android.Resource.Dimension.tooltip_horizontal_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_margin = global::authClient.android.Resource.Dimension.tooltip_margin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::authClient.android.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::authClient.android.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_vertical_padding = global::authClient.android.Resource.Dimension.tooltip_vertical_padding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::authClient.android.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Dimension.tooltip_y_offset_touch = global::authClient.android.Resource.Dimension.tooltip_y_offset_touch;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::authClient.android.Resource.Drawable.abc_action_bar_item_background_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_borderless_material = global::authClient.android.Resource.Drawable.abc_btn_borderless_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_check_material = global::authClient.android.Resource.Drawable.abc_btn_check_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::authClient.android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::authClient.android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_colored_material = global::authClient.android.Resource.Drawable.abc_btn_colored_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::authClient.android.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_radio_material = global::authClient.android.Resource.Drawable.abc_btn_radio_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::authClient.android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::authClient.android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::authClient.android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::authClient.android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::authClient.android.Resource.Drawable.abc_cab_background_internal_bg;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_cab_background_top_material = global::authClient.android.Resource.Drawable.abc_cab_background_top_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_control_background_material = global::authClient.android.Resource.Drawable.abc_control_background_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_dialog_material_background = global::authClient.android.Resource.Drawable.abc_dialog_material_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_edit_text_material = global::authClient.android.Resource.Drawable.abc_edit_text_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_ab_back_material = global::authClient.android.Resource.Drawable.abc_ic_ab_back_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::authClient.android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_clear_material = global::authClient.android.Resource.Drawable.abc_ic_clear_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_go_search_api_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::authClient.android.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_search_api_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_16dp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_36dp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::authClient.android.Resource.Drawable.abc_ic_star_black_48dp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::authClient.android.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::authClient.android.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_item_background_holo_dark = global::authClient.android.Resource.Drawable.abc_item_background_holo_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_item_background_holo_light = global::authClient.android.Resource.Drawable.abc_item_background_holo_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_divider_material = global::authClient.android.Resource.Drawable.abc_list_divider_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_focused_holo = global::authClient.android.Resource.Drawable.abc_list_focused_holo;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_longpressed_holo = global::authClient.android.Resource.Drawable.abc_list_longpressed_holo;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::authClient.android.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::authClient.android.Resource.Drawable.abc_list_pressed_holo_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::authClient.android.Resource.Drawable.abc_list_selector_holo_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_list_selector_holo_light = global::authClient.android.Resource.Drawable.abc_list_selector_holo_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::authClient.android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::authClient.android.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::authClient.android.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ratingbar_material = global::authClient.android.Resource.Drawable.abc_ratingbar_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_ratingbar_small_material = global::authClient.android.Resource.Drawable.abc_ratingbar_small_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::authClient.android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::authClient.android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::authClient.android.Resource.Drawable.abc_seekbar_thumb_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::authClient.android.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_seekbar_track_material = global::authClient.android.Resource.Drawable.abc_seekbar_track_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::authClient.android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::authClient.android.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_switch_thumb_material = global::authClient.android.Resource.Drawable.abc_switch_thumb_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_tab_indicator_material = global::authClient.android.Resource.Drawable.abc_tab_indicator_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::authClient.android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_textfield_search_material = global::authClient.android.Resource.Drawable.abc_textfield_search_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_cursor_material = global::authClient.android.Resource.Drawable.abc_text_cursor_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::authClient.android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::authClient.android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.abc_vector_test = global::authClient.android.Resource.Drawable.abc_vector_test;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.avd_hide_password = global::authClient.android.Resource.Drawable.avd_hide_password;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.avd_show_password = global::authClient.android.Resource.Drawable.avd_show_password;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::authClient.android.Resource.Drawable.design_bottom_navigation_item_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_fab_background = global::authClient.android.Resource.Drawable.design_fab_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_ic_visibility = global::authClient.android.Resource.Drawable.design_ic_visibility;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_ic_visibility_off = global::authClient.android.Resource.Drawable.design_ic_visibility_off;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_password_eye = global::authClient.android.Resource.Drawable.design_password_eye;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.design_snackbar_background = global::authClient.android.Resource.Drawable.design_snackbar_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_audiotrack_dark = global::authClient.android.Resource.Drawable.ic_audiotrack_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_audiotrack_light = global::authClient.android.Resource.Drawable.ic_audiotrack_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_dialog_close_dark = global::authClient.android.Resource.Drawable.ic_dialog_close_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_dialog_close_light = global::authClient.android.Resource.Drawable.ic_dialog_close_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_00 = global::authClient.android.Resource.Drawable.ic_group_collapse_00;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_01 = global::authClient.android.Resource.Drawable.ic_group_collapse_01;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_02 = global::authClient.android.Resource.Drawable.ic_group_collapse_02;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_03 = global::authClient.android.Resource.Drawable.ic_group_collapse_03;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_04 = global::authClient.android.Resource.Drawable.ic_group_collapse_04;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_05 = global::authClient.android.Resource.Drawable.ic_group_collapse_05;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_06 = global::authClient.android.Resource.Drawable.ic_group_collapse_06;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_07 = global::authClient.android.Resource.Drawable.ic_group_collapse_07;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_08 = global::authClient.android.Resource.Drawable.ic_group_collapse_08;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_09 = global::authClient.android.Resource.Drawable.ic_group_collapse_09;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_10 = global::authClient.android.Resource.Drawable.ic_group_collapse_10;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_11 = global::authClient.android.Resource.Drawable.ic_group_collapse_11;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_12 = global::authClient.android.Resource.Drawable.ic_group_collapse_12;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_13 = global::authClient.android.Resource.Drawable.ic_group_collapse_13;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_14 = global::authClient.android.Resource.Drawable.ic_group_collapse_14;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_collapse_15 = global::authClient.android.Resource.Drawable.ic_group_collapse_15;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_00 = global::authClient.android.Resource.Drawable.ic_group_expand_00;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_01 = global::authClient.android.Resource.Drawable.ic_group_expand_01;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_02 = global::authClient.android.Resource.Drawable.ic_group_expand_02;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_03 = global::authClient.android.Resource.Drawable.ic_group_expand_03;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_04 = global::authClient.android.Resource.Drawable.ic_group_expand_04;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_05 = global::authClient.android.Resource.Drawable.ic_group_expand_05;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_06 = global::authClient.android.Resource.Drawable.ic_group_expand_06;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_07 = global::authClient.android.Resource.Drawable.ic_group_expand_07;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_08 = global::authClient.android.Resource.Drawable.ic_group_expand_08;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_09 = global::authClient.android.Resource.Drawable.ic_group_expand_09;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_10 = global::authClient.android.Resource.Drawable.ic_group_expand_10;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_11 = global::authClient.android.Resource.Drawable.ic_group_expand_11;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_12 = global::authClient.android.Resource.Drawable.ic_group_expand_12;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_13 = global::authClient.android.Resource.Drawable.ic_group_expand_13;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_14 = global::authClient.android.Resource.Drawable.ic_group_expand_14;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_group_expand_15 = global::authClient.android.Resource.Drawable.ic_group_expand_15;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_pause_dark = global::authClient.android.Resource.Drawable.ic_media_pause_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_pause_light = global::authClient.android.Resource.Drawable.ic_media_pause_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_play_dark = global::authClient.android.Resource.Drawable.ic_media_play_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_play_light = global::authClient.android.Resource.Drawable.ic_media_play_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_stop_dark = global::authClient.android.Resource.Drawable.ic_media_stop_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_media_stop_light = global::authClient.android.Resource.Drawable.ic_media_stop_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_23_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_23_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_23_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_23_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_24_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_24_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_24_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_24_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_25_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_25_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_25_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_25_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_26_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_26_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_26_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_26_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_27_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_27_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_27_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_27_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_28_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_28_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_28_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_28_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_29_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_29_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_29_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_29_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_30_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connected_30_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connected_30_light = global::authClient.android.Resource.Drawable.ic_mr_button_connected_30_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_23_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_23_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_23_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_23_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_24_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_24_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_24_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_24_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_25_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_25_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_25_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_25_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_26_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_26_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_26_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_26_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_27_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_27_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_27_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_27_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_28_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_28_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_28_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_28_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_29_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_29_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_29_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_29_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_30_dark = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_30_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_connecting_30_light = global::authClient.android.Resource.Drawable.ic_mr_button_connecting_30_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::authClient.android.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disabled_light = global::authClient.android.Resource.Drawable.ic_mr_button_disabled_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::authClient.android.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::authClient.android.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mr_button_grey = global::authClient.android.Resource.Drawable.ic_mr_button_grey;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::authClient.android.Resource.Drawable.ic_mtrl_chip_checked_black;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::authClient.android.Resource.Drawable.ic_mtrl_chip_checked_circle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::authClient.android.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_speaker_light = global::authClient.android.Resource.Drawable.ic_vol_type_speaker_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_tv_dark = global::authClient.android.Resource.Drawable.ic_vol_type_tv_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.ic_vol_type_tv_light = global::authClient.android.Resource.Drawable.ic_vol_type_tv_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connected_dark = global::authClient.android.Resource.Drawable.mr_button_connected_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connected_light = global::authClient.android.Resource.Drawable.mr_button_connected_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connecting_dark = global::authClient.android.Resource.Drawable.mr_button_connecting_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_connecting_light = global::authClient.android.Resource.Drawable.mr_button_connecting_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_dark = global::authClient.android.Resource.Drawable.mr_button_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_button_light = global::authClient.android.Resource.Drawable.mr_button_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_close_dark = global::authClient.android.Resource.Drawable.mr_dialog_close_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_close_light = global::authClient.android.Resource.Drawable.mr_dialog_close_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_material_background_dark = global::authClient.android.Resource.Drawable.mr_dialog_material_background_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_dialog_material_background_light = global::authClient.android.Resource.Drawable.mr_dialog_material_background_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_group_collapse = global::authClient.android.Resource.Drawable.mr_group_collapse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_group_expand = global::authClient.android.Resource.Drawable.mr_group_expand;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_pause_dark = global::authClient.android.Resource.Drawable.mr_media_pause_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_pause_light = global::authClient.android.Resource.Drawable.mr_media_pause_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_play_dark = global::authClient.android.Resource.Drawable.mr_media_play_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_play_light = global::authClient.android.Resource.Drawable.mr_media_play_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_stop_dark = global::authClient.android.Resource.Drawable.mr_media_stop_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_media_stop_light = global::authClient.android.Resource.Drawable.mr_media_stop_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::authClient.android.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::authClient.android.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mtrl_snackbar_background = global::authClient.android.Resource.Drawable.mtrl_snackbar_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::authClient.android.Resource.Drawable.mtrl_tabs_default_indicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.navigation_empty_icon = global::authClient.android.Resource.Drawable.navigation_empty_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_action_background = global::authClient.android.Resource.Drawable.notification_action_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg = global::authClient.android.Resource.Drawable.notification_bg;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_low = global::authClient.android.Resource.Drawable.notification_bg_low;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_low_normal = global::authClient.android.Resource.Drawable.notification_bg_low_normal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_low_pressed = global::authClient.android.Resource.Drawable.notification_bg_low_pressed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_normal = global::authClient.android.Resource.Drawable.notification_bg_normal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_bg_normal_pressed = global::authClient.android.Resource.Drawable.notification_bg_normal_pressed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_icon_background = global::authClient.android.Resource.Drawable.notification_icon_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_template_icon_bg = global::authClient.android.Resource.Drawable.notification_template_icon_bg;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_template_icon_low_bg = global::authClient.android.Resource.Drawable.notification_template_icon_low_bg;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notification_tile_bg = global::authClient.android.Resource.Drawable.notification_tile_bg;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::authClient.android.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.tooltip_frame_dark = global::authClient.android.Resource.Drawable.tooltip_frame_dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Drawable.tooltip_frame_light = global::authClient.android.Resource.Drawable.tooltip_frame_light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action0 = global::authClient.android.Resource.Id.action0;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.actions = global::authClient.android.Resource.Id.actions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar = global::authClient.android.Resource.Id.action_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_activity_content = global::authClient.android.Resource.Id.action_bar_activity_content;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_container = global::authClient.android.Resource.Id.action_bar_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_root = global::authClient.android.Resource.Id.action_bar_root;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_spinner = global::authClient.android.Resource.Id.action_bar_spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_subtitle = global::authClient.android.Resource.Id.action_bar_subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_bar_title = global::authClient.android.Resource.Id.action_bar_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_container = global::authClient.android.Resource.Id.action_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_context_bar = global::authClient.android.Resource.Id.action_context_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_divider = global::authClient.android.Resource.Id.action_divider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_image = global::authClient.android.Resource.Id.action_image;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_menu_divider = global::authClient.android.Resource.Id.action_menu_divider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_menu_presenter = global::authClient.android.Resource.Id.action_menu_presenter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_mode_bar = global::authClient.android.Resource.Id.action_mode_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_mode_bar_stub = global::authClient.android.Resource.Id.action_mode_bar_stub;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_mode_close_button = global::authClient.android.Resource.Id.action_mode_close_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.action_text = global::authClient.android.Resource.Id.action_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.activity_chooser_view_content = global::authClient.android.Resource.Id.activity_chooser_view_content;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.add = global::authClient.android.Resource.Id.add;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.alertTitle = global::authClient.android.Resource.Id.alertTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.all = global::authClient.android.Resource.Id.all;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.ALT = global::authClient.android.Resource.Id.ALT;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.always = global::authClient.android.Resource.Id.always;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.async = global::authClient.android.Resource.Id.async;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.auto = global::authClient.android.Resource.Id.auto;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.beginning = global::authClient.android.Resource.Id.beginning;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.blocking = global::authClient.android.Resource.Id.blocking;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.bottom = global::authClient.android.Resource.Id.bottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.bottomtab_navarea = global::authClient.android.Resource.Id.bottomtab_navarea;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.bottomtab_tabbar = global::authClient.android.Resource.Id.bottomtab_tabbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_header_text = global::authClient.android.Resource.Id.browser_actions_header_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_items = global::authClient.android.Resource.Id.browser_actions_menu_items;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_item_icon = global::authClient.android.Resource.Id.browser_actions_menu_item_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_item_text = global::authClient.android.Resource.Id.browser_actions_menu_item_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.browser_actions_menu_view = global::authClient.android.Resource.Id.browser_actions_menu_view;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.buttonPanel = global::authClient.android.Resource.Id.buttonPanel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.cancel_action = global::authClient.android.Resource.Id.cancel_action;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.center = global::authClient.android.Resource.Id.center;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.center_horizontal = global::authClient.android.Resource.Id.center_horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.center_vertical = global::authClient.android.Resource.Id.center_vertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.checkbox = global::authClient.android.Resource.Id.checkbox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.chronometer = global::authClient.android.Resource.Id.chronometer;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.clip_horizontal = global::authClient.android.Resource.Id.clip_horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.clip_vertical = global::authClient.android.Resource.Id.clip_vertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.collapseActionView = global::authClient.android.Resource.Id.collapseActionView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.container = global::authClient.android.Resource.Id.container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.content = global::authClient.android.Resource.Id.content;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.contentPanel = global::authClient.android.Resource.Id.contentPanel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.coordinator = global::authClient.android.Resource.Id.coordinator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.CTRL = global::authClient.android.Resource.Id.CTRL;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.custom = global::authClient.android.Resource.Id.custom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.customPanel = global::authClient.android.Resource.Id.customPanel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.decor_content_parent = global::authClient.android.Resource.Id.decor_content_parent;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.default_activity_button = global::authClient.android.Resource.Id.default_activity_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_bottom_sheet = global::authClient.android.Resource.Id.design_bottom_sheet;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_menu_item_action_area = global::authClient.android.Resource.Id.design_menu_item_action_area;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_menu_item_action_area_stub = global::authClient.android.Resource.Id.design_menu_item_action_area_stub;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_menu_item_text = global::authClient.android.Resource.Id.design_menu_item_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.design_navigation_view = global::authClient.android.Resource.Id.design_navigation_view;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.disableHome = global::authClient.android.Resource.Id.disableHome;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.edit_query = global::authClient.android.Resource.Id.edit_query;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.end = global::authClient.android.Resource.Id.end;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.end_padder = global::authClient.android.Resource.Id.end_padder;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.enterAlways = global::authClient.android.Resource.Id.enterAlways;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.enterAlwaysCollapsed = global::authClient.android.Resource.Id.enterAlwaysCollapsed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.exitUntilCollapsed = global::authClient.android.Resource.Id.exitUntilCollapsed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.expanded_menu = global::authClient.android.Resource.Id.expanded_menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.expand_activities_button = global::authClient.android.Resource.Id.expand_activities_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.fill = global::authClient.android.Resource.Id.fill;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.filled = global::authClient.android.Resource.Id.filled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.fill_horizontal = global::authClient.android.Resource.Id.fill_horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.fill_vertical = global::authClient.android.Resource.Id.fill_vertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.@fixed = global::authClient.android.Resource.Id.@fixed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.flyoutcontent_appbar = global::authClient.android.Resource.Id.flyoutcontent_appbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.flyoutcontent_recycler = global::authClient.android.Resource.Id.flyoutcontent_recycler;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.forever = global::authClient.android.Resource.Id.forever;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.FUNCTION = global::authClient.android.Resource.Id.FUNCTION;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.ghost_view = global::authClient.android.Resource.Id.ghost_view;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.group_divider = global::authClient.android.Resource.Id.group_divider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.home = global::authClient.android.Resource.Id.home;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.homeAsUp = global::authClient.android.Resource.Id.homeAsUp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.icon = global::authClient.android.Resource.Id.icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.icon_group = global::authClient.android.Resource.Id.icon_group;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.ifRoom = global::authClient.android.Resource.Id.ifRoom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.image = global::authClient.android.Resource.Id.image;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.info = global::authClient.android.Resource.Id.info;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.italic = global::authClient.android.Resource.Id.italic;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.item_touch_helper_previous_elevation = global::authClient.android.Resource.Id.item_touch_helper_previous_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.labeled = global::authClient.android.Resource.Id.labeled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.largeLabel = global::authClient.android.Resource.Id.largeLabel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.left = global::authClient.android.Resource.Id.left;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.line1 = global::authClient.android.Resource.Id.line1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.line3 = global::authClient.android.Resource.Id.line3;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.listMode = global::authClient.android.Resource.Id.listMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.list_item = global::authClient.android.Resource.Id.list_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_appbar = global::authClient.android.Resource.Id.main_appbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_scrollview = global::authClient.android.Resource.Id.main_scrollview;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_tablayout = global::authClient.android.Resource.Id.main_tablayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.main_toolbar = global::authClient.android.Resource.Id.main_toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.masked = global::authClient.android.Resource.Id.masked;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.media_actions = global::authClient.android.Resource.Id.media_actions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.message = global::authClient.android.Resource.Id.message;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.META = global::authClient.android.Resource.Id.META;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.middle = global::authClient.android.Resource.Id.middle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mini = global::authClient.android.Resource.Id.mini;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_art = global::authClient.android.Resource.Id.mr_art;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_checkbox = global::authClient.android.Resource.Id.mr_cast_checkbox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_close_button = global::authClient.android.Resource.Id.mr_cast_close_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_group_icon = global::authClient.android.Resource.Id.mr_cast_group_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_group_name = global::authClient.android.Resource.Id.mr_cast_group_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_list = global::authClient.android.Resource.Id.mr_cast_list;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta = global::authClient.android.Resource.Id.mr_cast_meta;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta_art = global::authClient.android.Resource.Id.mr_cast_meta_art;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta_subtitle = global::authClient.android.Resource.Id.mr_cast_meta_subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_meta_title = global::authClient.android.Resource.Id.mr_cast_meta_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_route_icon = global::authClient.android.Resource.Id.mr_cast_route_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_route_name = global::authClient.android.Resource.Id.mr_cast_route_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_stop_button = global::authClient.android.Resource.Id.mr_cast_stop_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_volume_layout = global::authClient.android.Resource.Id.mr_cast_volume_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_cast_volume_slider = global::authClient.android.Resource.Id.mr_cast_volume_slider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_list = global::authClient.android.Resource.Id.mr_chooser_list;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_route_desc = global::authClient.android.Resource.Id.mr_chooser_route_desc;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_route_icon = global::authClient.android.Resource.Id.mr_chooser_route_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_route_name = global::authClient.android.Resource.Id.mr_chooser_route_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_chooser_title = global::authClient.android.Resource.Id.mr_chooser_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_close = global::authClient.android.Resource.Id.mr_close;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_divider = global::authClient.android.Resource.Id.mr_control_divider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_playback_ctrl = global::authClient.android.Resource.Id.mr_control_playback_ctrl;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_subtitle = global::authClient.android.Resource.Id.mr_control_subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_title = global::authClient.android.Resource.Id.mr_control_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_control_title_container = global::authClient.android.Resource.Id.mr_control_title_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_custom_control = global::authClient.android.Resource.Id.mr_custom_control;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_default_control = global::authClient.android.Resource.Id.mr_default_control;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_dialog_area = global::authClient.android.Resource.Id.mr_dialog_area;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_dialog_header_name = global::authClient.android.Resource.Id.mr_dialog_header_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_expandable_area = global::authClient.android.Resource.Id.mr_expandable_area;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_group_expand_collapse = global::authClient.android.Resource.Id.mr_group_expand_collapse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_group_volume_route_name = global::authClient.android.Resource.Id.mr_group_volume_route_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_group_volume_slider = global::authClient.android.Resource.Id.mr_group_volume_slider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_media_main_control = global::authClient.android.Resource.Id.mr_media_main_control;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_name = global::authClient.android.Resource.Id.mr_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_close_button = global::authClient.android.Resource.Id.mr_picker_close_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_list = global::authClient.android.Resource.Id.mr_picker_list;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_route_icon = global::authClient.android.Resource.Id.mr_picker_route_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_picker_route_name = global::authClient.android.Resource.Id.mr_picker_route_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_playback_control = global::authClient.android.Resource.Id.mr_playback_control;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_title_bar = global::authClient.android.Resource.Id.mr_title_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_control = global::authClient.android.Resource.Id.mr_volume_control;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_group_list = global::authClient.android.Resource.Id.mr_volume_group_list;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_item_icon = global::authClient.android.Resource.Id.mr_volume_item_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mr_volume_slider = global::authClient.android.Resource.Id.mr_volume_slider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mtrl_child_content_container = global::authClient.android.Resource.Id.mtrl_child_content_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::authClient.android.Resource.Id.mtrl_internal_children_alpha_tag;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.multiply = global::authClient.android.Resource.Id.multiply;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.navigation_header_container = global::authClient.android.Resource.Id.navigation_header_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.never = global::authClient.android.Resource.Id.never;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.none = global::authClient.android.Resource.Id.none;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.normal = global::authClient.android.Resource.Id.normal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.notification_background = global::authClient.android.Resource.Id.notification_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.notification_main_column = global::authClient.android.Resource.Id.notification_main_column;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.notification_main_column_container = global::authClient.android.Resource.Id.notification_main_column_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.outline = global::authClient.android.Resource.Id.outline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.parallax = global::authClient.android.Resource.Id.parallax;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.parentPanel = global::authClient.android.Resource.Id.parentPanel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.parent_matrix = global::authClient.android.Resource.Id.parent_matrix;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.pin = global::authClient.android.Resource.Id.pin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.progress_circular = global::authClient.android.Resource.Id.progress_circular;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.progress_horizontal = global::authClient.android.Resource.Id.progress_horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.radio = global::authClient.android.Resource.Id.radio;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.right = global::authClient.android.Resource.Id.right;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.right_icon = global::authClient.android.Resource.Id.right_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.right_side = global::authClient.android.Resource.Id.right_side;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.save_image_matrix = global::authClient.android.Resource.Id.save_image_matrix;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.save_non_transition_alpha = global::authClient.android.Resource.Id.save_non_transition_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.save_scale_type = global::authClient.android.Resource.Id.save_scale_type;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.screen = global::authClient.android.Resource.Id.screen;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scroll = global::authClient.android.Resource.Id.scroll;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollable = global::authClient.android.Resource.Id.scrollable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollIndicatorDown = global::authClient.android.Resource.Id.scrollIndicatorDown;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollIndicatorUp = global::authClient.android.Resource.Id.scrollIndicatorUp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.scrollView = global::authClient.android.Resource.Id.scrollView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_badge = global::authClient.android.Resource.Id.search_badge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_bar = global::authClient.android.Resource.Id.search_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_button = global::authClient.android.Resource.Id.search_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_close_btn = global::authClient.android.Resource.Id.search_close_btn;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_edit_frame = global::authClient.android.Resource.Id.search_edit_frame;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_go_btn = global::authClient.android.Resource.Id.search_go_btn;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_mag_icon = global::authClient.android.Resource.Id.search_mag_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_plate = global::authClient.android.Resource.Id.search_plate;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_src_text = global::authClient.android.Resource.Id.search_src_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.search_voice_btn = global::authClient.android.Resource.Id.search_voice_btn;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.selected = global::authClient.android.Resource.Id.selected;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.select_dialog_listview = global::authClient.android.Resource.Id.select_dialog_listview;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shellcontent_appbar = global::authClient.android.Resource.Id.shellcontent_appbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shellcontent_scrollview = global::authClient.android.Resource.Id.shellcontent_scrollview;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shellcontent_toolbar = global::authClient.android.Resource.Id.shellcontent_toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.SHIFT = global::authClient.android.Resource.Id.SHIFT;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.shortcut = global::authClient.android.Resource.Id.shortcut;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.showCustom = global::authClient.android.Resource.Id.showCustom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.showHome = global::authClient.android.Resource.Id.showHome;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.showTitle = global::authClient.android.Resource.Id.showTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.smallLabel = global::authClient.android.Resource.Id.smallLabel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snackbar_action = global::authClient.android.Resource.Id.snackbar_action;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snackbar_text = global::authClient.android.Resource.Id.snackbar_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snap = global::authClient.android.Resource.Id.snap;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.snapMargins = global::authClient.android.Resource.Id.snapMargins;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.spacer = global::authClient.android.Resource.Id.spacer;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.split_action_bar = global::authClient.android.Resource.Id.split_action_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.src_atop = global::authClient.android.Resource.Id.src_atop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.src_in = global::authClient.android.Resource.Id.src_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.src_over = global::authClient.android.Resource.Id.src_over;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.start = global::authClient.android.Resource.Id.start;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.status_bar_latest_event_content = global::authClient.android.Resource.Id.status_bar_latest_event_content;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.stretch = global::authClient.android.Resource.Id.stretch;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.submenuarrow = global::authClient.android.Resource.Id.submenuarrow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.submit_area = global::authClient.android.Resource.Id.submit_area;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.SYM = global::authClient.android.Resource.Id.SYM;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tabMode = global::authClient.android.Resource.Id.tabMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tag_transition_group = global::authClient.android.Resource.Id.tag_transition_group;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tag_unhandled_key_event_manager = global::authClient.android.Resource.Id.tag_unhandled_key_event_manager;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.tag_unhandled_key_listeners = global::authClient.android.Resource.Id.tag_unhandled_key_listeners;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.text = global::authClient.android.Resource.Id.text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.text2 = global::authClient.android.Resource.Id.text2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textinput_counter = global::authClient.android.Resource.Id.textinput_counter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textinput_error = global::authClient.android.Resource.Id.textinput_error;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textinput_helper_text = global::authClient.android.Resource.Id.textinput_helper_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textSpacerNoButtons = global::authClient.android.Resource.Id.textSpacerNoButtons;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textSpacerNoTitle = global::authClient.android.Resource.Id.textSpacerNoTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.textStart = global::authClient.android.Resource.Id.textStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.text_input_password_toggle = global::authClient.android.Resource.Id.text_input_password_toggle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.time = global::authClient.android.Resource.Id.time;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.title = global::authClient.android.Resource.Id.title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.titleDividerNoCustom = global::authClient.android.Resource.Id.titleDividerNoCustom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.title_template = global::authClient.android.Resource.Id.title_template;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.top = global::authClient.android.Resource.Id.top;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.topPanel = global::authClient.android.Resource.Id.topPanel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.touch_outside = global::authClient.android.Resource.Id.touch_outside;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_current_scene = global::authClient.android.Resource.Id.transition_current_scene;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_layout_save = global::authClient.android.Resource.Id.transition_layout_save;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_position = global::authClient.android.Resource.Id.transition_position;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_scene_layoutid_cache = global::authClient.android.Resource.Id.transition_scene_layoutid_cache;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.transition_transform = global::authClient.android.Resource.Id.transition_transform;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.uniform = global::authClient.android.Resource.Id.uniform;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.unlabeled = global::authClient.android.Resource.Id.unlabeled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.up = global::authClient.android.Resource.Id.up;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.useLogo = global::authClient.android.Resource.Id.useLogo;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.view_offset_helper = global::authClient.android.Resource.Id.view_offset_helper;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.visible = global::authClient.android.Resource.Id.visible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.volume_item_container = global::authClient.android.Resource.Id.volume_item_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.withText = global::authClient.android.Resource.Id.withText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Id.wrap_content = global::authClient.android.Resource.Id.wrap_content;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.abc_config_activityDefaultDur = global::authClient.android.Resource.Integer.abc_config_activityDefaultDur;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.abc_config_activityShortDur = global::authClient.android.Resource.Integer.abc_config_activityShortDur;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::authClient.android.Resource.Integer.app_bar_elevation_anim_duration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.bottom_sheet_slide_duration = global::authClient.android.Resource.Integer.bottom_sheet_slide_duration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.cancel_button_image_alpha = global::authClient.android.Resource.Integer.cancel_button_image_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.config_tooltipAnimTime = global::authClient.android.Resource.Integer.config_tooltipAnimTime;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.design_snackbar_text_max_lines = global::authClient.android.Resource.Integer.design_snackbar_text_max_lines;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::authClient.android.Resource.Integer.design_tab_indicator_anim_duration_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.hide_password_duration = global::authClient.android.Resource.Integer.hide_password_duration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::authClient.android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mr_update_routes_delay_ms = global::authClient.android.Resource.Integer.mr_update_routes_delay_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::authClient.android.Resource.Integer.mtrl_btn_anim_delay_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::authClient.android.Resource.Integer.mtrl_btn_anim_duration_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_chip_anim_duration = global::authClient.android.Resource.Integer.mtrl_chip_anim_duration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::authClient.android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.show_password_duration = global::authClient.android.Resource.Integer.show_password_duration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::authClient.android.Resource.Integer.status_bar_notification_info_maxnum;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mr_fast_out_slow_in = global::authClient.android.Resource.Interpolator.mr_fast_out_slow_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::authClient.android.Resource.Interpolator.mr_linear_out_slow_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::authClient.android.Resource.Interpolator.mtrl_fast_out_linear_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::authClient.android.Resource.Interpolator.mtrl_fast_out_slow_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_linear = global::authClient.android.Resource.Interpolator.mtrl_linear;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::authClient.android.Resource.Interpolator.mtrl_linear_out_slow_in;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_bar_title_item = global::authClient.android.Resource.Layout.abc_action_bar_title_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_bar_up_container = global::authClient.android.Resource.Layout.abc_action_bar_up_container;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_menu_item_layout = global::authClient.android.Resource.Layout.abc_action_menu_item_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_menu_layout = global::authClient.android.Resource.Layout.abc_action_menu_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_mode_bar = global::authClient.android.Resource.Layout.abc_action_mode_bar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_action_mode_close_item_material = global::authClient.android.Resource.Layout.abc_action_mode_close_item_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_activity_chooser_view = global::authClient.android.Resource.Layout.abc_activity_chooser_view;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::authClient.android.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::authClient.android.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_alert_dialog_material = global::authClient.android.Resource.Layout.abc_alert_dialog_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_alert_dialog_title_material = global::authClient.android.Resource.Layout.abc_alert_dialog_title_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_cascading_menu_item_layout = global::authClient.android.Resource.Layout.abc_cascading_menu_item_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_dialog_title_material = global::authClient.android.Resource.Layout.abc_dialog_title_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_expanded_menu_layout = global::authClient.android.Resource.Layout.abc_expanded_menu_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::authClient.android.Resource.Layout.abc_list_menu_item_checkbox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_icon = global::authClient.android.Resource.Layout.abc_list_menu_item_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_layout = global::authClient.android.Resource.Layout.abc_list_menu_item_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_list_menu_item_radio = global::authClient.android.Resource.Layout.abc_list_menu_item_radio;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::authClient.android.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_popup_menu_item_layout = global::authClient.android.Resource.Layout.abc_popup_menu_item_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_content_include = global::authClient.android.Resource.Layout.abc_screen_content_include;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_simple = global::authClient.android.Resource.Layout.abc_screen_simple;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::authClient.android.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_screen_toolbar = global::authClient.android.Resource.Layout.abc_screen_toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::authClient.android.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_search_view = global::authClient.android.Resource.Layout.abc_search_view;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_select_dialog_material = global::authClient.android.Resource.Layout.abc_select_dialog_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.abc_tooltip = global::authClient.android.Resource.Layout.abc_tooltip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.BottomTabLayout = global::authClient.android.Resource.Layout.BottomTabLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.browser_actions_context_menu_page = global::authClient.android.Resource.Layout.browser_actions_context_menu_page;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.browser_actions_context_menu_row = global::authClient.android.Resource.Layout.browser_actions_context_menu_row;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_bottom_navigation_item = global::authClient.android.Resource.Layout.design_bottom_navigation_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_bottom_sheet_dialog = global::authClient.android.Resource.Layout.design_bottom_sheet_dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_snackbar = global::authClient.android.Resource.Layout.design_layout_snackbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_snackbar_include = global::authClient.android.Resource.Layout.design_layout_snackbar_include;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_tab_icon = global::authClient.android.Resource.Layout.design_layout_tab_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_layout_tab_text = global::authClient.android.Resource.Layout.design_layout_tab_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_menu_item_action_area = global::authClient.android.Resource.Layout.design_menu_item_action_area;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item = global::authClient.android.Resource.Layout.design_navigation_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item_header = global::authClient.android.Resource.Layout.design_navigation_item_header;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item_separator = global::authClient.android.Resource.Layout.design_navigation_item_separator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_item_subheader = global::authClient.android.Resource.Layout.design_navigation_item_subheader;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_menu = global::authClient.android.Resource.Layout.design_navigation_menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_navigation_menu_item = global::authClient.android.Resource.Layout.design_navigation_menu_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.design_text_input_password_icon = global::authClient.android.Resource.Layout.design_text_input_password_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.FlyoutContent = global::authClient.android.Resource.Layout.FlyoutContent;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_dialog = global::authClient.android.Resource.Layout.mr_cast_dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_group_item = global::authClient.android.Resource.Layout.mr_cast_group_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_group_volume_item = global::authClient.android.Resource.Layout.mr_cast_group_volume_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_media_metadata = global::authClient.android.Resource.Layout.mr_cast_media_metadata;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_cast_route_item = global::authClient.android.Resource.Layout.mr_cast_route_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_chooser_dialog = global::authClient.android.Resource.Layout.mr_chooser_dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_chooser_list_item = global::authClient.android.Resource.Layout.mr_chooser_list_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_controller_material_dialog_b = global::authClient.android.Resource.Layout.mr_controller_material_dialog_b;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_controller_volume_item = global::authClient.android.Resource.Layout.mr_controller_volume_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_dialog_header_item = global::authClient.android.Resource.Layout.mr_dialog_header_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_picker_dialog = global::authClient.android.Resource.Layout.mr_picker_dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_picker_route_item = global::authClient.android.Resource.Layout.mr_picker_route_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_playback_control = global::authClient.android.Resource.Layout.mr_playback_control;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mr_volume_control = global::authClient.android.Resource.Layout.mr_volume_control;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mtrl_layout_snackbar = global::authClient.android.Resource.Layout.mtrl_layout_snackbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.mtrl_layout_snackbar_include = global::authClient.android.Resource.Layout.mtrl_layout_snackbar_include;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_action = global::authClient.android.Resource.Layout.notification_action;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_action_tombstone = global::authClient.android.Resource.Layout.notification_action_tombstone;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_media_action = global::authClient.android.Resource.Layout.notification_media_action;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_media_cancel_action = global::authClient.android.Resource.Layout.notification_media_cancel_action;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media = global::authClient.android.Resource.Layout.notification_template_big_media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media_custom = global::authClient.android.Resource.Layout.notification_template_big_media_custom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media_narrow = global::authClient.android.Resource.Layout.notification_template_big_media_narrow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::authClient.android.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_custom_big = global::authClient.android.Resource.Layout.notification_template_custom_big;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_icon_group = global::authClient.android.Resource.Layout.notification_template_icon_group;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_lines_media = global::authClient.android.Resource.Layout.notification_template_lines_media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_media = global::authClient.android.Resource.Layout.notification_template_media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_media_custom = global::authClient.android.Resource.Layout.notification_template_media_custom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_part_chronometer = global::authClient.android.Resource.Layout.notification_template_part_chronometer;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.notification_template_part_time = global::authClient.android.Resource.Layout.notification_template_part_time;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.RootLayout = global::authClient.android.Resource.Layout.RootLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.select_dialog_item_material = global::authClient.android.Resource.Layout.select_dialog_item_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.select_dialog_multichoice_material = global::authClient.android.Resource.Layout.select_dialog_multichoice_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.select_dialog_singlechoice_material = global::authClient.android.Resource.Layout.select_dialog_singlechoice_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.ShellContent = global::authClient.android.Resource.Layout.ShellContent;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::authClient.android.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_bar_home_description = global::authClient.android.Resource.String.abc_action_bar_home_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_bar_up_description = global::authClient.android.Resource.String.abc_action_bar_up_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_menu_overflow_description = global::authClient.android.Resource.String.abc_action_menu_overflow_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_action_mode_done = global::authClient.android.Resource.String.abc_action_mode_done;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_activitychooserview_choose_application = global::authClient.android.Resource.String.abc_activitychooserview_choose_application;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_activity_chooser_view_see_all = global::authClient.android.Resource.String.abc_activity_chooser_view_see_all;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_capital_off = global::authClient.android.Resource.String.abc_capital_off;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_capital_on = global::authClient.android.Resource.String.abc_capital_on;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_body_1_material = global::authClient.android.Resource.String.abc_font_family_body_1_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_body_2_material = global::authClient.android.Resource.String.abc_font_family_body_2_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_button_material = global::authClient.android.Resource.String.abc_font_family_button_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_caption_material = global::authClient.android.Resource.String.abc_font_family_caption_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_1_material = global::authClient.android.Resource.String.abc_font_family_display_1_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_2_material = global::authClient.android.Resource.String.abc_font_family_display_2_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_3_material = global::authClient.android.Resource.String.abc_font_family_display_3_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_display_4_material = global::authClient.android.Resource.String.abc_font_family_display_4_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_headline_material = global::authClient.android.Resource.String.abc_font_family_headline_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_menu_material = global::authClient.android.Resource.String.abc_font_family_menu_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_subhead_material = global::authClient.android.Resource.String.abc_font_family_subhead_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_font_family_title_material = global::authClient.android.Resource.String.abc_font_family_title_material;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_alt_shortcut_label = global::authClient.android.Resource.String.abc_menu_alt_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::authClient.android.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_delete_shortcut_label = global::authClient.android.Resource.String.abc_menu_delete_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_enter_shortcut_label = global::authClient.android.Resource.String.abc_menu_enter_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_function_shortcut_label = global::authClient.android.Resource.String.abc_menu_function_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_meta_shortcut_label = global::authClient.android.Resource.String.abc_menu_meta_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_shift_shortcut_label = global::authClient.android.Resource.String.abc_menu_shift_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_space_shortcut_label = global::authClient.android.Resource.String.abc_menu_space_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_menu_sym_shortcut_label = global::authClient.android.Resource.String.abc_menu_sym_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_prepend_shortcut_label = global::authClient.android.Resource.String.abc_prepend_shortcut_label;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_clear = global::authClient.android.Resource.String.abc_searchview_description_clear;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_query = global::authClient.android.Resource.String.abc_searchview_description_query;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_search = global::authClient.android.Resource.String.abc_searchview_description_search;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_submit = global::authClient.android.Resource.String.abc_searchview_description_submit;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_searchview_description_voice = global::authClient.android.Resource.String.abc_searchview_description_voice;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_search_hint = global::authClient.android.Resource.String.abc_search_hint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with = global::authClient.android.Resource.String.abc_shareactionprovider_share_with;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::authClient.android.Resource.String.abc_shareactionprovider_share_with_application;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.abc_toolbar_collapse_description = global::authClient.android.Resource.String.abc_toolbar_collapse_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.appbar_scrolling_view_behavior = global::authClient.android.Resource.String.appbar_scrolling_view_behavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.app_name = global::authClient.android.Resource.String.app_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.bottom_sheet_behavior = global::authClient.android.Resource.String.bottom_sheet_behavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.character_counter_content_description = global::authClient.android.Resource.String.character_counter_content_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.character_counter_pattern = global::authClient.android.Resource.String.character_counter_pattern;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.fab_transformation_scrim_behavior = global::authClient.android.Resource.String.fab_transformation_scrim_behavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.fab_transformation_sheet_behavior = global::authClient.android.Resource.String.fab_transformation_sheet_behavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.hello = global::authClient.android.Resource.String.hello;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::authClient.android.Resource.String.hide_bottom_view_on_scroll_behavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_button_content_description = global::authClient.android.Resource.String.mr_button_content_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_button_connected = global::authClient.android.Resource.String.mr_cast_button_connected;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_button_connecting = global::authClient.android.Resource.String.mr_cast_button_connecting;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_button_disconnected = global::authClient.android.Resource.String.mr_cast_button_disconnected;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_cast_dialog_title_view_placeholder = global::authClient.android.Resource.String.mr_cast_dialog_title_view_placeholder;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_chooser_searching = global::authClient.android.Resource.String.mr_chooser_searching;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_chooser_title = global::authClient.android.Resource.String.mr_chooser_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_album_art = global::authClient.android.Resource.String.mr_controller_album_art;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_casting_screen = global::authClient.android.Resource.String.mr_controller_casting_screen;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_close_description = global::authClient.android.Resource.String.mr_controller_close_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_collapse_group = global::authClient.android.Resource.String.mr_controller_collapse_group;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_disconnect = global::authClient.android.Resource.String.mr_controller_disconnect;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_expand_group = global::authClient.android.Resource.String.mr_controller_expand_group;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_no_info_available = global::authClient.android.Resource.String.mr_controller_no_info_available;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_no_media_selected = global::authClient.android.Resource.String.mr_controller_no_media_selected;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_pause = global::authClient.android.Resource.String.mr_controller_pause;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_play = global::authClient.android.Resource.String.mr_controller_play;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_stop = global::authClient.android.Resource.String.mr_controller_stop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_stop_casting = global::authClient.android.Resource.String.mr_controller_stop_casting;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_controller_volume_slider = global::authClient.android.Resource.String.mr_controller_volume_slider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_dialog_device_header = global::authClient.android.Resource.String.mr_dialog_device_header;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_dialog_route_header = global::authClient.android.Resource.String.mr_dialog_route_header;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_system_route_name = global::authClient.android.Resource.String.mr_system_route_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mr_user_route_category_name = global::authClient.android.Resource.String.mr_user_route_category_name;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.mtrl_chip_close_icon_content_description = global::authClient.android.Resource.String.mtrl_chip_close_icon_content_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.password_toggle_content_description = global::authClient.android.Resource.String.password_toggle_content_description;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_eye = global::authClient.android.Resource.String.path_password_eye;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_eye_mask_strike_through = global::authClient.android.Resource.String.path_password_eye_mask_strike_through;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_eye_mask_visible = global::authClient.android.Resource.String.path_password_eye_mask_visible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.path_password_strike_through = global::authClient.android.Resource.String.path_password_strike_through;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.search_menu_title = global::authClient.android.Resource.String.search_menu_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.String.status_bar_notification_info_overflow = global::authClient.android.Resource.String.status_bar_notification_info_overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.AlertDialog_AppCompat = global::authClient.android.Resource.Style.AlertDialog_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::authClient.android.Resource.Style.AlertDialog_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_AppCompat_Dialog = global::authClient.android.Resource.Style.Animation_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::authClient.android.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_AppCompat_Tooltip = global::authClient.android.Resource.Style.Animation_AppCompat_Tooltip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::authClient.android.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::authClient.android.Resource.Style.Base_AlertDialog_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::authClient.android.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::authClient.android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::authClient.android.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_CardView = global::authClient.android.Resource.Style.Base_CardView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::authClient.android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::authClient.android.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::authClient.android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::authClient.android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat = global::authClient.android.Resource.Style.Base_Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::authClient.android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V22_Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V23_Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V26_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V26_Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V28_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V28_Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::authClient.android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::authClient.android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::authClient.android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::authClient.android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::authClient.android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::authClient.android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::authClient.android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::authClient.android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::authClient.android.Resource.Style.Base_Widget_Design_TabLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::authClient.android.Resource.Style.Base_Widget_MaterialComponents_Chip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::authClient.android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::authClient.android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.CardView = global::authClient.android.Resource.Style.CardView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.CardView_Dark = global::authClient.android.Resource.Style.CardView_Dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.CardView_Light = global::authClient.android.Resource.Style.CardView_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_AppCompat = global::authClient.android.Resource.Style.Platform_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_AppCompat_Light = global::authClient.android.Resource.Style.Platform_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents = global::authClient.android.Resource.Style.Platform_MaterialComponents;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Platform_MaterialComponents_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents_Light = global::authClient.android.Resource.Style.Platform_MaterialComponents_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V21_AppCompat = global::authClient.android.Resource.Style.Platform_V21_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::authClient.android.Resource.Style.Platform_V21_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V25_AppCompat = global::authClient.android.Resource.Style.Platform_V25_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::authClient.android.Resource.Style.Platform_V25_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::authClient.android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::authClient.android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat = global::authClient.android.Resource.Style.TextAppearance_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Large;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::authClient.android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::authClient.android.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::authClient.android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Counter = global::authClient.android.Resource.Style.TextAppearance_Design_Counter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::authClient.android.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Error = global::authClient.android.Resource.Style.TextAppearance_Design_Error;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_HelperText = global::authClient.android.Resource.Style.TextAppearance_Design_HelperText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Hint = global::authClient.android.Resource.Style.TextAppearance_Design_Hint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::authClient.android.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Design_Tab = global::authClient.android.Resource.Style.TextAppearance_Design_Tab;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Body1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Body2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Caption;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Chip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline3;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline4;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline5;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Headline6;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Overline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MaterialComponents_Tab = global::authClient.android.Resource.Style.TextAppearance_MaterialComponents_Tab;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::authClient.android.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::authClient.android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::authClient.android.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::authClient.android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::authClient.android.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::authClient.android.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat = global::authClient.android.Resource.Style.Theme_AppCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::authClient.android.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light = global::authClient.android.Resource.Style.Theme_AppCompat_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::authClient.android.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design = global::authClient.android.Resource.Style.Theme_Design;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_Light = global::authClient.android.Resource.Style.Theme_Design_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_Design_NoActionBar = global::authClient.android.Resource.Style.Theme_Design_NoActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents = global::authClient.android.Resource.Style.Theme_MaterialComponents;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::authClient.android.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::authClient.android.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::authClient.android.Resource.Style.Theme_MaterialComponents_NoActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::authClient.android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter = global::authClient.android.Resource.Style.Theme_MediaRouter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter_Light = global::authClient.android.Resource.Style.Theme_MediaRouter_Light;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::authClient.android.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::authClient.android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::authClient.android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::authClient.android.Resource.Style.Widget_AppCompat_ActionMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::authClient.android.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::authClient.android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button = global::authClient.android.Resource.Style.Widget_AppCompat_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::authClient.android.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::authClient.android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::authClient.android.Resource.Style.Widget_AppCompat_Button_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::authClient.android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::authClient.android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_EditText = global::authClient.android.Resource.Style.Widget_AppCompat_EditText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::authClient.android.Resource.Style.Widget_AppCompat_ImageButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::authClient.android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::authClient.android.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::authClient.android.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView = global::authClient.android.Resource.Style.Widget_AppCompat_ListView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::authClient.android.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::authClient.android.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::authClient.android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::authClient.android.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::authClient.android.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::authClient.android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::authClient.android.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SearchView = global::authClient.android.Resource.Style.Widget_AppCompat_SearchView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::authClient.android.Resource.Style.Widget_AppCompat_SeekBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::authClient.android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::authClient.android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::authClient.android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::authClient.android.Resource.Style.Widget_AppCompat_Toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::authClient.android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::authClient.android.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Compat_NotificationActionText = global::authClient.android.Resource.Style.Widget_Compat_NotificationActionText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_AppBarLayout = global::authClient.android.Resource.Style.Widget_Design_AppBarLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::authClient.android.Resource.Style.Widget_Design_BottomNavigationView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::authClient.android.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::authClient.android.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::authClient.android.Resource.Style.Widget_Design_FloatingActionButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_NavigationView = global::authClient.android.Resource.Style.Widget_Design_NavigationView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::authClient.android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_Snackbar = global::authClient.android.Resource.Style.Widget_Design_Snackbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_TabLayout = global::authClient.android.Resource.Style.Widget_Design_TabLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Design_TextInputLayout = global::authClient.android.Resource.Style.Widget_Design_TextInputLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomAppBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::authClient.android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_Icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::authClient.android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_CardView = global::authClient.android.Resource.Style.Widget_MaterialComponents_CardView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::authClient.android.Resource.Style.Widget_MaterialComponents_ChipGroup;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Action;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Choice;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Entry;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::authClient.android.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::authClient.android.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::authClient.android.Resource.Style.Widget_MaterialComponents_NavigationView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::authClient.android.Resource.Style.Widget_MaterialComponents_Snackbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::authClient.android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::authClient.android.Resource.Style.Widget_MaterialComponents_TabLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::authClient.android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::authClient.android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::authClient.android.Resource.Style.Widget_MaterialComponents_Toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::authClient.android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::authClient.android.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::authClient.android.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar = global::authClient.android.Resource.Styleable.ActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBarLayout = global::authClient.android.Resource.Styleable.ActionBarLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::authClient.android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_background = global::authClient.android.Resource.Styleable.ActionBar_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::authClient.android.Resource.Styleable.ActionBar_backgroundSplit;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::authClient.android.Resource.Styleable.ActionBar_backgroundStacked;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::authClient.android.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::authClient.android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::authClient.android.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::authClient.android.Resource.Styleable.ActionBar_contentInsetRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::authClient.android.Resource.Styleable.ActionBar_contentInsetStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::authClient.android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::authClient.android.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_displayOptions = global::authClient.android.Resource.Styleable.ActionBar_displayOptions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_divider = global::authClient.android.Resource.Styleable.ActionBar_divider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_elevation = global::authClient.android.Resource.Styleable.ActionBar_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_height = global::authClient.android.Resource.Styleable.ActionBar_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::authClient.android.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::authClient.android.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_homeLayout = global::authClient.android.Resource.Styleable.ActionBar_homeLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_icon = global::authClient.android.Resource.Styleable.ActionBar_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::authClient.android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_itemPadding = global::authClient.android.Resource.Styleable.ActionBar_itemPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_logo = global::authClient.android.Resource.Styleable.ActionBar_logo;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_navigationMode = global::authClient.android.Resource.Styleable.ActionBar_navigationMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_popupTheme = global::authClient.android.Resource.Styleable.ActionBar_popupTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::authClient.android.Resource.Styleable.ActionBar_progressBarPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::authClient.android.Resource.Styleable.ActionBar_progressBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_subtitle = global::authClient.android.Resource.Styleable.ActionBar_subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::authClient.android.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_title = global::authClient.android.Resource.Styleable.ActionBar_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::authClient.android.Resource.Styleable.ActionBar_titleTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMenuItemView = global::authClient.android.Resource.Styleable.ActionMenuItemView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::authClient.android.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMenuView = global::authClient.android.Resource.Styleable.ActionMenuView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode = global::authClient.android.Resource.Styleable.ActionMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_background = global::authClient.android.Resource.Styleable.ActionMode_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::authClient.android.Resource.Styleable.ActionMode_backgroundSplit;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::authClient.android.Resource.Styleable.ActionMode_closeItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_height = global::authClient.android.Resource.Styleable.ActionMode_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::authClient.android.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::authClient.android.Resource.Styleable.ActionMode_titleTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActivityChooserView = global::authClient.android.Resource.Styleable.ActivityChooserView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::authClient.android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::authClient.android.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog = global::authClient.android.Resource.Styleable.AlertDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_android_layout = global::authClient.android.Resource.Styleable.AlertDialog_android_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::authClient.android.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::authClient.android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_listItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_listLayout = global::authClient.android.Resource.Styleable.AlertDialog_listLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_showTitle = global::authClient.android.Resource.Styleable.AlertDialog_showTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::authClient.android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::authClient.android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout = global::authClient.android.Resource.Styleable.AppBarLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates = global::authClient.android.Resource.Styleable.AppBarLayoutStates;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_liftable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::authClient.android.Resource.Styleable.AppBarLayoutStates_state_lifted;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_android_background = global::authClient.android.Resource.Styleable.AppBarLayout_android_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::authClient.android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::authClient.android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_elevation = global::authClient.android.Resource.Styleable.AppBarLayout_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_expanded = global::authClient.android.Resource.Styleable.AppBarLayout_expanded;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_Layout = global::authClient.android.Resource.Styleable.AppBarLayout_Layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::authClient.android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::authClient.android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::authClient.android.Resource.Styleable.AppBarLayout_liftOnScroll;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView = global::authClient.android.Resource.Styleable.AppCompatImageView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_android_src = global::authClient.android.Resource.Styleable.AppCompatImageView_android_src;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::authClient.android.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_tint = global::authClient.android.Resource.Styleable.AppCompatImageView_tint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::authClient.android.Resource.Styleable.AppCompatImageView_tintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar = global::authClient.android.Resource.Styleable.AppCompatSeekBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::authClient.android.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::authClient.android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper = global::authClient.android.Resource.Styleable.AppCompatTextHelper;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::authClient.android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView = global::authClient.android.Resource.Styleable.AppCompatTextView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::authClient.android.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::authClient.android.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::authClient.android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::authClient.android.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::authClient.android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::authClient.android.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::authClient.android.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme = global::authClient.android.Resource.Styleable.AppCompatTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::authClient.android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::authClient.android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::authClient.android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::authClient.android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::authClient.android.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::authClient.android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorError = global::authClient.android.Resource.Styleable.AppCompatTheme_colorError;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::authClient.android.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::authClient.android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::authClient.android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::authClient.android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::authClient.android.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::authClient.android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::authClient.android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::authClient.android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::authClient.android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::authClient.android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::authClient.android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::authClient.android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::authClient.android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::authClient.android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::authClient.android.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::authClient.android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::authClient.android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::authClient.android.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::authClient.android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::authClient.android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::authClient.android.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar = global::authClient.android.Resource.Styleable.BottomAppBar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::authClient.android.Resource.Styleable.BottomAppBar_backgroundTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::authClient.android.Resource.Styleable.BottomAppBar_fabAlignmentMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::authClient.android.Resource.Styleable.BottomAppBar_fabCradleMargin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::authClient.android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::authClient.android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::authClient.android.Resource.Styleable.BottomAppBar_hideOnScroll;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView = global::authClient.android.Resource.Styleable.BottomNavigationView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_elevation = global::authClient.android.Resource.Styleable.BottomNavigationView_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::authClient.android.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::authClient.android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::authClient.android.Resource.Styleable.BottomNavigationView_itemIconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::authClient.android.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::authClient.android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::authClient.android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::authClient.android.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::authClient.android.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomNavigationView_menu = global::authClient.android.Resource.Styleable.BottomNavigationView_menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::authClient.android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ButtonBarLayout = global::authClient.android.Resource.Styleable.ButtonBarLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::authClient.android.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView = global::authClient.android.Resource.Styleable.CardView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_android_minHeight = global::authClient.android.Resource.Styleable.CardView_android_minHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_android_minWidth = global::authClient.android.Resource.Styleable.CardView_android_minWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::authClient.android.Resource.Styleable.CardView_cardBackgroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardCornerRadius = global::authClient.android.Resource.Styleable.CardView_cardCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardElevation = global::authClient.android.Resource.Styleable.CardView_cardElevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardMaxElevation = global::authClient.android.Resource.Styleable.CardView_cardMaxElevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::authClient.android.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::authClient.android.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPadding = global::authClient.android.Resource.Styleable.CardView_contentPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::authClient.android.Resource.Styleable.CardView_contentPaddingBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::authClient.android.Resource.Styleable.CardView_contentPaddingLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingRight = global::authClient.android.Resource.Styleable.CardView_contentPaddingRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CardView_contentPaddingTop = global::authClient.android.Resource.Styleable.CardView_contentPaddingTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip = global::authClient.android.Resource.Styleable.Chip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup = global::authClient.android.Resource.Styleable.ChipGroup;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_checkedChip = global::authClient.android.Resource.Styleable.ChipGroup_checkedChip;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_chipSpacing = global::authClient.android.Resource.Styleable.ChipGroup_chipSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::authClient.android.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::authClient.android.Resource.Styleable.ChipGroup_chipSpacingVertical;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_singleLine = global::authClient.android.Resource.Styleable.ChipGroup_singleLine;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ChipGroup_singleSelection = global::authClient.android.Resource.Styleable.ChipGroup_singleSelection;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_checkable = global::authClient.android.Resource.Styleable.Chip_android_checkable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_ellipsize = global::authClient.android.Resource.Styleable.Chip_android_ellipsize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_maxWidth = global::authClient.android.Resource.Styleable.Chip_android_maxWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_text = global::authClient.android.Resource.Styleable.Chip_android_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_android_textAppearance = global::authClient.android.Resource.Styleable.Chip_android_textAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_checkedIcon = global::authClient.android.Resource.Styleable.Chip_checkedIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_checkedIconEnabled = global::authClient.android.Resource.Styleable.Chip_checkedIconEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_checkedIconVisible = global::authClient.android.Resource.Styleable.Chip_checkedIconVisible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipBackgroundColor = global::authClient.android.Resource.Styleable.Chip_chipBackgroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipCornerRadius = global::authClient.android.Resource.Styleable.Chip_chipCornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipEndPadding = global::authClient.android.Resource.Styleable.Chip_chipEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIcon = global::authClient.android.Resource.Styleable.Chip_chipIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconEnabled = global::authClient.android.Resource.Styleable.Chip_chipIconEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconSize = global::authClient.android.Resource.Styleable.Chip_chipIconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconTint = global::authClient.android.Resource.Styleable.Chip_chipIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipIconVisible = global::authClient.android.Resource.Styleable.Chip_chipIconVisible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipMinHeight = global::authClient.android.Resource.Styleable.Chip_chipMinHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipStartPadding = global::authClient.android.Resource.Styleable.Chip_chipStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipStrokeColor = global::authClient.android.Resource.Styleable.Chip_chipStrokeColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_chipStrokeWidth = global::authClient.android.Resource.Styleable.Chip_chipStrokeWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIcon = global::authClient.android.Resource.Styleable.Chip_closeIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconEnabled = global::authClient.android.Resource.Styleable.Chip_closeIconEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconEndPadding = global::authClient.android.Resource.Styleable.Chip_closeIconEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconSize = global::authClient.android.Resource.Styleable.Chip_closeIconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconStartPadding = global::authClient.android.Resource.Styleable.Chip_closeIconStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconTint = global::authClient.android.Resource.Styleable.Chip_closeIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_closeIconVisible = global::authClient.android.Resource.Styleable.Chip_closeIconVisible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_hideMotionSpec = global::authClient.android.Resource.Styleable.Chip_hideMotionSpec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_iconEndPadding = global::authClient.android.Resource.Styleable.Chip_iconEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_iconStartPadding = global::authClient.android.Resource.Styleable.Chip_iconStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_rippleColor = global::authClient.android.Resource.Styleable.Chip_rippleColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_showMotionSpec = global::authClient.android.Resource.Styleable.Chip_showMotionSpec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_textEndPadding = global::authClient.android.Resource.Styleable.Chip_textEndPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Chip_textStartPadding = global::authClient.android.Resource.Styleable.Chip_textStartPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::authClient.android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem = global::authClient.android.Resource.Styleable.ColorStateListItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem_alpha = global::authClient.android.Resource.Styleable.ColorStateListItem_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::authClient.android.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ColorStateListItem_android_color = global::authClient.android.Resource.Styleable.ColorStateListItem_android_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton = global::authClient.android.Resource.Styleable.CompoundButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton_android_button = global::authClient.android.Resource.Styleable.CompoundButton_android_button;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton_buttonTint = global::authClient.android.Resource.Styleable.CompoundButton_buttonTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::authClient.android.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout = global::authClient.android.Resource.Styleable.CoordinatorLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::authClient.android.Resource.Styleable.CoordinatorLayout_keylines;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::authClient.android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::authClient.android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DesignTheme = global::authClient.android.Resource.Styleable.DesignTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::authClient.android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::authClient.android.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle = global::authClient.android.Resource.Styleable.DrawerArrowToggle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::authClient.android.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_color = global::authClient.android.Resource.Styleable.DrawerArrowToggle_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::authClient.android.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::authClient.android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::authClient.android.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::authClient.android.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton = global::authClient.android.Resource.Styleable.FloatingActionButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::authClient.android.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::authClient.android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::authClient.android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::authClient.android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::authClient.android.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_elevation = global::authClient.android.Resource.Styleable.FloatingActionButton_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::authClient.android.Resource.Styleable.FloatingActionButton_fabCustomSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::authClient.android.Resource.Styleable.FloatingActionButton_fabSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::authClient.android.Resource.Styleable.FloatingActionButton_hideMotionSpec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::authClient.android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::authClient.android.Resource.Styleable.FloatingActionButton_maxImageSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::authClient.android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::authClient.android.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::authClient.android.Resource.Styleable.FloatingActionButton_showMotionSpec;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::authClient.android.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FlowLayout = global::authClient.android.Resource.Styleable.FlowLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FlowLayout_itemSpacing = global::authClient.android.Resource.Styleable.FlowLayout_itemSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FlowLayout_lineSpacing = global::authClient.android.Resource.Styleable.FlowLayout_lineSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily = global::authClient.android.Resource.Styleable.FontFamily;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont = global::authClient.android.Resource.Styleable.FontFamilyFont;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_font = global::authClient.android.Resource.Styleable.FontFamilyFont_android_font;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::authClient.android.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::authClient.android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::authClient.android.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::authClient.android.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_font = global::authClient.android.Resource.Styleable.FontFamilyFont_font;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::authClient.android.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::authClient.android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::authClient.android.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::authClient.android.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::authClient.android.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::authClient.android.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::authClient.android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::authClient.android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::authClient.android.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::authClient.android.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout = global::authClient.android.Resource.Styleable.ForegroundLinearLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::authClient.android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor = global::authClient.android.Resource.Styleable.GradientColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColorItem = global::authClient.android.Resource.Styleable.GradientColorItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColorItem_android_color = global::authClient.android.Resource.Styleable.GradientColorItem_android_color;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColorItem_android_offset = global::authClient.android.Resource.Styleable.GradientColorItem_android_offset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_centerColor = global::authClient.android.Resource.Styleable.GradientColor_android_centerColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_centerX = global::authClient.android.Resource.Styleable.GradientColor_android_centerX;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_centerY = global::authClient.android.Resource.Styleable.GradientColor_android_centerY;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_endColor = global::authClient.android.Resource.Styleable.GradientColor_android_endColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_endX = global::authClient.android.Resource.Styleable.GradientColor_android_endX;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_endY = global::authClient.android.Resource.Styleable.GradientColor_android_endY;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::authClient.android.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_startColor = global::authClient.android.Resource.Styleable.GradientColor_android_startColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_startX = global::authClient.android.Resource.Styleable.GradientColor_android_startX;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_startY = global::authClient.android.Resource.Styleable.GradientColor_android_startY;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_tileMode = global::authClient.android.Resource.Styleable.GradientColor_android_tileMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.GradientColor_android_type = global::authClient.android.Resource.Styleable.GradientColor_android_type;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat = global::authClient.android.Resource.Styleable.LinearLayoutCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::authClient.android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::authClient.android.Resource.Styleable.LinearLayoutCompat_divider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::authClient.android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::authClient.android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::authClient.android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::authClient.android.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ListPopupWindow = global::authClient.android.Resource.Styleable.ListPopupWindow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::authClient.android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::authClient.android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton = global::authClient.android.Resource.Styleable.MaterialButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::authClient.android.Resource.Styleable.MaterialButton_android_insetBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::authClient.android.Resource.Styleable.MaterialButton_android_insetLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetRight = global::authClient.android.Resource.Styleable.MaterialButton_android_insetRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_android_insetTop = global::authClient.android.Resource.Styleable.MaterialButton_android_insetTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_backgroundTint = global::authClient.android.Resource.Styleable.MaterialButton_backgroundTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::authClient.android.Resource.Styleable.MaterialButton_backgroundTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_cornerRadius = global::authClient.android.Resource.Styleable.MaterialButton_cornerRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_icon = global::authClient.android.Resource.Styleable.MaterialButton_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconGravity = global::authClient.android.Resource.Styleable.MaterialButton_iconGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconPadding = global::authClient.android.Resource.Styleable.MaterialButton_iconPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconSize = global::authClient.android.Resource.Styleable.MaterialButton_iconSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconTint = global::authClient.android.Resource.Styleable.MaterialButton_iconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_iconTintMode = global::authClient.android.Resource.Styleable.MaterialButton_iconTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_rippleColor = global::authClient.android.Resource.Styleable.MaterialButton_rippleColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_strokeColor = global::authClient.android.Resource.Styleable.MaterialButton_strokeColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialButton_strokeWidth = global::authClient.android.Resource.Styleable.MaterialButton_strokeWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialCardView = global::authClient.android.Resource.Styleable.MaterialCardView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialCardView_strokeColor = global::authClient.android.Resource.Styleable.MaterialCardView_strokeColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::authClient.android.Resource.Styleable.MaterialCardView_strokeWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme = global::authClient.android.Resource.Styleable.MaterialComponentsTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_chipStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorAccent;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_tabStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::authClient.android.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton = global::authClient.android.Resource.Styleable.MediaRouteButton;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::authClient.android.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::authClient.android.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::authClient.android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::authClient.android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup = global::authClient.android.Resource.Styleable.MenuGroup;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::authClient.android.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_enabled = global::authClient.android.Resource.Styleable.MenuGroup_android_enabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_id = global::authClient.android.Resource.Styleable.MenuGroup_android_id;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::authClient.android.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::authClient.android.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuGroup_android_visible = global::authClient.android.Resource.Styleable.MenuGroup_android_visible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem = global::authClient.android.Resource.Styleable.MenuItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_actionLayout = global::authClient.android.Resource.Styleable.MenuItem_actionLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::authClient.android.Resource.Styleable.MenuItem_actionProviderClass;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_actionViewClass = global::authClient.android.Resource.Styleable.MenuItem_actionViewClass;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::authClient.android.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::authClient.android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_checkable = global::authClient.android.Resource.Styleable.MenuItem_android_checkable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_checked = global::authClient.android.Resource.Styleable.MenuItem_android_checked;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_enabled = global::authClient.android.Resource.Styleable.MenuItem_android_enabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_icon = global::authClient.android.Resource.Styleable.MenuItem_android_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_id = global::authClient.android.Resource.Styleable.MenuItem_android_id;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::authClient.android.Resource.Styleable.MenuItem_android_menuCategory;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::authClient.android.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_onClick = global::authClient.android.Resource.Styleable.MenuItem_android_onClick;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::authClient.android.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_title = global::authClient.android.Resource.Styleable.MenuItem_android_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::authClient.android.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_android_visible = global::authClient.android.Resource.Styleable.MenuItem_android_visible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_contentDescription = global::authClient.android.Resource.Styleable.MenuItem_contentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_iconTint = global::authClient.android.Resource.Styleable.MenuItem_iconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_iconTintMode = global::authClient.android.Resource.Styleable.MenuItem_iconTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_numericModifiers = global::authClient.android.Resource.Styleable.MenuItem_numericModifiers;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_showAsAction = global::authClient.android.Resource.Styleable.MenuItem_showAsAction;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuItem_tooltipText = global::authClient.android.Resource.Styleable.MenuItem_tooltipText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView = global::authClient.android.Resource.Styleable.MenuView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_headerBackground = global::authClient.android.Resource.Styleable.MenuView_android_headerBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::authClient.android.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_itemBackground = global::authClient.android.Resource.Styleable.MenuView_android_itemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::authClient.android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::authClient.android.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::authClient.android.Resource.Styleable.MenuView_android_verticalDivider;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::authClient.android.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::authClient.android.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.MenuView_subMenuArrow = global::authClient.android.Resource.Styleable.MenuView_subMenuArrow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView = global::authClient.android.Resource.Styleable.NavigationView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_android_background = global::authClient.android.Resource.Styleable.NavigationView_android_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::authClient.android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::authClient.android.Resource.Styleable.NavigationView_android_maxWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_elevation = global::authClient.android.Resource.Styleable.NavigationView_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_headerLayout = global::authClient.android.Resource.Styleable.NavigationView_headerLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemBackground = global::authClient.android.Resource.Styleable.NavigationView_itemBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::authClient.android.Resource.Styleable.NavigationView_itemHorizontalPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemIconPadding = global::authClient.android.Resource.Styleable.NavigationView_itemIconPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemIconTint = global::authClient.android.Resource.Styleable.NavigationView_itemIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::authClient.android.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_itemTextColor = global::authClient.android.Resource.Styleable.NavigationView_itemTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.NavigationView_menu = global::authClient.android.Resource.Styleable.NavigationView_menu;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow = global::authClient.android.Resource.Styleable.PopupWindow;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindowBackgroundState = global::authClient.android.Resource.Styleable.PopupWindowBackgroundState;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::authClient.android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::authClient.android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::authClient.android.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::authClient.android.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecycleListView = global::authClient.android.Resource.Styleable.RecycleListView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::authClient.android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::authClient.android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView = global::authClient.android.Resource.Styleable.RecyclerView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::authClient.android.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_android_orientation = global::authClient.android.Resource.Styleable.RecyclerView_android_orientation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::authClient.android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_layoutManager = global::authClient.android.Resource.Styleable.RecyclerView_layoutManager;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::authClient.android.Resource.Styleable.RecyclerView_reverseLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_spanCount = global::authClient.android.Resource.Styleable.RecyclerView_spanCount;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::authClient.android.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::authClient.android.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::authClient.android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::authClient.android.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::authClient.android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView = global::authClient.android.Resource.Styleable.SearchView;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_focusable = global::authClient.android.Resource.Styleable.SearchView_android_focusable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_imeOptions = global::authClient.android.Resource.Styleable.SearchView_android_imeOptions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_inputType = global::authClient.android.Resource.Styleable.SearchView_android_inputType;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_android_maxWidth = global::authClient.android.Resource.Styleable.SearchView_android_maxWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_closeIcon = global::authClient.android.Resource.Styleable.SearchView_closeIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_commitIcon = global::authClient.android.Resource.Styleable.SearchView_commitIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::authClient.android.Resource.Styleable.SearchView_defaultQueryHint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_goIcon = global::authClient.android.Resource.Styleable.SearchView_goIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::authClient.android.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_layout = global::authClient.android.Resource.Styleable.SearchView_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_queryBackground = global::authClient.android.Resource.Styleable.SearchView_queryBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_queryHint = global::authClient.android.Resource.Styleable.SearchView_queryHint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_searchHintIcon = global::authClient.android.Resource.Styleable.SearchView_searchHintIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_searchIcon = global::authClient.android.Resource.Styleable.SearchView_searchIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_submitBackground = global::authClient.android.Resource.Styleable.SearchView_submitBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::authClient.android.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SearchView_voiceIcon = global::authClient.android.Resource.Styleable.SearchView_voiceIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Snackbar = global::authClient.android.Resource.Styleable.Snackbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout = global::authClient.android.Resource.Styleable.SnackbarLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::authClient.android.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout_elevation = global::authClient.android.Resource.Styleable.SnackbarLayout_elevation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::authClient.android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::authClient.android.Resource.Styleable.Snackbar_snackbarButtonStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Snackbar_snackbarStyle = global::authClient.android.Resource.Styleable.Snackbar_snackbarStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner = global::authClient.android.Resource.Styleable.Spinner;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::authClient.android.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_entries = global::authClient.android.Resource.Styleable.Spinner_android_entries;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_popupBackground = global::authClient.android.Resource.Styleable.Spinner_android_popupBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_android_prompt = global::authClient.android.Resource.Styleable.Spinner_android_prompt;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Spinner_popupTheme = global::authClient.android.Resource.Styleable.Spinner_popupTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable = global::authClient.android.Resource.Styleable.StateListDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawableItem = global::authClient.android.Resource.Styleable.StateListDrawableItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::authClient.android.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::authClient.android.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_dither = global::authClient.android.Resource.Styleable.StateListDrawable_android_dither;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::authClient.android.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::authClient.android.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::authClient.android.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.StateListDrawable_android_visible = global::authClient.android.Resource.Styleable.StateListDrawable_android_visible;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat = global::authClient.android.Resource.Styleable.SwitchCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::authClient.android.Resource.Styleable.SwitchCompat_android_textOff;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::authClient.android.Resource.Styleable.SwitchCompat_android_textOn;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::authClient.android.Resource.Styleable.SwitchCompat_android_thumb;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_showText = global::authClient.android.Resource.Styleable.SwitchCompat_showText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::authClient.android.Resource.Styleable.SwitchCompat_splitTrack;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::authClient.android.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::authClient.android.Resource.Styleable.SwitchCompat_switchPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::authClient.android.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::authClient.android.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_track = global::authClient.android.Resource.Styleable.SwitchCompat_track;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_trackTint = global::authClient.android.Resource.Styleable.SwitchCompat_trackTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::authClient.android.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem = global::authClient.android.Resource.Styleable.TabItem;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem_android_icon = global::authClient.android.Resource.Styleable.TabItem_android_icon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem_android_layout = global::authClient.android.Resource.Styleable.TabItem_android_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabItem_android_text = global::authClient.android.Resource.Styleable.TabItem_android_text;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout = global::authClient.android.Resource.Styleable.TabLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabBackground = global::authClient.android.Resource.Styleable.TabLayout_tabBackground;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabContentStart = global::authClient.android.Resource.Styleable.TabLayout_tabContentStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabGravity = global::authClient.android.Resource.Styleable.TabLayout_tabGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIconTint = global::authClient.android.Resource.Styleable.TabLayout_tabIconTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::authClient.android.Resource.Styleable.TabLayout_tabIconTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicator = global::authClient.android.Resource.Styleable.TabLayout_tabIndicator;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::authClient.android.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::authClient.android.Resource.Styleable.TabLayout_tabInlineLabel;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::authClient.android.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::authClient.android.Resource.Styleable.TabLayout_tabMinWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabMode = global::authClient.android.Resource.Styleable.TabLayout_tabMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPadding = global::authClient.android.Resource.Styleable.TabLayout_tabPadding;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::authClient.android.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabRippleColor = global::authClient.android.Resource.Styleable.TabLayout_tabRippleColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::authClient.android.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::authClient.android.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabTextColor = global::authClient.android.Resource.Styleable.TabLayout_tabTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::authClient.android.Resource.Styleable.TabLayout_tabUnboundedRipple;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance = global::authClient.android.Resource.Styleable.TextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::authClient.android.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::authClient.android.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textColor = global::authClient.android.Resource.Styleable.TextAppearance_android_textColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::authClient.android.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::authClient.android.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textSize = global::authClient.android.Resource.Styleable.TextAppearance_android_textSize;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::authClient.android.Resource.Styleable.TextAppearance_android_textStyle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_android_typeface = global::authClient.android.Resource.Styleable.TextAppearance_android_typeface;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_fontFamily = global::authClient.android.Resource.Styleable.TextAppearance_fontFamily;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::authClient.android.Resource.Styleable.TextAppearance_textAllCaps;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout = global::authClient.android.Resource.Styleable.TextInputLayout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_android_hint = global::authClient.android.Resource.Styleable.TextInputLayout_android_hint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::authClient.android.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::authClient.android.Resource.Styleable.TextInputLayout_boxBackgroundColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::authClient.android.Resource.Styleable.TextInputLayout_boxBackgroundMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::authClient.android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::authClient.android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::authClient.android.Resource.Styleable.TextInputLayout_boxStrokeColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::authClient.android.Resource.Styleable.TextInputLayout_boxStrokeWidth;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::authClient.android.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_helperText = global::authClient.android.Resource.Styleable.TextInputLayout_helperText;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_helperTextEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::authClient.android.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::authClient.android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement = global::authClient.android.Resource.Styleable.ThemeEnforcement;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::authClient.android.Resource.Styleable.ThemeEnforcement_android_textAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::authClient.android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::authClient.android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar = global::authClient.android.Resource.Styleable.Toolbar;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_android_gravity = global::authClient.android.Resource.Styleable.Toolbar_android_gravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_android_minHeight = global::authClient.android.Resource.Styleable.Toolbar_android_minHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_buttonGravity = global::authClient.android.Resource.Styleable.Toolbar_buttonGravity;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::authClient.android.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_collapseIcon = global::authClient.android.Resource.Styleable.Toolbar_collapseIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::authClient.android.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::authClient.android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::authClient.android.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::authClient.android.Resource.Styleable.Toolbar_contentInsetRight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::authClient.android.Resource.Styleable.Toolbar_contentInsetStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::authClient.android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_logo = global::authClient.android.Resource.Styleable.Toolbar_logo;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_logoDescription = global::authClient.android.Resource.Styleable.Toolbar_logoDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::authClient.android.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::authClient.android.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_navigationIcon = global::authClient.android.Resource.Styleable.Toolbar_navigationIcon;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_popupTheme = global::authClient.android.Resource.Styleable.Toolbar_popupTheme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_subtitle = global::authClient.android.Resource.Styleable.Toolbar_subtitle;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::authClient.android.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::authClient.android.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_title = global::authClient.android.Resource.Styleable.Toolbar_title;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMargin = global::authClient.android.Resource.Styleable.Toolbar_titleMargin;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::authClient.android.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::authClient.android.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMargins = global::authClient.android.Resource.Styleable.Toolbar_titleMargins;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::authClient.android.Resource.Styleable.Toolbar_titleMarginStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::authClient.android.Resource.Styleable.Toolbar_titleMarginTop;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::authClient.android.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.Toolbar_titleTextColor = global::authClient.android.Resource.Styleable.Toolbar_titleTextColor;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View = global::authClient.android.Resource.Styleable.View;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper = global::authClient.android.Resource.Styleable.ViewBackgroundHelper;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::authClient.android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat = global::authClient.android.Resource.Styleable.ViewStubCompat;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_id = global::authClient.android.Resource.Styleable.ViewStubCompat_android_id;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::authClient.android.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::authClient.android.Resource.Styleable.ViewStubCompat_android_layout;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_android_focusable = global::authClient.android.Resource.Styleable.View_android_focusable;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_android_theme = global::authClient.android.Resource.Styleable.View_android_theme;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_paddingEnd = global::authClient.android.Resource.Styleable.View_paddingEnd;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_paddingStart = global::authClient.android.Resource.Styleable.View_paddingStart;
-			global::TetraPak.Auth.Xamarin.Android.Resource.Styleable.View_theme = global::authClient.android.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::authClient.android.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::authClient.android.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::authClient.android.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -10601,6 +7700,15 @@ namespace authClient.android
 			// aapt resource value: 0x7F070061
 			public const int design_snackbar_background = 2131165281;
 			
+			// aapt resource value: 0x7F070116
+			public const int icon = 2131165462;
+			
+			// aapt resource value: 0x7F070117
+			public const int icon_valid = 2131165463;
+			
+			// aapt resource value: 0x7F070118
+			public const int icon_validate = 2131165464;
+			
 			// aapt resource value: 0x7F070062
 			public const int ic_audiotrack_dark = 2131165282;
 			
@@ -11141,125 +8249,125 @@ namespace authClient.android
 			// aapt resource value: 0x7F070115
 			public const int ic_vol_type_tv_light = 2131165461;
 			
-			// aapt resource value: 0x7F070116
-			public const int mr_button_connected_dark = 2131165462;
-			
-			// aapt resource value: 0x7F070117
-			public const int mr_button_connected_light = 2131165463;
-			
-			// aapt resource value: 0x7F070118
-			public const int mr_button_connecting_dark = 2131165464;
-			
 			// aapt resource value: 0x7F070119
-			public const int mr_button_connecting_light = 2131165465;
+			public const int mr_button_connected_dark = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int mr_button_dark = 2131165466;
+			public const int mr_button_connected_light = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int mr_button_light = 2131165467;
+			public const int mr_button_connecting_dark = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int mr_dialog_close_dark = 2131165468;
+			public const int mr_button_connecting_light = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int mr_dialog_close_light = 2131165469;
+			public const int mr_button_dark = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int mr_dialog_material_background_dark = 2131165470;
+			public const int mr_button_light = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int mr_dialog_material_background_light = 2131165471;
+			public const int mr_dialog_close_dark = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int mr_group_collapse = 2131165472;
+			public const int mr_dialog_close_light = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int mr_group_expand = 2131165473;
+			public const int mr_dialog_material_background_dark = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int mr_media_pause_dark = 2131165474;
+			public const int mr_dialog_material_background_light = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int mr_media_pause_light = 2131165475;
+			public const int mr_group_collapse = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int mr_media_play_dark = 2131165476;
+			public const int mr_group_expand = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int mr_media_play_light = 2131165477;
+			public const int mr_media_pause_dark = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int mr_media_stop_dark = 2131165478;
+			public const int mr_media_pause_light = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int mr_media_stop_light = 2131165479;
+			public const int mr_media_play_dark = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int mr_vol_type_audiotrack_dark = 2131165480;
+			public const int mr_media_play_light = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int mr_vol_type_audiotrack_light = 2131165481;
+			public const int mr_media_stop_dark = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int mtrl_snackbar_background = 2131165482;
+			public const int mr_media_stop_light = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int mtrl_tabs_default_indicator = 2131165483;
+			public const int mr_vol_type_audiotrack_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int navigation_empty_icon = 2131165484;
+			public const int mr_vol_type_audiotrack_light = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int notification_action_background = 2131165485;
+			public const int mtrl_snackbar_background = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int notification_bg = 2131165486;
+			public const int mtrl_tabs_default_indicator = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int notification_bg_low = 2131165487;
+			public const int navigation_empty_icon = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int notification_bg_low_normal = 2131165488;
+			public const int notification_action_background = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int notification_bg_low_pressed = 2131165489;
+			public const int notification_bg = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int notification_bg_normal = 2131165490;
+			public const int notification_bg_low = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int notification_bg_normal_pressed = 2131165491;
+			public const int notification_bg_low_normal = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int notification_icon_background = 2131165492;
+			public const int notification_bg_low_pressed = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int notification_template_icon_bg = 2131165493;
+			public const int notification_bg_normal = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int notification_template_icon_low_bg = 2131165494;
+			public const int notification_bg_normal_pressed = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int notification_tile_bg = 2131165495;
+			public const int notification_icon_background = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int notify_panel_notification_icon_bg = 2131165496;
+			public const int notification_template_icon_bg = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int segmented_control_background = 2131165497;
+			public const int notification_template_icon_low_bg = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int segmented_control_first_background = 2131165498;
+			public const int notification_tile_bg = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int segmented_control_last_background = 2131165499;
+			public const int notify_panel_notification_icon_bg = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int tooltip_frame_dark = 2131165500;
+			public const int segmented_control_background = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int tooltip_frame_light = 2131165501;
+			public const int segmented_control_first_background = 2131165501;
+			
+			// aapt resource value: 0x7F07013E
+			public const int segmented_control_last_background = 2131165502;
+			
+			// aapt resource value: 0x7F07013F
+			public const int tooltip_frame_dark = 2131165503;
+			
+			// aapt resource value: 0x7F070140
+			public const int tooltip_frame_light = 2131165504;
 			
 			static Drawable()
 			{
@@ -12430,264 +9538,242 @@ namespace authClient.android
 			}
 		}
 		
-		public partial class Mipmap
-		{
-			
-			// aapt resource value: 0x7F0C0000
-			public const int icon = 2131492864;
-			
-			static Mipmap()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Mipmap()
-			{
-			}
-		}
-		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0D0000
-			public const int abc_action_bar_home_description = 2131558400;
+			// aapt resource value: 0x7F0C0000
+			public const int abc_action_bar_home_description = 2131492864;
 			
-			// aapt resource value: 0x7F0D0001
-			public const int abc_action_bar_up_description = 2131558401;
+			// aapt resource value: 0x7F0C0001
+			public const int abc_action_bar_up_description = 2131492865;
 			
-			// aapt resource value: 0x7F0D0002
-			public const int abc_action_menu_overflow_description = 2131558402;
+			// aapt resource value: 0x7F0C0002
+			public const int abc_action_menu_overflow_description = 2131492866;
 			
-			// aapt resource value: 0x7F0D0003
-			public const int abc_action_mode_done = 2131558403;
+			// aapt resource value: 0x7F0C0003
+			public const int abc_action_mode_done = 2131492867;
 			
-			// aapt resource value: 0x7F0D0005
-			public const int abc_activitychooserview_choose_application = 2131558405;
+			// aapt resource value: 0x7F0C0005
+			public const int abc_activitychooserview_choose_application = 2131492869;
 			
-			// aapt resource value: 0x7F0D0004
-			public const int abc_activity_chooser_view_see_all = 2131558404;
+			// aapt resource value: 0x7F0C0004
+			public const int abc_activity_chooser_view_see_all = 2131492868;
 			
-			// aapt resource value: 0x7F0D0006
-			public const int abc_capital_off = 2131558406;
+			// aapt resource value: 0x7F0C0006
+			public const int abc_capital_off = 2131492870;
 			
-			// aapt resource value: 0x7F0D0007
-			public const int abc_capital_on = 2131558407;
+			// aapt resource value: 0x7F0C0007
+			public const int abc_capital_on = 2131492871;
 			
-			// aapt resource value: 0x7F0D0008
-			public const int abc_font_family_body_1_material = 2131558408;
+			// aapt resource value: 0x7F0C0008
+			public const int abc_font_family_body_1_material = 2131492872;
 			
-			// aapt resource value: 0x7F0D0009
-			public const int abc_font_family_body_2_material = 2131558409;
+			// aapt resource value: 0x7F0C0009
+			public const int abc_font_family_body_2_material = 2131492873;
 			
-			// aapt resource value: 0x7F0D000A
-			public const int abc_font_family_button_material = 2131558410;
+			// aapt resource value: 0x7F0C000A
+			public const int abc_font_family_button_material = 2131492874;
 			
-			// aapt resource value: 0x7F0D000B
-			public const int abc_font_family_caption_material = 2131558411;
+			// aapt resource value: 0x7F0C000B
+			public const int abc_font_family_caption_material = 2131492875;
 			
-			// aapt resource value: 0x7F0D000C
-			public const int abc_font_family_display_1_material = 2131558412;
+			// aapt resource value: 0x7F0C000C
+			public const int abc_font_family_display_1_material = 2131492876;
 			
-			// aapt resource value: 0x7F0D000D
-			public const int abc_font_family_display_2_material = 2131558413;
+			// aapt resource value: 0x7F0C000D
+			public const int abc_font_family_display_2_material = 2131492877;
 			
-			// aapt resource value: 0x7F0D000E
-			public const int abc_font_family_display_3_material = 2131558414;
+			// aapt resource value: 0x7F0C000E
+			public const int abc_font_family_display_3_material = 2131492878;
 			
-			// aapt resource value: 0x7F0D000F
-			public const int abc_font_family_display_4_material = 2131558415;
+			// aapt resource value: 0x7F0C000F
+			public const int abc_font_family_display_4_material = 2131492879;
 			
-			// aapt resource value: 0x7F0D0010
-			public const int abc_font_family_headline_material = 2131558416;
+			// aapt resource value: 0x7F0C0010
+			public const int abc_font_family_headline_material = 2131492880;
 			
-			// aapt resource value: 0x7F0D0011
-			public const int abc_font_family_menu_material = 2131558417;
+			// aapt resource value: 0x7F0C0011
+			public const int abc_font_family_menu_material = 2131492881;
 			
-			// aapt resource value: 0x7F0D0012
-			public const int abc_font_family_subhead_material = 2131558418;
+			// aapt resource value: 0x7F0C0012
+			public const int abc_font_family_subhead_material = 2131492882;
 			
-			// aapt resource value: 0x7F0D0013
-			public const int abc_font_family_title_material = 2131558419;
+			// aapt resource value: 0x7F0C0013
+			public const int abc_font_family_title_material = 2131492883;
 			
-			// aapt resource value: 0x7F0D0014
-			public const int abc_menu_alt_shortcut_label = 2131558420;
+			// aapt resource value: 0x7F0C0014
+			public const int abc_menu_alt_shortcut_label = 2131492884;
 			
-			// aapt resource value: 0x7F0D0015
-			public const int abc_menu_ctrl_shortcut_label = 2131558421;
+			// aapt resource value: 0x7F0C0015
+			public const int abc_menu_ctrl_shortcut_label = 2131492885;
 			
-			// aapt resource value: 0x7F0D0016
-			public const int abc_menu_delete_shortcut_label = 2131558422;
+			// aapt resource value: 0x7F0C0016
+			public const int abc_menu_delete_shortcut_label = 2131492886;
 			
-			// aapt resource value: 0x7F0D0017
-			public const int abc_menu_enter_shortcut_label = 2131558423;
+			// aapt resource value: 0x7F0C0017
+			public const int abc_menu_enter_shortcut_label = 2131492887;
 			
-			// aapt resource value: 0x7F0D0018
-			public const int abc_menu_function_shortcut_label = 2131558424;
+			// aapt resource value: 0x7F0C0018
+			public const int abc_menu_function_shortcut_label = 2131492888;
 			
-			// aapt resource value: 0x7F0D0019
-			public const int abc_menu_meta_shortcut_label = 2131558425;
+			// aapt resource value: 0x7F0C0019
+			public const int abc_menu_meta_shortcut_label = 2131492889;
 			
-			// aapt resource value: 0x7F0D001A
-			public const int abc_menu_shift_shortcut_label = 2131558426;
+			// aapt resource value: 0x7F0C001A
+			public const int abc_menu_shift_shortcut_label = 2131492890;
 			
-			// aapt resource value: 0x7F0D001B
-			public const int abc_menu_space_shortcut_label = 2131558427;
+			// aapt resource value: 0x7F0C001B
+			public const int abc_menu_space_shortcut_label = 2131492891;
 			
-			// aapt resource value: 0x7F0D001C
-			public const int abc_menu_sym_shortcut_label = 2131558428;
+			// aapt resource value: 0x7F0C001C
+			public const int abc_menu_sym_shortcut_label = 2131492892;
 			
-			// aapt resource value: 0x7F0D001D
-			public const int abc_prepend_shortcut_label = 2131558429;
+			// aapt resource value: 0x7F0C001D
+			public const int abc_prepend_shortcut_label = 2131492893;
 			
-			// aapt resource value: 0x7F0D001F
-			public const int abc_searchview_description_clear = 2131558431;
+			// aapt resource value: 0x7F0C001F
+			public const int abc_searchview_description_clear = 2131492895;
 			
-			// aapt resource value: 0x7F0D0020
-			public const int abc_searchview_description_query = 2131558432;
+			// aapt resource value: 0x7F0C0020
+			public const int abc_searchview_description_query = 2131492896;
 			
-			// aapt resource value: 0x7F0D0021
-			public const int abc_searchview_description_search = 2131558433;
+			// aapt resource value: 0x7F0C0021
+			public const int abc_searchview_description_search = 2131492897;
 			
-			// aapt resource value: 0x7F0D0022
-			public const int abc_searchview_description_submit = 2131558434;
+			// aapt resource value: 0x7F0C0022
+			public const int abc_searchview_description_submit = 2131492898;
 			
-			// aapt resource value: 0x7F0D0023
-			public const int abc_searchview_description_voice = 2131558435;
+			// aapt resource value: 0x7F0C0023
+			public const int abc_searchview_description_voice = 2131492899;
 			
-			// aapt resource value: 0x7F0D001E
-			public const int abc_search_hint = 2131558430;
+			// aapt resource value: 0x7F0C001E
+			public const int abc_search_hint = 2131492894;
 			
-			// aapt resource value: 0x7F0D0024
-			public const int abc_shareactionprovider_share_with = 2131558436;
+			// aapt resource value: 0x7F0C0024
+			public const int abc_shareactionprovider_share_with = 2131492900;
 			
-			// aapt resource value: 0x7F0D0025
-			public const int abc_shareactionprovider_share_with_application = 2131558437;
+			// aapt resource value: 0x7F0C0025
+			public const int abc_shareactionprovider_share_with_application = 2131492901;
 			
-			// aapt resource value: 0x7F0D0026
-			public const int abc_toolbar_collapse_description = 2131558438;
+			// aapt resource value: 0x7F0C0026
+			public const int abc_toolbar_collapse_description = 2131492902;
 			
-			// aapt resource value: 0x7F0D0028
-			public const int appbar_scrolling_view_behavior = 2131558440;
+			// aapt resource value: 0x7F0C0027
+			public const int appbar_scrolling_view_behavior = 2131492903;
 			
-			// aapt resource value: 0x7F0D0027
-			public const int app_name = 2131558439;
+			// aapt resource value: 0x7F0C0028
+			public const int bottom_sheet_behavior = 2131492904;
 			
-			// aapt resource value: 0x7F0D0029
-			public const int bottom_sheet_behavior = 2131558441;
+			// aapt resource value: 0x7F0C0029
+			public const int character_counter_content_description = 2131492905;
 			
-			// aapt resource value: 0x7F0D002A
-			public const int character_counter_content_description = 2131558442;
+			// aapt resource value: 0x7F0C002A
+			public const int character_counter_pattern = 2131492906;
 			
-			// aapt resource value: 0x7F0D002B
-			public const int character_counter_pattern = 2131558443;
+			// aapt resource value: 0x7F0C002B
+			public const int fab_transformation_scrim_behavior = 2131492907;
 			
-			// aapt resource value: 0x7F0D002C
-			public const int fab_transformation_scrim_behavior = 2131558444;
+			// aapt resource value: 0x7F0C002C
+			public const int fab_transformation_sheet_behavior = 2131492908;
 			
-			// aapt resource value: 0x7F0D002D
-			public const int fab_transformation_sheet_behavior = 2131558445;
+			// aapt resource value: 0x7F0C002D
+			public const int hide_bottom_view_on_scroll_behavior = 2131492909;
 			
-			// aapt resource value: 0x7F0D002E
-			public const int hello = 2131558446;
+			// aapt resource value: 0x7F0C002E
+			public const int mr_button_content_description = 2131492910;
 			
-			// aapt resource value: 0x7F0D002F
-			public const int hide_bottom_view_on_scroll_behavior = 2131558447;
+			// aapt resource value: 0x7F0C002F
+			public const int mr_cast_button_connected = 2131492911;
 			
-			// aapt resource value: 0x7F0D0030
-			public const int mr_button_content_description = 2131558448;
+			// aapt resource value: 0x7F0C0030
+			public const int mr_cast_button_connecting = 2131492912;
 			
-			// aapt resource value: 0x7F0D0031
-			public const int mr_cast_button_connected = 2131558449;
+			// aapt resource value: 0x7F0C0031
+			public const int mr_cast_button_disconnected = 2131492913;
 			
-			// aapt resource value: 0x7F0D0032
-			public const int mr_cast_button_connecting = 2131558450;
+			// aapt resource value: 0x7F0C0032
+			public const int mr_cast_dialog_title_view_placeholder = 2131492914;
 			
-			// aapt resource value: 0x7F0D0033
-			public const int mr_cast_button_disconnected = 2131558451;
+			// aapt resource value: 0x7F0C0033
+			public const int mr_chooser_searching = 2131492915;
 			
-			// aapt resource value: 0x7F0D0034
-			public const int mr_cast_dialog_title_view_placeholder = 2131558452;
+			// aapt resource value: 0x7F0C0034
+			public const int mr_chooser_title = 2131492916;
 			
-			// aapt resource value: 0x7F0D0035
-			public const int mr_chooser_searching = 2131558453;
+			// aapt resource value: 0x7F0C0035
+			public const int mr_controller_album_art = 2131492917;
 			
-			// aapt resource value: 0x7F0D0036
-			public const int mr_chooser_title = 2131558454;
+			// aapt resource value: 0x7F0C0036
+			public const int mr_controller_casting_screen = 2131492918;
 			
-			// aapt resource value: 0x7F0D0037
-			public const int mr_controller_album_art = 2131558455;
+			// aapt resource value: 0x7F0C0037
+			public const int mr_controller_close_description = 2131492919;
 			
-			// aapt resource value: 0x7F0D0038
-			public const int mr_controller_casting_screen = 2131558456;
+			// aapt resource value: 0x7F0C0038
+			public const int mr_controller_collapse_group = 2131492920;
 			
-			// aapt resource value: 0x7F0D0039
-			public const int mr_controller_close_description = 2131558457;
+			// aapt resource value: 0x7F0C0039
+			public const int mr_controller_disconnect = 2131492921;
 			
-			// aapt resource value: 0x7F0D003A
-			public const int mr_controller_collapse_group = 2131558458;
+			// aapt resource value: 0x7F0C003A
+			public const int mr_controller_expand_group = 2131492922;
 			
-			// aapt resource value: 0x7F0D003B
-			public const int mr_controller_disconnect = 2131558459;
+			// aapt resource value: 0x7F0C003B
+			public const int mr_controller_no_info_available = 2131492923;
 			
-			// aapt resource value: 0x7F0D003C
-			public const int mr_controller_expand_group = 2131558460;
+			// aapt resource value: 0x7F0C003C
+			public const int mr_controller_no_media_selected = 2131492924;
 			
-			// aapt resource value: 0x7F0D003D
-			public const int mr_controller_no_info_available = 2131558461;
+			// aapt resource value: 0x7F0C003D
+			public const int mr_controller_pause = 2131492925;
 			
-			// aapt resource value: 0x7F0D003E
-			public const int mr_controller_no_media_selected = 2131558462;
+			// aapt resource value: 0x7F0C003E
+			public const int mr_controller_play = 2131492926;
 			
-			// aapt resource value: 0x7F0D003F
-			public const int mr_controller_pause = 2131558463;
+			// aapt resource value: 0x7F0C003F
+			public const int mr_controller_stop = 2131492927;
 			
-			// aapt resource value: 0x7F0D0040
-			public const int mr_controller_play = 2131558464;
+			// aapt resource value: 0x7F0C0040
+			public const int mr_controller_stop_casting = 2131492928;
 			
-			// aapt resource value: 0x7F0D0041
-			public const int mr_controller_stop = 2131558465;
+			// aapt resource value: 0x7F0C0041
+			public const int mr_controller_volume_slider = 2131492929;
 			
-			// aapt resource value: 0x7F0D0042
-			public const int mr_controller_stop_casting = 2131558466;
+			// aapt resource value: 0x7F0C0042
+			public const int mr_dialog_device_header = 2131492930;
 			
-			// aapt resource value: 0x7F0D0043
-			public const int mr_controller_volume_slider = 2131558467;
+			// aapt resource value: 0x7F0C0043
+			public const int mr_dialog_route_header = 2131492931;
 			
-			// aapt resource value: 0x7F0D0044
-			public const int mr_dialog_device_header = 2131558468;
+			// aapt resource value: 0x7F0C0044
+			public const int mr_system_route_name = 2131492932;
 			
-			// aapt resource value: 0x7F0D0045
-			public const int mr_dialog_route_header = 2131558469;
+			// aapt resource value: 0x7F0C0045
+			public const int mr_user_route_category_name = 2131492933;
 			
-			// aapt resource value: 0x7F0D0046
-			public const int mr_system_route_name = 2131558470;
+			// aapt resource value: 0x7F0C0046
+			public const int mtrl_chip_close_icon_content_description = 2131492934;
 			
-			// aapt resource value: 0x7F0D0047
-			public const int mr_user_route_category_name = 2131558471;
+			// aapt resource value: 0x7F0C0047
+			public const int password_toggle_content_description = 2131492935;
 			
-			// aapt resource value: 0x7F0D0048
-			public const int mtrl_chip_close_icon_content_description = 2131558472;
+			// aapt resource value: 0x7F0C0048
+			public const int path_password_eye = 2131492936;
 			
-			// aapt resource value: 0x7F0D0049
-			public const int password_toggle_content_description = 2131558473;
+			// aapt resource value: 0x7F0C0049
+			public const int path_password_eye_mask_strike_through = 2131492937;
 			
-			// aapt resource value: 0x7F0D004A
-			public const int path_password_eye = 2131558474;
+			// aapt resource value: 0x7F0C004A
+			public const int path_password_eye_mask_visible = 2131492938;
 			
-			// aapt resource value: 0x7F0D004B
-			public const int path_password_eye_mask_strike_through = 2131558475;
+			// aapt resource value: 0x7F0C004B
+			public const int path_password_strike_through = 2131492939;
 			
-			// aapt resource value: 0x7F0D004C
-			public const int path_password_eye_mask_visible = 2131558476;
+			// aapt resource value: 0x7F0C004C
+			public const int search_menu_title = 2131492940;
 			
-			// aapt resource value: 0x7F0D004D
-			public const int path_password_strike_through = 2131558477;
-			
-			// aapt resource value: 0x7F0D004E
-			public const int search_menu_title = 2131558478;
-			
-			// aapt resource value: 0x7F0D004F
-			public const int status_bar_notification_info_overflow = 2131558479;
+			// aapt resource value: 0x7F0C004D
+			public const int status_bar_notification_info_overflow = 2131492941;
 			
 			static String()
 			{
@@ -12702,1547 +9788,1547 @@ namespace authClient.android
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int AlertDialog_AppCompat = 2131623936;
+			// aapt resource value: 0x7F0D0000
+			public const int AlertDialog_AppCompat = 2131558400;
 			
-			// aapt resource value: 0x7F0E0001
-			public const int AlertDialog_AppCompat_Light = 2131623937;
+			// aapt resource value: 0x7F0D0001
+			public const int AlertDialog_AppCompat_Light = 2131558401;
 			
-			// aapt resource value: 0x7F0E0002
-			public const int Animation_AppCompat_Dialog = 2131623938;
+			// aapt resource value: 0x7F0D0002
+			public const int Animation_AppCompat_Dialog = 2131558402;
 			
-			// aapt resource value: 0x7F0E0003
-			public const int Animation_AppCompat_DropDownUp = 2131623939;
+			// aapt resource value: 0x7F0D0003
+			public const int Animation_AppCompat_DropDownUp = 2131558403;
 			
-			// aapt resource value: 0x7F0E0004
-			public const int Animation_AppCompat_Tooltip = 2131623940;
+			// aapt resource value: 0x7F0D0004
+			public const int Animation_AppCompat_Tooltip = 2131558404;
 			
-			// aapt resource value: 0x7F0E0005
-			public const int Animation_Design_BottomSheetDialog = 2131623941;
+			// aapt resource value: 0x7F0D0005
+			public const int Animation_Design_BottomSheetDialog = 2131558405;
 			
-			// aapt resource value: 0x7F0E0006
-			public const int AppCompatDialogStyle = 2131623942;
+			// aapt resource value: 0x7F0D0006
+			public const int AppCompatDialogStyle = 2131558406;
 			
-			// aapt resource value: 0x7F0E0007
-			public const int Base_AlertDialog_AppCompat = 2131623943;
+			// aapt resource value: 0x7F0D0007
+			public const int Base_AlertDialog_AppCompat = 2131558407;
 			
-			// aapt resource value: 0x7F0E0008
-			public const int Base_AlertDialog_AppCompat_Light = 2131623944;
+			// aapt resource value: 0x7F0D0008
+			public const int Base_AlertDialog_AppCompat_Light = 2131558408;
 			
-			// aapt resource value: 0x7F0E0009
-			public const int Base_Animation_AppCompat_Dialog = 2131623945;
+			// aapt resource value: 0x7F0D0009
+			public const int Base_Animation_AppCompat_Dialog = 2131558409;
 			
-			// aapt resource value: 0x7F0E000A
-			public const int Base_Animation_AppCompat_DropDownUp = 2131623946;
+			// aapt resource value: 0x7F0D000A
+			public const int Base_Animation_AppCompat_DropDownUp = 2131558410;
 			
-			// aapt resource value: 0x7F0E000B
-			public const int Base_Animation_AppCompat_Tooltip = 2131623947;
+			// aapt resource value: 0x7F0D000B
+			public const int Base_Animation_AppCompat_Tooltip = 2131558411;
 			
-			// aapt resource value: 0x7F0E000C
-			public const int Base_CardView = 2131623948;
+			// aapt resource value: 0x7F0D000C
+			public const int Base_CardView = 2131558412;
 			
-			// aapt resource value: 0x7F0E000E
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623950;
+			// aapt resource value: 0x7F0D000E
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131558414;
 			
-			// aapt resource value: 0x7F0E000D
-			public const int Base_DialogWindowTitle_AppCompat = 2131623949;
+			// aapt resource value: 0x7F0D000D
+			public const int Base_DialogWindowTitle_AppCompat = 2131558413;
 			
-			// aapt resource value: 0x7F0E000F
-			public const int Base_TextAppearance_AppCompat = 2131623951;
+			// aapt resource value: 0x7F0D000F
+			public const int Base_TextAppearance_AppCompat = 2131558415;
 			
-			// aapt resource value: 0x7F0E0010
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131623952;
+			// aapt resource value: 0x7F0D0010
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131558416;
 			
-			// aapt resource value: 0x7F0E0011
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131623953;
+			// aapt resource value: 0x7F0D0011
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131558417;
 			
-			// aapt resource value: 0x7F0E0012
-			public const int Base_TextAppearance_AppCompat_Button = 2131623954;
+			// aapt resource value: 0x7F0D0012
+			public const int Base_TextAppearance_AppCompat_Button = 2131558418;
 			
-			// aapt resource value: 0x7F0E0013
-			public const int Base_TextAppearance_AppCompat_Caption = 2131623955;
+			// aapt resource value: 0x7F0D0013
+			public const int Base_TextAppearance_AppCompat_Caption = 2131558419;
 			
-			// aapt resource value: 0x7F0E0014
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131623956;
+			// aapt resource value: 0x7F0D0014
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131558420;
 			
-			// aapt resource value: 0x7F0E0015
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131623957;
+			// aapt resource value: 0x7F0D0015
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131558421;
 			
-			// aapt resource value: 0x7F0E0016
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131623958;
+			// aapt resource value: 0x7F0D0016
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131558422;
 			
-			// aapt resource value: 0x7F0E0017
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131623959;
+			// aapt resource value: 0x7F0D0017
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131558423;
 			
-			// aapt resource value: 0x7F0E0018
-			public const int Base_TextAppearance_AppCompat_Headline = 2131623960;
+			// aapt resource value: 0x7F0D0018
+			public const int Base_TextAppearance_AppCompat_Headline = 2131558424;
 			
-			// aapt resource value: 0x7F0E0019
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131623961;
+			// aapt resource value: 0x7F0D0019
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131558425;
 			
-			// aapt resource value: 0x7F0E001A
-			public const int Base_TextAppearance_AppCompat_Large = 2131623962;
+			// aapt resource value: 0x7F0D001A
+			public const int Base_TextAppearance_AppCompat_Large = 2131558426;
 			
-			// aapt resource value: 0x7F0E001B
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131623963;
+			// aapt resource value: 0x7F0D001B
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131558427;
 			
-			// aapt resource value: 0x7F0E001C
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131623964;
+			// aapt resource value: 0x7F0D001C
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131558428;
 			
-			// aapt resource value: 0x7F0E001D
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131623965;
+			// aapt resource value: 0x7F0D001D
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131558429;
 			
-			// aapt resource value: 0x7F0E001E
-			public const int Base_TextAppearance_AppCompat_Medium = 2131623966;
+			// aapt resource value: 0x7F0D001E
+			public const int Base_TextAppearance_AppCompat_Medium = 2131558430;
 			
-			// aapt resource value: 0x7F0E001F
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131623967;
+			// aapt resource value: 0x7F0D001F
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131558431;
 			
-			// aapt resource value: 0x7F0E0020
-			public const int Base_TextAppearance_AppCompat_Menu = 2131623968;
+			// aapt resource value: 0x7F0D0020
+			public const int Base_TextAppearance_AppCompat_Menu = 2131558432;
 			
-			// aapt resource value: 0x7F0E0021
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131623969;
+			// aapt resource value: 0x7F0D0021
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131558433;
 			
-			// aapt resource value: 0x7F0E0022
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131623970;
+			// aapt resource value: 0x7F0D0022
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131558434;
 			
-			// aapt resource value: 0x7F0E0023
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131623971;
+			// aapt resource value: 0x7F0D0023
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131558435;
 			
-			// aapt resource value: 0x7F0E0024
-			public const int Base_TextAppearance_AppCompat_Small = 2131623972;
+			// aapt resource value: 0x7F0D0024
+			public const int Base_TextAppearance_AppCompat_Small = 2131558436;
 			
-			// aapt resource value: 0x7F0E0025
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131623973;
+			// aapt resource value: 0x7F0D0025
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131558437;
 			
-			// aapt resource value: 0x7F0E0026
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131623974;
+			// aapt resource value: 0x7F0D0026
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131558438;
 			
-			// aapt resource value: 0x7F0E0027
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131623975;
+			// aapt resource value: 0x7F0D0027
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131558439;
 			
-			// aapt resource value: 0x7F0E0028
-			public const int Base_TextAppearance_AppCompat_Title = 2131623976;
+			// aapt resource value: 0x7F0D0028
+			public const int Base_TextAppearance_AppCompat_Title = 2131558440;
 			
-			// aapt resource value: 0x7F0E0029
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131623977;
+			// aapt resource value: 0x7F0D0029
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131558441;
 			
-			// aapt resource value: 0x7F0E002A
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131623978;
+			// aapt resource value: 0x7F0D002A
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131558442;
 			
-			// aapt resource value: 0x7F0E002B
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131623979;
+			// aapt resource value: 0x7F0D002B
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131558443;
 			
-			// aapt resource value: 0x7F0E002C
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131623980;
+			// aapt resource value: 0x7F0D002C
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131558444;
 			
-			// aapt resource value: 0x7F0E002D
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131623981;
+			// aapt resource value: 0x7F0D002D
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131558445;
 			
-			// aapt resource value: 0x7F0E002E
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131623982;
+			// aapt resource value: 0x7F0D002E
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131558446;
 			
-			// aapt resource value: 0x7F0E002F
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131623983;
+			// aapt resource value: 0x7F0D002F
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131558447;
 			
-			// aapt resource value: 0x7F0E0030
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131623984;
+			// aapt resource value: 0x7F0D0030
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131558448;
 			
-			// aapt resource value: 0x7F0E0031
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131623985;
+			// aapt resource value: 0x7F0D0031
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131558449;
 			
-			// aapt resource value: 0x7F0E0032
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131623986;
+			// aapt resource value: 0x7F0D0032
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131558450;
 			
-			// aapt resource value: 0x7F0E0033
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131623987;
+			// aapt resource value: 0x7F0D0033
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131558451;
 			
-			// aapt resource value: 0x7F0E0034
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131623988;
+			// aapt resource value: 0x7F0D0034
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131558452;
 			
-			// aapt resource value: 0x7F0E0035
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131623989;
+			// aapt resource value: 0x7F0D0035
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131558453;
 			
-			// aapt resource value: 0x7F0E0036
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131623990;
+			// aapt resource value: 0x7F0D0036
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131558454;
 			
-			// aapt resource value: 0x7F0E0037
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131623991;
+			// aapt resource value: 0x7F0D0037
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131558455;
 			
-			// aapt resource value: 0x7F0E0038
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131623992;
+			// aapt resource value: 0x7F0D0038
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131558456;
 			
-			// aapt resource value: 0x7F0E0039
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131623993;
+			// aapt resource value: 0x7F0D0039
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131558457;
 			
-			// aapt resource value: 0x7F0E003A
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131623994;
+			// aapt resource value: 0x7F0D003A
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131558458;
 			
-			// aapt resource value: 0x7F0E003B
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131623995;
+			// aapt resource value: 0x7F0D003B
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131558459;
 			
-			// aapt resource value: 0x7F0E003C
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131623996;
+			// aapt resource value: 0x7F0D003C
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131558460;
 			
-			// aapt resource value: 0x7F0E003D
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131623997;
+			// aapt resource value: 0x7F0D003D
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131558461;
 			
-			// aapt resource value: 0x7F0E003E
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131623998;
+			// aapt resource value: 0x7F0D003E
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131558462;
 			
-			// aapt resource value: 0x7F0E005E
-			public const int Base_ThemeOverlay_AppCompat = 2131624030;
+			// aapt resource value: 0x7F0D005E
+			public const int Base_ThemeOverlay_AppCompat = 2131558494;
 			
-			// aapt resource value: 0x7F0E005F
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624031;
+			// aapt resource value: 0x7F0D005F
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131558495;
 			
-			// aapt resource value: 0x7F0E0060
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624032;
+			// aapt resource value: 0x7F0D0060
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131558496;
 			
-			// aapt resource value: 0x7F0E0061
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624033;
+			// aapt resource value: 0x7F0D0061
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131558497;
 			
-			// aapt resource value: 0x7F0E0062
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624034;
+			// aapt resource value: 0x7F0D0062
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131558498;
 			
-			// aapt resource value: 0x7F0E0063
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624035;
+			// aapt resource value: 0x7F0D0063
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131558499;
 			
-			// aapt resource value: 0x7F0E0064
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131624036;
+			// aapt resource value: 0x7F0D0064
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131558500;
 			
-			// aapt resource value: 0x7F0E0065
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624037;
+			// aapt resource value: 0x7F0D0065
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131558501;
 			
-			// aapt resource value: 0x7F0E0066
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624038;
+			// aapt resource value: 0x7F0D0066
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558502;
 			
-			// aapt resource value: 0x7F0E003F
-			public const int Base_Theme_AppCompat = 2131623999;
+			// aapt resource value: 0x7F0D003F
+			public const int Base_Theme_AppCompat = 2131558463;
 			
-			// aapt resource value: 0x7F0E0040
-			public const int Base_Theme_AppCompat_CompactMenu = 2131624000;
+			// aapt resource value: 0x7F0D0040
+			public const int Base_Theme_AppCompat_CompactMenu = 2131558464;
 			
-			// aapt resource value: 0x7F0E0041
-			public const int Base_Theme_AppCompat_Dialog = 2131624001;
+			// aapt resource value: 0x7F0D0041
+			public const int Base_Theme_AppCompat_Dialog = 2131558465;
 			
-			// aapt resource value: 0x7F0E0045
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624005;
+			// aapt resource value: 0x7F0D0045
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131558469;
 			
-			// aapt resource value: 0x7F0E0042
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624002;
+			// aapt resource value: 0x7F0D0042
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131558466;
 			
-			// aapt resource value: 0x7F0E0043
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624003;
+			// aapt resource value: 0x7F0D0043
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131558467;
 			
-			// aapt resource value: 0x7F0E0044
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624004;
+			// aapt resource value: 0x7F0D0044
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131558468;
 			
-			// aapt resource value: 0x7F0E0046
-			public const int Base_Theme_AppCompat_Light = 2131624006;
+			// aapt resource value: 0x7F0D0046
+			public const int Base_Theme_AppCompat_Light = 2131558470;
 			
-			// aapt resource value: 0x7F0E0047
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624007;
+			// aapt resource value: 0x7F0D0047
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131558471;
 			
-			// aapt resource value: 0x7F0E0048
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131624008;
+			// aapt resource value: 0x7F0D0048
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131558472;
 			
-			// aapt resource value: 0x7F0E004C
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624012;
+			// aapt resource value: 0x7F0D004C
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131558476;
 			
-			// aapt resource value: 0x7F0E0049
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624009;
+			// aapt resource value: 0x7F0D0049
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131558473;
 			
-			// aapt resource value: 0x7F0E004A
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624010;
+			// aapt resource value: 0x7F0D004A
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131558474;
 			
-			// aapt resource value: 0x7F0E004B
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624011;
+			// aapt resource value: 0x7F0D004B
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131558475;
 			
-			// aapt resource value: 0x7F0E004D
-			public const int Base_Theme_MaterialComponents = 2131624013;
+			// aapt resource value: 0x7F0D004D
+			public const int Base_Theme_MaterialComponents = 2131558477;
 			
-			// aapt resource value: 0x7F0E004E
-			public const int Base_Theme_MaterialComponents_Bridge = 2131624014;
+			// aapt resource value: 0x7F0D004E
+			public const int Base_Theme_MaterialComponents_Bridge = 2131558478;
 			
-			// aapt resource value: 0x7F0E004F
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624015;
+			// aapt resource value: 0x7F0D004F
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131558479;
 			
-			// aapt resource value: 0x7F0E0050
-			public const int Base_Theme_MaterialComponents_Dialog = 2131624016;
+			// aapt resource value: 0x7F0D0050
+			public const int Base_Theme_MaterialComponents_Dialog = 2131558480;
 			
-			// aapt resource value: 0x7F0E0054
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624020;
+			// aapt resource value: 0x7F0D0054
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131558484;
 			
-			// aapt resource value: 0x7F0E0051
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624017;
+			// aapt resource value: 0x7F0D0051
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131558481;
 			
-			// aapt resource value: 0x7F0E0052
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624018;
+			// aapt resource value: 0x7F0D0052
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131558482;
 			
-			// aapt resource value: 0x7F0E0053
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624019;
+			// aapt resource value: 0x7F0D0053
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131558483;
 			
-			// aapt resource value: 0x7F0E0055
-			public const int Base_Theme_MaterialComponents_Light = 2131624021;
+			// aapt resource value: 0x7F0D0055
+			public const int Base_Theme_MaterialComponents_Light = 2131558485;
 			
-			// aapt resource value: 0x7F0E0056
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624022;
+			// aapt resource value: 0x7F0D0056
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131558486;
 			
-			// aapt resource value: 0x7F0E0057
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624023;
+			// aapt resource value: 0x7F0D0057
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131558487;
 			
-			// aapt resource value: 0x7F0E0058
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624024;
+			// aapt resource value: 0x7F0D0058
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558488;
 			
-			// aapt resource value: 0x7F0E0059
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624025;
+			// aapt resource value: 0x7F0D0059
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131558489;
 			
-			// aapt resource value: 0x7F0E005D
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624029;
+			// aapt resource value: 0x7F0D005D
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131558493;
 			
-			// aapt resource value: 0x7F0E005A
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624026;
+			// aapt resource value: 0x7F0D005A
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131558490;
 			
-			// aapt resource value: 0x7F0E005B
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624027;
+			// aapt resource value: 0x7F0D005B
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131558491;
 			
-			// aapt resource value: 0x7F0E005C
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624028;
+			// aapt resource value: 0x7F0D005C
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131558492;
 			
-			// aapt resource value: 0x7F0E006E
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624046;
+			// aapt resource value: 0x7F0D006E
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131558510;
 			
-			// aapt resource value: 0x7F0E006F
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624047;
+			// aapt resource value: 0x7F0D006F
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558511;
 			
-			// aapt resource value: 0x7F0E0067
-			public const int Base_V14_Theme_MaterialComponents = 2131624039;
+			// aapt resource value: 0x7F0D0067
+			public const int Base_V14_Theme_MaterialComponents = 2131558503;
 			
-			// aapt resource value: 0x7F0E0068
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624040;
+			// aapt resource value: 0x7F0D0068
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131558504;
 			
-			// aapt resource value: 0x7F0E0069
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624041;
+			// aapt resource value: 0x7F0D0069
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131558505;
 			
-			// aapt resource value: 0x7F0E006A
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131624042;
+			// aapt resource value: 0x7F0D006A
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131558506;
 			
-			// aapt resource value: 0x7F0E006B
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624043;
+			// aapt resource value: 0x7F0D006B
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131558507;
 			
-			// aapt resource value: 0x7F0E006C
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624044;
+			// aapt resource value: 0x7F0D006C
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558508;
 			
-			// aapt resource value: 0x7F0E006D
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624045;
+			// aapt resource value: 0x7F0D006D
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131558509;
 			
-			// aapt resource value: 0x7F0E0074
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624052;
+			// aapt resource value: 0x7F0D0074
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131558516;
 			
-			// aapt resource value: 0x7F0E0070
-			public const int Base_V21_Theme_AppCompat = 2131624048;
+			// aapt resource value: 0x7F0D0070
+			public const int Base_V21_Theme_AppCompat = 2131558512;
 			
-			// aapt resource value: 0x7F0E0071
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131624049;
+			// aapt resource value: 0x7F0D0071
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131558513;
 			
-			// aapt resource value: 0x7F0E0072
-			public const int Base_V21_Theme_AppCompat_Light = 2131624050;
+			// aapt resource value: 0x7F0D0072
+			public const int Base_V21_Theme_AppCompat_Light = 2131558514;
 			
-			// aapt resource value: 0x7F0E0073
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624051;
+			// aapt resource value: 0x7F0D0073
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131558515;
 			
-			// aapt resource value: 0x7F0E0075
-			public const int Base_V22_Theme_AppCompat = 2131624053;
+			// aapt resource value: 0x7F0D0075
+			public const int Base_V22_Theme_AppCompat = 2131558517;
 			
-			// aapt resource value: 0x7F0E0076
-			public const int Base_V22_Theme_AppCompat_Light = 2131624054;
+			// aapt resource value: 0x7F0D0076
+			public const int Base_V22_Theme_AppCompat_Light = 2131558518;
 			
-			// aapt resource value: 0x7F0E0077
-			public const int Base_V23_Theme_AppCompat = 2131624055;
+			// aapt resource value: 0x7F0D0077
+			public const int Base_V23_Theme_AppCompat = 2131558519;
 			
-			// aapt resource value: 0x7F0E0078
-			public const int Base_V23_Theme_AppCompat_Light = 2131624056;
+			// aapt resource value: 0x7F0D0078
+			public const int Base_V23_Theme_AppCompat_Light = 2131558520;
 			
-			// aapt resource value: 0x7F0E0079
-			public const int Base_V26_Theme_AppCompat = 2131624057;
+			// aapt resource value: 0x7F0D0079
+			public const int Base_V26_Theme_AppCompat = 2131558521;
 			
-			// aapt resource value: 0x7F0E007A
-			public const int Base_V26_Theme_AppCompat_Light = 2131624058;
+			// aapt resource value: 0x7F0D007A
+			public const int Base_V26_Theme_AppCompat_Light = 2131558522;
 			
-			// aapt resource value: 0x7F0E007B
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131624059;
+			// aapt resource value: 0x7F0D007B
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131558523;
 			
-			// aapt resource value: 0x7F0E007C
-			public const int Base_V28_Theme_AppCompat = 2131624060;
+			// aapt resource value: 0x7F0D007C
+			public const int Base_V28_Theme_AppCompat = 2131558524;
 			
-			// aapt resource value: 0x7F0E007D
-			public const int Base_V28_Theme_AppCompat_Light = 2131624061;
+			// aapt resource value: 0x7F0D007D
+			public const int Base_V28_Theme_AppCompat_Light = 2131558525;
 			
-			// aapt resource value: 0x7F0E0082
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624066;
+			// aapt resource value: 0x7F0D0082
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131558530;
 			
-			// aapt resource value: 0x7F0E007E
-			public const int Base_V7_Theme_AppCompat = 2131624062;
+			// aapt resource value: 0x7F0D007E
+			public const int Base_V7_Theme_AppCompat = 2131558526;
 			
-			// aapt resource value: 0x7F0E007F
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131624063;
+			// aapt resource value: 0x7F0D007F
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131558527;
 			
-			// aapt resource value: 0x7F0E0080
-			public const int Base_V7_Theme_AppCompat_Light = 2131624064;
+			// aapt resource value: 0x7F0D0080
+			public const int Base_V7_Theme_AppCompat_Light = 2131558528;
 			
-			// aapt resource value: 0x7F0E0081
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624065;
+			// aapt resource value: 0x7F0D0081
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131558529;
 			
-			// aapt resource value: 0x7F0E0083
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131624067;
+			// aapt resource value: 0x7F0D0083
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131558531;
 			
-			// aapt resource value: 0x7F0E0084
-			public const int Base_V7_Widget_AppCompat_EditText = 2131624068;
+			// aapt resource value: 0x7F0D0084
+			public const int Base_V7_Widget_AppCompat_EditText = 2131558532;
 			
-			// aapt resource value: 0x7F0E0085
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131624069;
+			// aapt resource value: 0x7F0D0085
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131558533;
 			
-			// aapt resource value: 0x7F0E0086
-			public const int Base_Widget_AppCompat_ActionBar = 2131624070;
+			// aapt resource value: 0x7F0D0086
+			public const int Base_Widget_AppCompat_ActionBar = 2131558534;
 			
-			// aapt resource value: 0x7F0E0087
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131624071;
+			// aapt resource value: 0x7F0D0087
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131558535;
 			
-			// aapt resource value: 0x7F0E0088
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131624072;
+			// aapt resource value: 0x7F0D0088
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131558536;
 			
-			// aapt resource value: 0x7F0E0089
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131624073;
+			// aapt resource value: 0x7F0D0089
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131558537;
 			
-			// aapt resource value: 0x7F0E008A
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131624074;
+			// aapt resource value: 0x7F0D008A
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131558538;
 			
-			// aapt resource value: 0x7F0E008B
-			public const int Base_Widget_AppCompat_ActionButton = 2131624075;
+			// aapt resource value: 0x7F0D008B
+			public const int Base_Widget_AppCompat_ActionButton = 2131558539;
 			
-			// aapt resource value: 0x7F0E008C
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131624076;
+			// aapt resource value: 0x7F0D008C
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131558540;
 			
-			// aapt resource value: 0x7F0E008D
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131624077;
+			// aapt resource value: 0x7F0D008D
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131558541;
 			
-			// aapt resource value: 0x7F0E008E
-			public const int Base_Widget_AppCompat_ActionMode = 2131624078;
+			// aapt resource value: 0x7F0D008E
+			public const int Base_Widget_AppCompat_ActionMode = 2131558542;
 			
-			// aapt resource value: 0x7F0E008F
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131624079;
+			// aapt resource value: 0x7F0D008F
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131558543;
 			
-			// aapt resource value: 0x7F0E0090
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131624080;
+			// aapt resource value: 0x7F0D0090
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131558544;
 			
-			// aapt resource value: 0x7F0E0091
-			public const int Base_Widget_AppCompat_Button = 2131624081;
+			// aapt resource value: 0x7F0D0091
+			public const int Base_Widget_AppCompat_Button = 2131558545;
 			
-			// aapt resource value: 0x7F0E0097
-			public const int Base_Widget_AppCompat_ButtonBar = 2131624087;
+			// aapt resource value: 0x7F0D0097
+			public const int Base_Widget_AppCompat_ButtonBar = 2131558551;
 			
-			// aapt resource value: 0x7F0E0098
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624088;
+			// aapt resource value: 0x7F0D0098
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131558552;
 			
-			// aapt resource value: 0x7F0E0092
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131624082;
+			// aapt resource value: 0x7F0D0092
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131558546;
 			
-			// aapt resource value: 0x7F0E0093
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624083;
+			// aapt resource value: 0x7F0D0093
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131558547;
 			
-			// aapt resource value: 0x7F0E0094
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624084;
+			// aapt resource value: 0x7F0D0094
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131558548;
 			
-			// aapt resource value: 0x7F0E0095
-			public const int Base_Widget_AppCompat_Button_Colored = 2131624085;
+			// aapt resource value: 0x7F0D0095
+			public const int Base_Widget_AppCompat_Button_Colored = 2131558549;
 			
-			// aapt resource value: 0x7F0E0096
-			public const int Base_Widget_AppCompat_Button_Small = 2131624086;
+			// aapt resource value: 0x7F0D0096
+			public const int Base_Widget_AppCompat_Button_Small = 2131558550;
 			
-			// aapt resource value: 0x7F0E0099
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131624089;
+			// aapt resource value: 0x7F0D0099
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131558553;
 			
-			// aapt resource value: 0x7F0E009A
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131624090;
+			// aapt resource value: 0x7F0D009A
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131558554;
 			
-			// aapt resource value: 0x7F0E009B
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131624091;
+			// aapt resource value: 0x7F0D009B
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131558555;
 			
-			// aapt resource value: 0x7F0E009C
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131624092;
+			// aapt resource value: 0x7F0D009C
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131558556;
 			
-			// aapt resource value: 0x7F0E009D
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131624093;
+			// aapt resource value: 0x7F0D009D
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131558557;
 			
-			// aapt resource value: 0x7F0E009E
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131624094;
+			// aapt resource value: 0x7F0D009E
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131558558;
 			
-			// aapt resource value: 0x7F0E009F
-			public const int Base_Widget_AppCompat_EditText = 2131624095;
+			// aapt resource value: 0x7F0D009F
+			public const int Base_Widget_AppCompat_EditText = 2131558559;
 			
-			// aapt resource value: 0x7F0E00A0
-			public const int Base_Widget_AppCompat_ImageButton = 2131624096;
+			// aapt resource value: 0x7F0D00A0
+			public const int Base_Widget_AppCompat_ImageButton = 2131558560;
 			
-			// aapt resource value: 0x7F0E00A1
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131624097;
+			// aapt resource value: 0x7F0D00A1
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131558561;
 			
-			// aapt resource value: 0x7F0E00A2
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131624098;
+			// aapt resource value: 0x7F0D00A2
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131558562;
 			
-			// aapt resource value: 0x7F0E00A3
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131624099;
+			// aapt resource value: 0x7F0D00A3
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131558563;
 			
-			// aapt resource value: 0x7F0E00A4
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131624100;
+			// aapt resource value: 0x7F0D00A4
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131558564;
 			
-			// aapt resource value: 0x7F0E00A5
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624101;
+			// aapt resource value: 0x7F0D00A5
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131558565;
 			
-			// aapt resource value: 0x7F0E00A6
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131624102;
+			// aapt resource value: 0x7F0D00A6
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131558566;
 			
-			// aapt resource value: 0x7F0E00A7
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131624103;
+			// aapt resource value: 0x7F0D00A7
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131558567;
 			
-			// aapt resource value: 0x7F0E00A8
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131624104;
+			// aapt resource value: 0x7F0D00A8
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131558568;
 			
-			// aapt resource value: 0x7F0E00A9
-			public const int Base_Widget_AppCompat_ListMenuView = 2131624105;
+			// aapt resource value: 0x7F0D00A9
+			public const int Base_Widget_AppCompat_ListMenuView = 2131558569;
 			
-			// aapt resource value: 0x7F0E00AA
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131624106;
+			// aapt resource value: 0x7F0D00AA
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131558570;
 			
-			// aapt resource value: 0x7F0E00AB
-			public const int Base_Widget_AppCompat_ListView = 2131624107;
+			// aapt resource value: 0x7F0D00AB
+			public const int Base_Widget_AppCompat_ListView = 2131558571;
 			
-			// aapt resource value: 0x7F0E00AC
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131624108;
+			// aapt resource value: 0x7F0D00AC
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131558572;
 			
-			// aapt resource value: 0x7F0E00AD
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131624109;
+			// aapt resource value: 0x7F0D00AD
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131558573;
 			
-			// aapt resource value: 0x7F0E00AE
-			public const int Base_Widget_AppCompat_PopupMenu = 2131624110;
+			// aapt resource value: 0x7F0D00AE
+			public const int Base_Widget_AppCompat_PopupMenu = 2131558574;
 			
-			// aapt resource value: 0x7F0E00AF
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131624111;
+			// aapt resource value: 0x7F0D00AF
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131558575;
 			
-			// aapt resource value: 0x7F0E00B0
-			public const int Base_Widget_AppCompat_PopupWindow = 2131624112;
+			// aapt resource value: 0x7F0D00B0
+			public const int Base_Widget_AppCompat_PopupWindow = 2131558576;
 			
-			// aapt resource value: 0x7F0E00B1
-			public const int Base_Widget_AppCompat_ProgressBar = 2131624113;
+			// aapt resource value: 0x7F0D00B1
+			public const int Base_Widget_AppCompat_ProgressBar = 2131558577;
 			
-			// aapt resource value: 0x7F0E00B2
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131624114;
+			// aapt resource value: 0x7F0D00B2
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131558578;
 			
-			// aapt resource value: 0x7F0E00B3
-			public const int Base_Widget_AppCompat_RatingBar = 2131624115;
+			// aapt resource value: 0x7F0D00B3
+			public const int Base_Widget_AppCompat_RatingBar = 2131558579;
 			
-			// aapt resource value: 0x7F0E00B4
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131624116;
+			// aapt resource value: 0x7F0D00B4
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131558580;
 			
-			// aapt resource value: 0x7F0E00B5
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131624117;
+			// aapt resource value: 0x7F0D00B5
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131558581;
 			
-			// aapt resource value: 0x7F0E00B6
-			public const int Base_Widget_AppCompat_SearchView = 2131624118;
+			// aapt resource value: 0x7F0D00B6
+			public const int Base_Widget_AppCompat_SearchView = 2131558582;
 			
-			// aapt resource value: 0x7F0E00B7
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131624119;
+			// aapt resource value: 0x7F0D00B7
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131558583;
 			
-			// aapt resource value: 0x7F0E00B8
-			public const int Base_Widget_AppCompat_SeekBar = 2131624120;
+			// aapt resource value: 0x7F0D00B8
+			public const int Base_Widget_AppCompat_SeekBar = 2131558584;
 			
-			// aapt resource value: 0x7F0E00B9
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131624121;
+			// aapt resource value: 0x7F0D00B9
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131558585;
 			
-			// aapt resource value: 0x7F0E00BA
-			public const int Base_Widget_AppCompat_Spinner = 2131624122;
+			// aapt resource value: 0x7F0D00BA
+			public const int Base_Widget_AppCompat_Spinner = 2131558586;
 			
-			// aapt resource value: 0x7F0E00BB
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131624123;
+			// aapt resource value: 0x7F0D00BB
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131558587;
 			
-			// aapt resource value: 0x7F0E00BC
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131624124;
+			// aapt resource value: 0x7F0D00BC
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131558588;
 			
-			// aapt resource value: 0x7F0E00BD
-			public const int Base_Widget_AppCompat_Toolbar = 2131624125;
+			// aapt resource value: 0x7F0D00BD
+			public const int Base_Widget_AppCompat_Toolbar = 2131558589;
 			
-			// aapt resource value: 0x7F0E00BE
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131624126;
+			// aapt resource value: 0x7F0D00BE
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131558590;
 			
-			// aapt resource value: 0x7F0E00BF
-			public const int Base_Widget_Design_TabLayout = 2131624127;
+			// aapt resource value: 0x7F0D00BF
+			public const int Base_Widget_Design_TabLayout = 2131558591;
 			
-			// aapt resource value: 0x7F0E00C0
-			public const int Base_Widget_MaterialComponents_Chip = 2131624128;
+			// aapt resource value: 0x7F0D00C0
+			public const int Base_Widget_MaterialComponents_Chip = 2131558592;
 			
-			// aapt resource value: 0x7F0E00C1
-			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131624129;
+			// aapt resource value: 0x7F0D00C1
+			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131558593;
 			
-			// aapt resource value: 0x7F0E00C2
-			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131624130;
+			// aapt resource value: 0x7F0D00C2
+			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131558594;
 			
-			// aapt resource value: 0x7F0E00C3
-			public const int CardView = 2131624131;
+			// aapt resource value: 0x7F0D00C3
+			public const int CardView = 2131558595;
 			
-			// aapt resource value: 0x7F0E00C4
-			public const int CardView_Dark = 2131624132;
+			// aapt resource value: 0x7F0D00C4
+			public const int CardView_Dark = 2131558596;
 			
-			// aapt resource value: 0x7F0E00C5
-			public const int CardView_Light = 2131624133;
+			// aapt resource value: 0x7F0D00C5
+			public const int CardView_Light = 2131558597;
 			
-			// aapt resource value: 0x7F0E00C6
-			public const int MainTheme = 2131624134;
+			// aapt resource value: 0x7F0D00C6
+			public const int MainTheme = 2131558598;
 			
-			// aapt resource value: 0x7F0E00C7
-			public const int MainTheme_Base = 2131624135;
+			// aapt resource value: 0x7F0D00C7
+			public const int MainTheme_Base = 2131558599;
 			
-			// aapt resource value: 0x7F0E00C8
-			public const int Platform_AppCompat = 2131624136;
+			// aapt resource value: 0x7F0D00C8
+			public const int Platform_AppCompat = 2131558600;
 			
-			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat_Light = 2131624137;
+			// aapt resource value: 0x7F0D00C9
+			public const int Platform_AppCompat_Light = 2131558601;
 			
-			// aapt resource value: 0x7F0E00CA
-			public const int Platform_MaterialComponents = 2131624138;
+			// aapt resource value: 0x7F0D00CA
+			public const int Platform_MaterialComponents = 2131558602;
 			
-			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents_Dialog = 2131624139;
+			// aapt resource value: 0x7F0D00CB
+			public const int Platform_MaterialComponents_Dialog = 2131558603;
 			
-			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Light = 2131624140;
+			// aapt resource value: 0x7F0D00CC
+			public const int Platform_MaterialComponents_Light = 2131558604;
 			
-			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
+			// aapt resource value: 0x7F0D00CD
+			public const int Platform_MaterialComponents_Light_Dialog = 2131558605;
 			
-			// aapt resource value: 0x7F0E00CE
-			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
+			// aapt resource value: 0x7F0D00CE
+			public const int Platform_ThemeOverlay_AppCompat = 2131558606;
 			
-			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
+			// aapt resource value: 0x7F0D00CF
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131558607;
 			
-			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
+			// aapt resource value: 0x7F0D00D0
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131558608;
 			
-			// aapt resource value: 0x7F0E00D1
-			public const int Platform_V21_AppCompat = 2131624145;
+			// aapt resource value: 0x7F0D00D1
+			public const int Platform_V21_AppCompat = 2131558609;
 			
-			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat_Light = 2131624146;
+			// aapt resource value: 0x7F0D00D2
+			public const int Platform_V21_AppCompat_Light = 2131558610;
 			
-			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V25_AppCompat = 2131624147;
+			// aapt resource value: 0x7F0D00D3
+			public const int Platform_V25_AppCompat = 2131558611;
 			
-			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat_Light = 2131624148;
+			// aapt resource value: 0x7F0D00D4
+			public const int Platform_V25_AppCompat_Light = 2131558612;
 			
-			// aapt resource value: 0x7F0E00D5
-			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
+			// aapt resource value: 0x7F0D00D5
+			public const int Platform_Widget_AppCompat_Spinner = 2131558613;
 			
-			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
+			// aapt resource value: 0x7F0D00D6
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131558614;
 			
-			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
+			// aapt resource value: 0x7F0D00D7
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131558615;
 			
-			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
+			// aapt resource value: 0x7F0D00D8
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131558616;
 			
-			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
+			// aapt resource value: 0x7F0D00D9
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131558617;
 			
-			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
+			// aapt resource value: 0x7F0D00DA
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131558618;
 			
-			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
+			// aapt resource value: 0x7F0D00DB
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131558619;
 			
-			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
+			// aapt resource value: 0x7F0D00DC
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131558620;
 			
-			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
+			// aapt resource value: 0x7F0D00DD
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131558621;
 			
-			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
+			// aapt resource value: 0x7F0D00DE
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131558622;
 			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			// aapt resource value: 0x7F0D00E4
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131558628;
 			
-			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
+			// aapt resource value: 0x7F0D00DF
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131558623;
 			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
+			// aapt resource value: 0x7F0D00E0
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131558624;
 			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
+			// aapt resource value: 0x7F0D00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131558625;
 			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
+			// aapt resource value: 0x7F0D00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131558626;
 			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			// aapt resource value: 0x7F0D00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131558627;
 			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
+			// aapt resource value: 0x7F0D00E5
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131558629;
 			
-			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
+			// aapt resource value: 0x7F0D00E6
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131558630;
 			
-			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat = 2131624167;
+			// aapt resource value: 0x7F0D00E7
+			public const int TextAppearance_AppCompat = 2131558631;
 			
-			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body1 = 2131624168;
+			// aapt resource value: 0x7F0D00E8
+			public const int TextAppearance_AppCompat_Body1 = 2131558632;
 			
-			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body2 = 2131624169;
+			// aapt resource value: 0x7F0D00E9
+			public const int TextAppearance_AppCompat_Body2 = 2131558633;
 			
-			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Button = 2131624170;
+			// aapt resource value: 0x7F0D00EA
+			public const int TextAppearance_AppCompat_Button = 2131558634;
 			
-			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Caption = 2131624171;
+			// aapt resource value: 0x7F0D00EB
+			public const int TextAppearance_AppCompat_Caption = 2131558635;
 			
-			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display1 = 2131624172;
+			// aapt resource value: 0x7F0D00EC
+			public const int TextAppearance_AppCompat_Display1 = 2131558636;
 			
-			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display2 = 2131624173;
+			// aapt resource value: 0x7F0D00ED
+			public const int TextAppearance_AppCompat_Display2 = 2131558637;
 			
-			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display3 = 2131624174;
+			// aapt resource value: 0x7F0D00EE
+			public const int TextAppearance_AppCompat_Display3 = 2131558638;
 			
-			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display4 = 2131624175;
+			// aapt resource value: 0x7F0D00EF
+			public const int TextAppearance_AppCompat_Display4 = 2131558639;
 			
-			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Headline = 2131624176;
+			// aapt resource value: 0x7F0D00F0
+			public const int TextAppearance_AppCompat_Headline = 2131558640;
 			
-			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Inverse = 2131624177;
+			// aapt resource value: 0x7F0D00F1
+			public const int TextAppearance_AppCompat_Inverse = 2131558641;
 			
-			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large = 2131624178;
+			// aapt resource value: 0x7F0D00F2
+			public const int TextAppearance_AppCompat_Large = 2131558642;
 			
-			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
+			// aapt resource value: 0x7F0D00F3
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131558643;
 			
-			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
+			// aapt resource value: 0x7F0D00F4
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131558644;
 			
-			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
+			// aapt resource value: 0x7F0D00F5
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131558645;
 			
-			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
+			// aapt resource value: 0x7F0D00F6
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131558646;
 			
-			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
+			// aapt resource value: 0x7F0D00F7
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131558647;
 			
-			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium = 2131624184;
+			// aapt resource value: 0x7F0D00F8
+			public const int TextAppearance_AppCompat_Medium = 2131558648;
 			
-			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
+			// aapt resource value: 0x7F0D00F9
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131558649;
 			
-			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Menu = 2131624186;
+			// aapt resource value: 0x7F0D00FA
+			public const int TextAppearance_AppCompat_Menu = 2131558650;
 			
-			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
+			// aapt resource value: 0x7F0D00FB
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131558651;
 			
-			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
+			// aapt resource value: 0x7F0D00FC
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131558652;
 			
-			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small = 2131624189;
+			// aapt resource value: 0x7F0D00FD
+			public const int TextAppearance_AppCompat_Small = 2131558653;
 			
-			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
+			// aapt resource value: 0x7F0D00FE
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131558654;
 			
-			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead = 2131624191;
+			// aapt resource value: 0x7F0D00FF
+			public const int TextAppearance_AppCompat_Subhead = 2131558655;
 			
-			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
+			// aapt resource value: 0x7F0D0100
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131558656;
 			
-			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title = 2131624193;
+			// aapt resource value: 0x7F0D0101
+			public const int TextAppearance_AppCompat_Title = 2131558657;
 			
-			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
+			// aapt resource value: 0x7F0D0102
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131558658;
 			
-			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
+			// aapt resource value: 0x7F0D0103
+			public const int TextAppearance_AppCompat_Tooltip = 2131558659;
 			
-			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
+			// aapt resource value: 0x7F0D0104
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131558660;
 			
-			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
+			// aapt resource value: 0x7F0D0105
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131558661;
 			
-			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
+			// aapt resource value: 0x7F0D0106
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131558662;
 			
-			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
+			// aapt resource value: 0x7F0D0107
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131558663;
 			
-			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
+			// aapt resource value: 0x7F0D0108
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131558664;
 			
-			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
+			// aapt resource value: 0x7F0D0109
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131558665;
 			
-			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
+			// aapt resource value: 0x7F0D010A
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131558666;
 			
-			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
+			// aapt resource value: 0x7F0D010B
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131558667;
 			
-			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
+			// aapt resource value: 0x7F0D010C
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131558668;
 			
-			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
+			// aapt resource value: 0x7F0D010D
+			public const int TextAppearance_AppCompat_Widget_Button = 2131558669;
 			
-			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
+			// aapt resource value: 0x7F0D010E
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131558670;
 			
-			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
+			// aapt resource value: 0x7F0D010F
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131558671;
 			
-			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
+			// aapt resource value: 0x7F0D0110
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131558672;
 			
-			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
+			// aapt resource value: 0x7F0D0111
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131558673;
 			
-			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
+			// aapt resource value: 0x7F0D0112
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131558674;
 			
-			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
+			// aapt resource value: 0x7F0D0113
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131558675;
 			
-			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
+			// aapt resource value: 0x7F0D0114
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131558676;
 			
-			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
+			// aapt resource value: 0x7F0D0115
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131558677;
 			
-			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
+			// aapt resource value: 0x7F0D0116
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131558678;
 			
-			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification = 2131624215;
+			// aapt resource value: 0x7F0D0117
+			public const int TextAppearance_Compat_Notification = 2131558679;
 			
-			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Info = 2131624216;
+			// aapt resource value: 0x7F0D0118
+			public const int TextAppearance_Compat_Notification_Info = 2131558680;
 			
-			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
+			// aapt resource value: 0x7F0D0119
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131558681;
 			
-			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
+			// aapt resource value: 0x7F0D011A
+			public const int TextAppearance_Compat_Notification_Line2 = 2131558682;
 			
-			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
+			// aapt resource value: 0x7F0D011B
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131558683;
 			
-			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Media = 2131624220;
+			// aapt resource value: 0x7F0D011C
+			public const int TextAppearance_Compat_Notification_Media = 2131558684;
 			
-			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Time = 2131624221;
+			// aapt resource value: 0x7F0D011D
+			public const int TextAppearance_Compat_Notification_Time = 2131558685;
 			
-			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
+			// aapt resource value: 0x7F0D011E
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131558686;
 			
-			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Title = 2131624223;
+			// aapt resource value: 0x7F0D011F
+			public const int TextAppearance_Compat_Notification_Title = 2131558687;
 			
-			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
+			// aapt resource value: 0x7F0D0120
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131558688;
 			
-			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
+			// aapt resource value: 0x7F0D0121
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131558689;
 			
-			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Counter = 2131624226;
+			// aapt resource value: 0x7F0D0122
+			public const int TextAppearance_Design_Counter = 2131558690;
 			
-			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
+			// aapt resource value: 0x7F0D0123
+			public const int TextAppearance_Design_Counter_Overflow = 2131558691;
 			
-			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Error = 2131624228;
+			// aapt resource value: 0x7F0D0124
+			public const int TextAppearance_Design_Error = 2131558692;
 			
-			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_HelperText = 2131624229;
+			// aapt resource value: 0x7F0D0125
+			public const int TextAppearance_Design_HelperText = 2131558693;
 			
-			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_Hint = 2131624230;
+			// aapt resource value: 0x7F0D0126
+			public const int TextAppearance_Design_Hint = 2131558694;
 			
-			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
+			// aapt resource value: 0x7F0D0127
+			public const int TextAppearance_Design_Snackbar_Message = 2131558695;
 			
-			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Tab = 2131624232;
+			// aapt resource value: 0x7F0D0128
+			public const int TextAppearance_Design_Tab = 2131558696;
 			
-			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
+			// aapt resource value: 0x7F0D0129
+			public const int TextAppearance_MaterialComponents_Body1 = 2131558697;
 			
-			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
+			// aapt resource value: 0x7F0D012A
+			public const int TextAppearance_MaterialComponents_Body2 = 2131558698;
 			
-			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Button = 2131624235;
+			// aapt resource value: 0x7F0D012B
+			public const int TextAppearance_MaterialComponents_Button = 2131558699;
 			
-			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
+			// aapt resource value: 0x7F0D012C
+			public const int TextAppearance_MaterialComponents_Caption = 2131558700;
 			
-			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
+			// aapt resource value: 0x7F0D012D
+			public const int TextAppearance_MaterialComponents_Chip = 2131558701;
 			
-			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
+			// aapt resource value: 0x7F0D012E
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131558702;
 			
-			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
+			// aapt resource value: 0x7F0D012F
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131558703;
 			
-			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
+			// aapt resource value: 0x7F0D0130
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131558704;
 			
-			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
+			// aapt resource value: 0x7F0D0131
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131558705;
 			
-			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
+			// aapt resource value: 0x7F0D0132
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131558706;
 			
-			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
+			// aapt resource value: 0x7F0D0133
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131558707;
 			
-			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
+			// aapt resource value: 0x7F0D0134
+			public const int TextAppearance_MaterialComponents_Overline = 2131558708;
 			
-			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
+			// aapt resource value: 0x7F0D0135
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131558709;
 			
-			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
+			// aapt resource value: 0x7F0D0136
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131558710;
 			
-			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
+			// aapt resource value: 0x7F0D0137
+			public const int TextAppearance_MaterialComponents_Tab = 2131558711;
 			
-			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131624248;
+			// aapt resource value: 0x7F0D0138
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131558712;
 			
-			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131624249;
+			// aapt resource value: 0x7F0D0139
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131558713;
 			
-			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_MediaRouter_Title = 2131624250;
+			// aapt resource value: 0x7F0D013A
+			public const int TextAppearance_MediaRouter_Title = 2131558714;
 			
-			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624251;
+			// aapt resource value: 0x7F0D013B
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131558715;
 			
-			// aapt resource value: 0x7F0E013C
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624252;
+			// aapt resource value: 0x7F0D013C
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131558716;
 			
-			// aapt resource value: 0x7F0E013D
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624253;
+			// aapt resource value: 0x7F0D013D
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131558717;
 			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat = 2131624306;
+			// aapt resource value: 0x7F0D0172
+			public const int ThemeOverlay_AppCompat = 2131558770;
 			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624307;
+			// aapt resource value: 0x7F0D0173
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131558771;
 			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_AppCompat_Dark = 2131624308;
+			// aapt resource value: 0x7F0D0174
+			public const int ThemeOverlay_AppCompat_Dark = 2131558772;
 			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624309;
+			// aapt resource value: 0x7F0D0175
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131558773;
 			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624310;
+			// aapt resource value: 0x7F0D0176
+			public const int ThemeOverlay_AppCompat_Dialog = 2131558774;
 			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624311;
+			// aapt resource value: 0x7F0D0177
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131558775;
 			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_AppCompat_Light = 2131624312;
+			// aapt resource value: 0x7F0D0178
+			public const int ThemeOverlay_AppCompat_Light = 2131558776;
 			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents = 2131624313;
+			// aapt resource value: 0x7F0D0179
+			public const int ThemeOverlay_MaterialComponents = 2131558777;
 			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624314;
+			// aapt resource value: 0x7F0D017A
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131558778;
 			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624315;
+			// aapt resource value: 0x7F0D017B
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131558779;
 			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624316;
+			// aapt resource value: 0x7F0D017C
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131558780;
 			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624317;
+			// aapt resource value: 0x7F0D017D
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131558781;
 			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624318;
+			// aapt resource value: 0x7F0D017E
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558782;
 			
-			// aapt resource value: 0x7F0E017F
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624319;
+			// aapt resource value: 0x7F0D017F
+			public const int ThemeOverlay_MaterialComponents_Light = 2131558783;
 			
-			// aapt resource value: 0x7F0E0180
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624320;
+			// aapt resource value: 0x7F0D0180
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131558784;
 			
-			// aapt resource value: 0x7F0E0181
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624321;
+			// aapt resource value: 0x7F0D0181
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131558785;
 			
-			// aapt resource value: 0x7F0E0182
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624322;
+			// aapt resource value: 0x7F0D0182
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558786;
 			
-			// aapt resource value: 0x7F0E0183
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624323;
+			// aapt resource value: 0x7F0D0183
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131558787;
 			
-			// aapt resource value: 0x7F0E0184
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624324;
+			// aapt resource value: 0x7F0D0184
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558788;
 			
-			// aapt resource value: 0x7F0E0185
-			public const int ThemeOverlay_MediaRouter_Dark = 2131624325;
+			// aapt resource value: 0x7F0D0185
+			public const int ThemeOverlay_MediaRouter_Dark = 2131558789;
 			
-			// aapt resource value: 0x7F0E0186
-			public const int ThemeOverlay_MediaRouter_Light = 2131624326;
+			// aapt resource value: 0x7F0D0186
+			public const int ThemeOverlay_MediaRouter_Light = 2131558790;
 			
-			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat = 2131624254;
+			// aapt resource value: 0x7F0D013E
+			public const int Theme_AppCompat = 2131558718;
 			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_CompactMenu = 2131624255;
+			// aapt resource value: 0x7F0D013F
+			public const int Theme_AppCompat_CompactMenu = 2131558719;
 			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight = 2131624256;
+			// aapt resource value: 0x7F0D0140
+			public const int Theme_AppCompat_DayNight = 2131558720;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624257;
+			// aapt resource value: 0x7F0D0141
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131558721;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624258;
+			// aapt resource value: 0x7F0D0142
+			public const int Theme_AppCompat_DayNight_Dialog = 2131558722;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624261;
+			// aapt resource value: 0x7F0D0145
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131558725;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624259;
+			// aapt resource value: 0x7F0D0143
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131558723;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624260;
+			// aapt resource value: 0x7F0D0144
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131558724;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624262;
+			// aapt resource value: 0x7F0D0146
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131558726;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_Dialog = 2131624263;
+			// aapt resource value: 0x7F0D0147
+			public const int Theme_AppCompat_Dialog = 2131558727;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624266;
+			// aapt resource value: 0x7F0D014A
+			public const int Theme_AppCompat_DialogWhenLarge = 2131558730;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Dialog_Alert = 2131624264;
+			// aapt resource value: 0x7F0D0148
+			public const int Theme_AppCompat_Dialog_Alert = 2131558728;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624265;
+			// aapt resource value: 0x7F0D0149
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131558729;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light = 2131624267;
+			// aapt resource value: 0x7F0D014B
+			public const int Theme_AppCompat_Light = 2131558731;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624268;
+			// aapt resource value: 0x7F0D014C
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131558732;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_Dialog = 2131624269;
+			// aapt resource value: 0x7F0D014D
+			public const int Theme_AppCompat_Light_Dialog = 2131558733;
 			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624272;
+			// aapt resource value: 0x7F0D0150
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131558736;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624270;
+			// aapt resource value: 0x7F0D014E
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131558734;
 			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624271;
+			// aapt resource value: 0x7F0D014F
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131558735;
 			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624273;
+			// aapt resource value: 0x7F0D0151
+			public const int Theme_AppCompat_Light_NoActionBar = 2131558737;
 			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_AppCompat_NoActionBar = 2131624274;
+			// aapt resource value: 0x7F0D0152
+			public const int Theme_AppCompat_NoActionBar = 2131558738;
 			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design = 2131624275;
+			// aapt resource value: 0x7F0D0153
+			public const int Theme_Design = 2131558739;
 			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_BottomSheetDialog = 2131624276;
+			// aapt resource value: 0x7F0D0154
+			public const int Theme_Design_BottomSheetDialog = 2131558740;
 			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_Light = 2131624277;
+			// aapt resource value: 0x7F0D0155
+			public const int Theme_Design_Light = 2131558741;
 			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624278;
+			// aapt resource value: 0x7F0D0156
+			public const int Theme_Design_Light_BottomSheetDialog = 2131558742;
 			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_Design_Light_NoActionBar = 2131624279;
+			// aapt resource value: 0x7F0D0157
+			public const int Theme_Design_Light_NoActionBar = 2131558743;
 			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_Design_NoActionBar = 2131624280;
+			// aapt resource value: 0x7F0D0158
+			public const int Theme_Design_NoActionBar = 2131558744;
 			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents = 2131624281;
+			// aapt resource value: 0x7F0D0159
+			public const int Theme_MaterialComponents = 2131558745;
 			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624282;
+			// aapt resource value: 0x7F0D015A
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131558746;
 			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Bridge = 2131624283;
+			// aapt resource value: 0x7F0D015B
+			public const int Theme_MaterialComponents_Bridge = 2131558747;
 			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_CompactMenu = 2131624284;
+			// aapt resource value: 0x7F0D015C
+			public const int Theme_MaterialComponents_CompactMenu = 2131558748;
 			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_Dialog = 2131624285;
+			// aapt resource value: 0x7F0D015D
+			public const int Theme_MaterialComponents_Dialog = 2131558749;
 			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624288;
+			// aapt resource value: 0x7F0D0160
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131558752;
 			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624286;
+			// aapt resource value: 0x7F0D015E
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131558750;
 			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624287;
+			// aapt resource value: 0x7F0D015F
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131558751;
 			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light = 2131624289;
+			// aapt resource value: 0x7F0D0161
+			public const int Theme_MaterialComponents_Light = 2131558753;
 			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624290;
+			// aapt resource value: 0x7F0D0162
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131558754;
 			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624291;
+			// aapt resource value: 0x7F0D0163
+			public const int Theme_MaterialComponents_Light_Bridge = 2131558755;
 			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624292;
+			// aapt resource value: 0x7F0D0164
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131558756;
 			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624293;
+			// aapt resource value: 0x7F0D0165
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558757;
 			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624294;
+			// aapt resource value: 0x7F0D0166
+			public const int Theme_MaterialComponents_Light_Dialog = 2131558758;
 			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624297;
+			// aapt resource value: 0x7F0D0169
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131558761;
 			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624295;
+			// aapt resource value: 0x7F0D0167
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131558759;
 			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624296;
+			// aapt resource value: 0x7F0D0168
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131558760;
 			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624298;
+			// aapt resource value: 0x7F0D016A
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131558762;
 			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624299;
+			// aapt resource value: 0x7F0D016B
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131558763;
 			
-			// aapt resource value: 0x7F0E016C
-			public const int Theme_MaterialComponents_NoActionBar = 2131624300;
+			// aapt resource value: 0x7F0D016C
+			public const int Theme_MaterialComponents_NoActionBar = 2131558764;
 			
-			// aapt resource value: 0x7F0E016D
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624301;
+			// aapt resource value: 0x7F0D016D
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131558765;
 			
-			// aapt resource value: 0x7F0E016E
-			public const int Theme_MediaRouter = 2131624302;
+			// aapt resource value: 0x7F0D016E
+			public const int Theme_MediaRouter = 2131558766;
 			
-			// aapt resource value: 0x7F0E016F
-			public const int Theme_MediaRouter_Light = 2131624303;
+			// aapt resource value: 0x7F0D016F
+			public const int Theme_MediaRouter_Light = 2131558767;
 			
-			// aapt resource value: 0x7F0E0171
-			public const int Theme_MediaRouter_LightControlPanel = 2131624305;
+			// aapt resource value: 0x7F0D0171
+			public const int Theme_MediaRouter_LightControlPanel = 2131558769;
 			
-			// aapt resource value: 0x7F0E0170
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624304;
+			// aapt resource value: 0x7F0D0170
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131558768;
 			
-			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionBar = 2131624327;
+			// aapt resource value: 0x7F0D0187
+			public const int Widget_AppCompat_ActionBar = 2131558791;
 			
-			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624328;
+			// aapt resource value: 0x7F0D0188
+			public const int Widget_AppCompat_ActionBar_Solid = 2131558792;
 			
-			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624329;
+			// aapt resource value: 0x7F0D0189
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131558793;
 			
-			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624330;
+			// aapt resource value: 0x7F0D018A
+			public const int Widget_AppCompat_ActionBar_TabText = 2131558794;
 			
-			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624331;
+			// aapt resource value: 0x7F0D018B
+			public const int Widget_AppCompat_ActionBar_TabView = 2131558795;
 			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ActionButton = 2131624332;
+			// aapt resource value: 0x7F0D018C
+			public const int Widget_AppCompat_ActionButton = 2131558796;
 			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624333;
+			// aapt resource value: 0x7F0D018D
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131558797;
 			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624334;
+			// aapt resource value: 0x7F0D018E
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131558798;
 			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ActionMode = 2131624335;
+			// aapt resource value: 0x7F0D018F
+			public const int Widget_AppCompat_ActionMode = 2131558799;
 			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ActivityChooserView = 2131624336;
+			// aapt resource value: 0x7F0D0190
+			public const int Widget_AppCompat_ActivityChooserView = 2131558800;
 			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624337;
+			// aapt resource value: 0x7F0D0191
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131558801;
 			
-			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_Button = 2131624338;
+			// aapt resource value: 0x7F0D0192
+			public const int Widget_AppCompat_Button = 2131558802;
 			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_ButtonBar = 2131624344;
+			// aapt resource value: 0x7F0D0198
+			public const int Widget_AppCompat_ButtonBar = 2131558808;
 			
-			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624345;
+			// aapt resource value: 0x7F0D0199
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131558809;
 			
-			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_Button_Borderless = 2131624339;
+			// aapt resource value: 0x7F0D0193
+			public const int Widget_AppCompat_Button_Borderless = 2131558803;
 			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624340;
+			// aapt resource value: 0x7F0D0194
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131558804;
 			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624341;
+			// aapt resource value: 0x7F0D0195
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131558805;
 			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_Button_Colored = 2131624342;
+			// aapt resource value: 0x7F0D0196
+			public const int Widget_AppCompat_Button_Colored = 2131558806;
 			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_Button_Small = 2131624343;
+			// aapt resource value: 0x7F0D0197
+			public const int Widget_AppCompat_Button_Small = 2131558807;
 			
-			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624346;
+			// aapt resource value: 0x7F0D019A
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131558810;
 			
-			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624347;
+			// aapt resource value: 0x7F0D019B
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131558811;
 			
-			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624348;
+			// aapt resource value: 0x7F0D019C
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131558812;
 			
-			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624349;
+			// aapt resource value: 0x7F0D019D
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131558813;
 			
-			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624350;
+			// aapt resource value: 0x7F0D019E
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131558814;
 			
-			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_EditText = 2131624351;
+			// aapt resource value: 0x7F0D019F
+			public const int Widget_AppCompat_EditText = 2131558815;
 			
-			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_ImageButton = 2131624352;
+			// aapt resource value: 0x7F0D01A0
+			public const int Widget_AppCompat_ImageButton = 2131558816;
 			
-			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar = 2131624353;
+			// aapt resource value: 0x7F0D01A1
+			public const int Widget_AppCompat_Light_ActionBar = 2131558817;
 			
-			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624354;
+			// aapt resource value: 0x7F0D01A2
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131558818;
 			
-			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624355;
+			// aapt resource value: 0x7F0D01A3
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131558819;
 			
-			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624356;
+			// aapt resource value: 0x7F0D01A4
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131558820;
 			
-			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624357;
+			// aapt resource value: 0x7F0D01A5
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131558821;
 			
-			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624358;
+			// aapt resource value: 0x7F0D01A6
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131558822;
 			
-			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624359;
+			// aapt resource value: 0x7F0D01A7
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131558823;
 			
-			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624360;
+			// aapt resource value: 0x7F0D01A8
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131558824;
 			
-			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624361;
+			// aapt resource value: 0x7F0D01A9
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131558825;
 			
-			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ActionButton = 2131624362;
+			// aapt resource value: 0x7F0D01AA
+			public const int Widget_AppCompat_Light_ActionButton = 2131558826;
 			
-			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624363;
+			// aapt resource value: 0x7F0D01AB
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131558827;
 			
-			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624364;
+			// aapt resource value: 0x7F0D01AC
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131558828;
 			
-			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624365;
+			// aapt resource value: 0x7F0D01AD
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131558829;
 			
-			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624366;
+			// aapt resource value: 0x7F0D01AE
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131558830;
 			
-			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624367;
+			// aapt resource value: 0x7F0D01AF
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131558831;
 			
-			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624368;
+			// aapt resource value: 0x7F0D01B0
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131558832;
 			
-			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624369;
+			// aapt resource value: 0x7F0D01B1
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131558833;
 			
-			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624370;
+			// aapt resource value: 0x7F0D01B2
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131558834;
 			
-			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624371;
+			// aapt resource value: 0x7F0D01B3
+			public const int Widget_AppCompat_Light_PopupMenu = 2131558835;
 			
-			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624372;
+			// aapt resource value: 0x7F0D01B4
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131558836;
 			
-			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_Light_SearchView = 2131624373;
+			// aapt resource value: 0x7F0D01B5
+			public const int Widget_AppCompat_Light_SearchView = 2131558837;
 			
-			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624374;
+			// aapt resource value: 0x7F0D01B6
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131558838;
 			
-			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ListMenuView = 2131624375;
+			// aapt resource value: 0x7F0D01B7
+			public const int Widget_AppCompat_ListMenuView = 2131558839;
 			
-			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ListPopupWindow = 2131624376;
+			// aapt resource value: 0x7F0D01B8
+			public const int Widget_AppCompat_ListPopupWindow = 2131558840;
 			
-			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_ListView = 2131624377;
+			// aapt resource value: 0x7F0D01B9
+			public const int Widget_AppCompat_ListView = 2131558841;
 			
-			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_ListView_DropDown = 2131624378;
+			// aapt resource value: 0x7F0D01BA
+			public const int Widget_AppCompat_ListView_DropDown = 2131558842;
 			
-			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_ListView_Menu = 2131624379;
+			// aapt resource value: 0x7F0D01BB
+			public const int Widget_AppCompat_ListView_Menu = 2131558843;
 			
-			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_PopupMenu = 2131624380;
+			// aapt resource value: 0x7F0D01BC
+			public const int Widget_AppCompat_PopupMenu = 2131558844;
 			
-			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624381;
+			// aapt resource value: 0x7F0D01BD
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131558845;
 			
-			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_PopupWindow = 2131624382;
+			// aapt resource value: 0x7F0D01BE
+			public const int Widget_AppCompat_PopupWindow = 2131558846;
 			
-			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_ProgressBar = 2131624383;
+			// aapt resource value: 0x7F0D01BF
+			public const int Widget_AppCompat_ProgressBar = 2131558847;
 			
-			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624384;
+			// aapt resource value: 0x7F0D01C0
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131558848;
 			
-			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_RatingBar = 2131624385;
+			// aapt resource value: 0x7F0D01C1
+			public const int Widget_AppCompat_RatingBar = 2131558849;
 			
-			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624386;
+			// aapt resource value: 0x7F0D01C2
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131558850;
 			
-			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_RatingBar_Small = 2131624387;
+			// aapt resource value: 0x7F0D01C3
+			public const int Widget_AppCompat_RatingBar_Small = 2131558851;
 			
-			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_SearchView = 2131624388;
+			// aapt resource value: 0x7F0D01C4
+			public const int Widget_AppCompat_SearchView = 2131558852;
 			
-			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624389;
+			// aapt resource value: 0x7F0D01C5
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131558853;
 			
-			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_SeekBar = 2131624390;
+			// aapt resource value: 0x7F0D01C6
+			public const int Widget_AppCompat_SeekBar = 2131558854;
 			
-			// aapt resource value: 0x7F0E01C7
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624391;
+			// aapt resource value: 0x7F0D01C7
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131558855;
 			
-			// aapt resource value: 0x7F0E01C8
-			public const int Widget_AppCompat_Spinner = 2131624392;
+			// aapt resource value: 0x7F0D01C8
+			public const int Widget_AppCompat_Spinner = 2131558856;
 			
-			// aapt resource value: 0x7F0E01C9
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624393;
+			// aapt resource value: 0x7F0D01C9
+			public const int Widget_AppCompat_Spinner_DropDown = 2131558857;
 			
-			// aapt resource value: 0x7F0E01CA
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624394;
+			// aapt resource value: 0x7F0D01CA
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131558858;
 			
-			// aapt resource value: 0x7F0E01CB
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624395;
+			// aapt resource value: 0x7F0D01CB
+			public const int Widget_AppCompat_Spinner_Underlined = 2131558859;
 			
-			// aapt resource value: 0x7F0E01CC
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624396;
+			// aapt resource value: 0x7F0D01CC
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131558860;
 			
-			// aapt resource value: 0x7F0E01CD
-			public const int Widget_AppCompat_Toolbar = 2131624397;
+			// aapt resource value: 0x7F0D01CD
+			public const int Widget_AppCompat_Toolbar = 2131558861;
 			
-			// aapt resource value: 0x7F0E01CE
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624398;
+			// aapt resource value: 0x7F0D01CE
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131558862;
 			
-			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Compat_NotificationActionContainer = 2131624399;
+			// aapt resource value: 0x7F0D01CF
+			public const int Widget_Compat_NotificationActionContainer = 2131558863;
 			
-			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Compat_NotificationActionText = 2131624400;
+			// aapt resource value: 0x7F0D01D0
+			public const int Widget_Compat_NotificationActionText = 2131558864;
 			
-			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_AppBarLayout = 2131624401;
+			// aapt resource value: 0x7F0D01D1
+			public const int Widget_Design_AppBarLayout = 2131558865;
 			
-			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_BottomNavigationView = 2131624402;
+			// aapt resource value: 0x7F0D01D2
+			public const int Widget_Design_BottomNavigationView = 2131558866;
 			
-			// aapt resource value: 0x7F0E01D3
-			public const int Widget_Design_BottomSheet_Modal = 2131624403;
+			// aapt resource value: 0x7F0D01D3
+			public const int Widget_Design_BottomSheet_Modal = 2131558867;
 			
-			// aapt resource value: 0x7F0E01D4
-			public const int Widget_Design_CollapsingToolbar = 2131624404;
+			// aapt resource value: 0x7F0D01D4
+			public const int Widget_Design_CollapsingToolbar = 2131558868;
 			
-			// aapt resource value: 0x7F0E01D5
-			public const int Widget_Design_FloatingActionButton = 2131624405;
+			// aapt resource value: 0x7F0D01D5
+			public const int Widget_Design_FloatingActionButton = 2131558869;
 			
-			// aapt resource value: 0x7F0E01D6
-			public const int Widget_Design_NavigationView = 2131624406;
+			// aapt resource value: 0x7F0D01D6
+			public const int Widget_Design_NavigationView = 2131558870;
 			
-			// aapt resource value: 0x7F0E01D7
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624407;
+			// aapt resource value: 0x7F0D01D7
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131558871;
 			
-			// aapt resource value: 0x7F0E01D8
-			public const int Widget_Design_Snackbar = 2131624408;
+			// aapt resource value: 0x7F0D01D8
+			public const int Widget_Design_Snackbar = 2131558872;
 			
-			// aapt resource value: 0x7F0E01D9
-			public const int Widget_Design_TabLayout = 2131624409;
+			// aapt resource value: 0x7F0D01D9
+			public const int Widget_Design_TabLayout = 2131558873;
 			
-			// aapt resource value: 0x7F0E01DA
-			public const int Widget_Design_TextInputLayout = 2131624410;
+			// aapt resource value: 0x7F0D01DA
+			public const int Widget_Design_TextInputLayout = 2131558874;
 			
-			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624411;
+			// aapt resource value: 0x7F0D01DB
+			public const int Widget_MaterialComponents_BottomAppBar = 2131558875;
 			
-			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624412;
+			// aapt resource value: 0x7F0D01DC
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131558876;
 			
-			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624413;
+			// aapt resource value: 0x7F0D01DD
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131558877;
 			
-			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624414;
+			// aapt resource value: 0x7F0D01DE
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131558878;
 			
-			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624415;
+			// aapt resource value: 0x7F0D01DF
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131558879;
 			
-			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button = 2131624416;
+			// aapt resource value: 0x7F0D01E0
+			public const int Widget_MaterialComponents_Button = 2131558880;
 			
-			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_Icon = 2131624417;
+			// aapt resource value: 0x7F0D01E1
+			public const int Widget_MaterialComponents_Button_Icon = 2131558881;
 			
-			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624418;
+			// aapt resource value: 0x7F0D01E2
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131558882;
 			
-			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624419;
+			// aapt resource value: 0x7F0D01E3
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131558883;
 			
-			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624420;
+			// aapt resource value: 0x7F0D01E4
+			public const int Widget_MaterialComponents_Button_TextButton = 2131558884;
 			
-			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624421;
+			// aapt resource value: 0x7F0D01E5
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131558885;
 			
-			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624422;
+			// aapt resource value: 0x7F0D01E6
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131558886;
 			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624423;
+			// aapt resource value: 0x7F0D01E7
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131558887;
 			
-			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624424;
+			// aapt resource value: 0x7F0D01E8
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131558888;
 			
-			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624425;
+			// aapt resource value: 0x7F0D01E9
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131558889;
 			
-			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_CardView = 2131624426;
+			// aapt resource value: 0x7F0D01EA
+			public const int Widget_MaterialComponents_CardView = 2131558890;
 			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_ChipGroup = 2131624431;
+			// aapt resource value: 0x7F0D01EF
+			public const int Widget_MaterialComponents_ChipGroup = 2131558895;
 			
-			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Chip_Action = 2131624427;
+			// aapt resource value: 0x7F0D01EB
+			public const int Widget_MaterialComponents_Chip_Action = 2131558891;
 			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624428;
+			// aapt resource value: 0x7F0D01EC
+			public const int Widget_MaterialComponents_Chip_Choice = 2131558892;
 			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624429;
+			// aapt resource value: 0x7F0D01ED
+			public const int Widget_MaterialComponents_Chip_Entry = 2131558893;
 			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624430;
+			// aapt resource value: 0x7F0D01EE
+			public const int Widget_MaterialComponents_Chip_Filter = 2131558894;
 			
-			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624432;
+			// aapt resource value: 0x7F0D01F0
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131558896;
 			
-			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_NavigationView = 2131624433;
+			// aapt resource value: 0x7F0D01F1
+			public const int Widget_MaterialComponents_NavigationView = 2131558897;
 			
-			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_Snackbar = 2131624434;
+			// aapt resource value: 0x7F0D01F2
+			public const int Widget_MaterialComponents_Snackbar = 2131558898;
 			
-			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624435;
+			// aapt resource value: 0x7F0D01F3
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131558899;
 			
-			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TabLayout = 2131624436;
+			// aapt resource value: 0x7F0D01F4
+			public const int Widget_MaterialComponents_TabLayout = 2131558900;
 			
-			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624437;
+			// aapt resource value: 0x7F0D01F5
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131558901;
 			
-			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624438;
+			// aapt resource value: 0x7F0D01F6
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131558902;
 			
-			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624439;
+			// aapt resource value: 0x7F0D01F7
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558903;
 			
-			// aapt resource value: 0x7F0E01F8
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624440;
+			// aapt resource value: 0x7F0D01F8
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131558904;
 			
-			// aapt resource value: 0x7F0E01F9
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624441;
+			// aapt resource value: 0x7F0D01F9
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558905;
 			
-			// aapt resource value: 0x7F0E01FA
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624442;
+			// aapt resource value: 0x7F0D01FA
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131558906;
 			
-			// aapt resource value: 0x7F0E01FB
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624443;
+			// aapt resource value: 0x7F0D01FB
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131558907;
 			
-			// aapt resource value: 0x7F0E01FC
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624444;
+			// aapt resource value: 0x7F0D01FC
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131558908;
 			
-			// aapt resource value: 0x7F0E01FD
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624445;
+			// aapt resource value: 0x7F0D01FD
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131558909;
 			
-			// aapt resource value: 0x7F0E01FE
-			public const int Widget_MaterialComponents_Toolbar = 2131624446;
+			// aapt resource value: 0x7F0D01FE
+			public const int Widget_MaterialComponents_Toolbar = 2131558910;
 			
-			// aapt resource value: 0x7F0E01FF
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624447;
+			// aapt resource value: 0x7F0D01FF
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131558911;
 			
-			// aapt resource value: 0x7F0E0200
-			public const int Widget_MediaRouter_MediaRouteButton = 2131624448;
+			// aapt resource value: 0x7F0D0200
+			public const int Widget_MediaRouter_MediaRouteButton = 2131558912;
 			
-			// aapt resource value: 0x7F0E0201
-			public const int Widget_Support_CoordinatorLayout = 2131624449;
+			// aapt resource value: 0x7F0D0201
+			public const int Widget_Support_CoordinatorLayout = 2131558913;
 			
 			static Style()
 			{

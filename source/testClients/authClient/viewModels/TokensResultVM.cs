@@ -11,12 +11,13 @@ namespace authClient.viewModels
     {
         public ObservableCollection<TokenVM> Tokens { get; }
 
-        internal void AddToken(string tokenCaption, string token, string commandCaption = null, ICommand command = null)
+        internal void AddToken(string tokenCaption, string token, string commandCaption, string commandIcon = null, ICommand command = null)
         {
             var vm = Services.GetService<TokenVM>();
             vm.TokenCaption = tokenCaption;
             vm.TokenValue = token;
             vm.CommandCaption = commandCaption ?? vm.CommandCaption;
+            vm.CommandIcon = commandIcon ?? vm.CommandIcon;
             vm.Command = command ?? vm.Command;
             Tokens.Add(vm);
         }

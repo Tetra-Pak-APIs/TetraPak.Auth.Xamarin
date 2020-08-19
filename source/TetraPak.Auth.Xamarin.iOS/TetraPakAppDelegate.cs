@@ -14,7 +14,7 @@ namespace TetraPak.Auth.Xamarin.iOS
     public class TetraPakAppDelegate : FormsApplicationDelegate, IAuthorizingAppDelegate
     {
         readonly List<Uri> _expectedRedirectUris = new List<Uri>();
-        static TetraPakAppDelegate _current;
+        static TetraPakAppDelegate s_current;
 
         static UIViewController RootVC => UIApplication.SharedApplication.Delegate.GetWindow().RootViewController;
 
@@ -40,19 +40,19 @@ namespace TetraPak.Auth.Xamarin.iOS
 
         public static bool OnOpenUrl(UIApplication app, NSUrl url, NSDictionary options)
         {
-            if (_current is null)
+            if (s_current is null)
             {
                 var t = typeof(TetraPakAppDelegate);
                 throw new InvalidOperationException($"{t} is not initialized. In your AppDelegate, please call static method {t}.{nameof(OnFinishedLaunching)}.");
             }
-            return _current.OpenUrl(app, url, options);
+            return s_current.OpenUrl(app, url, options);
         }
 
 #pragma warning disable IDE0060 // Remove unused parameter
         // note parameters are retained for possible future compatiblity purposes (Jonas Rembratt 20-03-06)
         public static void OnFinishedLaunching(UIApplication app, NSDictionary options)
         {
-            _current = new TetraPakAppDelegate();
+            s_current = new TetraPakAppDelegate();
         }
 #pragma warning restore IDE0060 // Remove unused parameter
 

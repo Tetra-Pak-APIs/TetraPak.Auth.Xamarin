@@ -44,27 +44,50 @@ namespace TetraPak.Auth.Xamarin.common
         /// <summary>
         ///   Returns a <see cref="string"/> that is guaranteed to end with a specified suffix.
         /// </summary>
-        /// <param name="value">
+        /// <param name="self">
         ///   The original string.
         /// </param>
         /// <param name="suffix">
-        ///   A <see cref="string"/> that will be appended to <paramref name="value"/> if not already present.
+        ///   A <see cref="string"/> that will be appended to <paramref name="self"/> if not already present.
         /// </param>
         /// <param name="comparison">
         ///   (optional; default = <see cref="StringComparison.Ordinal"/>)<br/>
-        ///   Used when detecting whether <paramref name="value"/> is already suffixed with the <paramref name="suffix"/> value.
+        ///   Used when detecting whether <paramref name="self"/> is already suffixed with the <paramref name="suffix"/> value.
         /// </param>
         /// <returns>
-        ///   A <see cref="string"/> that is identical to<paramref name="value"/>, suffixed with <paramref name="suffix"/>.
+        ///   A <see cref="string"/> that is identical to<paramref name="self"/>, suffixed with <paramref name="suffix"/>.
         /// </returns>
-        public static string EnsureEndsWith(this string value, string suffix, StringComparison comparison = StringComparison.Ordinal)
+        public static string EnsureEndsWith(this string self, string suffix, StringComparison comparison = StringComparison.Ordinal)
         {
-            if (value.EndsWith(suffix, comparison))
-                return value;
+            if (self.EndsWith(suffix, comparison))
+                return self;
 
-            var sb = new StringBuilder(value);
-            sb.Append(char.IsUpper(value[value.Length - 1]) ? suffix.ToUpper() : suffix);
+            var sb = new StringBuilder(self);
+            sb.Append(char.IsUpper(self[self.Length - 1]) ? suffix.ToUpper() : suffix);
             return sb.ToString();
+        }
+
+        /// <summary>
+        ///   Returns a <see cref="string"/> that is guaranteed to not end with a specified suffix.
+        /// </summary>
+        /// <param name="self">
+        ///   The original string.
+        /// </param>
+        /// <param name="suffix">
+        ///   A <see cref="string"/> that will be removed if <paramref name="suffix"/> is found as suffix to <paramref name="self"/>.
+        /// </param>
+        /// <param name="comparison">
+        ///   (optional; default = <see cref="StringComparison.Ordinal"/>)<br/>
+        ///   Used when detecting whether <paramref name="self"/> is suffixed with the <paramref name="suffix"/> value.
+        /// </param>
+        /// <returns>
+        ///   A <see cref="string"/> that is guaranteed to not end with <paramref name="suffix"/>.
+        /// </returns>
+        public static string EnsureNotEndsWith(this string self, string suffix, StringComparison comparison = StringComparison.Ordinal)
+        {
+            return self.EndsWith(suffix, comparison) 
+                ? self.Substring(0, self.Length - suffix.Length) 
+                : self;
         }
     }
 }

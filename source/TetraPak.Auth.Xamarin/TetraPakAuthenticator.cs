@@ -9,6 +9,8 @@ using System.Web;
 using Xamarin.Forms;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.common;
+using TetraPak.Auth.Xamarin.debugging;
+using TetraPak.Auth.Xamarin.idTokenValidation;
 using TetraPak.Auth.Xamarin.logging;
 
 [assembly: Dependency(typeof(TetraPakAuthenticator))]
@@ -34,6 +36,13 @@ namespace TetraPak.Auth.Xamarin
                 if (cached && cached.Value.AccessToken != null)
                     return cached;
             }
+            
+#if DEBUG
+            var simulatedAuth = await AuthSimulator.TryGetSimulatedAccessTokenAsync(Config, CacheKey);
+            if (simulatedAuth)
+                return simulatedAuth;
+#endif   
+            
             try
             {
                 LogDebug("---- START - Tetra Pak Code Grant Flow ----");
@@ -66,8 +75,14 @@ namespace TetraPak.Auth.Xamarin
             await removeFromCacheAsync();
             if (string.IsNullOrEmpty(cached.Value.RefreshToken))
                 return await GetAccessTokenAsync();
+            
+#if DEBUG
+            var simulatedAuth = await AuthSimulator.TryGetSimulatedRenewedAccessTokenAsync(cached.Value.RefreshToken, Config, CacheKey);
+            if (simulatedAuth)
+                return simulatedAuth;
+#endif               
 
-            // access token has expired, try renew from refresh token is available ...
+            // access token has expired, try renew from refresh token if available ...
             LogDebug("---- START - Tetra Pak Refresh Token Flow ----");
             BoolValue<AuthResult> result;
             try
@@ -86,7 +101,6 @@ namespace TetraPak.Auth.Xamarin
 
             return result ? result : await GetAccessTokenAsync();
         }
-
 
         async Task<BoolValue<AuthResult>> acquireTokenAsyncUsingNativeWebUI()
         {
@@ -216,10 +230,13 @@ namespace TetraPak.Auth.Xamarin
             return sb.ToString();
         }
 
-        Task<BoolValue<string>> validateIdTokenAsync(string idToken)
+        static async Task<BoolValue<string>> validateIdTokenAsync(string idToken)
         {
-            // todo Validate ID token (JWT) when understanding how to do it :-) --Jonas R
-            return Task.FromResult(BoolValue<string>.Success(idToken));
+            var validator = new IdTokenValidator();
+            var validated = await validator.ValidateAsync(idToken);
+            return validated 
+                ? BoolValue<string>.Success(idToken) 
+                : BoolValue<string>.Fail(validated.Message, validated.Exception);
         }
 
         async Task<BoolValue<AuthResult>> buildAuthResultAsync(string responseText)
@@ -228,16 +245,16 @@ namespace TetraPak.Auth.Xamarin
             if (!dict.TryGetValue("access_token", out var accessToken))
                 return BoolValue<AuthResult>.Fail("Could not get a valid access token.");
 
-            var tokens = new List<TokenResult>();
+            var tokens = new List<TokenInfo>();
             var expires = dict.TryGetValue("expires_in", out var exp) && int.TryParse(exp, out var seconds)
                 ? DateTime.Now.AddSeconds(seconds - 4)
                 : (DateTime?)null;
             
-            tokens.Add(new TokenResult(accessToken, TokenRole.AccessToken, expires));
+            tokens.Add(new TokenInfo(accessToken, TokenRole.AccessToken, expires, null));
 
             if (dict.TryGetValue("refresh_token", out var refreshToken))
             {
-                tokens.Add(new TokenResult(refreshToken, TokenRole.RefreshToken, null));
+                tokens.Add(new TokenInfo(refreshToken, TokenRole.RefreshToken, null, null));
             }
 
             if (!dict.TryGetValue("id_token", out var idToken)) 
@@ -247,7 +264,7 @@ namespace TetraPak.Auth.Xamarin
             if (!idTokenValidation)
                 return BoolValue<AuthResult>.Fail(idTokenValidation.Message);
             
-            tokens.Add(new TokenResult(idToken, TokenRole.IdToken, null));
+            tokens.Add(new TokenInfo(idToken, TokenRole.IdToken, null, validateIdTokenAsync));
             return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(tokens.ToArray())));
         }
         
