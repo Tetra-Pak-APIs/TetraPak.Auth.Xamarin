@@ -200,7 +200,10 @@ namespace authClient.viewModels
                 var commandCaption = tokenInfo.IsValidatable ? "VALIDATE" : null; 
                 var icon = tokenInfo.IsValidatable ? Theme.IconValidate : null;
                 var command = tokenInfo.IsValidatable 
-                    ? new Command(async vm => ((TokenVM)vm).IsTokenValid = await tokenInfo.IsValidAsync()) 
+                    ? new Command(async vm =>
+                    {
+                        ((TokenVM) vm).IsTokenValid = await tokenInfo.IsValidAsync();
+                    }) 
                     : null;
                 TokensResult.AddToken(tokenCaption, tokenInfo.TokenValue, commandCaption, icon, command);
             }

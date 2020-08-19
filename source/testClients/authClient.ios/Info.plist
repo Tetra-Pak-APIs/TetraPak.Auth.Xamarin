@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>13.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>Auth Client</string>
+	<string>TAX Demo</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.tetrapak.authClient</string>
 	<key>CFBundleVersion</key>

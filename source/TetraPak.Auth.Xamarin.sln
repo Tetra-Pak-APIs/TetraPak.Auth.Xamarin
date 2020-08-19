@@ -68,6 +68,8 @@ Global
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		SimulatedAuth|Any CPU = SimulatedAuth|Any CPU
+		SimulatedAuth|iPhoneSimulator = SimulatedAuth|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
@@ -126,6 +128,10 @@ Global
 		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.Release|x64.Build.0 = Release|Any CPU
 		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.Release|x86.ActiveCfg = Release|Any CPU
 		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.Release|x86.Build.0 = Release|Any CPU
+		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.SimulatedAuth|iPhoneSimulator.ActiveCfg = SimulatedAuth|Any CPU
+		{EE52C397-0253-4C6F-B128-F6C0F02526FC}.SimulatedAuth|iPhoneSimulator.Build.0 = SimulatedAuth|Any CPU
 		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
@@ -182,6 +188,10 @@ Global
 		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.Release|x64.Build.0 = Release|Any CPU
 		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.Release|x86.ActiveCfg = Release|Any CPU
 		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.Release|x86.Build.0 = Release|Any CPU
+		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5BAEC876-8BD9-4773-B019-6538CBE872B3}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
@@ -238,6 +248,10 @@ Global
 		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.Release|x64.Build.0 = Release|Any CPU
 		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.Release|x86.ActiveCfg = Release|Any CPU
 		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.Release|x86.Build.0 = Release|Any CPU
+		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C8F6AE96-FCC1-4BFE-A8A8-C15A9D652225}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
@@ -294,6 +308,10 @@ Global
 		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.Release|x64.Build.0 = Release|Any CPU
 		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.Release|x86.Build.0 = Release|Any CPU
+		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4D7E9698-A348-4BB9-BD7E-0F7C186957C6}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.Ad-Hoc|Any CPU.Deploy.0 = Release|Any CPU
@@ -372,6 +390,10 @@ Global
 		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.Release|x86.ActiveCfg = Release|Any CPU
 		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.Release|x86.Build.0 = Release|Any CPU
 		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.Release|x86.Deploy.0 = Release|Any CPU
+		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{13499E8A-F932-42C4-B0B8-1360CDB0D575}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|iPhoneSimulator
 		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.Ad-Hoc|ARM.ActiveCfg = Ad-Hoc|iPhone
 		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.Ad-Hoc|ARM64.ActiveCfg = Ad-Hoc|iPhone
@@ -410,6 +432,10 @@ Global
 		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.Release|x64.ActiveCfg = Release|iPhone
 		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.Release|x86.ActiveCfg = Release|iPhone
+		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C4C17DAF-21A6-4801-8D85-BA14B453DD8A}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{BEB06AB9-03A8-4815-9717-004B801D8449}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{BEB06AB9-03A8-4815-9717-004B801D8449}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{BEB06AB9-03A8-4815-9717-004B801D8449}.Ad-Hoc|ARM.ActiveCfg = Release|ARM
@@ -466,6 +492,10 @@ Global
 		{BEB06AB9-03A8-4815-9717-004B801D8449}.Release|x64.Build.0 = Release|x64
 		{BEB06AB9-03A8-4815-9717-004B801D8449}.Release|x86.ActiveCfg = Release|x86
 		{BEB06AB9-03A8-4815-9717-004B801D8449}.Release|x86.Build.0 = Release|x86
+		{BEB06AB9-03A8-4815-9717-004B801D8449}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{BEB06AB9-03A8-4815-9717-004B801D8449}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{BEB06AB9-03A8-4815-9717-004B801D8449}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BEB06AB9-03A8-4815-9717-004B801D8449}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.Ad-Hoc|Any CPU.ActiveCfg = Release|x86
 		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.Ad-Hoc|Any CPU.Build.0 = Release|x86
 		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.Ad-Hoc|Any CPU.Deploy.0 = Release|x86
@@ -537,6 +567,9 @@ Global
 		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.Release|x86.ActiveCfg = Release|x86
 		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.Release|x86.Build.0 = Release|x86
 		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.Release|x86.Deploy.0 = Release|x86
+		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{2047EEEF-41B8-4788-AA9D-04BA6293F107}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|x86
 		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
 		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
@@ -593,6 +626,10 @@ Global
 		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.Release|x64.Build.0 = Release|Any CPU
 		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.Release|x86.ActiveCfg = Release|Any CPU
 		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.Release|x86.Build.0 = Release|Any CPU
+		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C0DF0F16-6025-405F-95A0-DF9A0E995B65}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
 		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
 		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
@@ -649,6 +686,10 @@ Global
 		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.Release|x64.Build.0 = Release|Any CPU
 		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.Release|x86.ActiveCfg = Release|Any CPU
 		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.Release|x86.Build.0 = Release|Any CPU
+		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.SimulatedAuth|Any CPU.ActiveCfg = SimulatedAuth|Any CPU
+		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.SimulatedAuth|Any CPU.Build.0 = SimulatedAuth|Any CPU
+		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.SimulatedAuth|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BABCE468-E34B-46AA-9F12-A7B4408F8C7B}.SimulatedAuth|iPhoneSimulator.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

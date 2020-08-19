@@ -34,10 +34,14 @@ namespace authClient.viewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        protected virtual void SetValue<T>(ref T field, T value, [CallerMemberName] string propertyName = null)
+        protected virtual void SetValue<T>(ref T field, T value, [CallerMemberName] string propertyName = null, params string[] otherPropertyNames)
         {
             field = value;
             OnPropertyChanged(propertyName);
+            foreach (var otherPropertyName in otherPropertyNames)
+            {
+                OnPropertyChanged(otherPropertyName);
+            }
         }
 
         #region .  Logging  .

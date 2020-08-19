@@ -4,6 +4,7 @@
              xmlns:v="clr-namespace:authClient.views"
              xmlns:vm="clr-namespace:authClient.viewModels"
              xmlns:sc="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions"
+             xmlns:animations="clr-namespace:authClient.animations;assembly=authClient"
              x:Class="authClient.MainPage"
              BackgroundColor="#333333"
              >
@@ -58,7 +59,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="40"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -72,11 +73,20 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <Label
-                Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0"
-                Text="Tetra Pak Auth Demo" 
-                HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-                FontSize="Large"/>
+            <StackLayout
+                Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
+                HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+
+                <Image
+                    Source="icon"
+                    Aspect="AspectFit"
+                    WidthRequest="60"
+                    />
+                <Label
+                    Text="Tetra Pak Auth Xamarin Demo" 
+                    FontSize="Large"/>
+
+            </StackLayout>
 
             <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Environment" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
             <sc:SegmentedControl x:Name="ScEnvironment" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" ValueChanged="onEnvironmentChanged">
@@ -155,21 +165,56 @@
                                     Text="{Binding TokenValue}" 
                                     Style="{StaticResource TokenLabel}" 
                                     />
-                                <Image 
+                                <Image
                                     Grid.Row="1" Grid.Column="0" 
-                                    BackgroundColor="Crimson"
-                                    Source="icon_validate"
-                                    HeightRequest="20" WidthRequest="20"
+                                    Source="icon_valid"
+                                    HeightRequest="16" WidthRequest="16"
                                     Aspect="AspectFit"
-                                    IsVisible="{Binding IsTokenValid}" 
-                                    />
+                                    Opacity="0"
+                                    IsVisible="{Binding IsTokenValid}">
+                                    <Image.Triggers>
+                                        <DataTrigger TargetType="Image" Binding="{Binding IsTokenValid}" Value="true">
+                                            <DataTrigger.EnterActions>
+                                                <animations:FadeTo Length="500">1</animations:FadeTo>
+                                            </DataTrigger.EnterActions>
+                                        </DataTrigger>
+                                    </Image.Triggers>
+                                </Image>
                                 <Button
                                     Grid.Row="1" Grid.Column="1" 
                                     Text="{Binding CommandCaption}"
                                     FontSize="14"
                                     Command="{Binding Command}" 
-                                    CommandParameter="{Binding .}" 
-                                    />
+                                    CommandParameter="{Binding .}"
+                                    HorizontalOptions="Center" VerticalOptions="Center">
+                                    <Button.Triggers>
+                                        <DataTrigger TargetType="Button" Binding="{Binding IsTokenUnvalidated}" Value="false">
+                                            <DataTrigger.EnterActions>
+                                                <animations:TranslateTo Y="20"></animations:TranslateTo>
+                                                <animations:FadeTo>0</animations:FadeTo>
+                                            </DataTrigger.EnterActions>
+                                        </DataTrigger>
+                                    </Button.Triggers>
+                                </Button>
+                                <Label
+                                    Grid.Row="1" Grid.Column="1" 
+                                    Text="TOKEN IS VALID"
+                                    FontSize="14"
+                                    TextColor="LightGreen"
+                                    IsVisible="{Binding IsTokenValid}"
+                                    HorizontalOptions="Center" VerticalOptions="Center"
+                                    Opacity="0"
+                                    TranslationY="-20"
+                                    >
+                                    <Label.Triggers>
+                                        <DataTrigger TargetType="Label" Binding="{Binding IsTokenValid}" Value="true">
+                                            <DataTrigger.EnterActions>
+                                                <animations:TranslateTo Y="0" />
+                                                <animations:FadeTo>1</animations:FadeTo>
+                                            </DataTrigger.EnterActions>
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
                             </Grid> 
                         </ViewCell>
                     </DataTemplate>                

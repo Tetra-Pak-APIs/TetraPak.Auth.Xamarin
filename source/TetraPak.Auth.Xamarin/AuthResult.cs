@@ -26,6 +26,11 @@ namespace TetraPak.Auth.Xamarin
         public string RefreshToken => Tokens?.FirstOrDefault(i => i.Role == TokenRole.RefreshToken)?.TokenValue;
 
         /// <summary>
+        ///   Gets an optional identity token when successful.
+        /// </summary>
+        public string IdToken => Tokens?.FirstOrDefault(i => i.Role == TokenRole.IdToken)?.TokenValue;
+
+        /// <summary>
         ///   Gets any provided expiration time when successful.
         /// </summary>
         public DateTime? Expires => Tokens?.FirstOrDefault(i => i.Role == TokenRole.AccessToken)?.Expires;
@@ -96,7 +101,7 @@ namespace TetraPak.Auth.Xamarin
             return isValid;
         }
 
-        bool isTokenExpired() => Expires.HasValue && Expires.Value >= DateTime.Now;
+        bool isTokenExpired() => Expires.HasValue && Expires.Value <= DateTime.Now;
 
         internal TokenInfo(string tokenValue, TokenRole role, DateTime? expires, ValidateTokenDelegate validateTokenDelegate)
         {

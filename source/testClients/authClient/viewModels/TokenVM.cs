@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 using TetraPak.Auth.Xamarin.logging;
+using Xamarin.Forms;
 
 namespace authClient.viewModels
 {
@@ -12,6 +13,7 @@ namespace authClient.viewModels
         string _commandIcon;
         string _commandCaption;
         bool _isTokenValid;
+        private bool _isTokenUnvalidated;
 
         public string TokenCaption
         {
@@ -28,7 +30,17 @@ namespace authClient.viewModels
         public bool IsTokenValid
         {
             get => _isTokenValid;
-            set => SetValue(ref _isTokenValid, value);
+            set
+            {
+                SetValue(ref _isTokenValid, value);
+                IsTokenUnvalidated = false;
+            }
+        }
+
+        public bool IsTokenUnvalidated
+        {
+            get => _isTokenUnvalidated;
+            set => SetValue(ref _isTokenUnvalidated, value);
         }
 
         public string CommandIcon
@@ -72,6 +84,7 @@ namespace authClient.viewModels
 
         public TokenVM(IServiceProvider services, ILog log) : base(services, log)
         {
+            IsTokenUnvalidated = true;
         }
     }
 }

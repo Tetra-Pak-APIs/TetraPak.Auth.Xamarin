@@ -30,6 +30,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SimulatedAuth|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>bin\SimulatedAuth\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -62,6 +71,12 @@
     <ImageAsset Include="Assets.xcassets\icon.imageset\icon%402x.png" />
     <ImageAsset Include="Assets.xcassets\icon.imageset\icon.png" />
     <ImageAsset Include="Assets.xcassets\icon.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\icon_valid%403x.png" />
+    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\icon_valid%402x.png" />
+    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\icon_valid.png" />
+    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\Contents.json">
       <Visible>False</Visible>
     </ImageAsset>
   </ItemGroup>

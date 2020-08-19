@@ -9,6 +9,7 @@ using System.Web;
 using Xamarin.Forms;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.common;
+using TetraPak.Auth.Xamarin.debugging;
 using TetraPak.Auth.Xamarin.idTokenValidation;
 using TetraPak.Auth.Xamarin.logging;
 
@@ -35,6 +36,13 @@ namespace TetraPak.Auth.Xamarin
                 if (cached && cached.Value.AccessToken != null)
                     return cached;
             }
+            
+#if DEBUG
+            var simulatedAuth = await AuthSimulator.TryGetSimulatedAccessTokenAsync(Config, CacheKey);
+            if (simulatedAuth)
+                return simulatedAuth;
+#endif   
+            
             try
             {
                 LogDebug("---- START - Tetra Pak Code Grant Flow ----");
@@ -67,8 +75,14 @@ namespace TetraPak.Auth.Xamarin
             await removeFromCacheAsync();
             if (string.IsNullOrEmpty(cached.Value.RefreshToken))
                 return await GetAccessTokenAsync();
+            
+#if DEBUG
+            var simulatedAuth = await AuthSimulator.TryGetSimulatedRenewedAccessTokenAsync(cached.Value.RefreshToken, Config, CacheKey);
+            if (simulatedAuth)
+                return simulatedAuth;
+#endif               
 
-            // access token has expired, try renew from refresh token is available ...
+            // access token has expired, try renew from refresh token if available ...
             LogDebug("---- START - Tetra Pak Refresh Token Flow ----");
             BoolValue<AuthResult> result;
             try
@@ -87,7 +101,6 @@ namespace TetraPak.Auth.Xamarin
 
             return result ? result : await GetAccessTokenAsync();
         }
-
 
         async Task<BoolValue<AuthResult>> acquireTokenAsyncUsingNativeWebUI()
         {
