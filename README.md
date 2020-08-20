@@ -130,17 +130,27 @@ When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetA
 
 ---
 
+### Understanding the Authorization Result
+
+As the request for token(s) is completed the result is returned back to the client code as an `AuthResult` object. The result contains a collection of tokens, each represented by a `TokenInfo` object that carries the actual `TokenValue` (a `string`), the `Role` (enum: `TokenRole`) and a expiration time (`DateTime`) when applicable. You can iterate this collection or use LINQ to quickly find a token of interest, such as the access token, like so: 
+
+```
+var accessToken = authResult.Tokens.FirstOrDefault(i => i.Roke == TokenRole.AccessToken);
+```
+
+Easier still; you can quickly get access to the token of interest through any of the `AuthResult` properties:  `AccessToken`, `RefreshToken` or `IdToken`.
+
+### Token Validation
+
+Before your client starts using a retrieved token it is recommended you validate it. The `TokenInfo` class offers an API for this as well: `Task<bool> IsValidAsync()`.
+
+The (asynchronous) method `IsValidAsync()` will validate the token for you, possibly by invoking remote services in the process.
+
 ### Requesting user information
 
-To enable (mobile) backend access to the authorized user's identity you need to take one additional step when acquiring your access token. To enable user identity information just set the `AuthConfig.IsRequestingUserId` flag. Having done so TAX will automatically enable user identity access for your backend service via the use of Open ID Connect.
+To enable (mobile) backend access to the authorized user's identity you need to take one additional step when acquiring your access token. To enable user identity information just set the `AuthConfig.IsRequestingUserId` flag. Having done so TAX will automatically send a request for an identity token while requesting authorization. The result (`AuthResult`) should now support an identity token (`TokenInfo.Role == TokenRole.IdToken`). The ID token is of type [JWT][JWT-io].
 
----
-
-NOTE
-
-Please note that, as of this version, the TAX package offer not support for validating ID tokens (JWT). While you can find the ID token as an item in the `AuthResult.Tokens` collection, you should not consume it in your client unless you also validate it. A future version of the TAX package might offer the ID token as its own property (just like with `AccessToken` and `RefreshToken`) but only after having validating it for you. If you need this feature please [report it as an issue at GitHub][GitHub-TAX-issues].
-
----
+As with an access token, please ensure you always validate the (JWT) ID token before consuming it (see [token validation](#token-validation))!
 
 ## Getting Started
 
@@ -356,3 +366,4 @@ So, what happens in step #1 is basically the client builds its URL and sends it 
 [NuGet.TAX]: https://www.nuget.org/packages/TetraPak.Auth.Xamarin/
 [GitHub-TAX-issues]: https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin/issues
 [NuGet-Xamarin-auth]: https://www.NuGet.org/packages/Xamarin.Auth
+[JWT-io]: https://jwt.io/

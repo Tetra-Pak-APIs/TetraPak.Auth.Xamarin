@@ -12,6 +12,7 @@ using TetraPak.Auth.Xamarin.common;
 #if DEBUG
 namespace TetraPak.Auth.Xamarin.debugging
 {
+    // todo maybe(?) consider improving the Auth simulator to tryly simulate the actual flow, including flipping to an "external web page"
     public class AuthSimulator
     {
         public static bool IsSimulating
