@@ -146,11 +146,13 @@ Before your client starts using a retrieved token it is recommended you validate
 
 The (asynchronous) method `IsValidAsync()` will validate the token for you, possibly by invoking remote services in the process.
 
-### Requesting user information
+### Inspecting the identity token
 
 To enable (mobile) backend access to the authorized user's identity you need to take one additional step when acquiring your access token. To enable user identity information just set the `AuthConfig.IsRequestingUserId` flag. Having done so TAX will automatically send a request for an identity token while requesting authorization. The result (`AuthResult`) should now support an identity token (`TokenInfo.Role == TokenRole.IdToken`). The ID token is of type [JWT][JWT-io].
 
 As with an access token, please ensure you always validate the (JWT) ID token before consuming it (see [token validation](#token-validation))!
+
+The JWT token you find in the `AuthResult.IdToken` is a base-64 encoded string. Rather than decoding and parsing the string you can instead instantiate a `JwtSecurityToken`, passing the encoded token as the constructor parameter. This requires the `System.IdentityModel.Tokens.Jwt` NuGet package. For more information about this class please refer to its [documentation][JwtSecurityToken].
 
 ## Getting Started
 
@@ -367,3 +369,4 @@ So, what happens in step #1 is basically the client builds its URL and sends it 
 [GitHub-TAX-issues]: https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin/issues
 [NuGet-Xamarin-auth]: https://www.NuGet.org/packages/Xamarin.Auth
 [JWT-io]: https://jwt.io/
+[JwtSecurityToken]: https://docs.microsoft.com/en-us/dotnet/api/system.identitymodel.tokens.jwt.jwtsecuritytoken

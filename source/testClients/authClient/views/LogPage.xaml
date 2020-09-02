@@ -20,9 +20,20 @@
         <Button 
             Grid.Row="0"
             Text="Copy" Command="{Binding CopyCommand}"
-            TextColor="GreenYellow"
-            />
-
+            >
+            <Button.BackgroundColor>
+                <OnPlatform x:TypeArguments="Color">
+                    <On Platform="Android" Value="GreenYellow"/>
+                </OnPlatform>
+            </Button.BackgroundColor>
+            <Button.TextColor>
+                <OnPlatform x:TypeArguments="Color">
+                    <On Platform="iOS" Value="GreenYellow"/>
+                    <On Platform="Android" Value="Black"/>
+                </OnPlatform>
+            </Button.TextColor>
+        </Button>
+        
         <ListView 
             Grid.Row="1"
             ItemsSource="{Binding Items}" 
