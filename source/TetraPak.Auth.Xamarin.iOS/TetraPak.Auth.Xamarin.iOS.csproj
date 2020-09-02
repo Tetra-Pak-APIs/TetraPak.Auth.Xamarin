@@ -46,6 +46,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assets.xcassets\" />
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
@@ -65,20 +66,6 @@
     <PackageReference Include="Xamarin.Essentials">
       <Version>1.0.1</Version>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\icon.imageset\icon%403x.png" />
-    <ImageAsset Include="Assets.xcassets\icon.imageset\icon%402x.png" />
-    <ImageAsset Include="Assets.xcassets\icon.imageset\icon.png" />
-    <ImageAsset Include="Assets.xcassets\icon.imageset\Contents.json">
-      <Visible>False</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\icon_valid%403x.png" />
-    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\icon_valid%402x.png" />
-    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\icon_valid.png" />
-    <ImageAsset Include="Assets.xcassets\icon_valid.imageset\Contents.json">
-      <Visible>False</Visible>
-    </ImageAsset>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

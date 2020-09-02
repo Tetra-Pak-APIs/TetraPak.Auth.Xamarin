@@ -20,7 +20,7 @@ namespace TetraPak.Auth.Xamarin
 
         public string CodeChallengeMethod { get; }
 
-        static string getVerifier(uint length = 32, string clientId = null)
+        static string makeVerifier(uint length = 32, string clientId = null)
         {
             return string.IsNullOrEmpty(clientId)
                 ? randomDataBase64(length)
@@ -68,7 +68,7 @@ namespace TetraPak.Auth.Xamarin
                 return;
             }
 
-            Verifier = getVerifier(32, clientId);
+            Verifier = makeVerifier(32, clientId);
             CodeChallenge = base64UrlEncode(sha256(Verifier));
             CodeChallengeMethod = IdentCodeChallengeMethod;
         }

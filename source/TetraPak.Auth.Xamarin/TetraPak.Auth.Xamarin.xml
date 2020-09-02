@@ -411,7 +411,7 @@
         </member>
         <member name="P:TetraPak.Auth.Xamarin.AuthResult.Tokens">
             <summary>
-              A collection of tokens returned from the issuer.
+              A collection of tokens (represented as <see cref="T:TetraPak.Auth.Xamarin.TokenInfo"/> objects) returned from the issuer.
             </summary>
         </member>
         <member name="P:TetraPak.Auth.Xamarin.AuthResult.AccessToken">
@@ -424,6 +424,11 @@
               Gets an optional refresh token when successful.
             </summary>
         </member>
+        <member name="P:TetraPak.Auth.Xamarin.AuthResult.IdToken">
+            <summary>
+              Gets an optional identity token when successful.
+            </summary>
+        </member>
         <member name="P:TetraPak.Auth.Xamarin.AuthResult.Expires">
             <summary>
               Gets any provided expiration time when successful.
@@ -434,24 +439,34 @@
               Indicates whether the authorization is (still) valid.
             </summary>
         </member>
-        <member name="T:TetraPak.Auth.Xamarin.TokenResult">
+        <member name="T:TetraPak.Auth.Xamarin.TokenInfo">
             <summary>
               Carries an individual token and its meta data.
             </summary>
         </member>
-        <member name="P:TetraPak.Auth.Xamarin.TokenResult.Token">
+        <member name="P:TetraPak.Auth.Xamarin.TokenInfo.TokenValue">
             <summary>
               Gets the actual token as a <see cref="T:System.String"/> value.
             </summary>
         </member>
-        <member name="P:TetraPak.Auth.Xamarin.TokenResult.Role">
+        <member name="P:TetraPak.Auth.Xamarin.TokenInfo.Role">
             <summary>
               Gets the token role (see <see cref="T:TetraPak.Auth.Xamarin.TokenRole"/>).
             </summary>
         </member>
-        <member name="P:TetraPak.Auth.Xamarin.TokenResult.Expires">
+        <member name="P:TetraPak.Auth.Xamarin.TokenInfo.Expires">
             <summary>
               Gets a expiration date/time, if available.
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.TokenInfo.IsValidatable">
+            <summary>
+              Gets a value that indicates whether the token can be validated (other than just by its longevity).
+            </summary>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.TokenInfo.IsValidAsync">
+            <summary>
+              Validates the token and returns a value to indicate whether it is valid at this point. 
             </summary>
         </member>
         <member name="T:TetraPak.Auth.Xamarin.common.BoolValue`1">
@@ -666,18 +681,36 @@
             <summary>
               Returns a <see cref="T:System.String"/> that is guaranteed to end with a specified suffix.
             </summary>
-            <param name="value">
+            <param name="self">
               The original string.
             </param>
             <param name="suffix">
-              A <see cref="T:System.String"/> that will be appended to <paramref name="value"/> if not already present.
+              A <see cref="T:System.String"/> that will be appended to <paramref name="self"/> if not already present.
             </param>
             <param name="comparison">
               (optional; default = <see cref="F:System.StringComparison.Ordinal"/>)<br/>
-              Used when detecting whether <paramref name="value"/> is already suffixed with the <paramref name="suffix"/> value.
+              Used when detecting whether <paramref name="self"/> is already suffixed with the <paramref name="suffix"/> value.
             </param>
             <returns>
-              A <see cref="T:System.String"/> that is identical to<paramref name="value"/>, suffixed with <paramref name="suffix"/>.
+              A <see cref="T:System.String"/> that is identical to<paramref name="self"/>, suffixed with <paramref name="suffix"/>.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.common.StringExtensions.EnsureNotEndsWith(System.String,System.String,System.StringComparison)">
+            <summary>
+              Returns a <see cref="T:System.String"/> that is guaranteed to not end with a specified suffix.
+            </summary>
+            <param name="self">
+              The original string.
+            </param>
+            <param name="suffix">
+              A <see cref="T:System.String"/> that will be removed if <paramref name="suffix"/> is found as suffix to <paramref name="self"/>.
+            </param>
+            <param name="comparison">
+              (optional; default = <see cref="F:System.StringComparison.Ordinal"/>)<br/>
+              Used when detecting whether <paramref name="self"/> is suffixed with the <paramref name="suffix"/> value.
+            </param>
+            <returns>
+              A <see cref="T:System.String"/> that is guaranteed to not end with <paramref name="suffix"/>.
             </returns>
         </member>
         <member name="T:TetraPak.Auth.Xamarin.common.TypeExtensions">
@@ -758,6 +791,73 @@
             </param>
             <returns></returns>
         </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.#ctor(System.Nullable{System.UInt32},System.Boolean)">
+            <summary>
+              Initializes the value.
+            </summary>
+            <param name="length">
+              (optional; default = <see cref="P:TetraPak.Auth.Xamarin.debugging.RandomString.DefaultLength"/>)<br/>
+              Specifies a length for the random string.
+            </param>
+            <param name="allowSpecialCharacters">
+              (optional; default = <c>true</c>)<br/>
+              Specifies whether special characters (other than alfa numeric ones) are allowed in the random string.    
+            </param>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.op_Implicit(TetraPak.Auth.Xamarin.debugging.RandomString)~System.String">
+            <summary>
+              Implicitly converts a <see cref="T:TetraPak.Auth.Xamarin.debugging.RandomString"/> value into its <see cref="T:System.String"/> representation.
+            </summary>
+            <param name="value">
+              A <see cref="T:TetraPak.Auth.Xamarin.debugging.RandomString"/> value to be implicitly converted into its <see cref="T:System.String"/> representation.
+            </param>
+            <returns>
+              The <see cref="T:System.String"/> representation of <paramref name="value"/>.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.ToString">
+            <inheritdoc />
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.Equals(TetraPak.Auth.Xamarin.debugging.RandomString)">
+            <summary>
+              Determines whether the specified value is equal to the current value.
+            </summary>
+            <param name="other">
+              A <see cref="T:TetraPak.Auth.Xamarin.debugging.RandomString"/> value to compare to this value.
+            </param>
+            <returns>
+              <c>true</c> if <paramref name="other"/> is equal to the current value; otherwise <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.Equals(System.Object)">
+            <summary>
+              Determines whether the specified object is equal to the current version.
+            </summary>
+            <param name="obj">
+              An object to compare to this value.
+            </param>
+            <returns>
+              <c>true</c> if the specified object is equal to the current version; otherwise <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.GetHashCode">
+            <summary>
+              Serves as the default hash function.
+            </summary>
+            <returns>
+              A hash code for the current value.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.op_Equality(TetraPak.Auth.Xamarin.debugging.RandomString,TetraPak.Auth.Xamarin.debugging.RandomString)">
+            <summary>
+              Comparison operator overload.
+            </summary>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.debugging.RandomString.op_Inequality(TetraPak.Auth.Xamarin.debugging.RandomString,TetraPak.Auth.Xamarin.debugging.RandomString)">
+            <summary>
+              Comparison operator overload.
+            </summary>
+        </member>
         <member name="T:TetraPak.Auth.Xamarin.IAuthCallbackHandler">
             <summary>
               For internal use by platform code.
@@ -818,6 +918,176 @@
               For internal use by the Auth solution.
             </summary>
         </member>
+        <member name="T:TetraPak.Auth.Xamarin.idTokenValidation.AuthorityUrlValidationStrategy">
+            <summary>
+            <para>Implementation of <see cref="T:TetraPak.Auth.Xamarin.idTokenValidation.IAuthorityValidationStrategy"/> based on <see cref="T:System.Uri"/> equality.
+            Trailing slash is also ignored.</para>
+            </summary>
+            <seealso cref="T:TetraPak.Auth.Xamarin.idTokenValidation.StringComparisonAuthorityValidationStrategy"/>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.AuthorityUrlValidationStrategy.IsIssuerNameValid(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.AuthorityUrlValidationStrategy.IsEndpointValid(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <inheritdoc/>
+        </member>
+        <member name="T:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint">
+            <summary>
+            Represents a URL to a discovery endpoint - parsed to separate the URL and authority
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint.Authority">
+            <summary>
+            Gets or sets the authority.
+            </summary>
+            <value>
+            The authority.
+            </value>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint.Url">
+            <summary>
+            Gets or sets the discovery endpoint.
+            </summary>
+            <value>
+            The discovery endpoint.
+            </value>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint.ParseUrl(System.String)">
+            <summary>
+            Parses a URL and turns it into authority and discovery endpoint URL.
+            </summary>
+            <param name="input">The input.</param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException">
+            Malformed URL
+            </exception>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint.IsValidScheme(System.Uri)">
+            <summary>
+            Determines whether the URL uses http or https.
+            </summary>
+            <param name="url">The URL.</param>
+            <returns>
+              <c>true</c> if [is valid scheme] [the specified URL]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint.IsSecureScheme(System.Uri,TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy)">
+            <summary>
+              Determines whether uses a secure scheme according to the policy.
+            </summary>
+            <param name="url">The URL.</param>
+            <param name="policy">The policy.</param>
+            <returns>
+              <c>true</c> if [is secure scheme] [the specified URL]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryEndpoint"/> class.
+            </summary>
+            <param name="authority">The authority.</param>
+            <param name="url">The discovery endpoint URL.</param>
+        </member>
+        <member name="T:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy">
+            <summary>
+            Security policy for retrieving a discovery document
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.Authority">
+            <summary>
+            Gets or sets the Authority on which the policy checks will be based on
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.AuthorityValidationStrategy">
+            <summary>
+            Strategy used to validate issuer name and endpoints based on expected authority.
+            Defaults to <see cref="T:TetraPak.Auth.Xamarin.idTokenValidation.AuthorityUrlValidationStrategy"/>.
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.RequireHttps">
+            <summary>
+            Specifies if HTTPS is enforced on all endpoints. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.AllowHttpOnLoopback">
+            <summary>
+            Specifies if HTTP is allowed on loopback addresses. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.ValidateIssuerName">
+            <summary>
+            Specifies if the issuer name is checked to be identical to the authority. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.ValidateEndpoints">
+            <summary>
+            Specifies if all endpoints are checked to belong to the authority. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.EndpointValidationExcludeList">
+            <summary>
+            Specifies a list of endpoints that should be excluded from validation
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.AdditionalEndpointBaseAddresses">
+            <summary>
+            Specifies a list of additional base addresses that should be allowed for endpoints
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.idTokenValidation.DiscoveryPolicy.RequireKeySet">
+            <summary>
+            Specifies if a key set is required. Defaults to true.
+            </summary>
+        </member>
+        <member name="T:TetraPak.Auth.Xamarin.idTokenValidation.IAuthorityValidationStrategy">
+            <summary>
+            Authority validation strategy.
+            </summary>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.IAuthorityValidationStrategy.IsIssuerNameValid(System.String,System.String)">
+            <summary>
+            Validate issuer name found in Discovery Document.
+            </summary>
+            <param name="expectedAuthority">Authority expected.</param>
+            <param name="issuerName">Authority declared in Discovery Document.</param>
+            <returns></returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.IAuthorityValidationStrategy.IsEndpointValid(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Validate end point found in Discovery Document.
+            </summary>
+            <param name="expectedAuthority">Authority expected.</param>
+            <param name="endpoint">Endpoint declared in Discovery Document.</param>
+            <returns></returns>
+        </member>
+        <member name="T:TetraPak.Auth.Xamarin.idTokenValidation.StringComparisonAuthorityValidationStrategy">
+            <summary>
+            Implementation of <see cref="T:TetraPak.Auth.Xamarin.idTokenValidation.IAuthorityValidationStrategy"/> based on <see cref="T:System.StringComparison"/>.
+            </summary>
+            <seealso cref="T:TetraPak.Auth.Xamarin.idTokenValidation.AuthorityUrlValidationStrategy"/>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.StringComparisonAuthorityValidationStrategy.#ctor(System.StringComparison)">
+            <summary>
+            Constructor with <see cref="T:System.StringComparison"/> argument.
+            </summary>
+            <param name="stringComparison"></param>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.StringComparisonAuthorityValidationStrategy.IsIssuerNameValid(System.String,System.String)">
+            <summary>
+            String comparison between issuer and authority (trailing slash ignored).
+            </summary>
+            <param name="issuerName"></param>
+            <param name="expectedAuthority"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TetraPak.Auth.Xamarin.idTokenValidation.StringComparisonAuthorityValidationStrategy.IsEndpointValid(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            String "starts with" comparison between endpoint and allowed authorities.
+            </summary>
+            <param name="endpoint"></param>
+            <param name="allowedAuthorities"></param>
+            <returns></returns>
+        </member>
         <member name="T:TetraPak.Auth.Xamarin.logging.BasicLog">
             <summary>
               Provides a very basic <see cref="T:TetraPak.Auth.Xamarin.logging.ILog"/> implementation.
@@ -829,36 +1099,19 @@
             </remarks>
         </member>
         <member name="E:TetraPak.Auth.Xamarin.logging.BasicLog.Logged">
-            <summary>
-              This event gets fired for every new log entry added.
-            </summary>
+            <inheritdoc />
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.logging.BasicLog.QueryAsync">
+            <inheritdoc />
         </member>
         <member name="M:TetraPak.Auth.Xamarin.logging.BasicLog.Debug(System.String)">
-            <summary>
-              Logs a new message of <seealso cref="F:TetraPak.Auth.Xamarin.logging.LogRank.Debug"/>.
-            </summary>
-            <param name="message">
-              The logged message.
-            </param>
+            <inheritdoc />
         </member>
         <member name="M:TetraPak.Auth.Xamarin.logging.BasicLog.Error(System.Exception,System.String)">
-            <summary>
-              Logs a new message of <seealso cref="F:TetraPak.Auth.Xamarin.logging.LogRank.Error"/>.
-            </summary>
-            <param name="exception">
-              A logged <see cref="T:System.Exception"/>.
-            </param>
-            <param name="message">
-              The logged message.
-            </param>
+            <inheritdoc />
         </member>
         <member name="M:TetraPak.Auth.Xamarin.logging.BasicLog.Info(System.String)">
-            <summary>
-              Logs a new message of <seealso cref="F:TetraPak.Auth.Xamarin.logging.LogRank.Info"/>.
-            </summary>
-            <param name="message">
-              The logged message.
-            </param>
+            <inheritdoc />
         </member>
         <member name="T:TetraPak.Auth.Xamarin.logging.ILog">
             <summary>
@@ -868,6 +1121,11 @@
         <member name="E:TetraPak.Auth.Xamarin.logging.ILog.Logged">
             <summary>
               Triggered whenever a log entry gets added.
+            </summary>
+        </member>
+        <member name="P:TetraPak.Auth.Xamarin.logging.ILog.QueryAsync">
+            <summary>
+              Gets or sets a delegate used for querying the log.
             </summary>
         </member>
         <member name="M:TetraPak.Auth.Xamarin.logging.ILog.Debug(System.String)">

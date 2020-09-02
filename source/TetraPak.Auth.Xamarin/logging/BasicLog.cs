@@ -12,42 +12,25 @@ namespace TetraPak.Auth.Xamarin.logging
     /// </remarks>
     public class BasicLog : ILog
     {
-        /// <summary>
-        ///   This event gets fired for every new log entry added.
-        /// </summary>
+        /// <inheritdoc />
         public event EventHandler<TextLogEventArgs> Logged;
 
-        /// <summary>
-        ///   Logs a new message of <seealso cref="LogRank.Debug"/>.
-        /// </summary>
-        /// <param name="message">
-        ///   The logged message.
-        /// </param>
+        /// <inheritdoc />
+        public QueryAsyncDelegate QueryAsync { get; set; }
+
+        /// <inheritdoc />
         public void Debug(string message)
         {
             Logged?.Invoke(this, new TextLogEventArgs(LogRank.Debug, message));
         }
 
-        /// <summary>
-        ///   Logs a new message of <seealso cref="LogRank.Error"/>.
-        /// </summary>
-        /// <param name="exception">
-        ///   A logged <see cref="Exception"/>.
-        /// </param>
-        /// <param name="message">
-        ///   The logged message.
-        /// </param>
+        /// <inheritdoc />
         public void Error(Exception exception, string message = null)
         {
             Logged?.Invoke(this, new TextLogEventArgs(LogRank.Error, message, exception));
         }
 
-        /// <summary>
-        ///   Logs a new message of <seealso cref="LogRank.Info"/>.
-        /// </summary>
-        /// <param name="message">
-        ///   The logged message.
-        /// </param>
+        /// <inheritdoc />
         public void Info(string message)
         {
             Logged?.Invoke(this, new TextLogEventArgs(LogRank.Info, message));

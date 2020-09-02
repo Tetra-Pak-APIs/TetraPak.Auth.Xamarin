@@ -11,7 +11,8 @@ namespace authClient.viewModels
     {
         public ObservableCollection<TokenVM> Tokens { get; }
 
-        internal void AddToken(string tokenCaption, string token, string commandCaption, string commandIcon = null, ICommand command = null)
+        internal void AddToken(string tokenCaption, string token, string commandCaption, string commandIcon = null,
+            ICommand command = null, bool isUnvalidated = false)
         {
             var vm = Services.GetService<TokenVM>();
             vm.TokenCaption = tokenCaption;
@@ -19,6 +20,7 @@ namespace authClient.viewModels
             vm.CommandCaption = commandCaption ?? vm.CommandCaption;
             vm.CommandIcon = commandIcon ?? vm.CommandIcon;
             vm.Command = command ?? vm.Command;
+            vm.IsTokenUnvalidated = isUnvalidated;
             Tokens.Add(vm);
         }
 

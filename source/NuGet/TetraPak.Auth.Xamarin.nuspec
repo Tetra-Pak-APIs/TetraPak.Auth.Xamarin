@@ -18,6 +18,7 @@
     </releaseNotes>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.7.1" />
         <dependency id="System.Text.Json" version="4.7.1" /> 
         <dependency id="Xamarin.Essentials" version="1.0" />
         <dependency id="Xamarin.Forms" version="4.0" />

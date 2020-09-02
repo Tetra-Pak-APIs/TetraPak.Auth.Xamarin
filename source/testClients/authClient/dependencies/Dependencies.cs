@@ -3,6 +3,7 @@ using authClient.viewModels;
 using Microsoft.Extensions.DependencyInjection;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.logging;
+using Xamarin.Forms;
 
 namespace authClient.dependencies
 {
@@ -10,10 +11,9 @@ namespace authClient.dependencies
     {
         static IServiceProvider s_services;
 
-        public static IServiceProvider SetupDependencies(this App self)
+        public static IServiceProvider SetupDependencies(this App self, ServiceCollection c)
         {
-            var c = new ServiceCollection();
-
+            DependencyService.Register<LogFactory>();
             c.AddSingleton<ILog, BasicLog>();
             c.AddSingleton<MainViewModel>();
             c.AddTransient<TokenVM>();
@@ -32,6 +32,19 @@ namespace authClient.dependencies
             c.AddSingleton(p => s_services);
 
             return s_services = c.BuildServiceProvider();
+        }
+
+        class LogFactory : ILog
+        {
+            public ILog Log => s_services.GetService<ILog>();
+
+            public event EventHandler<TextLogEventArgs> Logged;
+            
+            public QueryAsyncDelegate QueryAsync { get; set; }
+
+            public void Debug(string message) => Log.Debug(message);
+            public void Info(string message) => Log.Info(message);
+            public void Error(Exception exception, string message = null) => Log.Error(exception, message);
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using authClient.views;
 using Xamarin.Forms;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.common;
@@ -22,6 +23,7 @@ namespace authClient.viewModels
         bool _isUsingCustomAuth;
         bool _isInternalValueChange;
         RuntimeEnvironment _environment;
+        bool _isLogAvailable;
 
         IAuthenticator Authenticator => TetraPak.Auth.Xamarin.Authorization.GetAuthenticator(_config, Log);
 
@@ -81,6 +83,12 @@ namespace authClient.viewModels
         }
 
         public bool IsAuthorized => Authorization?.Tokens?.Any() ?? false;
+
+        public bool IsLogAvailable
+        {
+            get => _isLogAvailable;
+            set => SetValue(ref _isLogAvailable, value);
+        } 
 
         /// <summary>
         ///   Gets or sets the redirect URI
@@ -163,7 +171,9 @@ namespace authClient.viewModels
         */
         
         public ICommand DeleteAccessTokenCommand { get; }
-        
+
+        public ICommand ViewLogCommand { get; }
+
         void setConfigValue(object value, [CallerMemberName] string propertyName = null)
         {
             var p = _config.GetType().GetProperty(propertyName);
@@ -175,6 +185,8 @@ namespace authClient.viewModels
             var authorized = silently
                 ? await Authenticator.GetAccessTokenSilentlyAsync()
                 : await Authenticator.GetAccessTokenAsync();
+
+            IsLogAvailable = true;
 
             if (authorized)
             {
@@ -196,7 +208,7 @@ namespace authClient.viewModels
             TokensResult.Clear();
             foreach (var tokenInfo in authResult.Value.Tokens)
             {
-                var tokenCaption = resolveCaption(tokenInfo);
+                var res = resolveCaptionAndValidation(tokenInfo);
                 var commandCaption = tokenInfo.IsValidatable ? "VALIDATE" : null; 
                 var icon = tokenInfo.IsValidatable ? Theme.IconValidate : null;
                 var command = tokenInfo.IsValidatable 
@@ -205,22 +217,22 @@ namespace authClient.viewModels
                         ((TokenVM) vm).IsTokenValid = await tokenInfo.IsValidAsync();
                     }) 
                     : null;
-                TokensResult.AddToken(tokenCaption, tokenInfo.TokenValue, commandCaption, icon, command);
+                TokensResult.AddToken(res.tokenCaption, tokenInfo.TokenValue, commandCaption, icon, command, res.isUnvalidated);
             }
         }
 
-        static string resolveCaption(TokenInfo token)
+        static (string tokenCaption, bool isUnvalidated) resolveCaptionAndValidation(TokenInfo token)
         {
             switch (token.Role)
             {
                 case TokenRole.AccessToken:
-                    return "Access";
+                    return ("Access", false);
 
                 case TokenRole.RefreshToken:
-                    return "Refresh";
-                    
+                    return ("Refresh", false);
+
                 case TokenRole.IdToken:
-                    return "ID";
+                    return ("ID", true);
                 
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -285,6 +297,12 @@ namespace authClient.viewModels
             await _config.TokenCache.RemoveAccessTokenAsync();
         }
 
+        async Task onViewLog()
+        {
+            var navigation = Services.GetService<INavigation>();
+            await navigation.PushAsync(new LogPage(new LogVM(Services, Log)));
+        }
+
         void initializeValues(AuthConfig config)
         {
             _isInternalValueChange = true;
@@ -294,7 +312,7 @@ namespace authClient.viewModels
             TokenIssuerUrl.Value = config.TokenIssuer?.AbsoluteUri;
             RedirectUrl.Value = config.RedirectUri?.AbsoluteUri;
             ClientId.Value = config.ClientId;
-            //ClientSecret.Value = config.ClientSecret; obsolete (we no longer supprt client secret in native clients)
+            //ClientSecret.Value = config.ClientSecret; obsolete (we no longer support client secret in native clients)
             Scope.Value = config.Scope;
             IsStateUsed = config.IsStateUsed;
             IsPkceUsed = config.IsPkceUsed;
@@ -324,6 +342,7 @@ namespace authClient.viewModels
             AuthorizeCommand = new Command(async () => await onAuthorize(false));
             AuthorizeSilentlyCommand = new Command(async () => await onAuthorize(true), () => IsCaching);
             DeleteAccessTokenCommand = new Command(async () => await onDeleteAccessTokenAsync());
+            ViewLogCommand = new Command(async () => await onViewLog());
 #if DEBUG
             /*
             ToggleIsLocalIdentityProvider = new Command(() => IsLocalIdentityProvider = !IsLocalIdentityProvider);
@@ -331,6 +350,7 @@ namespace authClient.viewModels
 #endif
             initializeValues(_config);
         }
+
     }
 
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]

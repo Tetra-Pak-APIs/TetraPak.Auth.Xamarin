@@ -13,7 +13,7 @@ namespace TetraPak.Auth.Xamarin
     ///   This class is used to easily describe your application to allow the <see cref="Authorization"/>
     ///   API to configure a <see cref="IAuthenticator"/> as you request it. 
     /// </remarks>
-    /// <seealso cref="Authorization.GetAuthenticator(TetraPak.Auth.Xamarin.AuthConfig,TetraPak.Auth.Xamarin.logging.ILog)"/>
+    /// <seealso cref="Authorization.GetAuthenticator(AuthConfig,logging.ILog)"/>
     [DebuggerDisplay("{" + nameof(StringValue) + "}")]
     public class AuthApplication
     {

@@ -1,3 +1,4 @@
+#if DEBUG
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -9,27 +10,26 @@ using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 using TetraPak.Auth.Xamarin.common;
 
-#if DEBUG
 namespace TetraPak.Auth.Xamarin.debugging
 {
-    // todo maybe(?) consider improving the Auth simulator to tryly simulate the actual flow, including flipping to an "external web page"
+    // todo maybe(?) consider improving the Auth simulator to truly simulate the actual flow, including flipping to an "external web page"
     public class AuthSimulator
     {
         public static bool IsSimulating
         {
             get
             {
-                #if SIMULATED_AUTH
+#if SIMULATED_AUTH
                     return true;
-                #else
+#else
                     return false;
-                #endif
+#endif
             }
         }
 
-        public static TimeSpan AccessTokenLongevity { get; set; }    
+        public static TimeSpan AccessTokenLongevity { get; set; }
 
-        public static TimeSpan IdTokenLongevity { get; set; }    
+        public static TimeSpan IdTokenLongevity { get; set; }
 
         public static async Task<BoolValue<AuthResult>> TryGetSimulatedAccessTokenAsync(AuthConfig config, string cacheKey)
         {
