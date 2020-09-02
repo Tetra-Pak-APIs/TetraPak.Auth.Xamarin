@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
 namespace TetraPak.Auth.Xamarin.logging
 {
     /// <summary>
@@ -10,6 +13,11 @@ namespace TetraPak.Auth.Xamarin.logging
         ///   Triggered whenever a log entry gets added.
         /// </summary>
         event EventHandler<TextLogEventArgs> Logged;
+
+        /// <summary>
+        ///   Gets or sets a delegate used for querying the log.
+        /// </summary>
+        QueryAsyncDelegate QueryAsync { get; set; }
 
         /// <summary>
         ///   Adds a message of rank <see cref="LogRank.Debug"/>.
@@ -37,5 +45,16 @@ namespace TetraPak.Auth.Xamarin.logging
         ///   A textual message to be logged.
         /// </param>
         void Error(Exception exception, string message = null);
+    }
+
+    public delegate Task<IEnumerable<ILogEntry>> QueryAsyncDelegate(params LogRank[] ranks);
+
+    public interface ILogEntry
+    {
+        LogRank Rank { get; }
+
+        DateTime Time { get; }
+
+        string Message { get; }
     }
 }

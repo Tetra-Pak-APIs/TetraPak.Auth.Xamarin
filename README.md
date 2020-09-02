@@ -130,11 +130,11 @@ When you invoke the `IAuthenticator.GetAccessTokenAsync` or `IAuthenticator.GetA
 
 ---
 
-### Understanding the Authorization Result
+### Consume the Authorization Result
 
-As the request for token(s) is completed the result is returned back to the client code as an `AuthResult` object. The result contains a collection of tokens, each represented by a `TokenInfo` object that carries the actual `TokenValue` (a `string`), the `Role` (enum: `TokenRole`) and a expiration time (`DateTime`) when applicable. You can iterate this collection or use LINQ to quickly find a token of interest, such as the access token, like so: 
+As the request for token(s) is completed the result is returned back to the client code as an `AuthResult` object. The result contains a collection of tokens, each represented by a `TokenInfo` object that carries the actual `TokenValue` (a `string`), the `Role` (a `TokenRole` enum) and a expiration time (`DateTime`) when applicable. You can iterate this collection or use LINQ to quickly find a token of interest, such as the access token, like so: 
 
-```
+```csharp
 var accessToken = authResult.Tokens.FirstOrDefault(i => i.Roke == TokenRole.AccessToken);
 ```
 

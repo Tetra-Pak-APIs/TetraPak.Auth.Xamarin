@@ -9,9 +9,11 @@ using System.Web;
 using Xamarin.Forms;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.common;
-using TetraPak.Auth.Xamarin.debugging;
 using TetraPak.Auth.Xamarin.idTokenValidation;
 using TetraPak.Auth.Xamarin.logging;
+#if DEBUG
+using TetraPak.Auth.Xamarin.debugging;
+#endif
 
 [assembly: Dependency(typeof(TetraPakAuthenticator))]
 [assembly: Dependency(typeof(TetraPakAuthCallbackHandler))]
@@ -104,11 +106,15 @@ namespace TetraPak.Auth.Xamarin
 
         async Task<BoolValue<AuthResult>> acquireTokenAsyncUsingNativeWebUI()
         {
+            LogDebug("[GET AUTH CODE BEGIN]");
             LogDebug($"Listens for callbacks on {Config.RedirectUri} ...");
 
             var authAppDelegate = Authorization.GetAuthorizingAppDelegate();
             if (authAppDelegate is null)
+            {
+                LogDebug("Authorization fails: Could not get an authorization app delegate");
                 return BoolValue<AuthResult>.Fail($"Cannot obtain a {typeof(IAuthorizingAppDelegate)}.");
+            }
 
             var callbackHandler = (TetraPakAuthCallbackHandler)DependencyService.Get<IAuthCallbackHandler>();
             callbackHandler.NotifyUriCallback(onUriCallback);
@@ -122,15 +128,19 @@ namespace TetraPak.Auth.Xamarin
             await authAppDelegate.OpenInDefaultBrowserAsync(new Uri(authRequest), Config.RedirectUri);
             var callback = await _authCodeTcs.Task.ConfigureAwait(false);
 
-            LogDebug(callback.Value.ToString());
+            LogDebug($"Callback notified with value: {callback.Value}");
 
             // check the PKCE and get the access code ...
             var authCode = callback.Value.TryGetQueryValue("code").Value;
             var inState = callback.Value.TryGetQueryValue("state").Value;
+            LogDebug("[GET AUTH CODE END]");
             if (authState.IsUsed && inState != authState.State)
                 return BoolValue<AuthResult>.Fail($"Returned state was invalid: \"{inState}\". Expected state: \"{authState.State}\"");
 
-            return await getAccessCode(authCode, authState);
+            LogDebug("[GET ACCESS CODE BEGIN]");
+            var accessCodeResult = await getAccessCode(authCode, authState);
+            LogDebug("[GET ACCESS CODE END]");
+            return accessCodeResult;
 
             void onUriCallback(Uri uri, out bool isHandled)
             {
@@ -146,6 +156,7 @@ namespace TetraPak.Auth.Xamarin
 
         async Task<BoolValue<AuthResult>> getAccessCode(string authCode, AuthState authState)
         {
+
             var body = buildTokenRequestBody(authCode, authState);
             var uri = Config.TokenIssuer.AbsoluteUri;
             var request = (HttpWebRequest)WebRequest.Create(uri);
@@ -154,10 +165,12 @@ namespace TetraPak.Auth.Xamarin
             request.Accept = "Accept=text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
             var bodyData = Encoding.ASCII.GetBytes(body);
             request.ContentLength = bodyData.Length;
+            
+            Log.DebugWebRequest(request, body);
+
             var stream = request.GetRequestStream();
             await stream.WriteAsync(bodyData, 0, bodyData.Length);
             stream.Close();
-
             Log?.DebugWebRequest(request, body);
             try
             {

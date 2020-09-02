@@ -7,6 +7,7 @@
              xmlns:animations="clr-namespace:authClient.animations;assembly=authClient"
              x:Class="authClient.MainPage"
              BackgroundColor="#333333"
+             NavigationPage.HasNavigationBar="False"
              >
     
     <ContentPage.BindingContext>
@@ -71,6 +72,7 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <StackLayout
@@ -89,7 +91,10 @@
             </StackLayout>
 
             <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Environment" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-            <sc:SegmentedControl x:Name="ScEnvironment" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" ValueChanged="onEnvironmentChanged">
+            <sc:SegmentedControl 
+                x:Name="ScEnvironment" 
+                Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" 
+                ValueChanged="onEnvironmentChanged">
                 <sc:SegmentedControl.Children>
                     <sc:SegmentedControlOption Text="DEV"/>
                     <sc:SegmentedControlOption Text="MIG"/>
@@ -137,8 +142,15 @@
                 Style="{StaticResource MessageLabel}"
                 />
 
-            <ListView
+            <Button 
                 Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="2"
+                Text="View Log" 
+                Command="{Binding   AuthCodeGrant.ViewLogCommand}"
+                IsVisible="{Binding AuthCodeGrant.IsLogAvailable}"
+                />
+
+            <ListView
+                Grid.Column="0" Grid.Row="12" Grid.ColumnSpan="2"
                 ItemsSource="{Binding AuthCodeGrant.TokensResult.Tokens}"
                 IsVisible="{Binding AuthCodeGrant.IsAuthorized}"
                 BackgroundColor="Transparent"
@@ -190,7 +202,7 @@
                                     <Button.Triggers>
                                         <DataTrigger TargetType="Button" Binding="{Binding IsTokenUnvalidated}" Value="false">
                                             <DataTrigger.EnterActions>
-                                                <animations:TranslateTo Y="20"></animations:TranslateTo>
+                                                <animations:TranslateTo Y="20"/>
                                                 <animations:FadeTo>0</animations:FadeTo>
                                             </DataTrigger.EnterActions>
                                         </DataTrigger>

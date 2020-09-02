@@ -1,9 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using authClient.dependencies;
 using authClient.viewModels;
+using Microsoft.Extensions.DependencyInjection;
 using TetraPak.Auth.Xamarin.logging;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -12,18 +16,27 @@ namespace authClient
 {
     public partial class App : Application
     {
-        public ILog Log => Services.GetService<ILog>(); 
+        readonly IEnumerable<ILogEntry> _log = new List<ILogEntry>();
+
+        public ILog Log => IServiceProviderExtensions.GetService<ILog>(Services); 
 
         public IServiceProvider Services { get; }
 
+        public static INavigation Navigation {  get; private set; }
+
         public App()
         {
-            Services = this.SetupDependencies();
+            var c = new ServiceCollection();
+            c.AddSingleton(p => Navigation);
+            Services = this.SetupDependencies(c);
             Log.Logged += onLogged;
+            Log.QueryAsync = onQueryLogAsync;
             InitializeComponent();
             try
             {
-                MainPage = new MainPage { BindingContext = Services.GetService<MainViewModel>() };
+                var navigationPage = new NavigationPage(new MainPage {BindingContext = IServiceProviderExtensions.GetService<MainViewModel>(Services)});
+                MainPage = navigationPage;
+                Navigation = navigationPage.Navigation;
             }
             catch (Exception ex)
             {
@@ -31,8 +44,19 @@ namespace authClient
             }
         }
 
-        static void onLogged(object sender, TextLogEventArgs e)
+        Task<IEnumerable<ILogEntry>> onQueryLogAsync(LogRank[] ranks)
         {
+            if (ranks.Length == 0)
+                return Task.FromResult(_log);
+
+            return Task.FromResult(ranks.Length == 1 
+                ? _log.Where(i => i.Rank == ranks[0]) 
+                : _log.Where(i => ranks.Any(e => e == i.Rank)));
+        }
+
+        void onLogged(object sender, TextLogEventArgs e)
+        {
+            ((List<ILogEntry>)_log).Add(new LogEntry(e.Rank, DateTime.Now, e.Message));
             Debug.WriteLine(e.Rank == LogRank.Error
                 ? $"[{e.Rank}] {e.Exception}{(e.Message != null ? $" {e.Message}" : "")}"
                 : $"[{e.Rank}] {e.Message}");
@@ -51,6 +75,20 @@ namespace authClient
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+
+        class LogEntry : ILogEntry
+        {
+            public LogRank Rank { get; }
+            public DateTime Time { get; }
+            public string Message { get; }
+
+            public LogEntry(LogRank rank, DateTime time, string message)
+            {
+                Rank = rank;
+                Time = time;
+                Message = message;
+            }
         }
     }
 }

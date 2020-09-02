@@ -3,6 +3,7 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using TetraPak.Auth.Xamarin.Android;
+using TetraPak.Auth.Xamarin.logging;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(TetraPakAuthActivity))]
@@ -22,10 +23,15 @@ namespace TetraPak.Auth.Xamarin.Android
         {
             global::Android.Net.Uri androidUri = intent.Data;
             var uri = new Uri(androidUri.ToString());
+            var log = DependencyService.Get<ILog>();
+            log.Debug($"OnCreate: Uri={uri}");
             Authorization.GetAuthorizingAppDelegate().ActivateApp();
             var authCallbackHandler = DependencyService.Get<IAuthCallbackHandler>();
             authCallbackHandler?.HandleUrlCallback(uri);
-            activity.Finish();
+            if (finish)
+            {
+                activity.Finish();
+            }
         }
         
         protected override void OnCreate(Bundle savedInstanceState)
@@ -33,6 +39,8 @@ namespace TetraPak.Auth.Xamarin.Android
             base.OnCreate(savedInstanceState);
             global::Android.Net.Uri androidUri = Intent.Data;
             var uri = new Uri(androidUri.ToString());
+            var log = DependencyService.Get<ILog>();
+            log.Debug($"OnCreate: Uri={uri}");
             Authorization.GetAuthorizingAppDelegate().ActivateApp();
             var authCallbackHandler = DependencyService.Get<IAuthCallbackHandler>();
             authCallbackHandler?.HandleUrlCallback(uri);

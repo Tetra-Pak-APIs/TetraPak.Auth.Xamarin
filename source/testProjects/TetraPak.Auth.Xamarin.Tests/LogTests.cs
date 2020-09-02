@@ -27,6 +27,8 @@ namespace TetraPak.Auth.Xamarin.Tests
         
         public event EventHandler<TextLogEventArgs> Logged;
         
+        public QueryAsyncDelegate QueryAsync { get; set; }
+
         public void Debug(string message)
         {
             _sb.AppendLine(message);

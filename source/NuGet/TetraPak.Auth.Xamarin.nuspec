@@ -9,30 +9,47 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <icon>images\icon.png</icon>
     <!--iconUrl>https://i.imgur.com/Nuo65pc.png</iconUrl-->
-    <description>An easy to plugin and play authorization solution for consuming Tetra Pak APIs with a Xamarin client.</description>
+    <description>
+Adhering to Tetra Pak's up-n-running-in-under-20-minutes API policy, 
+this package will have your Xamarin clients consume Tetra Pak data with just a few lines of code
+    </description>
     <projectUrl>https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin</projectUrl>
     <license type="expression">MIT</license>
     <releaseNotes>
-      This version introduces token validation that also includes ID tokens.
-      Please note the AuthResult.IsValid property is now obsolete. Please refer to the TokenInfo.IsValidAsync method instead.
+[v1.2]
+Allows client to consume ID tokens.
+Provides easy ID token validation.
+Please note the AuthResult.IsValid property is now obsolete. Please refer to the TokenInfo.IsValidAsync method instead.
+
+[v1.1.1]
+Introduced a mechanism for mobile backend to gain access to user identity information.
+Minor bug fixes and improvements to the README.
     </releaseNotes>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.7.1" />
         <dependency id="System.Text.Json" version="4.7.1" /> 
         <dependency id="Xamarin.Essentials" version="1.0" />
         <dependency id="Xamarin.Forms" version="4.0" />
       </group>
 
       <group targetFramework="Xamarin.iOS1.0">
-        <dependency id="Xamarin.Forms" version="4.0" />
+        <dependency id="Xamarin.Forms" version="4.0.0" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.7.1" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="6.7.1" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
       </group>
-
       <group targetFramework="MonoAndroid1.0">
-        <dependency id="Xamarin.Forms" version="4.0" />
+        <dependency id="Xamarin.Forms" version="4.0.0" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.7.1" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="6.7.1" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
       </group>
-
-      <group targetFramework="uap10.0">
-        <dependency id="Xamarin.Forms" version="4.0" />
+      <group targetFramework="UAP10.0">
+        <dependency id="Xamarin.Forms" version="4.0.0" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.7.1" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="6.7.1" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
       </group>
 
     </dependencies>
