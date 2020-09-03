@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using System.Runtime.InteropServices;
 using System.Text;
 using TetraPak.Auth.Xamarin.logging;
 using Xunit;
@@ -35,6 +36,11 @@ namespace TetraPak.Auth.Xamarin.Tests
         }
 
         public void Info(string message)
+        {
+            _sb.AppendLine(message);
+        }
+
+        public void Warning(string message)
         {
             _sb.AppendLine(message);
         }

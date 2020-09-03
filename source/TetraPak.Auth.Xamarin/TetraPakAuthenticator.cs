@@ -271,14 +271,14 @@ namespace TetraPak.Auth.Xamarin
             }
 
             if (!dict.TryGetValue("id_token", out var idToken)) 
-                return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(tokens.ToArray())));
+                return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(Config, Log,tokens.ToArray())));
             
             var idTokenValidation = await validateIdTokenAsync(idToken);
             if (!idTokenValidation)
                 return BoolValue<AuthResult>.Fail(idTokenValidation.Message);
             
             tokens.Add(new TokenInfo(idToken, TokenRole.IdToken, null, validateIdTokenAsync));
-            return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(tokens.ToArray())));
+            return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(Config, Log, tokens.ToArray())));
         }
         
         async Task<BoolValue<AuthResult>> tryGetCachedAuthResultAsync()

@@ -25,6 +25,12 @@ namespace TetraPak.Auth.Xamarin.logging
         }
 
         /// <inheritdoc />
+        public void Warning(string message)
+        {
+            Logged?.Invoke(this, new TextLogEventArgs(LogRank.Warning, message));
+        }
+
+        /// <inheritdoc />
         public void Error(Exception exception, string message = null)
         {
             Logged?.Invoke(this, new TextLogEventArgs(LogRank.Error, message, exception));

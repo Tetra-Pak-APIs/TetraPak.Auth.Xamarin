@@ -142,12 +142,18 @@
                 Style="{StaticResource MessageLabel}"
                 />
 
-            <Button 
-                Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="2"
-                Text="View Log" 
-                Command="{Binding   AuthCodeGrant.ViewLogCommand}"
-                IsVisible="{Binding AuthCodeGrant.IsLogAvailable}"
+            <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="2">
+                <Button 
+                    Text="View user Info" 
+                    Command="{Binding   AuthCodeGrant.ViewUserInfoCommand}"
+                    IsVisible="{Binding AuthCodeGrant.IsUserInfoAvailable}"
                 />
+                <Button
+                    Text="View Log" 
+                    Command="{Binding   AuthCodeGrant.ViewLogCommand}"
+                    IsVisible="{Binding AuthCodeGrant.IsLogAvailable}"
+                    />
+            </StackLayout>
 
             <ListView
                 Grid.Column="0" Grid.Row="12" Grid.ColumnSpan="2"

@@ -13,6 +13,7 @@ using TetraPak.Auth.Xamarin.common;
 namespace TetraPak.Auth.Xamarin.debugging
 {
     // todo maybe(?) consider improving the Auth simulator to truly simulate the actual flow, including flipping to an "external web page"
+    // todo consider improving the the Auth simulator to also support retrieving user information
     public class AuthSimulator
     {
         public static bool IsSimulating
@@ -44,10 +45,10 @@ namespace TetraPak.Auth.Xamarin.debugging
             var accessToken = new TokenInfo(new RandomString(), TokenRole.AccessToken, DateTime.Now.Add(AccessTokenLongevity), null);
             var refreshToken = new TokenInfo(new RandomString(), TokenRole.RefreshToken, null, null);
             if (!config.IsRequestingUserId)
-                return await config.CacheAsync(new AuthResult(accessToken, refreshToken), cacheKey);
+                return await config.CacheAsync(new AuthResult(null, null, accessToken, refreshToken), cacheKey);
             
             var idToken = new TokenInfo(simulatedJwtToken(), TokenRole.IdToken, DateTime.Now.Add(IdTokenLongevity), onValidateSimulatedIdToken);
-            return await config.CacheAsync(new AuthResult(accessToken, refreshToken, idToken), cacheKey);
+            return await config.CacheAsync(new AuthResult(null, null, accessToken, refreshToken, idToken), cacheKey);
         }
 
         public static async Task<BoolValue<AuthResult>> TryGetSimulatedRenewedAccessTokenAsync(string refreshToken, AuthConfig config, string cacheKey)
@@ -57,7 +58,7 @@ namespace TetraPak.Auth.Xamarin.debugging
                 return BoolValue<AuthResult>.Fail($"Invalid refresh token");
                 
             var accessToken = new TokenInfo(new RandomString(), TokenRole.AccessToken, DateTime.Now.Add(AccessTokenLongevity), null);
-            return await config.CacheAsync(new AuthResult(accessToken), cacheKey);
+            return await config.CacheAsync(new AuthResult(null, null, accessToken), cacheKey);
         }
 
         static string simulatedJwtToken()

@@ -24,6 +24,7 @@ namespace authClient.viewModels
         bool _isInternalValueChange;
         RuntimeEnvironment _environment;
         bool _isLogAvailable;
+        bool _isUserInfoAvailable;
 
         IAuthenticator Authenticator => TetraPak.Auth.Xamarin.Authorization.GetAuthenticator(_config, Log);
 
@@ -88,7 +89,13 @@ namespace authClient.viewModels
         {
             get => _isLogAvailable;
             set => SetValue(ref _isLogAvailable, value);
-        } 
+        }
+
+        public bool IsUserInfoAvailable
+        {
+            get => _isUserInfoAvailable;
+            set => SetValue(ref _isUserInfoAvailable, value);
+        }
 
         /// <summary>
         ///   Gets or sets the redirect URI
@@ -173,6 +180,8 @@ namespace authClient.viewModels
         public ICommand DeleteAccessTokenCommand { get; }
 
         public ICommand ViewLogCommand { get; }
+        
+        public ICommand ViewUserInfoCommand { get; }
 
         void setConfigValue(object value, [CallerMemberName] string propertyName = null)
         {
@@ -187,6 +196,7 @@ namespace authClient.viewModels
                 : await Authenticator.GetAccessTokenAsync();
 
             IsLogAvailable = true;
+            IsUserInfoAvailable = true;
 
             if (authorized)
             {
@@ -303,6 +313,12 @@ namespace authClient.viewModels
             await navigation.PushAsync(new LogPage(new LogVM(Services, Log)));
         }
 
+        async Task onViewUserInfo()
+        {
+            var navigation = Services.GetService<INavigation>();
+            await navigation.PushAsync(new UserInfoPage(new UserInfoVM(Services, _authorization, Log)));
+        }
+
         void initializeValues(AuthConfig config)
         {
             _isInternalValueChange = true;
@@ -343,6 +359,7 @@ namespace authClient.viewModels
             AuthorizeSilentlyCommand = new Command(async () => await onAuthorize(true), () => IsCaching);
             DeleteAccessTokenCommand = new Command(async () => await onDeleteAccessTokenAsync());
             ViewLogCommand = new Command(async () => await onViewLog());
+            ViewUserInfoCommand = new Command(async () => await onViewUserInfo());
 #if DEBUG
             /*
             ToggleIsLocalIdentityProvider = new Command(() => IsLocalIdentityProvider = !IsLocalIdentityProvider);
@@ -350,7 +367,6 @@ namespace authClient.viewModels
 #endif
             initializeValues(_config);
         }
-
     }
 
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]

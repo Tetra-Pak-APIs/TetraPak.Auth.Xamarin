@@ -44,6 +44,8 @@ namespace authClient.dependencies
 
             public void Debug(string message) => Log.Debug(message);
             public void Info(string message) => Log.Info(message);
+            public void Warning(string message) => Log.Warning(message);
+
             public void Error(Exception exception, string message = null) => Log.Error(exception, message);
         }
     }

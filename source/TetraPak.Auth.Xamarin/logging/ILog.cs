@@ -36,6 +36,14 @@ namespace TetraPak.Auth.Xamarin.logging
         void Info(string message);
 
         /// <summary>
+        ///   Adds a message of rank <see cref="LogRank.Warning"/>.
+        /// </summary>
+        /// <param name="message">
+        ///   A textual message to be logged.
+        /// </param>
+        void Warning(string message);
+
+        /// <summary>
         ///   Adds an <see cref="Exception"/> and message of rank <see cref="LogRank.Error"/>.
         /// </summary>
         /// <param name="exception">

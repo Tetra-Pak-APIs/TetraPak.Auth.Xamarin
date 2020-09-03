@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Text.Json;
 using System.Threading.Tasks;
 using TetraPak.Auth.Xamarin.common;
+using TetraPak.Auth.Xamarin.logging;
 
 namespace TetraPak.Auth.Xamarin
 {
@@ -10,6 +15,11 @@ namespace TetraPak.Auth.Xamarin
     /// </summary>
     public class AuthResult
     {
+        readonly ILog _log;
+        UserInfo _userInfo;
+        UserInfoLoader _userInfoLoader;
+        readonly AuthConfig _authConfig;
+
         /// <summary>
         ///   A collection of tokens (represented as <see cref="TokenInfo"/> objects) returned from the issuer.
         /// </summary>
@@ -50,9 +60,57 @@ namespace TetraPak.Auth.Xamarin
                 return !accessToken.Expires.HasValue || accessToken.Expires.Value > DateTime.Now;
             }
         }
-        
-        internal AuthResult(params TokenInfo[] tokens)
+
+        public async Task<BoolValue<object>> TryGetUserInfo(string type)
         {
+            _log?.Debug("[GET USER INFO BEGIN]");
+
+            if (AccessToken is null)
+            {
+                _log?.Warning("Cannot get user information without a valid access token");
+                return BoolValue<object>.Fail();
+            }
+
+            var key = type.ToLowerInvariant();
+            if (_userInfo != null)
+                return _userInfo.TryGet(key, out object value)
+                    ? BoolValue<object>.Success(value)
+                    : BoolValue<object>.Fail();
+
+            _userInfoLoader ??= new UserInfoLoader(AccessToken, _authConfig, _log);
+            _userInfo = await _userInfoLoader.AwaitDownloadedAsync();
+            return await TryGetUserInfo(type);
+        }
+
+        public async Task<BoolValue<string[]>> TeyGetUserInfoTypes()
+        {
+            if (AccessToken is null)
+            {
+                _log?.Warning("Cannot get user information without a valid access token");
+                return BoolValue<string[]>.Fail();
+            }
+
+            try
+            {
+                if (_userInfo is { }) 
+                    return BoolValue<string[]>.Success(_userInfo.Types);
+
+                _userInfoLoader ??= new UserInfoLoader(AccessToken, _authConfig, _log);
+                _userInfo = await _userInfoLoader.AwaitDownloadedAsync();
+
+                return BoolValue<string[]>.Success(_userInfo.Types);
+            }
+            catch (Exception ex)
+            {
+                _log?.Error(ex);
+                return BoolValue<string[]>.Fail(ex.Message, ex);
+            }
+        }
+
+        internal AuthResult(AuthConfig config, ILog log, params TokenInfo[] tokens)
+        {
+            _authConfig = config;
+            _log = log;
             Tokens = tokens;
         }
     }
@@ -111,7 +169,106 @@ namespace TetraPak.Auth.Xamarin
             _validateTokenDelegate = validateTokenDelegate;
         }
     }
-    
+
+    class UserInfoLoader
+    {
+        readonly TaskCompletionSource<UserInfo> _tcs;
+        readonly string _accessToken;
+        readonly ILog _log;
+
+        void downloadAsync(Uri userInfoUri)
+        {
+            Task.Run(async () =>
+            {
+
+                var request = (HttpWebRequest)WebRequest.Create(userInfoUri);
+                request.Method = "GET";
+                request.Accept = "*/*";
+                request.Headers.Add($"Authorization: Bearer {_accessToken}");
+
+                _log?.DebugWebRequest(request, null);
+
+                try
+                {
+                    var response = await request.GetResponseAsync();
+                    var responseStream = response.GetResponseStream()
+                                         ?? throw new Exception("Unexpected error: No response when requesting token.");
+
+                    using (var r = new StreamReader(responseStream))
+                    {
+                        var text = await r.ReadToEndAsync();
+
+                        _log?.DebugWebResponse(response as HttpWebResponse, text);
+
+                        var dictionary = JsonSerializer.Deserialize<IDictionary<string, object>>(text);
+                        _tcs.SetResult(new UserInfo(dictionary));
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _log?.Error(ex);
+                    _tcs.SetException(ex);
+                }
+                finally
+                {
+                    _log?.Debug("[GET USER INFO END]");
+                }
+            });
+        }
+
+        public Task<UserInfo> AwaitDownloadedAsync() => _tcs.Task;
+
+        public UserInfoLoader(string accessToken, AuthConfig config, ILog log)
+        {
+            _accessToken = accessToken;
+            _log = log;
+            _tcs = new TaskCompletionSource<UserInfo>();
+            downloadAsync(config.UserInfoUri);
+        }
+    }
+
+    public class UserInfo
+    {
+        readonly IDictionary<string, object> _dictionary;
+
+        public string[] Types => _dictionary.Keys.ToArray();
+
+        public bool TryGet<T>(string type, out T value)
+        {
+            var key = type.ToLowerInvariant();
+            if (!_dictionary.TryGetValue(key, out var obj))
+            {
+                value = default;
+                return false;
+            }
+            if (obj is T typedValue)
+            {
+                value = typedValue;
+                return true;
+            }
+
+            // todo Cast from Json Token to requested value.
+            // todo Also replace Json Token with converted value to avoid converting twice
+            throw new NotImplementedException();
+        }
+
+        public UserInfo(IDictionary<string, object> dictionary)
+        {
+            _dictionary = dictionary;
+        }
+    }
+
+
+    public static class UserInfoTypes
+    {
+        public const string Subject = "sub";
+        public const string UserId = Subject;
+        public const string Name = "name";
+        public const string FamilyName = "family_name";
+        public const string Email = "email";
+        public const string Domain = "domain";
+    }
+
     delegate Task<BoolValue<string>> ValidateTokenDelegate(string token);
 
 }

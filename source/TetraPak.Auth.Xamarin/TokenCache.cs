@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using TetraPak.Auth.Xamarin.common;
+using TetraPak.Auth.Xamarin.logging;
 using Xamarin.Essentials;
 
 namespace TetraPak.Auth.Xamarin
@@ -11,6 +12,8 @@ namespace TetraPak.Auth.Xamarin
     public class TokenCache : MemoryCache<AuthResult>
     {
         readonly bool _isRefreshTokenPersisted;
+        readonly ILog _log;
+        readonly AuthConfig _authConfig;
 
         /// <summary>
         ///   Adds tokens (in an <see cref="AuthResult"/> object) to the cache.
@@ -60,7 +63,7 @@ namespace TetraPak.Auth.Xamarin
             var refreshToken = await SecureStorage.GetAsync(key);
             return refreshToken is null
                 ? cached
-                : BoolValue<AuthResult>.Success(new AuthResult(cached.Value?.Tokens));
+                : BoolValue<AuthResult>.Success(new AuthResult(_authConfig, _log, cached.Value?.Tokens));
         }
 
         /// <summary>
@@ -114,9 +117,11 @@ namespace TetraPak.Auth.Xamarin
         /// <param name="isRefreshTokenPersisted">
         ///   Specifies whether refresh tokens should be persisted.
         /// </param>
-        public TokenCache(bool isRefreshTokenPersisted = true)
+        public TokenCache(AuthConfig config, bool isRefreshTokenPersisted = true, ILog log = null)
         {
+            _authConfig = config;
             _isRefreshTokenPersisted = isRefreshTokenPersisted;
+            _log = log;
         }
     }
 }

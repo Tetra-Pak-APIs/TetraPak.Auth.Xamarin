@@ -31,6 +31,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70611AF4-0264-4881-82FF-3643249AEF62}"
 	ProjectSection(SolutionItems) = preProject
 		..\text\news-portal-2020-08.md = ..\text\news-portal-2020-08.md
+		..\text\news-portal-2020-09-03.md = ..\text\news-portal-2020-09-03.md
+		..\text\news-yammer-2020-08-10.md = ..\text\news-yammer-2020-08-10.md
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject

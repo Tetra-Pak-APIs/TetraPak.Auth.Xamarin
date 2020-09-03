@@ -18,6 +18,11 @@ namespace TetraPak.Auth.Xamarin.logging
         Info,
 
         /// <summary>
+        ///   Logs potentially erroneous/invalid operations.
+        /// </summary>
+        Warning,
+
+        /// <summary>
         ///   Denotes a logged exception.
         /// </summary>
         Error

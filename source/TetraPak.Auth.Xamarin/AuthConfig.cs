@@ -15,12 +15,17 @@ namespace TetraPak.Auth.Xamarin
     /// </remarks>
     public class AuthConfig
     {
-        const string DevelopmentAuthority = "https://api-dev.tetrapak.com/oauth2/authorize";
-        const string MigrationAuthority = "https://api-mig.tetrapak.com/oauth2/authorize";
-        const string ProductionAuthority = "https://api.tetrapak.com/oauth2/authorize";
-        const string DevelopmentTokenIssuer = "https://api-dev.tetrapak.com/oauth2/token";
-        const string MigrationTokenIssuer = "https://api-mig.tetrapak.com/oauth2/token";
-        const string ProductionTokenIssuer = "https://api.tetrapak.com/oauth2/token";
+        const string DevelopmentAuthorityUrl = "https://api-dev.tetrapak.com/oauth2/authorize";
+        const string MigrationAuthorityUrl = "https://api-mig.tetrapak.com/oauth2/authorize";
+        const string ProductionAuthorityUrl = "https://api.tetrapak.com/oauth2/authorize";
+        
+        const string DevelopmentTokenIssuerUrl = "https://api-dev.tetrapak.com/oauth2/token";
+        const string MigrationTokenIssuerUrl = "https://api-mig.tetrapak.com/oauth2/token";
+        const string ProductionTokenIssuerUrl = "https://api.tetrapak.com/oauth2/token";
+        
+        internal const string DevelopmentUserInfoUrl = "https://api-dev.tetrapak.com/userinfo";
+        internal const string MigrationUserInfoUrl = "https://api-mig.tetrapak.com/userinfo";
+        internal const string ProductionUserInfoUrl = "https://api.tetrapak.com/userinfo";
 
         Uri _authority;
         Uri _tokenIssuer;
@@ -81,6 +86,11 @@ namespace TetraPak.Auth.Xamarin
         ///   Gets or sets a redirect <see cref="Uri"/>, used for passing back an auth code.
         /// </summary>
         public Uri RedirectUri { get; set; }
+
+        /// <summary>
+        ///   Gets or sets a user information  <see cref="Uri"/>, used for retrieving user information.
+        /// </summary>
+        public Uri UserInfoUri { get; set; }
 
         /// <summary>
         ///   Gets or sets the client id (a.k.a. "app id").
@@ -170,6 +180,7 @@ namespace TetraPak.Auth.Xamarin
                 getAuthority(application.Environment),
                 getTokenIssuer(application.Environment),
                 application.RedirectUri,
+                getUserInfoUri(application.Environment),
                 application.ClientId,
                 "",
                 true,
@@ -181,10 +192,10 @@ namespace TetraPak.Auth.Xamarin
         {
             return environment switch
             {
-                RuntimeEnvironment.Development => new Uri(DevelopmentAuthority),
+                RuntimeEnvironment.Development => new Uri(DevelopmentAuthorityUrl),
                 RuntimeEnvironment.Test => throw new NotSupportedException($"Unsupported environment: {environment}"),
-                RuntimeEnvironment.Migration => new Uri(MigrationAuthority),
-                RuntimeEnvironment.Production => new Uri(ProductionAuthority),
+                RuntimeEnvironment.Migration => new Uri(MigrationAuthorityUrl),
+                RuntimeEnvironment.Production => new Uri(ProductionAuthorityUrl),
                 _ => throw new ArgumentOutOfRangeException()
             };
         }
@@ -193,10 +204,22 @@ namespace TetraPak.Auth.Xamarin
         {
             return environment switch
             {
-                RuntimeEnvironment.Development => new Uri(DevelopmentTokenIssuer),
+                RuntimeEnvironment.Development => new Uri(DevelopmentTokenIssuerUrl),
                 RuntimeEnvironment.Test => throw new NotSupportedException($"Unsupported environment: {environment}"),
-                RuntimeEnvironment.Migration => new Uri(MigrationTokenIssuer),
-                RuntimeEnvironment.Production => new Uri(ProductionTokenIssuer),
+                RuntimeEnvironment.Migration => new Uri(MigrationTokenIssuerUrl),
+                RuntimeEnvironment.Production => new Uri(ProductionTokenIssuerUrl),
+                _ => throw new ArgumentOutOfRangeException()
+            };
+        }
+
+        static Uri getUserInfoUri(RuntimeEnvironment environment)
+        {
+            return environment switch
+            {
+                RuntimeEnvironment.Development => new Uri(DevelopmentUserInfoUrl),
+                RuntimeEnvironment.Test => throw new NotSupportedException($"Unsupported environment: {environment}"),
+                RuntimeEnvironment.Migration => new Uri(MigrationUserInfoUrl),
+                RuntimeEnvironment.Production => new Uri(ProductionUserInfoUrl),
                 _ => throw new ArgumentOutOfRangeException()
             };
         }
@@ -225,6 +248,7 @@ namespace TetraPak.Auth.Xamarin
             Uri authority, 
             Uri tokenIssuer, 
             Uri redirectUri, 
+            Uri userInfoUri,
             string clientId, 
             string scope = "", 
             bool isStateUsed = true, 
@@ -232,10 +256,11 @@ namespace TetraPak.Auth.Xamarin
             bool isCaching = true, 
             TokenCache tokenCache = null)
         {
-            _tokenCache = tokenCache ?? (TokenCache)new TokenCache().WithDefaultKey(clientId);
+            _tokenCache = tokenCache ?? (TokenCache)new TokenCache(this).WithDefaultKey(clientId);
             Authority = _authority = authority;
             TokenIssuer = _tokenIssuer = tokenIssuer;
             RedirectUri = redirectUri;
+            UserInfoUri = userInfoUri;
             ClientId = clientId;
             //ClientSecret = clientSecret; obsolete (we no longer support client secrets with native clients)
             Scope = scope;
