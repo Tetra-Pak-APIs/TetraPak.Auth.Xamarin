@@ -147,7 +147,7 @@
                     Text="View user Info" 
                     Command="{Binding   AuthCodeGrant.ViewUserInfoCommand}"
                     IsVisible="{Binding AuthCodeGrant.IsUserInfoAvailable}"
-                />
+                    />
                 <Button
                     Text="View Log" 
                     Command="{Binding   AuthCodeGrant.ViewLogCommand}"
