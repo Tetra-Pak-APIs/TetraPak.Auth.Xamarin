@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,6 +10,7 @@ using Xamarin.Forms;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.common;
 using TetraPak.Auth.Xamarin.logging;
+using Xamarin.Forms.Internals;
 
 namespace authClient.viewModels
 {
@@ -25,6 +27,8 @@ namespace authClient.viewModels
         RuntimeEnvironment _environment;
         bool _isLogAvailable;
         bool _isUserInfoAvailable;
+        IEnumerable<ScopeTypeVM> _scope;
+        bool _ignoreUpdatingScope;
 
         IAuthenticator Authenticator => TetraPak.Auth.Xamarin.Authorization.GetAuthenticator(_config, Log);
 
@@ -55,11 +59,19 @@ namespace authClient.viewModels
             }
         }
 
+        /*
         /// <summary>
         ///   Gets or sets the scope for the requested token.
         /// </summary>
         [ValidatedValue(PlaceholderValue = "An optional scope to be requested")]
         public StringVM Scope { get; private set; }
+        */
+
+        public IEnumerable<ScopeTypeVM> Scope
+        {
+            get => _scope;
+            set => SetValue(ref _scope, value);
+        } 
 
         /// <summary>
         ///   Gets or sets the URL of the OAuth2-enabled Authority. 
@@ -94,7 +106,7 @@ namespace authClient.viewModels
         public bool IsUserInfoAvailable
         {
             get => _isUserInfoAvailable;
-            set => SetValue(ref _isUserInfoAvailable, value);
+            set => SetValue(ref _isUserInfoAvailable, value); 
         }
 
         /// <summary>
@@ -131,8 +143,26 @@ namespace authClient.viewModels
         public bool IsRequestingUserId
         {
             get => _config.IsRequestingUserId;
-            set => setConfigValue(value);
-        } 
+            set
+            {
+                setConfigValue(value);
+                updateScope();
+                OnPropertyChanged();
+            }
+        }
+
+        void updateScope()
+        {
+            if (IsRequestingUserId)
+            {
+                var openIdScopeType = Scope.FirstOrDefault(i => i.Name.Equals(AuthScope.OpenId, StringComparison.InvariantCultureIgnoreCase));
+                if (openIdScopeType is { })
+                    openIdScopeType.IsSelected = true;
+                
+                return;
+            }
+            Scope.ForEach(i => i.IsSelected = false);
+        }
 
         [ValidatedValue(PlaceholderValue = "Paste a refresh token here to test renewing")]
         
@@ -196,7 +226,7 @@ namespace authClient.viewModels
                 : await Authenticator.GetAccessTokenAsync();
 
             IsLogAvailable = true;
-            IsUserInfoAvailable = true;
+            IsUserInfoAvailable = _config.IsRequestingUserId;
 
             if (authorized)
             {
@@ -278,10 +308,6 @@ namespace authClient.viewModels
                     _config.ClientId = (string)newValue;
                     break;
 
-                //case nameof(ClientSecret): obsolete (we no longer support client secret in native clients)
-                //    _config.ClientSecret = (string)newValue;
-                //    break;
-
                 case nameof(Scope):
                     _config.Scope = (string)newValue;
                     break;
@@ -329,7 +355,7 @@ namespace authClient.viewModels
             RedirectUrl.Value = config.RedirectUri?.AbsoluteUri;
             ClientId.Value = config.ClientId;
             //ClientSecret.Value = config.ClientSecret; obsolete (we no longer support client secret in native clients)
-            Scope.Value = config.Scope;
+            Scope = buildScopeFrom(config);
             IsStateUsed = config.IsStateUsed;
             IsPkceUsed = config.IsPkceUsed;
             IsCaching = config.IsCaching;
@@ -338,6 +364,44 @@ namespace authClient.viewModels
                 initializeTokensFromCache(config.TokenCache);
 
             _isInternalValueChange = false;
+        }
+
+        IEnumerable<ScopeTypeVM> buildScopeFrom(AuthConfig config)
+        {
+            var scopeTypes = AuthScope.Supported?.Any() ?? false ? AuthScope.Supported : AuthScope.Wellknown;
+            var list = new List<ScopeTypeVM>();
+            foreach (var scopeType in scopeTypes)
+            {
+                var scopeTypeVM = Services.GetService<ScopeTypeVM>();
+                scopeTypeVM.Name = scopeType;
+                scopeTypeVM.IsSelected =
+                    config.Scope?.Items.Any(i => i.Equals(scopeType, StringComparison.InvariantCultureIgnoreCase)) ?? false;
+                
+                scopeTypeVM.PropertyChanged += (o, e) =>
+                {
+                    if (e.PropertyName != nameof(ScopeTypeVM.IsSelected) || _ignoreUpdatingScope) 
+                        return;
+
+                    if (((ScopeTypeVM) o).IsSelected)
+                    {
+                        _config.AddScope(scopeType);
+                    }
+                    else
+                    {
+                        _config.RemoveScope(scopeType);
+                    }
+                    
+                    if (!scopeType.Equals(AuthScope.OpenId, StringComparison.InvariantCultureIgnoreCase))
+                        return;
+                    
+                    _ignoreUpdatingScope = true;
+                    IsRequestingUserId = ((ScopeTypeVM) o).IsSelected;
+                    _ignoreUpdatingScope = false;
+                };
+                list.Add(scopeTypeVM);
+            }
+
+            return list;
         }
 
         async Task initializeTokensFromCache(TokenCache tokenCache)

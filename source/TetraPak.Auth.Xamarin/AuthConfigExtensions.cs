@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using Xamarin.Forms.Internals;
 
 namespace TetraPak.Auth.Xamarin
 {
@@ -52,8 +52,11 @@ namespace TetraPak.Auth.Xamarin
         /// <returns>
         ///   <c>this</c>
         /// </returns>
-        public static AuthConfig WithScope(this AuthConfig self, params string[] scope)
+        public static AuthConfig WithScope(this AuthConfig self, AuthScope scope)
         {
+            self.Scope = scope;
+            return self;
+            /* obsolete
             var strings = self.Scope?.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries) ?? new string[0];
             var current = new HashSet<string>(strings);
             var sb = new StringBuilder(self.Scope);
@@ -64,6 +67,7 @@ namespace TetraPak.Auth.Xamarin
             
             self.Scope = sb.ToString().Trim();
             return self;
+            */
         }
 
         /// <summary>
@@ -79,25 +83,57 @@ namespace TetraPak.Auth.Xamarin
         }
 
         /// <summary>
-        ///   Removes one or more scope identifiers from the <see cref="AuthConfig.Scope"/> value.
+        ///   Adds one or more scope types (not already supported) to the <see cref="AuthConfig.Scope"/> value.
         /// </summary>
         /// <returns>
         ///   <c>this</c>
         /// </returns>
-        public static AuthConfig RemoveScope(this AuthConfig self, params string[] scope)
+        public static AuthConfig AddScope(this AuthConfig self, params string[] scopeTypes)
         {
-            var strings = self.Scope?.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries) ?? new string[0];
-            var current = new HashSet<string>(strings);
-            var removing = new HashSet<string>(scope);
-            var sb = new StringBuilder();
-            foreach (var identifier in current.Where(identifier => !removing.Contains(identifier)))
+            var list = new List<string>(self.Scope.Items);
+            foreach (var scope in scopeTypes)
             {
-                sb.Append($"{identifier.Trim()} ");
+                if (!list.Any(i => i.Equals(scope, StringComparison.InvariantCultureIgnoreCase)))
+                    list.Add(scope);
             }
-            
-            self.Scope = sb.ToString().Trim();
+            self.Scope = new AuthScope(list.ToArray());
             return self;
         }
+
+        /// <summary>
+        ///   Adds one or more scope types (not already supported) to the <see cref="AuthConfig.Scope"/> value.
+        /// </summary>
+        /// <returns>
+        ///   <c>this</c>
+        /// </returns>
+        public static AuthConfig AddScope(this AuthConfig self, AuthScope scope) => self.AddScope(scope.Items);
+
+        /// <summary>
+        ///   Removes one or more scope types from the <see cref="AuthConfig.Scope"/> value.
+        /// </summary>
+        /// <returns>
+        ///   <c>this</c>
+        /// </returns>
+        public static AuthConfig RemoveScope(this AuthConfig self, params string[] scopeTypes)
+        {
+            IEnumerable<string> list = new List<string>(self.Scope.Items);
+            foreach (var type in scopeTypes)
+            {
+                var index = list.IndexOf(i => i.Equals(type, StringComparison.InvariantCultureIgnoreCase));
+                if (index != -1)
+                    ((List<string>)list).RemoveAt(index);
+            }
+
+            return self.WithScope(new AuthScope(list.ToArray()));
+        }
+
+        /// <summary>
+        ///   Removes one or more scope types from the <see cref="AuthConfig.Scope"/> value.
+        /// </summary>
+        /// <returns>
+        ///   <c>this</c>
+        /// </returns>
+        public static AuthConfig RemoveScope(this AuthConfig self, AuthScope scope) => self.RemoveScope(scope.Items);
 
         /// <summary>
         ///   Replaces the default <see cref="TokenCache"/> with a (custom) one.

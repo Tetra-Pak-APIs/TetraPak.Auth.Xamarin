@@ -9,7 +9,7 @@ using System.Web;
 using Xamarin.Forms;
 using TetraPak.Auth.Xamarin;
 using TetraPak.Auth.Xamarin.common;
-using TetraPak.Auth.Xamarin.idTokenValidation;
+using TetraPak.Auth.Xamarin.oidc;
 using TetraPak.Auth.Xamarin.logging;
 #if DEBUG
 using TetraPak.Auth.Xamarin.debugging;
@@ -29,6 +29,8 @@ namespace TetraPak.Auth.Xamarin
         readonly TaskCompletionSource<BoolValue<Uri>> _authCodeTcs = new TaskCompletionSource<BoolValue<Uri>>();
         // readonly TokenCache _tokenCache;
 
+        internal static event EventHandler<AuthResultEventArgs> Authorized;
+
         /// <inheritdoc />
         public override async Task<BoolValue<AuthResult>> GetAccessTokenAsync(bool allowCached = true)
         {
@@ -36,7 +38,7 @@ namespace TetraPak.Auth.Xamarin
             {
                 var cached = await tryGetCachedAuthResultAsync();
                 if (cached && cached.Value.AccessToken != null)
-                    return cached;
+                    return onAuthorizationDone(cached);
             }
             
 #if DEBUG
@@ -71,7 +73,7 @@ namespace TetraPak.Auth.Xamarin
             if (cached.Value.AccessToken != null)
             {
                 if (!cached.Value.Expires.HasValue || DateTime.Now < cached.Value.Expires.Value)
-                    return BoolValue<AuthResult>.Success(cached.Value);
+                    return onAuthorizationDone(cached);
             }
 
             await removeFromCacheAsync();
@@ -102,6 +104,15 @@ namespace TetraPak.Auth.Xamarin
             }
 
             return result ? result : await GetAccessTokenAsync();
+        }
+
+        BoolValue<AuthResult> onAuthorizationDone(BoolValue<AuthResult> authResult)
+        {
+            if (authResult)
+            {
+                Authorized?.Invoke(this, new AuthResultEventArgs(authResult));
+            }
+            return authResult;
         }
 
         async Task<BoolValue<AuthResult>> acquireTokenAsyncUsingNativeWebUI()
@@ -140,7 +151,7 @@ namespace TetraPak.Auth.Xamarin
             LogDebug("[GET ACCESS CODE BEGIN]");
             var accessCodeResult = await getAccessCode(authCode, authState);
             LogDebug("[GET ACCESS CODE END]");
-            return accessCodeResult;
+            return onAuthorizationDone(accessCodeResult);
 
             void onUriCallback(Uri uri, out bool isHandled)
             {
@@ -273,9 +284,11 @@ namespace TetraPak.Auth.Xamarin
             if (!dict.TryGetValue("id_token", out var idToken)) 
                 return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(Config, Log,tokens.ToArray())));
             
+            /* obsolete (since we made validation available we no longer auto-validates id token)
             var idTokenValidation = await validateIdTokenAsync(idToken);
             if (!idTokenValidation)
                 return BoolValue<AuthResult>.Fail(idTokenValidation.Message);
+            */
             
             tokens.Add(new TokenInfo(idToken, TokenRole.IdToken, null, validateIdTokenAsync));
             return await cacheAuthResultAsync(BoolValue<AuthResult>.Success(new AuthResult(Config, Log, tokens.ToArray())));
@@ -295,7 +308,7 @@ namespace TetraPak.Auth.Xamarin
             if (!IsCaching)
                 return authResult;
 
-            await Config.TokenCache.AddAsync(CacheKey, authResult.Value);
+            await Config.TokenCache.AddAsync(CacheKey, authResult.Value, true);
             return authResult;
         }
 
@@ -325,10 +338,10 @@ namespace TetraPak.Auth.Xamarin
             sb.Append($"&client_id={Config.ClientId.Trim()}");
 
             if (Config.IsRequestingUserId)
-                Config.WithScope("openid");
+                Config.AddScope(AuthScope.OpenId);
                 
             if (!string.IsNullOrEmpty(Config.Scope))
-                sb.Append($"&scope={Config.Scope}");
+                sb.Append($"&scope={Config.Scope.UrlEncoded()}");
 
             // state ...
             if (!authState.IsUsed)
@@ -353,6 +366,16 @@ namespace TetraPak.Auth.Xamarin
         /// </param>
         public TetraPakAuthenticator(AuthConfig config, ILog log = null) : base(config, log)
         {
+        }
+    }
+
+    public class AuthResultEventArgs : EventArgs
+    {
+        public BoolValue<AuthResult> Result { get; }
+
+        public AuthResultEventArgs(BoolValue<AuthResult> result)
+        {
+            Result = result;
         }
     }
 }

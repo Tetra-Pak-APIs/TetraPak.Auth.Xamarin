@@ -24,6 +24,12 @@ namespace TetraPak.Auth.Xamarin
         /// <param name="tokens">
         ///   An <see cref="AuthResult"/> object containing the tokens.
         /// </param>
+        /// <param name="replace">
+        ///   (optional; default = <c>false</c>)
+        ///   When set, an existing item will be replaced. When unset, and an item is already 
+        ///   associated with the <paramref name="key"/>, an <see cref="ArgumentException"/>
+        ///   is thrown.
+        /// </param>
         /// <param name="expires">
         ///   (optional)<br/>
         ///   A time when the tokens expire. Please note that <see cref="AuthResult.Expires"/>
@@ -31,16 +37,16 @@ namespace TetraPak.Auth.Xamarin
         ///   how long the result is being cached. Leave unassigned unless all tokens should expire at the
         ///   same time.
         /// </param>
-        public override async Task AddAsync(string key, AuthResult tokens, DateTime? expires = null)
+        public override async Task AddAsync(string key, AuthResult tokens, bool replace = false, DateTime? expires = null)
         {
-            key = key ?? DefaultKey;
+            key ??= DefaultKey;
             tokens = tokens ?? throw new ArgumentNullException(nameof(tokens));
             if (_isRefreshTokenPersisted)
             {
                 await SecureStorage.SetAsync(key, tokens.RefreshToken);
             }
 
-            await Task.FromResult(base.AddAsync(key, tokens, expires));
+            await Task.FromResult(base.AddAsync(key, tokens, replace, expires));
         }
 
         /// <summary>
@@ -54,7 +60,7 @@ namespace TetraPak.Auth.Xamarin
         /// </returns>
         public override async Task<BoolValue<AuthResult>> TryGetAsync(string key = null)
         {
-            key = key ?? DefaultKey;
+            key ??= DefaultKey;
             var cached = await base.TryGetAsync(key);
             if (cached || !_isRefreshTokenPersisted)
                 return cached;
@@ -85,7 +91,7 @@ namespace TetraPak.Auth.Xamarin
         /// </param>
         public async Task RemoveRefreshTokenAsync(string key = null)
         {
-            key = key ?? DefaultKey;
+            key ??= DefaultKey;
             if (string.IsNullOrWhiteSpace(key))
                 throw new ArgumentNullException(nameof(key));
 
@@ -103,7 +109,7 @@ namespace TetraPak.Auth.Xamarin
         /// </param>
         public override async Task RemoveAsync(string key = null)
         {
-            key = key ?? DefaultKey;
+            key ??= DefaultKey;
             if (string.IsNullOrWhiteSpace(key))
                 throw new ArgumentNullException(nameof(key));
 
@@ -114,8 +120,15 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   Initializes the token cache.
         /// </summary>
+        /// <param name="config">
+        ///   The <see cref="AuthConfig"/> used for retrieving the token.
+        /// </param>
         /// <param name="isRefreshTokenPersisted">
         ///   Specifies whether refresh tokens should be persisted.
+        /// </param>
+        /// <param name="log">
+        ///   (optional)
+        ///   Used for logging internal events.
         /// </param>
         public TokenCache(AuthConfig config, bool isRefreshTokenPersisted = true, ILog log = null)
         {

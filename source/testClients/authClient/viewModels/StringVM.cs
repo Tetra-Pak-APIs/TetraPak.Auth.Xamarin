@@ -10,7 +10,7 @@ namespace authClient.viewModels
         {
             value = value?.Trim();
             if (string.IsNullOrEmpty(value) && IsRequired)
-                return BoolValue<string>.Fail($"This value is required");
+                return BoolValue<string>.Fail("This value is required");
 
             return BoolValue<string>.Success(value);
         }

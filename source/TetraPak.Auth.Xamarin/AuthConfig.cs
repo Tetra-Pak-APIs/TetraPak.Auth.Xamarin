@@ -87,11 +87,13 @@ namespace TetraPak.Auth.Xamarin
         /// </summary>
         public Uri RedirectUri { get; set; }
 
+        /* obsolete (now uses DiscoveryDocument)
         /// <summary>
         ///   Gets or sets a user information  <see cref="Uri"/>, used for retrieving user information.
         /// </summary>
         public Uri UserInfoUri { get; set; }
-
+        */
+        
         /// <summary>
         ///   Gets or sets the client id (a.k.a. "app id").
         /// </summary>
@@ -100,7 +102,7 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   Gets or sets a scope value when applicable.
         /// </summary>
-        public string Scope { get; set; }
+        public AuthScope Scope { get; set; }
 
         /// <summary>
         ///   Gets or sets a value indicating whether to use state in the auth code flow.
@@ -113,6 +115,8 @@ namespace TetraPak.Auth.Xamarin
         public bool IsPkceUsed { get; set; }
 
 #if DEBUG
+        // ReSharper disable once MemberCanBePrivate.Global
+        // ReSharper disable once UnusedAutoPropertyAccessor.Global
         public bool IsTargetingLocalAuthority { get; set; }
 #endif
 
@@ -180,7 +184,7 @@ namespace TetraPak.Auth.Xamarin
                 getAuthority(application.Environment),
                 getTokenIssuer(application.Environment),
                 application.RedirectUri,
-                getUserInfoUri(application.Environment),
+                // obsolete getUserInfoUri(application.Environment),
                 application.ClientId,
                 "",
                 true,
@@ -212,8 +216,12 @@ namespace TetraPak.Auth.Xamarin
             };
         }
 
+        /* obsolete (we now rely on DiscoveryDocument for the user info endpoint)
         static Uri getUserInfoUri(RuntimeEnvironment environment)
         {
+            DiscoveryDocument.TryDownloadAndSetCurrent()
+            
+            
             return environment switch
             {
                 RuntimeEnvironment.Development => new Uri(DevelopmentUserInfoUrl),
@@ -223,6 +231,7 @@ namespace TetraPak.Auth.Xamarin
                 _ => throw new ArgumentOutOfRangeException()
             };
         }
+        */
 
         /// <summary>
         ///   Flags the authorization request to also request user identity.
@@ -248,7 +257,7 @@ namespace TetraPak.Auth.Xamarin
             Uri authority, 
             Uri tokenIssuer, 
             Uri redirectUri, 
-            Uri userInfoUri,
+            // obsolete (now uses discovery document) Uri userInfoUri,
             string clientId, 
             string scope = "", 
             bool isStateUsed = true, 
@@ -260,7 +269,7 @@ namespace TetraPak.Auth.Xamarin
             Authority = _authority = authority;
             TokenIssuer = _tokenIssuer = tokenIssuer;
             RedirectUri = redirectUri;
-            UserInfoUri = userInfoUri;
+            // serInfoUri = userInfoUri; obsolete (we now use DiscoveryDocument to get the user info endpoint)
             ClientId = clientId;
             //ClientSecret = clientSecret; obsolete (we no longer support client secrets with native clients)
             Scope = scope;

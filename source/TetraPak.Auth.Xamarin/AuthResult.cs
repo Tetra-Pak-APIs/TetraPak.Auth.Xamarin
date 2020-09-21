@@ -7,6 +7,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using TetraPak.Auth.Xamarin.common;
 using TetraPak.Auth.Xamarin.logging;
+using TetraPak.Auth.Xamarin.oidc;
 
 namespace TetraPak.Auth.Xamarin
 {
@@ -16,7 +17,7 @@ namespace TetraPak.Auth.Xamarin
     public class AuthResult
     {
         readonly ILog _log;
-        UserInfo _userInfo;
+        UserInformation _userInformation;
         UserInfoLoader _userInfoLoader;
         readonly AuthConfig _authConfig;
 
@@ -61,25 +62,59 @@ namespace TetraPak.Auth.Xamarin
             }
         }
 
-        public async Task<BoolValue<object>> TryGetUserInfo(string type)
+        /// <summary>
+        ///   Attempts obtaining user information.
+        /// </summary>
+        /// <returns></returns>
+        /// <remarks>
+        /// </remarks>
+        public async Task<BoolValue<UserInformation>> TryGetUserInformationAsync()
         {
-            _log?.Debug("[GET USER INFO BEGIN]");
+            _log?.Debug("[GET USER INFORMATION BEGIN]");
 
             if (AccessToken is null)
             {
                 _log?.Warning("Cannot get user information without a valid access token");
-                return BoolValue<object>.Fail();
+                return BoolValue<UserInformation>.Fail();
             }
 
-            var key = type.ToLowerInvariant();
-            if (_userInfo != null)
-                return _userInfo.TryGet(key, out object value)
-                    ? BoolValue<object>.Success(value)
-                    : BoolValue<object>.Fail();
+            if (_userInformation != null)
+            {
+                _log?.Debug("User information was cached");
+                return BoolValue<UserInformation>.Success(_userInformation);
+            }
 
-            _userInfoLoader ??= new UserInfoLoader(AccessToken, _authConfig, _log);
-            _userInfo = await _userInfoLoader.AwaitDownloadedAsync();
-            return await TryGetUserInfo(type);
+            try
+            {
+                _log?.Debug("Retrieves user information from API ...");
+                var discoDoc = DiscoveryDocument.Current;
+                if (discoDoc is null)
+                {
+                    var gotDiscoDoc = await DiscoveryDocument.TryDownloadAndSetCurrent(this, true);
+                    if (!gotDiscoDoc)
+                    {
+                        _log?.Debug("ERROR: Failed to retrieve the discovery document. Cannot resolve user information endpoint");
+                        return BoolValue<UserInformation>.Fail("Failed to retrieve the discovery document. Cannot resolve user information endpoint");
+                    }
+
+                    discoDoc = gotDiscoDoc.Value;
+                }
+            
+                _userInfoLoader ??= new UserInfoLoader(AccessToken, discoDoc, _log);
+                _userInformation = await _userInfoLoader.AwaitDownloadedAsync();
+                _log?.Debug("Successfully received user information from API");
+                return BoolValue<UserInformation>.Success(_userInformation);
+            }
+            catch (Exception ex)
+            {
+                const string Message = "Failed while retrieving user information from API";
+                _log?.Error(ex, Message);
+                return BoolValue<UserInformation>.Fail(Message, ex);
+            }
+            finally
+            {
+                _log?.Debug("[GET USER INFORMATION END]");
+            }
         }
 
         public async Task<BoolValue<string[]>> TeyGetUserInfoTypes()
@@ -92,13 +127,24 @@ namespace TetraPak.Auth.Xamarin
 
             try
             {
-                if (_userInfo is { }) 
-                    return BoolValue<string[]>.Success(_userInfo.Types);
+                if (_userInformation is { }) 
+                    return BoolValue<string[]>.Success(_userInformation.Types);
 
-                _userInfoLoader ??= new UserInfoLoader(AccessToken, _authConfig, _log);
-                _userInfo = await _userInfoLoader.AwaitDownloadedAsync();
+                var discoDoc = DiscoveryDocument.Current;
+                if (discoDoc is null)
+                {
+                    var gotDiscoDoc = await DiscoveryDocument.TryDownloadAndSetCurrent(this, true);
+                    if (!gotDiscoDoc)
+                    {
+                        _log?.Debug("ERROR: Failed to retrieve the discovery document. Cannot resolve user information endpoint");
+                        return BoolValue<string[]>.Fail("Failed to retrieve the discovery document. Cannot resolve user information endpoint");
+                    }
+                    discoDoc = gotDiscoDoc.Value;
+                }
+                _userInfoLoader ??= new UserInfoLoader(AccessToken, discoDoc, _log);
+                _userInformation = await _userInfoLoader.AwaitDownloadedAsync();
 
-                return BoolValue<string[]>.Success(_userInfo.Types);
+                return BoolValue<string[]>.Success(_userInformation.Types);
             }
             catch (Exception ex)
             {
@@ -172,7 +218,7 @@ namespace TetraPak.Auth.Xamarin
 
     class UserInfoLoader
     {
-        readonly TaskCompletionSource<UserInfo> _tcs;
+        readonly TaskCompletionSource<UserInformation> _tcs;
         readonly string _accessToken;
         readonly ILog _log;
 
@@ -180,7 +226,6 @@ namespace TetraPak.Auth.Xamarin
         {
             Task.Run(async () =>
             {
-
                 var request = (HttpWebRequest)WebRequest.Create(userInfoUri);
                 request.Method = "GET";
                 request.Accept = "*/*";
@@ -201,7 +246,7 @@ namespace TetraPak.Auth.Xamarin
                         _log?.DebugWebResponse(response as HttpWebResponse, text);
 
                         var dictionary = JsonSerializer.Deserialize<IDictionary<string, object>>(text);
-                        _tcs.SetResult(new UserInfo(dictionary));
+                        _tcs.SetResult(new UserInformation(dictionary));
                     }
                 }
                 catch (Exception ex)
@@ -216,18 +261,18 @@ namespace TetraPak.Auth.Xamarin
             });
         }
 
-        public Task<UserInfo> AwaitDownloadedAsync() => _tcs.Task;
+        public Task<UserInformation> AwaitDownloadedAsync() => _tcs.Task;
 
-        public UserInfoLoader(string accessToken, AuthConfig config, ILog log)
+        public UserInfoLoader(string accessToken, DiscoveryDocument discoDoc, ILog log)
         {
             _accessToken = accessToken;
             _log = log;
-            _tcs = new TaskCompletionSource<UserInfo>();
-            downloadAsync(config.UserInfoUri);
+            _tcs = new TaskCompletionSource<UserInformation>();
+            downloadAsync(new Uri(discoDoc.UserInformationEndpoint));
         }
     }
 
-    public class UserInfo
+    public class UserInformation
     {
         readonly IDictionary<string, object> _dictionary;
 
@@ -235,29 +280,27 @@ namespace TetraPak.Auth.Xamarin
 
         public bool TryGet<T>(string type, out T value)
         {
-            var key = type.ToLowerInvariant();
-            if (!_dictionary.TryGetValue(key, out var obj))
+            if (!_dictionary.TryGetValue(type, out var obj))
             {
                 value = default;
                 return false;
             }
-            if (obj is T typedValue)
-            {
-                value = typedValue;
-                return true;
-            }
+
+            if (!(obj is T typedValue)) 
+                throw new NotImplementedException();
+            
+            value = typedValue;
+            return true;
 
             // todo Cast from Json Token to requested value.
             // todo Also replace Json Token with converted value to avoid converting twice
-            throw new NotImplementedException();
         }
 
-        public UserInfo(IDictionary<string, object> dictionary)
+        public UserInformation(IDictionary<string, object> dictionary)
         {
             _dictionary = dictionary;
         }
     }
-
 
     public static class UserInfoTypes
     {

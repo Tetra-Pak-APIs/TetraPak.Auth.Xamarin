@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TetraPak.Auth.Xamarin</id>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
     <title>Tetra Pak API Authorization for Xamarin projects</title>
     <authors>Tetra Pak</authors>
     <owners>Tetra Pak</owners>
@@ -10,20 +10,25 @@
     <icon>images\icon.png</icon>
     <!--iconUrl>https://i.imgur.com/Nuo65pc.png</iconUrl-->
     <description>
-Adhering to Tetra Pak's up-n-running-in-under-20-minutes API policy, 
-this package will have your Xamarin clients consume Tetra Pak data with just a few lines of code
+      Adhering to Tetra Pak's up-n-running-in-under-20-minutes API policy, 
+      this package will have your Xamarin clients consume Tetra Pak data with just a few lines of code
     </description>
     <projectUrl>https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin</projectUrl>
     <license type="expression">MIT</license>
     <releaseNotes>
-[v1.2]
-Allows client to consume ID tokens.
-Provides easy ID token validation.
-Please note the AuthResult.IsValid property is now obsolete. Please refer to the TokenInfo.IsValidAsync method instead.
+      [v1.3]
+      Added support for (remote) discovery document and Tetra Pak's "well-known" discovery endpoint
+      Added support for retrieving user information from Tetra Pak's "/userinfo" endpoint, based on requested scopes
+      New classes/APIs introduced: DiscoveryDocument, AuthScope
 
-[v1.1.1]
-Introduced a mechanism for mobile backend to gain access to user identity information.
-Minor bug fixes and improvements to the README.
+      [v1.2]
+      Allows client to consume ID tokens.
+      Provides easy ID token validation.
+      Please note the AuthResult.IsValid property is now obsolete. Please refer to the TokenInfo.IsValidAsync method instead.
+
+      [v1.1.1]
+      Introduced a mechanism for mobile backend to gain access to user identity information.
+      Minor bug fixes and improvements to the README.
     </releaseNotes>
     <dependencies>
       <group targetFramework=".NETStandard2.0">

@@ -1,5 +1,6 @@
 ﻿using System;
 using TetraPak.Auth.Xamarin.logging;
+using TetraPak.Auth.Xamarin.oidc;
 
 namespace TetraPak.Auth.Xamarin
 {
@@ -27,6 +28,13 @@ namespace TetraPak.Auth.Xamarin
                 throw new InvalidOperationException("Authorizing App Delegate was already registered");
 
             s_appDelegate = appDelegate;
+            TetraPakAuthenticator.Authorized += onAuthorized;
+        }
+
+        static async void onAuthorized(object sender, AuthResultEventArgs args)
+        {
+            await DiscoveryDocument.TryDownloadAndSetCurrent(args.Result.Value, true);
+            // obsolete AuthScope.Discover(discoDocumentDownloaded.Value);
         }
 
         /// <summary>

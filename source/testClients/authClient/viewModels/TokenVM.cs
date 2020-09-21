@@ -82,6 +82,10 @@ namespace authClient.viewModels
             }
         }
 
+        public TokenVM() : base(null, null)
+        {
+        }
+
         public TokenVM(IServiceProvider services, ILog log) : base(services, log)
         {
             IsTokenUnvalidated = true;
