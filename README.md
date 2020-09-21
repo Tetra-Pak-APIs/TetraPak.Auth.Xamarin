@@ -154,6 +154,33 @@ As with an access token, please ensure you always validate the (JWT) ID token be
 
 The JWT token you find in the `AuthResult.IdToken` is a base-64 encoded string. Rather than decoding and parsing the string you can instead instantiate a `JwtSecurityToken`, passing the encoded token as the constructor parameter. This requires the `System.IdentityModel.Tokens.Jwt` NuGet package. For more information about this class please refer to its [documentation][JwtSecurityToken].
 
+## Scope
+
+When authorizing you have the ability to specify a scope. In fact, this is what happens when you set the `AuthConfig.IsRequestingUserId` flag: The `AuthConfig.Scope` gets set to "openid". That is what generates the id token for you. The id token itself carries a basic set of claims, useful for identifying the authorized user. But setting the `AuthConfig.Scope` property directly allows for even more [user information](#user-information), such as the user's "profile", email, or which AD groups he/she is a member of.
+
+## User Information
+
+TAX supports the ability for clients to request information about the authorized user, including his/her profile information and which AD groups he/she is a member of.
+
+To get this information you need first to have requested it. As a minimum an id token must have been requested, by setting the `AuthConfig.IsRequestingUserId`. This will provide you with a bare minimum of user information, such as the user's identity. By specifying an extended scope (by setting the `AuthConfig.Scope`) you can obtain more information.
+
+The following example shows how to easily obtain user information, based on the authorization result:
+
+```csharp
+async Task<BoolResult<UserInformation>> authorizeAndGetUserInformation(AuthConfig authConfig, ILog log)
+{
+    authConfig.IsRequestingUserId = true;
+    authConfig.Scope = $"{AuthScope.Profile} {AuthScope.Email} {AuthScope.Groups}";
+    var authenticator = Authorization.GetAuthenticator(authConfig, log);
+    var authorized = await authenticator.GetAccessTokenSilentlyAsync();
+    if (!authorized)
+        return BoolResult<UserInformation>.Fail();
+
+    var authResult = authorized.Value;
+    return authResult.TryGetUserInformationAsync();
+}
+```
+
 ## Getting Started
 
 As a client developer, you need to do the following:
@@ -330,6 +357,68 @@ Describes an application to be authorized. The type can be expressed in textual 
 ### `AuthConfig` (class)
 
 Used to configure a `IAuthenticator` used for acquiring access tokens. The **TAX** system can create this configuration behind the scene if you describe your application using the more simplified [`AuthApplication`](#authapplication-class) class when invoking [`Authorization.GetAuthenticator`](#obtain-an-authenticator) but an `AuthConfig` allows for more [custom configuration](#customization)
+
+### `AuthScope` (class)
+
+Represents supported OAuth/OIDC scopes. The class itself carries a set of useful/well known identifiers as `string` constants, such as:
+- `OpenId`
+- `Profile`
+- `Email`
+- `Groups`
+
+A scope value can be expressed as a string, using whitespace for separating multiple scope identifiers:
+
+```csharp
+void setScope(AuthConfig config)
+{
+    config.Scope = "openid profile groups";
+}
+```
+
+Another option, is to use the `AuthScope` constructor:
+
+```csharp
+void setScope(AuthConfig config)
+{
+    config.Scope = new AuthScope(AuthScope.Openid, AuthScope.Profile, AuthScope.Groups);
+}
+```
+
+To examine an `AuthScope` value, you can use its `Items` property:
+
+```csharp
+void presentScope(AuthConfig config)
+{
+    foreach (var scopeIdentifier in onfig.Scope.Items)
+    {
+        Console.WriteLine(scopeIdentifier);
+    }
+}
+```
+
+In many situations it might be useful to know (and present) which scope identifiers are actually supported by the Tetra Pak Login API. This information is available through the `AuthScope.Supported` property (a `string` array). Please note that this property is simply a convenient API for the `DiscoveryDocument.ScopesSupported`. For it to be reliable, please ensure the discovery document is updated (see [DiscoveryDocument](#discoverydocument-class)).
+
+### `DiscoveryDocument` (class)
+
+This class represents a discovery document obtained from a well-known OIDC endpoint. After authorization, and [requesting an id token](#inspecting-the-identity-token), TAX will automatically attempt fetching an updated discovery document and cache it locally. You can obtain the discovery document through the `DiscoveryDocument.Current` property. When unavailable you can retrieve a new document by invoking the `static DownloadAsync` method, passing either an id token or the actual discovery endpoint as input, like so:
+
+```csharp
+async Task<DiscoveryDocument> getDiscoveryDocument(AuthResult authResult, bool forceRefresh = false)
+{
+    if (authResult is null)
+        throw new ArgumentNullException(nameof(authResult));
+    if (authResult.IdToken is null)
+        throw new InvalidOperationException("Cannot obtain discovery document without an id token");
+
+    var downloaded = await DiscoveryDocument.DownloadAsync(authResult.IdToken);
+    if (downloaded)
+        return downloaded.Value;
+
+    throw new Exception("Failed to obtain a discovery document");
+}
+```
+
+For more information about the discovery document, please refer to the class documentation provided by the TAX package in your IDE.
 
 ### Token Caching
 

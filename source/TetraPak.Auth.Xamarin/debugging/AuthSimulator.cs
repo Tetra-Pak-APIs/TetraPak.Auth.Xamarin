@@ -100,7 +100,7 @@ namespace TetraPak.Auth.Xamarin.debugging
         {
             if (config.IsCaching)
             {
-                await config.TokenCache.AddAsync(cacheKey, authResult);
+                await config.TokenCache.AddAsync(cacheKey, authResult, true);
             }
 
             var refreshToken = authResult.Tokens.FirstOrDefault(i => i.Role == TokenRole.RefreshToken);

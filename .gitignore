@@ -7,38 +7,25 @@ bin/
 
 obj/
 
-.DS_Store
-
-*.nupkg
-
-source/.idea/.idea.TetraPak.Auth.Xamarin/.idea/
-
-source/packages/xunit.2.4.1/
-
 *.dll
-
-source/packages/xunit.abstractions.2.0.3/
 
 *.p7s
 
-source/packages/xunit.analyzers.0.10.0/tools/
-
-source/packages/xunit.assert.2.1.0/lib/dotnet/
-
 *.pdb
 
-source/packages/xunit.assert.2.1.0/lib/portable-net45\+win8\+wp8\+wpa81/
+.DS_Store
 
-source/packages/xunit.assert.2.4.1/lib/netstandard1.1/
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
 
-source/packages/xunit.core.2.4.1/build/
+#JetBrains
+**/.idea/*
 
-source/packages/xunit.core.2.4.1/buildMultiTargeting/
 
-source/packages/xunit.extensibility.core.2.4.1/lib/net452/
-
-source/packages/xunit.extensibility.core.2.4.1/lib/netstandard1.1/
-
-source/packages/xunit.extensibility.execution.2.4.1/lib/net452/
-
-source/packages/xunit.extensibility.execution.2.4.1/lib/netstandard1.1/
+source/TetraPak.Auth.Xamarin.sln.DotSettings.user

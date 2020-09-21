@@ -3,7 +3,7 @@
 namespace authClient.views
 {
     // ReSharper disable HeapView.BoxingAllocation
-    public partial class ValidatingEntry : ContentView
+    public partial class ValidatingEntry 
     {
         #region Bindable: Placeholder
         public static readonly BindableProperty PlaceholderProperty = BindableProperty.Create(
@@ -96,9 +96,27 @@ namespace authClient.views
 
         #endregion
 
+        #region Bindable: FontSize
+
+        public static readonly BindableProperty FontSizeProperty = BindableProperty.Create(
+            nameof(FontSize),
+            typeof(double),
+            typeof(ValidatingEntry),
+            Entry.FontSizeProperty.DefaultValue);
+
+        public double FontSize
+        {
+            get => (double) GetValue(FontSizeProperty);
+            set => SetValue(FontSizeProperty, value);
+        }
+
+        #endregion
+
         public ValidatingEntry()
         {
             InitializeComponent();
+            TextColor = (Color) TextColorProperty.DefaultValue;
+            FontSize = (double) FontSizeProperty.DefaultValue;
         }
     }
     // ReSharper restore HeapView.BoxingAllocation

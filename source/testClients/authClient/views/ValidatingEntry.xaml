@@ -11,6 +11,7 @@
                 Text="{Binding Text, Source={x:Reference Self}}"
                 BackgroundColor="Transparent"
                 TextColor="{Binding TextColor, Source={x:Reference Self}}"
+                FontSize="{Binding FontSize, Source={x:Reference Self}}"
                 Placeholder="{Binding Placeholder, Source={x:Reference Self}}"
                 PlaceholderColor="{Binding PlaceholderColor, Source={x:Reference Self}}"
                 />

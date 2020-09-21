@@ -8,6 +8,7 @@ using Xamarin.Forms.Xaml;
 using authClient.dependencies;
 using authClient.viewModels;
 using Microsoft.Extensions.DependencyInjection;
+using TetraPak.Auth.Xamarin.common;
 using TetraPak.Auth.Xamarin.logging;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -28,6 +29,7 @@ namespace authClient
         {
             var c = new ServiceCollection();
             c.AddSingleton(p => Navigation);
+            useMobileAppCache();
             Services = this.SetupDependencies(c);
             Log.Logged += onLogged;
             Log.QueryAsync = onQueryLogAsync;
@@ -42,6 +44,11 @@ namespace authClient
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        void useMobileAppCache()
+        {
+            DependencyService.Register<DiscoveryDocumentCache>();
         }
 
         Task<IEnumerable<ILogEntry>> onQueryLogAsync(LogRank[] ranks)
