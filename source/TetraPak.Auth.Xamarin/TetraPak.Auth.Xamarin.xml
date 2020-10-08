@@ -463,6 +463,14 @@
               Indicates whether the authorization is (still) valid.
             </summary>
         </member>
+        <member name="M:TetraPak.Auth.Xamarin.AuthResult.TryGetUserInformationAsync">
+            <summary>
+              Attempts obtaining user information.
+            </summary>
+            <returns></returns>
+            <remarks>
+            </remarks>
+        </member>
         <member name="T:TetraPak.Auth.Xamarin.TokenInfo">
             <summary>
               Carries an individual token and its meta data.
@@ -637,7 +645,6 @@
             <summary>
               Implicitly casts the <see cref="T:TetraPak.Auth.Xamarin.common.BoolValue"/> to a <see cref="T:System.Boolean"/> value.
             </summary>
-            <param name="self"></param>
         </member>
         <member name="M:TetraPak.Auth.Xamarin.common.BoolValue.#ctor(System.Boolean,System.String,System.Exception)">
             <summary>

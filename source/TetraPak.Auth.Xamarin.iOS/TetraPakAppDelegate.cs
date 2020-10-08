@@ -49,7 +49,7 @@ namespace TetraPak.Auth.Xamarin.iOS
         }
 
 #pragma warning disable IDE0060 // Remove unused parameter
-        // note parameters are retained for possible future compatiblity purposes (Jonas Rembratt 20-03-06)
+        // note parameters are retained for possible future compatibility purposes (Jonas Rembratt 20-03-06)
         public static void OnFinishedLaunching(UIApplication app, NSDictionary options)
         {
             s_current = new TetraPakAppDelegate();

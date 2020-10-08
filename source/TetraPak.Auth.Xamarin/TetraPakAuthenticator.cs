@@ -359,7 +359,9 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   Initializes the authenticator.
         /// </summary>
-        /// <param name="config"></param>
+        /// <param name="config">
+        ///   Contains the configuration.
+        /// </param>
         /// <param name="log">
         ///   (optional)<br/>
         ///   A log to be used for logging internal operations and events-
@@ -369,11 +371,17 @@ namespace TetraPak.Auth.Xamarin
         }
     }
 
+    /// <summary>
+    ///   Arguments for the <see cref="TetraPakAuthenticator.Authorized"/> event.
+    /// </summary>
     public class AuthResultEventArgs : EventArgs
     {
+        /// <summary>
+        ///   Gets the authorization result.
+        /// </summary>
         public BoolValue<AuthResult> Result { get; }
 
-        public AuthResultEventArgs(BoolValue<AuthResult> result)
+        internal AuthResultEventArgs(BoolValue<AuthResult> result)
         {
             Result = result;
         }

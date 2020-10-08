@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TetraPak.Auth.Xamarin</id>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
     <title>Tetra Pak API Authorization for Xamarin projects</title>
     <authors>Tetra Pak</authors>
     <owners>Tetra Pak</owners>
@@ -16,6 +16,9 @@
     <projectUrl>https://github.com/Tetra-Pak-APIs/TetraPak.Auth.Xamarin</projectUrl>
     <license type="expression">MIT</license>
     <releaseNotes>
+      [v1.3.1]
+      Fixed a problem where the refresh token flow didn't work (IAuthenticator.GetAccessTokenSilentlyAsync)
+
       [v1.3]
       Added support for (remote) discovery document and Tetra Pak's "well-known" discovery endpoint
       Added support for retrieving user information from Tetra Pak's "/userinfo" endpoint, based on requested scopes

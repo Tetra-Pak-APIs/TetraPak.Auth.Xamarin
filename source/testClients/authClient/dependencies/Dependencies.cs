@@ -21,6 +21,7 @@ namespace authClient.dependencies
             c.AddTransient<TokensResultVM>();
             c.AddTransient<ScopeTypeVM>();
             //c.AddTransient(p => (AuthApplication) "MIG; RKAGXch5BTAGbuyj24Se88Pl0NGKylss; testping://auth")
+
             c.AddTransient(p => (AuthApplication) "DEV; RKAGXch5BTAGbuyj24Se88Pl0NGKylss; testping://auth")
 #if DEBUG
                 // .WithLocalAuthority(

@@ -35,7 +35,7 @@ namespace TetraPak.Auth.Xamarin
 #endif
         TokenCache _tokenCache;
         bool _isCaching;
-        
+
         /// <summary>
         ///   Gets a value indicating whether user identity will be requested during the auth flow. 
         /// </summary>
@@ -180,7 +180,7 @@ namespace TetraPak.Auth.Xamarin
         /// </returns>
         public static AuthConfig Default(AuthApplication application)
         {
-           return new AuthConfig(
+            return new AuthConfig(
                 getAuthority(application.Environment),
                 getTokenIssuer(application.Environment),
                 application.RedirectUri,
@@ -248,7 +248,7 @@ namespace TetraPak.Auth.Xamarin
             IsRequestingUserId = true;
             return this;
         }
-        
+
         // ReSharper disable once MemberCanBePrivate.Global
         /// <summary>
         ///   Initializes the configuration.

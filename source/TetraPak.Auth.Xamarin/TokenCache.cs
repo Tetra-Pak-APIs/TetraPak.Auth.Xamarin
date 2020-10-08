@@ -69,7 +69,7 @@ namespace TetraPak.Auth.Xamarin
             var refreshToken = await SecureStorage.GetAsync(key);
             return refreshToken is null
                 ? cached
-                : BoolValue<AuthResult>.Success(new AuthResult(_authConfig, _log, cached.Value?.Tokens));
+                : BoolValue<AuthResult>.Success(new AuthResult(_authConfig, _log, new TokenInfo(refreshToken, TokenRole.RefreshToken)));
         }
 
         /// <summary>

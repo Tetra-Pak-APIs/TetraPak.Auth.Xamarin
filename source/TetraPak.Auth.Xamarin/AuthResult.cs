@@ -207,7 +207,7 @@ namespace TetraPak.Auth.Xamarin
 
         bool isTokenExpired() => Expires.HasValue && Expires.Value <= DateTime.Now;
 
-        internal TokenInfo(string tokenValue, TokenRole role, DateTime? expires, ValidateTokenDelegate validateTokenDelegate)
+        internal TokenInfo(string tokenValue, TokenRole role, DateTime? expires = null, ValidateTokenDelegate validateTokenDelegate = null)
         {
             TokenValue = tokenValue;
             Role = role;

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace TetraPak.Auth.Xamarin.common
 {
@@ -15,6 +16,7 @@ namespace TetraPak.Auth.Xamarin.common
     ///   Instances of type <see cref="BoolValue{T}"/> can be implicitly cast to
     ///   a <c>bool</c> value. Very useful for testing purposes.
     /// </remarks>
+    [DebuggerDisplay("{" + nameof(ToString) + "()}")]
     public class BoolValue<T> : BoolValue
     {
         /// <summary>
@@ -56,6 +58,22 @@ namespace TetraPak.Auth.Xamarin.common
         /// </returns>
         public static BoolValue<T> Fail(string message = null, Exception exception = null) => new BoolValue<T>(false, message, exception);
 
+        public override string ToString()
+        {
+            return Evaluated ? $"success : {value()}" : $"fail{errorMessage()}";
+
+            string value() => ReferenceEquals(default, Value) ? "(null)" : Value.ToString();
+
+            string errorMessage()
+            {
+                if (Exception is null)
+                    return "";
+
+                return $" ({Exception.Message})";
+            }
+        }
+
+
         BoolValue(bool evaluated, string message, Exception exception) : base(evaluated, message, exception)
         {
         }
@@ -64,6 +82,7 @@ namespace TetraPak.Auth.Xamarin.common
     /// <summary>
     ///   An abstract base class for a boolean value. 
     /// </summary>
+    [DebuggerDisplay("{" + nameof(ToString) + "()}")]
     public abstract class BoolValue
     {
         /// <summary>
@@ -87,8 +106,12 @@ namespace TetraPak.Auth.Xamarin.common
         /// <summary>
         ///   Implicitly casts the <see cref="BoolValue"/> to a <see cref="bool"/> value.
         /// </summary>
-        /// <param name="self"></param>
         public static implicit operator bool(BoolValue self) => self.Evaluated;
+
+        public override string ToString()
+        {
+            return Evaluated ? "success" : "fail";
+        }
 
         /// <summary>
         ///   Initializes a <see cref="BoolValue"/>.

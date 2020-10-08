@@ -9,6 +9,7 @@ using Xamarin.Forms;
 
 namespace TetraPak.Auth.Xamarin.oidc
 {
+    // ReSharper disable once ClassNeverInstantiated.Global
     /// <summary>
     ///   A discovery document obtained from a well-known OIDC endpoint.  
     /// </summary>

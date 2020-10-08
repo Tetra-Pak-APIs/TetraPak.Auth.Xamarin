@@ -23,7 +23,7 @@ namespace TetraPak.Auth.Xamarin
         /// <summary>
         ///   Gets a default cache key (the client Id).
         /// </summary>
-        protected string CacheKey => Config.ClientId;
+        protected string CacheKey => $"{Config.Authority.Host}::{Config.ClientId}";
 
         /// <summary>
         ///   Logs a message of <see cref="LogRank.Info"/>.
